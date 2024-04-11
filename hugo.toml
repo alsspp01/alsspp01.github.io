@@ -17,10 +17,10 @@ enableRobotsTXT = true
     url = "/posts/"
     
     # You can add extra information before the name (HTML format is supported), such as icons
-    pre = "단국대학교 산업보안학과 민예원"
+    pre = ""
 
     # You can add extra information after the name (HTML format is supported), such as icons
-    post = "자기소개"
+    post = ""
 
     # Display name
     name = "Posts"
