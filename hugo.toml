@@ -3,6 +3,8 @@ defaultContentLanguage = "en"
 languageCode = "en"
 
 title = "Dyun's blog"
+subtitle = "단국대학교 산업보안학과 민예원"
+
 
 theme = "gokarna"
 
