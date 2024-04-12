@@ -17,7 +17,8 @@ enableRobotsTXT = true
     url = "/posts/"
     
     # You can add extra information before the name (HTML format is supported), such as icons
-    pre = ""
+    pre = "<span data-feather='pen-tool'></span>"
+
 
     # You can add extra information after the name (HTML format is supported), such as icons
     post = ""
@@ -29,18 +30,20 @@ enableRobotsTXT = true
     weight = 1
 
   [[menu.main]]
+    identifier = "page"
+    name = "Projects"
+    url = "/projects/"
+    weight = 2
+
+    pre = "<span data-feather='box'></span>"
+
+  [[menu.main]]
     identifier = "tags"
     url = "/tags/"
     weight = 3
 
     pre = "<span data-feather='hash'></span>"
 
-  [[menu.main]]
-    identifier = "page"
-    name = "Projects"
-    url = "/projects/"
-    weight = 2
-    
   [[menu.main]]
     identifier = "github"
     url = "https://github.com/alsspp01"
