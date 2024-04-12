@@ -1,10 +1,6 @@
 ---
-title: "Theme Origin URL"
-date: 2024-04-11
-description: "A blog post"
-image: 
-type: "post"
-tags: ["blog"]
+title: "H4X0R"
+type: page
 ---
 
 # League of legends Data Analysis
