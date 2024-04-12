@@ -63,7 +63,7 @@ enableRobotsTXT = true
   description = "단국대학교 산업보안학과 민예원"
 
   # Accent color is displayed when you hover over <a> tags
-  accentColor = "#0043FF"
+  accentColor = "#4d93fd"
 
   # Display "back to top" button on posts
   ShowBackToTopButton = true
