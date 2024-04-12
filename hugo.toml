@@ -37,12 +37,6 @@ enableRobotsTXT = true
 
     pre = "<span data-feather='box'></span>"
 
-    [[menu.main]]
-    identifier = "H4X0R"
-    name = ""
-    url = "/projects/H4X0R"
-    weight = 5
-
   [[menu.main]]
     identifier = "tags"
     url = "/tags/"
