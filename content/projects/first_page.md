@@ -1,6 +1,6 @@
 ---
 title: "Hello, world!"
-image: "/path/to/image.png"
+image: "/user.png"
 type: "page"
 ---
 
