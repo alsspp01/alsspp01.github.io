@@ -12,7 +12,7 @@ enableRobotsTXT = true
 [menu]
   [[menu.main]]
     # Unique identifier for a menu item
-    identifier = "posts"
+    identifier = "post"
 
     url = "/posts/"
     
