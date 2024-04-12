@@ -30,15 +30,16 @@ enableRobotsTXT = true
 
   [[menu.main]]
     identifier = "tags"
-    name = "Tags"
     url = "/tags/"
-    weight = 2
+    weight = 3
+
+    pri = "<span data-feather='hash'></span>"
 
   [[menu.main]]
     identifier = "page"
     name = "Projects"
     url = "/projects/"
-    weight = 3
+    weight = 2
     
   [[menu.main]]
     identifier = "github"
@@ -74,7 +75,7 @@ enableRobotsTXT = true
   # If you want to display posts on the homepage, the options are
   # "popular" (order posts by weight), "recent" (order posts by date)
   # or "" (do not display, default option)
-  showPostsOnHomePage = ""
+  showPostsOnHomePage = "popular"
 
   # Footer text
   footer = "The Marauders"
