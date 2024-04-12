@@ -3,8 +3,6 @@ defaultContentLanguage = "en"
 languageCode = "en"
 
 title = "Dyun's blog"
-subtitle = "단국대학교 산업보안학과 민예원"
-
 
 theme = "gokarna"
 
@@ -19,29 +17,33 @@ enableRobotsTXT = true
     url = "/posts/"
     
     # You can add extra information before the name (HTML format is supported), such as icons
-    pre = ""
+    pre = "<span data-feather='pen-tool'></span>"
+
 
     # You can add extra information after the name (HTML format is supported), such as icons
     post = ""
 
     # Display name
-    name = "Posts"
+    name = ""
 
     # Weights are used to determine the ordering
     weight = 1
 
   [[menu.main]]
-    identifier = "tags"
-    name = "Tags"
-    url = "/tags/"
+    identifier = "projects"
+    name = ""
+    url = "/projects/"
     weight = 2
 
+    pre = "<span data-feather='box'></span>"
+
   [[menu.main]]
-    identifier = "page"
-    name = "Projects"
-    url = "/projects/"
+    identifier = "tags"
+    url = "/tags/"
     weight = 3
-    
+
+    pre = "<span data-feather='hash'></span>"
+
   [[menu.main]]
     identifier = "github"
     url = "https://github.com/alsspp01"
@@ -52,16 +54,16 @@ enableRobotsTXT = true
 
 [params]
   # URL for the avatar on homepage
-  avatarURL = ""
+  avatarURL = "https://github.com/alsspp01/alsspp01.github.io/blob/master/image/profile/MainCat.jpg?raw=true"
 
   # Choose one of size-xs, size-s, size-m, size-l & size-xl. (Default: size-m)
   avatarSize = ""
 
   # Description to display on homepage
-  description = "Sky above, sand below & peace within"
+  description = "단국대학교 산업보안학과 민예원"
 
   # Accent color is displayed when you hover over <a> tags
-  accentColor = "#FF4D4D"
+  accentColor = "#4d93fd"
 
   # Display "back to top" button on posts
   ShowBackToTopButton = true
@@ -76,7 +78,7 @@ enableRobotsTXT = true
   # If you want to display posts on the homepage, the options are
   # "popular" (order posts by weight), "recent" (order posts by date)
   # or "" (do not display, default option)
-  showPostsOnHomePage = ""
+  showPostsOnHomePage = "popular"
 
   # Footer text
   footer = "The Marauders"

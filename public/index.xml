@@ -1,12 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>My New Hugo Site</title>
-    <link>https://alsspp01.github.io/</link>
-    <description>Recent content on My New Hugo Site</description>
+    <title>Dyun&#39;s blog</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content on Dyun&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate></lastBuildDate>
-    <atom:link href="https://alsspp01.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 11 Apr 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Theme Origin URL</title>
+      <link>http://localhost:1313/post/first_post/</link>
+      <pubDate>Thu, 11 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/first_post/</guid>
+      <description>path https://gokarna-hugo.netlify.app/posts/theme-documentation-basics/#installation</description>
+    </item>
   </channel>
 </rss>
