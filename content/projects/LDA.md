@@ -1,5 +1,5 @@
 ---
-title: "League of legends Data Analysis"
+title: "League of legends Data Analysis project"
 type: page
 ---
 
