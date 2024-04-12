@@ -12,9 +12,9 @@ enableRobotsTXT = true
 [menu]
   [[menu.main]]
     # Unique identifier for a menu item
-    identifier = "post"
+    identifier = "posts"
 
-    url = "/post/"
+    url = "/posts/"
     
     # You can add extra information before the name (HTML format is supported), such as icons
     pre = "<span data-feather='pen-tool'></span>"
@@ -24,14 +24,14 @@ enableRobotsTXT = true
     post = ""
 
     # Display name
-    name = "Post"
+    name = "Posts"
 
     # Weights are used to determine the ordering
     weight = 1
 
   [[menu.main]]
     identifier = "page"
-    name = "Project"
+    name = "Projects"
     url = "/projects/"
     weight = 2
 
