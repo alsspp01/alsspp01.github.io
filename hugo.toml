@@ -33,7 +33,7 @@ enableRobotsTXT = true
     url = "/tags/"
     weight = 3
 
-    pri = "<span data-feather='hash'></span>"
+    pre = "<span data-feather='hash'></span>"
 
   [[menu.main]]
     identifier = "page"
