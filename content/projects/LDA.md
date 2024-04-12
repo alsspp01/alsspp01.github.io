@@ -1,6 +1,6 @@
 ---
 title: "LDA"
-type: page
+type: post
 ---
 
 # League of legends Data Analysis
