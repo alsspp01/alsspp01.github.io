@@ -1,12 +1,11 @@
 ---
 title: "Projects"
-image: "https://github.com/alsspp01/alsspp01.github.io/blob/master/content/projects/user.png?raw=true"
 type: page
 ---
 
 
-### Hello my projects are
+# my projects
 
-1. [Tatooine](/projects/tatooine/)
-2. [Hydra](/projects/hydra/)
+1. [League of legends data analysis](/projects/LDA/)
+2. [H4X0R](/projects/H4X0R/)
 3. [Bludhaven](/projects/bludhaven/)
