@@ -1,5 +1,6 @@
 ---
 title: "Projects"
+image: "/user.png"
 type: page
 ---
 
