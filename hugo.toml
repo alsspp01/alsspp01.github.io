@@ -3,8 +3,6 @@ defaultContentLanguage = "en"
 languageCode = "en"
 
 title = "Dyun's blog"
-subtitle = "단국대학교 산업보안학과 민예원"
-
 
 theme = "gokarna"
 
@@ -52,13 +50,13 @@ enableRobotsTXT = true
 
 [params]
   # URL for the avatar on homepage
-  avatarURL = "./image/profile/MainCat.jpg"
+  avatarURL = "/image/profile/MainCat.jpg"
 
   # Choose one of size-xs, size-s, size-m, size-l & size-xl. (Default: size-m)
   avatarSize = ""
 
   # Description to display on homepage
-  description = "Sky above, sand below & peace within"
+  description = "단국대학교 산업보안학과 민예원"
 
   # Accent color is displayed when you hover over <a> tags
   accentColor = "#FF4D4D"
