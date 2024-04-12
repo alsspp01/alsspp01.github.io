@@ -52,7 +52,7 @@ enableRobotsTXT = true
 
 [params]
   # URL for the avatar on homepage
-  avatarURL = "/image/profile/MainCat.jpeg"
+  avatarURL = "./image/profile/MainCat.jpeg"
 
   # Choose one of size-xs, size-s, size-m, size-l & size-xl. (Default: size-m)
   avatarSize = ""
