@@ -2,21 +2,31 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/tags/blog/</loc>
+    <loc>https://alsspp01.github.io/tags/blog/</loc>
     <lastmod>2024-04-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/</loc>
+    <loc>https://alsspp01.github.io/</loc>
     <lastmod>2024-04-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/post/</loc>
+    <loc>https://alsspp01.github.io/posts/</loc>
     <lastmod>2024-04-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/</loc>
+    <loc>https://alsspp01.github.io/tags/</loc>
     <lastmod>2024-04-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/post/first_post/</loc>
+    <loc>https://alsspp01.github.io/posts/first_post/</loc>
     <lastmod>2024-04-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/</loc>
+    <loc>https://alsspp01.github.io/index-about/</loc>
+  </url><url>
+    <loc>https://alsspp01.github.io/categories/</loc>
+  </url><url>
+    <loc>https://alsspp01.github.io/h4x0r/</loc>
+  </url><url>
+    <loc>https://alsspp01.github.io/projects/h4x0r/</loc>
+  </url><url>
+    <loc>https://alsspp01.github.io/projects/lda/</loc>
+  </url><url>
+    <loc>https://alsspp01.github.io/projects/</loc>
   </url>
 </urlset>
