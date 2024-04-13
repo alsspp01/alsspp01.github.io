@@ -16,7 +16,7 @@ And also in charge of data analysis in the e-sports lab.
 - SIAM-W
 
 궁금한 점이나 문의 사항이 있으면 메일로 연락 주세요.  
-더 많은 작업물은 [projects](/projects/)에서 볼 수 있습니다.  
+더 많은 작업물은 [여기](/projects/)에서 볼 수 있습니다.  
 
 If you have any questions, feel free to mail me.  
 For see more works, [click here](/projects/).
