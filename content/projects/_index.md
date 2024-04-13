@@ -6,6 +6,6 @@ type: page
 
 #### my projects
 
-#### 1. [League of legends data analysis](/projects/LDA/)
+#### 1. [League of legends data analysis](/projects/lda/)
 
-#### 2. [H4X0R](/projects/H4X0R/)
+#### 2. [H4X0R](/projects/h4x0r/)
