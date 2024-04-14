@@ -24,14 +24,14 @@ enableRobotsTXT = true
     post = ""
 
     # Display name
-    name = ""
+    name = "posts"
 
     # Weights are used to determine the ordering
     weight = 1
 
   [[menu.main]]
     identifier = "projects"
-    name = ""
+    name = "projects"
     url = "/projects/"
     weight = 2
 
@@ -39,6 +39,7 @@ enableRobotsTXT = true
 
   [[menu.main]]
     identifier = "tags"
+    name = "tags"
     url = "/tags/"
     weight = 3
 
