@@ -3,7 +3,7 @@ title: "Projects"
 type: page
 ---
 
-### 1. [우정머][/projects/lrp/]
+### 1. [우정머](/projects/lrp/)
 #### 우리 정글 머함? League of Legends Recommand Program
 
 description
