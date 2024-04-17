@@ -2,7 +2,7 @@
 title: "Projects"
 type: page
 ---
-
+---
 ### 1. [우정머](/projects/lrp/)
 #### 우리 정글 머함? League of Legends Recommand Program
 
@@ -10,6 +10,8 @@ type: page
 >
 > With crawled data of the relative win rate from existing site,  
 > this program recommends a jungler's path in the begining of the game.
+
+---
 
 ### 2. [SIAM-W](/projects/siam-w/)
 #### SQL Injection Analysis Manager for Websites
@@ -22,7 +24,11 @@ type: page
 > that diagnoses the possibility of SQL injection attacks on a website  
 > and then informs them of how to respond to each attack.  
 
+---
+
 ### 3. [League of legends data analysis](/projects/lda/)
+
+---
 
 ### 4. [H4X0R](/projects/h4x0r/)
 
