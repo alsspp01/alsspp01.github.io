@@ -55,7 +55,7 @@ enableRobotsTXT = true
 
 [params]
   # URL for the avatar on homepage
-  avatarURL = "https://github.com/alsspp01/alsspp01.github.io/blob/master/image/profile/MainCat.jpg?raw=true"
+  avatarURL = "/image/profile/MainCat.jpg"
 
   # Choose one of size-xs, size-s, size-m, size-l & size-xl. (Default: size-m)
   avatarSize = ""
