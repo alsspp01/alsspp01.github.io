@@ -73,6 +73,11 @@ enableRobotsTXT = true
   # Ideal usecase for this is to import custom js/css or add your analytics snippet
   customHeadHTML = ""
 
+  socialIcons = [
+    {name = "instagram", url = "https://www.instagram.com/dyun_0_0?igsh=OGx4Y2l5YzN4aDll"},
+    {name = "email", url = "mailto:alsspp01@gmail.com"}
+  ]
+  
   # Keywords relevant for SEO
   metaKeywords = ["blog", "gokarna", "hugo"]
 
