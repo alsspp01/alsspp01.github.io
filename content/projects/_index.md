@@ -9,7 +9,7 @@ type: page
 description
 > 승률 검색 사이트에서 크롤링한 상대적인 승률을 바탕으로 게임 초반 정글 동선을 추천해주는 프로그램
 >
-> With crawling data of the relative win rate from existing site,  
+> With crawled data of the relative win rate from existing site,  
 > this program recommends a jungler's path in the begining of the game.
 
 ### 2. [SIAM-W](/projects/siam-w/)
