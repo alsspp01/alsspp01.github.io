@@ -61,7 +61,9 @@ enableRobotsTXT = true
   avatarSize = ""
 
   # Description to display on homepage
-  description = "단국대학교 산업보안학과 민예원"
+  description = "민예원 Min Yewon
+  Republic of Korea
+  Dankook Univ."
 
   # Accent color is displayed when you hover over <a> tags
   accentColor = "#4d93fd"
