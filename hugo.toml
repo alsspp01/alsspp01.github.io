@@ -55,13 +55,13 @@ enableRobotsTXT = true
 
 [params]
   # URL for the avatar on homepage
-  avatarURL = "https://github.com/alsspp01/alsspp01.github.io/blob/master/image/profile/MainCat.jpg?raw=true"
+  avatarURL = "/image/profile/MainCat.jpg"
 
   # Choose one of size-xs, size-s, size-m, size-l & size-xl. (Default: size-m)
   avatarSize = ""
 
   # Description to display on homepage
-  description = "단국대학교 산업보안학과 민예원"
+  description = "Republic of Korea 대한민국"
 
   # Accent color is displayed when you hover over <a> tags
   accentColor = "#4d93fd"
@@ -73,6 +73,11 @@ enableRobotsTXT = true
   # Ideal usecase for this is to import custom js/css or add your analytics snippet
   customHeadHTML = ""
 
+  socialIcons = [
+    {name = "instagram", url = "https://www.instagram.com/dyun_0_0?igsh=OGx4Y2l5YzN4aDll"},
+    {name = "email", url = "mailto:alsspp01@gmail.com"}
+  ]
+  
   # Keywords relevant for SEO
   metaKeywords = ["blog", "gokarna", "hugo"]
 
