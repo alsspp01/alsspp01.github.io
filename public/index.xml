@@ -6,8 +6,15 @@
     <description>Recent content on Dyun&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 11 Apr 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 18 Apr 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://alsspp01.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Mid term Project</title>
+      <link>https://alsspp01.github.io/posts/2024-04-18/</link>
+      <pubDate>Thu, 18 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>https://alsspp01.github.io/posts/2024-04-18/</guid>
+      <description>LINK Mid-Term-Project DKU 2024 1학기 오픈소스SW활용 중간과제입니다.&#xA;1. 내용 : 개인 홈페이지 구축 자기 소개하기 위한 홈페이지 작성 : Template 사용 가능 최소 이미지 2개 이상, 동영상 삽입 2. Github 활용 ‘Mid-Term-Project’ Repository를 생성해서 작업 최소 15회이상 Commit Github Page사용해서 webpage 운영 또는 외부 서버 구축 가능 3. 제출 : 4월 29일까지 제출 확인 가능한 URL 제출(6월말까지 유지) </description>
+    </item>
     <item>
       <title>Theme Origin URL</title>
       <link>https://alsspp01.github.io/posts/first_post/</link>
@@ -20,7 +27,14 @@
       <link>https://alsspp01.github.io/index-about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://alsspp01.github.io/index-about/</guid>
-      <description>Gokarna Gokarna is a small temple town located in the Uttara Kannada district of Karnataka state in southern India.&#xA;Beaches Something about beaches, which is very important.&#xA;every beach is beautiful </description>
+      <description>Introduction 단국대학교 산업보안학과 21학번 재학 중인 민예원(Dyun)입니다.&#xA;최근에는 게임 개발 및 기획을 맡고 있습니다.&#xA;또한 e-sports 연구실에서 데이터 분석을 담당하고 있습니다.&#xA;My name is Min Yewon(Dyun).&#xA;I&amp;rsquo;m student in the Department of Industrial Security at Dankook Univ.&#xA;I&amp;rsquo;m currently designing and developing games.&#xA;And also in charge of data analysis in the e-sports lab.&#xA;Recent Works League of Legends Data Analysis H4X0R SIAM-W 궁금한 점이 있으면 메일로 연락 주세요.&#xA;더 많은 작업물은 여기에서 볼 수 있습니다.</description>
+    </item>
+    <item>
+      <title></title>
+      <link>https://alsspp01.github.io/projects/siam-w/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://alsspp01.github.io/projects/siam-w/</guid>
+      <description></description>
     </item>
     <item>
       <title>H4X0R</title>
