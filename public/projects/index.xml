@@ -2,30 +2,30 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Projects on Dyun&#39;s blog</title>
-    <link>http://localhost:1313/projects/</link>
+    <link>https://alsspp01.github.io/projects/</link>
     <description>Recent content in Projects on Dyun&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <atom:link href="http://localhost:1313/projects/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://alsspp01.github.io/projects/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title></title>
-      <link>http://localhost:1313/projects/siam-w/</link>
+      <link>https://alsspp01.github.io/projects/siam-w/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/projects/siam-w/</guid>
+      <guid>https://alsspp01.github.io/projects/siam-w/</guid>
       <description></description>
     </item>
     <item>
       <title>H4X0R</title>
-      <link>http://localhost:1313/projects/h4x0r/</link>
+      <link>https://alsspp01.github.io/projects/h4x0r/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/projects/h4x0r/</guid>
+      <guid>https://alsspp01.github.io/projects/h4x0r/</guid>
       <description>Game developement 개발중! </description>
     </item>
     <item>
       <title>League of legends Data Analysis project</title>
-      <link>http://localhost:1313/projects/lda/</link>
+      <link>https://alsspp01.github.io/projects/lda/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/projects/lda/</guid>
+      <guid>https://alsspp01.github.io/projects/lda/</guid>
       <description>League of legends Data Analysis project in Dankook Univ. why?????????</description>
     </item>
   </channel>
