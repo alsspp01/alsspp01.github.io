@@ -88,3 +88,8 @@ enableRobotsTXT = true
 
   # Footer text
   footer = "The Marauders"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
