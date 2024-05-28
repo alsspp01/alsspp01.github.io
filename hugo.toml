@@ -55,7 +55,7 @@ enableRobotsTXT = true
 
 [params]
   # favicon
-  favicon = "/image/profile/favicons/favicon-16x16.png"
+  favicon = "/image/profile/favicon-16x16.png"
   
   # URL for the avatar on homepage
   avatarURL = "/image/profile/MainCat.jpg"
