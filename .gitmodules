@@ -1,6 +1,6 @@
-[submodule "themes/gokarna"]
-	path = themes/gokarna
-	url = https://github.com/526avijitgupta/gokarna.git
 [submodule "content/Mid-Term-Project"]
 	path = content/Mid-Term-Project
 	url = https://github.com/alsspp01/Mid-Term-Project.git
+[submodule "gokarna_reviced"]
+	path = themes/gokarna
+	url = https://github.com/alsspp01/gokarna.git
