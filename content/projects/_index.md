@@ -28,7 +28,7 @@ type: page
 
 ---
 
-### 5. [SQLi parsing AI][/projects/sqli-parsing-ai/]
+### 5. [SQLi parsing AI](/projects/sqli-parsing-ai/)
 #### SQL Injection Parsing AI Project
 ##### period: 2024 05 ~ 2024 06
 
