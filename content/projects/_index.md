@@ -28,7 +28,7 @@ type: page
 
 ---
 
-### 5. [SQLi parsing AI](/projects/sqli-parsing-ai/)
+### 3. [SQLi parsing AI](/projects/sqli-parsing-ai/)
 #### SQL Statement Parsing AI Project
 ##### period: 2024 05 ~ 2024 06
 
@@ -39,7 +39,7 @@ type: page
 
 ---
 
-### 3. [League of legends data analysis](/projects/lda/)
+### 4. [League of legends data analysis](/projects/lda/)
 #### E-Sports Data analysis project with Doctor. Hwanho Lee
 ##### period: 2024 03 ~
 
@@ -51,7 +51,7 @@ type: page
 
 ---
 
-### 4. [H4X0R](/projects/h4x0r/)
+### 5. [H4X0R](/projects/h4x0r/)
 #### A game for those who want to become a hacker in Cyberpunk world
 #### period: 2024 04 ~
 
