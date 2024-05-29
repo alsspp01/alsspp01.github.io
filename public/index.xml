@@ -6,8 +6,15 @@
     <description>Recent content on Dyun&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 18 Apr 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 28 May 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to update submodule</title>
+      <link>http://localhost:1313/posts/2024-05-28/</link>
+      <pubDate>Tue, 28 May 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/2024-05-28/</guid>
+      <description>go cmd git submodule update &amp;ndash;remote</description>
+    </item>
     <item>
       <title>Mid term Project</title>
       <link>http://localhost:1313/posts/2024-04-18/</link>
@@ -27,7 +34,7 @@
       <link>http://localhost:1313/index-about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/index-about/</guid>
-      <description>Introduction 단국대학교 산업보안학과 21학번 재학 중인 민예원(Dyun)입니다.&#xA;최근에는 게임 개발 및 기획을 맡고 있습니다.&#xA;또한 e-sports 연구실에서 데이터 분석을 담당하고 있습니다.&#xA;My name is Min Yewon(Dyun).&#xA;I&amp;rsquo;m student in the Department of Industrial Security at Dankook Univ.&#xA;I&amp;rsquo;m currently designing and developing games.&#xA;And also in charge of data analysis in the e-sports lab.&#xA;Recent Works League of Legends Data Analysis H4X0R SIAM-W 궁금한 점이 있으면 메일로 연락 주세요.&#xA;더 많은 작업물은 여기에서 볼 수 있습니다.</description>
+      <description>Introduction 단국대학교 산업보안학과 21학번 재학 중인 민예원(Dyun)입니다.&#xA;최근에는 게임 개발 및 기획을 맡고 있습니다.&#xA;또한 e-sports 연구실에서 데이터 분석을 담당하고 있습니다.&#xA;My name is Min Yewon(Dyun).&#xA;I&amp;rsquo;m student in the Department of Industrial Security at Dankook Univ.&#xA;I&amp;rsquo;m currently designing and developing games.&#xA;And also in charge of data analysis in the e-sports lab.&#xA;Recent Works League of Legends Data Analysis H4X0R SIAM-W SQLi parsing AI 궁금한 점이 있으면 메일로 연락 주세요.</description>
     </item>
     <item>
       <title></title>
@@ -49,6 +56,13 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/projects/lda/</guid>
       <description>League of legends Data Analysis project in Dankook Univ. why?????????</description>
+    </item>
+    <item>
+      <title>SQLi parsing AI</title>
+      <link>http://localhost:1313/projects/sqli-parsing-ai/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/sqli-parsing-ai/</guid>
+      <description>SQL injection이란? 웹 애플리케이션과 데이터베이스 간의 연동에서 발생하는 취약점을 이용해,&#xA;공격자가 입력 폼에 악의적으로 조작된 쿼리를 삽입해&#xA;데이터베이스 정보를 불법적으로 열람하거나 조작하는 공격&#xA;Overview 구문 분석을 위해 Secquence Data로 전처리 전처리 시 문법적인 부분을 강조하기 위해 기호, SQL 문법 구성 단어를 기준으로 feature 추출 기호, SQL언어, 변수, 처리되지 않은 일반 string 순으로 분류하여 토큰화, 정규화 Sezuence Data를 처리할 수 있는 모델 - LSTM(Long Short-Term Memory) 사용 F1 Score 등을 통해 검증 실행결과 </description>
     </item>
   </channel>
 </rss>
