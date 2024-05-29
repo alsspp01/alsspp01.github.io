@@ -15,6 +15,7 @@
 - League of Legends Data Analysis
 - H4X0R
 - SIAM-W
+- SQLi parsing AI
 
 궁금한 점이 있으면 메일로 연락 주세요.  
 더 많은 작업물은 [여기](/projects/)에서 볼 수 있습니다.  
