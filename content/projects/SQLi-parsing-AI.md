@@ -221,7 +221,6 @@ plt.xlabel('Epoch')
 plt.ylabel('Accuracy')
 plt.legend(loc='lower right')
 plt.title('Training and Validation Accuracy')
-plt.show()
 
 # 훈련 및 검증 데이터에 대한 손실 그래프
 plt.subplot(1, 2, 2)
