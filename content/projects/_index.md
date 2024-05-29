@@ -29,7 +29,7 @@ type: page
 ---
 
 ### 5. [SQLi parsing AI](/projects/sqli-parsing-ai/)
-#### SQL Injection Parsing AI Project
+#### SQL Statement Parsing AI Project
 ##### period: 2024 05 ~ 2024 06
 
 > SQL 구문을 분석하여 SQL injection 구문인지 일반 SQL 구문인지 확인하는 구문 분석 AI 시스템
