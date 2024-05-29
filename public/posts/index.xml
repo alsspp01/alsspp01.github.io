@@ -6,8 +6,15 @@
     <description>Recent content in Posts on Dyun&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 18 Apr 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 28 May 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to update submodule</title>
+      <link>http://localhost:1313/posts/2024-05-28/</link>
+      <pubDate>Tue, 28 May 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/2024-05-28/</guid>
+      <description>go cmd git submodule update &amp;ndash;remote</description>
+    </item>
     <item>
       <title>Mid term Project</title>
       <link>http://localhost:1313/posts/2024-04-18/</link>

@@ -91,10 +91,7 @@ enableRobotsTXT = true
 
   # Footer text
   footer = "The Marauders"
-
-[params.meta]
-  favicon = false
-
+  
 [markup]
   [markup.goldmark]
     [markup.goldmark.renderer]
