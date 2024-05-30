@@ -184,7 +184,7 @@ X_train, X_test, y_train, y_test = train_test_split(data['query_vector'], data['
 
 # RNN 모델 정의
 model = Sequential([
-    Embedding(input_dim=vocab_size+1, output_dim=100, input_length=max_length),
+    Embedding(input_dim=vocab_size+1, output_dim=100, input_length=max_length, mask_zero=True),
     LSTM(128, return_sequences=True),
     Dropout(0.5),
     LSTM(64),
@@ -239,5 +239,6 @@ LSTM을 사용하여 시쿼스 데이터를 학습시킨다.
 ![과적합](/image/sqli-parsing-ai/capture05.png)
 
 이에 따라 Dropout 및 BatchNormalization을 추가하여 실행해보았다.
+또한 대부분 0으로 패딩되어 있는 데이터를 학습시키므로 mask_zero를 True로 설정하였다.
 
 
