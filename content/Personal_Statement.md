@@ -54,8 +54,9 @@ type: page
 > This is how I grew into someone who yearns for and enjoys exploring unknown worlds.  
 > I want to accumulate more experiences and gain even more insights.  
 > I have no doubt that the experiences I will encounter in my future will further elevate my hexagonal pyramid.  
+  
 
-
+  
 ### 🌗 성격의 장단점
 > Strength and weakness
 
@@ -83,21 +84,23 @@ type: page
 > When doing development work, this has worked positively for me.  
 > I was even the one to solve a difficult assignment that only two people in the class were able to complete.  
 > Still, thinking about how I suffered from a herniated disc after sitting too long during my exam days, I'm thinking of that I need to strike a balance and avoid over-immersion.  
-
+  
+  
+  
 ### 🚀 포부
 > Career goals
 
-저는 좀 더 많은 것을 공부하고 싶습니다.
-언젠가는 어느 분야의 전문가라고 불려보고도 싶습니다.
-게임을 사랑하는 저로서는, 그게 게임 산업 안에서의 일이었으면 더 좋겠습니다.
-무슨 일이던 저는 제가 하는 일을 사랑하고 최선을 다합니다.
-멈추지 않고 죽기 전까지 새로운 세상을 발견하는 사람이 되고 싶습니다.
+저는 좀 더 많은 것을 공부하고 싶습니다.  
+언젠가는 어느 분야의 전문가라고 불려보고도 싶습니다.  
+게임을 사랑하는 저로서는, 그게 게임 산업 안에서의 일이었으면 더 좋겠습니다.  
+무슨 일이던 저는 제가 하는 일을 사랑하고 최선을 다합니다.  
+멈추지 않고 죽기 전까지 새로운 세상을 발견하는 사람이 되고 싶습니다.  
 
 > I want to study more and learn as much as I can.  
 > Someday, I would like to be called an expert in some field.  
 > As someone who loves games, it would be even best if that work were within the gaming industry.  
 > Whatever I do, I love the work I’m involved in and always give my best effort.  
-> I want to be someone who continuously discovers new worlds, never stopping until the day I die.
+> I want to be someone who continuously discovers new worlds, never stopping until the day I die.  
 
 
 # Thank you for reading 💕
