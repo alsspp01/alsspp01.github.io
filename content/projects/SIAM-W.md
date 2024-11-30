@@ -4,10 +4,10 @@ type: page
 ---
 
 ### Poster
-#### 한국어 버전
+#### 한국어
 ![Poster](/image/SIAM-W/Poster_kr.jpg)   
 
-#### 영어 버전
+#### English
 ![Poster](/image/SIAM-W/Poster_en.jpg)  
 
 ---
