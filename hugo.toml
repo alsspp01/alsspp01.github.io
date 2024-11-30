@@ -77,7 +77,7 @@ enableRobotsTXT = true
   customHeadHTML = ""
 
   socialIcons = [
-    {name = "instagram", url = "https://www.instagram.com/alsspp01?igsh=OGx4Y2l5YzN4aDll"},
+    {name = "instagram", url = "https://www.instagram.com/dyun15min?igsh=OGx4Y2l5YzN4aDll"},
     {name = "email", url = "mailto:alsspp01@gmail.com"}
   ]
   
