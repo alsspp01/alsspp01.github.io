@@ -28,15 +28,19 @@
   </url><url>
     <loc>http://localhost:1313/index-about/</loc>
   </url><url>
-    <loc>http://localhost:1313/projects/siam-w/</loc>
-  </url><url>
     <loc>http://localhost:1313/categories/</loc>
   </url><url>
     <loc>http://localhost:1313/projects/h4x0r/</loc>
   </url><url>
     <loc>http://localhost:1313/projects/lda/</loc>
   </url><url>
+    <loc>http://localhost:1313/projects/lrp/</loc>
+  </url><url>
+    <loc>http://localhost:1313/personal_statement/</loc>
+  </url><url>
     <loc>http://localhost:1313/projects/</loc>
+  </url><url>
+    <loc>http://localhost:1313/projects/siam-w/</loc>
   </url><url>
     <loc>http://localhost:1313/projects/sqli-parsing-ai/</loc>
   </url><url>
