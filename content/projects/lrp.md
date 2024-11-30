@@ -12,4 +12,4 @@ type: page
 
 ### CODE
 
-# ![[GITHUB](https://github.com/alsspp01/LRP.git)](/image/profile/favicon-16x16.png)
+# [![GITHUB](https://github.com/alsspp01/LRP.git)](/image/profile/favicon-16x16.png)
