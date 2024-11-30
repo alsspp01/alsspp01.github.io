@@ -12,4 +12,4 @@ type: page
 
 ### CODE
 
-![GITHUB](image/profile/github-mark.png)
+[![GITHUB](/image/profile/github-mark.png)](https://github.com/alsspp01/LRP.git)
