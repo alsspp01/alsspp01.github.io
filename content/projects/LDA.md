@@ -7,4 +7,4 @@ type: page
 
 ## project in Dankook Univ.
 
-why?????????
+연구 마무리 후 업데이트 예정입니다.
