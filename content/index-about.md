@@ -12,6 +12,8 @@
   
 ### 🌟 자기소개서 [▶ LINK](/Personal_statement.md)
 > Personal Statement
+
+---
   
 ## 🌱 Recent Works
 
