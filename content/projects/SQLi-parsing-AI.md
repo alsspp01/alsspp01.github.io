@@ -1,3 +1,4 @@
+---
 title: "SQLi parsing AI"
 type: page
 ---
