@@ -16,5 +16,4 @@ type: page
 [![GITHUB](/image/profile/github-mark.png)](https://github.com/hanja1500/SIAM-W.git)
 &nbsp;  
 &nbsp;  
-&nbsp;  
 > 그림을 클릭하면 Github repository로 연결됩니다.
