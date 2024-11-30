@@ -8,7 +8,7 @@ type: page
 ![Poster](/image/SIAM-W/Poster_kr.jpg)   
 
 #### 영어 버전
-![Poster](/image/SIAM-W/Poster_en.jpg)
+![Poster](/image/SIAM-W/Poster_en.jpg)  
 
 ---
 
