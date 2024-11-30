@@ -1,4 +1,4 @@
-# Introduction
+# 🥑 Introduction
 
 단국대학교 산업보안학과 21학번 재학 중인 민예원(Dyun)입니다.  
 최근에는 게임 개발 및 기획을 맡고 있습니다.  
@@ -13,7 +13,7 @@
 ### 🌟 자기소개서 [▶ LINK](/Personal_statement.md)
 > Personal Statement
   
-## Recent Works
+## 🌱 Recent Works
 
 - League of Legends Data Analysis
 - SIAM-W
