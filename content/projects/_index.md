@@ -5,7 +5,7 @@ type: page
 ---
 ### 1. [우정머](/projects/lrp/)
 #### 우리 정글 머함? League of Legends Recommand Program
-##### period: 2021 03 ~ 2021 05
+##### period: 2021 09 ~ 2021 12
 
 > 승률 검색 사이트에서 크롤링한 상대적인 승률을 바탕으로 게임 초반 정글 동선을 추천해주는 프로그램.
 >
@@ -51,16 +51,14 @@ type: page
 
 ---
 
-### 5. [H4X0R](/projects/h4x0r/)
-#### A game for those who want to become a hacker in Cyberpunk world
-#### period: 2024 04 ~
+### 5. [GAMENAME](/projects/h4x0r/)
+#### A puzzle game about stars in sky.
+#### period: 2025 11 ~
 
-> pvp와 pve가 섞인 전략 게임으로,
-> 해킹을 컨셉 하므로 플레이어는 서버에 대한 공격 및 방어를 모두 잘 해야 한다.
-> 가상의 서버를 돌아다니며 다른 사람의 자원을 갈취하고, 나의 자원을 보호하며 최고의 해커가 되어보는 게임.
+> 싱글 ~ 2인 게임  
+> 해의 아이와 달의 아이가 하늘의 별자리를 수놓는 이야기.  
+> 두 아이의 우주를 합쳐 하나의 별자리를 만들어내는 퍼즐 게임.  
 > 
-> A strategy game that combines pvp and pve,
-> Since the concept is hacking, players must be good at both attacking and defending against the server.
-> This is a game where you go around virtual servers, steal other people's resources, protect your own, and become the best hacker.
-
-
+> Single ~ 2 player game  
+> A story about a child of the sun and the moon embroidering the constellations in the sky.  
+> A puzzle game that combines the universes of two children to create one constellation.

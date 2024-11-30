@@ -1,5 +1,5 @@
 ---
-title: "H4X0R"
+title: "GAMENAME"
 type: page
 ---
 

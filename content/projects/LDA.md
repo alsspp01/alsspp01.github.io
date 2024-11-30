@@ -3,8 +3,7 @@ title: "League of legends Data Analysis project"
 type: page
 ---
 
-# League of legends Data Analysis
+## League of legends Data Analysis
+project in Dankook Univ.
 
-## project in Dankook Univ.
-
-why?????????
+연구 마무리 후 업데이트 예정입니다.
