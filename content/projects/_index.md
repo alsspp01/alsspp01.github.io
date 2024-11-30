@@ -55,10 +55,10 @@ type: page
 #### A puzzle game about stars in sky.
 #### period: 2024 04 ~
 
-> 싱글 ~ 2인 게임
-> 해의 아이와 달의 아이가 하늘의 별자리를 수놓는 이야기.
-> 두 아이의 우주를 합쳐 하나의 별자리를 만들어내는 퍼즐 게임.
+> 싱글 ~ 2인 게임  
+> 해의 아이와 달의 아이가 하늘의 별자리를 수놓는 이야기.  
+> 두 아이의 우주를 합쳐 하나의 별자리를 만들어내는 퍼즐 게임.  
 > 
-> Single ~ 2 player game
-> A story about a child of the sun and the moon embroidering the constellations in the sky.
+> Single ~ 2 player game  
+> A story about a child of the sun and the moon embroidering the constellations in the sky.  
 > A puzzle game that combines the universes of two children to create one constellation.
