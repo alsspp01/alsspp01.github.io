@@ -29,7 +29,7 @@ type: page
 저는 좀 더 많은 경험을 쌓고, 더 많은 깨달음을 얻고 싶습니다.  
 앞으로 살아갈 삶의 경험은, 제 육각뿔을 더 높이 올려줄 것이라고 믿어 의심치 않습니다.  
 
-![육각뿔 능력치](/image/profile/Hexagonal Pyramid.png)
+![육각뿔 능력치](/image/profile/HexagonalPyramid.png)
 
 > I spent a free-spirited adolescence.  
 > Although my family’s financial situation was somewhat difficult, there were so many interesting things in my world that I never felt a lack of anything.  
