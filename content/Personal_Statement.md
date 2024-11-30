@@ -1,5 +1,5 @@
 ---
-title: "Personal Statement"
+title: "🌟 Personal Statement"
 type: page
 ---
 
