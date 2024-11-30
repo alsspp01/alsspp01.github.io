@@ -1,4 +1,4 @@
----
+![image](https://github.com/user-attachments/assets/3ba2a2a7-68d3-4ac1-9c3a-86a8766f87af)---
 title: "SQLi parsing AI"
 type: page
 ---
@@ -241,4 +241,82 @@ LSTM을 사용하여 시쿼스 데이터를 학습시킨다.
 이에 따라 Dropout 및 BatchNormalization을 추가하여 실행해보았다.
 또한 대부분 0으로 패딩되어 있는 데이터를 학습시키므로 mask_zero를 True로 설정하였다.
 
+![시각화](/image/sqli-parsing-ai/capture06.png)
+
+Epoch를 Heuristic하게 결정(7)
+
+#### 6. Validation
+
+![predict](/image/sqli-parsing-ai/capture07.png)
+
+data['query vector']를 tensorflow Tensor로 변환  
+이후 입력 Tensor에 대한 예측값을 반환 → 0 ~ 1의 연속적인 확률값 → 임계값 0.5로 설정
+pred list와 data[Label]을 dataframe으로 변환 후 인덱스 초기화  
+모델의 예측값과 실제 레이블이 일치하는 경우 True, 일치하지 않을 경우 False 비율 계산  
+⇒ True: 0.995... / False: 0.004...
+
+##### 다른 데이터셋으로 검증
+
+Kaggle 내의 다른 SQL injection Dataset을 모델에 넣어 정상 작동하는지 재확인
+
+```
+# 토큰화 적용
+ex_data['tokenized_query'] = ex_data['Query'].apply(tokenize_query)
+
+# 정규화 적용
+ex_data['normalized_query'] = ex_data['tokenized_query'].apply(normalize_query)
+
+# 벡터화 적용
+ex_vocabulary = set(token for tokens in ex_data['normalized_query'] for token in tokens)
+ex_token_to_index = {token: i for i, token in enumerate(vocabulary)}
+ex_max_length = max(len(tokens) for tokens in ex_data['normalized_query'])
+ex_data['query_vector'] = ex_data['normalized_query'].apply(lambda tokens: tokens_to_vector(tokens, ex_token_to_index, ex_max_length))
+
+# tensor로 변환
+ex_tensor = tf.convert_to_tensor(np.array(ex_data['query_vector'].tolist()))
+
+# 예측값 생성
+ex_prediction = model.predict(ex_tensor)
+ex_binary_predictions = (ex_prediction > threshold).astype(int)
+
+# 검증
+ex_pred = []
+for b in ex_binary_predictions:
+    ex_pred.append(b[0])
+ex_pred_sr = pd.Series(ex_pred).reset_index(drop=True)
+ex_y_sr = pd.Series(ex_data['Label']).reset_index(drop=True)
+
+(ex_pred_sr == ex_y_sr).value_counts(dropna=False, normalize=True)
+```
+True: 0.985... / False: 0.014...
+
+```
+from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_score
+
+# 정확도 계산
+accuracy = accuracy_score(ex_y_sr, ex_pred_sr)
+print(f"Accuracy: {accuracy:.4f}")
+
+# 정밀도 계산
+precision = precision_score(ex_y_sr, ex_pred_sr)
+print(f"Precision: {precision:.4f}")
+
+# 재현율 계산
+recall = recall_score(ex_y_sr, ex_pred_sr)
+print(f"Recall: {recall:.4f}")
+
+# F1 Score 계산
+f1 = f1_score(ex_y_sr, ex_pred_sr)
+print(f"F1 Score: {f1:.4f}")
+```
+
+Accuracy: 0.9855  
+Precision: 0.9709  
+Recall: 0.9990  
+F1 Score: 0.9848  
+
+### conclusion
+#### 모델 성능
+Recall이 너무 높아서 위양성이 높을 가능성이 있지만, 보안은 탐지 목적인 만큼 위양성이 높은 편이 낫기 때문에 큰 문제가 되지 않을 것으로 생각된다.  
+Accuracy 및 F1 Score이 충분히 높기에 자체 보안 엔진 개발이 어려운 중소기업에서 SQL injection 방지를 위해 사용하기엔 적합하다고 판단된다.  
 
