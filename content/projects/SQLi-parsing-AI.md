@@ -3,6 +3,10 @@ title: "SQLi parsing AI"
 type: page
 ---
 
+### 제작 계기
+SQL injection query는 사람이 보면 구분할 수 있지만, 기본적으로 컴퓨터는 구분하지 못한다.  
+이에 따라 SQL injection query를 구분해내는 AI 모델을 생성하여 SQL injection 내부 대응책을 설립하기 어려운 중소기업 웹 개발자들에게 도움을 주고자 한다.
+
 ### SQL injection이란?
 
 웹 애플리케이션과 데이터베이스 간의 연동에서 발생하는 취약점을 이용해,  
