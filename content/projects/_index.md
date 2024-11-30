@@ -53,7 +53,7 @@ type: page
 
 ### 5. [GAMENAME](/projects/h4x0r/)
 #### A puzzle game about stars in sky.
-#### period: 2024 04 ~
+#### period: 2025 11 ~
 
 > 싱글 ~ 2인 게임  
 > 해의 아이와 달의 아이가 하늘의 별자리를 수놓는 이야기.  
