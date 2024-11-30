@@ -1,4 +1,3 @@
-![image](https://github.com/user-attachments/assets/3ba2a2a7-68d3-4ac1-9c3a-86a8766f87af)---
 title: "SQLi parsing AI"
 type: page
 ---
