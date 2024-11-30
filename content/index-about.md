@@ -8,8 +8,9 @@
 > I'm student in the Department of Industrial Security at Dankook Univ.  
 > I'm currently designing and developing games.  
 > And also in charge of data analysis in the Dankook University's Sports Psychology Lab.  
-
-▼ 자기소개서 ▼
+  
+  
+##### ▼ 자기소개서 ▼
 > Personal Statement
 ### [LINK](/Personal_statement.md)
   
