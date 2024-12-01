@@ -90,7 +90,7 @@ type: page
 
 다만 하나에 꽂히면 몰입하는 성향이 강해, 스스로 주기적으로 자신을 환기시켜줄 필요가 있습니다.  
 개발을 할 때에는 좋은 방향으로 작용하여 수업에 단 두 명 밖에 풀지 못한 어려운 과제를 풀어낸 한 사람이 되기도 했습니다.  
-그래도 수험생 시절에 너무 오래 앉아 있다가 허리 디스크가 도진 것 때문에 아직도 고생하고 있는 것을 생각하면 좀 적당히 몰입할 필요가 있다고 느끼고 있습니다.  
+그래도 수험생 시절에 너무 오래 앉아 있다가 허리 디스크가 도진 것 때문에 아직도 고생하고 있는 것을 생각하면 좀 적당히 몰입할 필요가 있다고 느끼고 있습니다.😅  
 
 > First of all, I have an optimistic personality.  
 > I am patient and have a strong sense of perseverance.  
@@ -104,7 +104,7 @@ type: page
 > Because of this, I need to regularly remind myself to take a step back.  
 > When doing development work, this has worked positively for me.  
 > I was even the one to solve a difficult assignment that only two people in the class were able to complete.  
-> Still, thinking about how I suffered from a herniated disc after sitting too long during my exam days, I'm thinking of that I need to strike a balance and avoid over-immersion.  
+> Still, thinking about how I suffered from a herniated disc after sitting too long during my exam days, I'm thinking of that I need to strike a balance and avoid over-immersion.😅  
   
   
   
