@@ -56,8 +56,8 @@ type: page
 > When I had to face my fifth failure, I was extremely exhausted.  
 > However, what helped me rise again were the encouragements and feedbacks from my team members.  
 >   
-> Through their feedback, I realized once more about the importance of treating people properly and maintaining a mindset of doing my best. 
-> I was also able to objectively assess my own abilities.  
+> Through their feedback, I realized once more about the importance of treating people properly and maintaining a mindset of doing my best.  
+> And moreover, I was also able to objectively assess my own abilities.  
 > I have a talent for quickly learning something new while enjoying the various aspects of the world as contents.
 > As a result, my skill set shaped into a hexagon, with each facet being slightly above average.  
 >    
