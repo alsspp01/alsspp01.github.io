@@ -161,9 +161,10 @@ Python
      return rq.get(url, headers=header).json()
    ```
 2. API.py를 활용해 데이터 자동 수집 프로그램 제작
-   - 자동 수집과 동시에 게임 시작, 종료 시간 timestamp(Unix timestamp)를 활용해 10분 간격으로 8게임 연속 플레이한 데이터만을 추출하여 저장
+   - 1차 티어별 ID 및 tagline 수집
+   - 2차 플레이 데이터 수집: 게임 시작, 종료 시간 timestamp(Unix timestamp)를 활용해 10분 간격으로 8게임 연속 플레이한 플레이 데이터만을 추출하여 저장
    - 티어별로 CSV파일로 변환 저장
-3. 수집한 데이터를 Fow.lol 크롤링 데이터의 경향성을 기반으로 분석 및 시각화
+4. 수집한 데이터를 Fow.lol 크롤링 데이터의 경향성을 기반으로 분석 및 시각화
 
 ---
 
