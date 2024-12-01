@@ -4,7 +4,7 @@ type: page
 ---
 
 ## League of legends(LoL) Data Analysis
-project in Dankook Univ.
+project in Dankook Univ. Sports Psychology Laboratory
 
 #### 사용 언어
 Python
