@@ -31,7 +31,7 @@ Python
 #### 제작도구
 - data: Pandas, Numpy
 - crawlling: requests, json, tqdm
-- parsing: beatifulSoup (bs4)
+- parsing: BeatifulSoup (bs4)
 
 #### 제작 방법
 1. html 코드 분석 및 API 호출 구문 확인
@@ -45,9 +45,9 @@ Python
 
 ### 3. LoL API 이용 플레이어 데이터 자동 수집 및 분석
 #### 제작도구
-- API.py(Dedicated module): Pandas, json, re, csv, time
-- data collection: API, pandas, tqdm
-- data analysis & visualization: numpy, seaborn
+- API.py(Dedicated module): requests, json, re, csv, time
+- data collection: API, Pandas, tqdm
+- data analysis & visualization: Pandas, numpy, seaborn
 
 #### 제작 방법
 1. 활용할 LoL API를 정리한 API.py 모듈 제작
