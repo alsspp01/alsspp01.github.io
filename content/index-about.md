@@ -10,7 +10,7 @@
 > And also in charge of data analysis in the Dankook University's Sports Psychology Lab.  
   
   
-### 🌟 자기소개서 [▶ LINK](/Personal_Statement.md)
+### 🌟 자기소개서 [▶ LINK](/personal_statement/)
 > Personal Statement
 
 ---
