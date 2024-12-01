@@ -114,7 +114,6 @@ type: page
 저는 좀 더 많은 것을 공부하고 싶습니다.  
 언젠가는 어느 분야의 전문가라고 불려보고도 싶습니다.  
 게임을 사랑하는 저로서는, 그게 게임 산업 안에서의 일이었으면 더 좋겠습니다.  
-   
 어떤 장르의 게임이던, 게임은 사람을 즐겁게 만든다는 목적을 가지기에 그 자체로 가치 있는 것이라고 생각합니다.  
 그렇기에 게임을 만드는 것은 행복을 창조하는 일이라고 생각합니다.  
 
@@ -126,7 +125,12 @@ type: page
 > I want to study more and learn as much as I can.  
 > Someday, I would like to be called an expert in some field.  
 > As someone who loves games, it would be even best if that work were within the gaming industry.  
-> Whatever I do, I love the work I’m involved in and always give my best effort.  
+> No matter what genre is, I believe that games are valuable because their purpose is to bring joy to people.  
+> Therefore, I think creating games is the same as creating happiness.  
+>  
+> In that sense, I also think that the world itself is like a game.  
+> Because the world is a place where we can find joy and happiness, and the struggles and efforts we go through make them stronger.  
+> Therefore, I can love whatever I do, and always put my best effort into it.  
 > I want to be someone who continuously discovers new worlds, never stopping until the day I die.  
 
 
