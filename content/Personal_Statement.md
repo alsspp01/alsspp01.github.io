@@ -29,6 +29,7 @@ type: page
 하지만 팀원들의 피드백과 여러가지 경험을 얻고 난 다음의 저는, 더 고차원적인 생각을 하게 되었습니다.  
 만약 육각형 능력치가 평면을 뚫고 위로 올라간다면, 저는 누구보다 안정적으로 위로 올라갈 수 있는 육각뿔이 될 수 있을 것입니다.  
 논리적인 것을 파악하는 이 눈으로, 가진 능력을 아울러 새로운 시각으로 세상을 대한다면 제가 할 수 있는 일이 정말 많다는 것을 알았습니다.  
+  
 이는 어느 분야에서도 장점이 될 수 있고, 특히 새로운 알고리즘을 만들어내야 하는 상황에서 다방면을 고려할 수 있다는 점은 큰 강점입니다.  
 이런 장점들을 인지하고 나니, 세상에 발돋움을 할 용기를 얻을 수 있었습니다.  
 그리고 좀 더 많은 것을 보고 경험하고 싶다는 욕망을 가지게 되었습니다.  
@@ -46,19 +47,32 @@ type: page
 > How the world works and its logical structure constructs was both fun and fascinating for me.  
 > 
 > Accordingly, I grew up as someone who values logic and reason.  
->After becoming an adult, the world around me felt much larger, and I encountered phenomena that could not be solved through logic alone.  
+> After becoming an adult, the world around me felt much larger, and I encountered phenomena that could not be solved through logic alone.  
 > I realized the importance and value of experiential judgment, so in my senior year in university, I decided to gain more experiences.  
 > I dove into project-based experiences such as game development, participating in data analysis research, and contributing to my graduation project.  
 > 
-> The lessons that experience brought me were truly numerous.  
-> I gained insights like the value of people, the belief that hard work always pays off, and I also became able to objectively assess my abilities.  
-> I realize that I have a talent for enjoying the different aspects of the world as contents, and as a result, I have developed into someone with a well-rounded set of skills, like a hexagon with slightly above-average abilities in each area.  
-> But the past me felt like I was someone who wasn't particularly good at anything.  
-> 
-> However, after gaining experiences, I became capable of thinking at a higher level.  
-> If the hexagonal abilities I have were to rise beyond the plane, I believe I could become a hexagonal pyramid, rising more steadily than anyone else.  
-> With my ability to perceive logical things and the skills I possess, I realized that there is so much I can do by view the world from a new perspective.  
-> 
+> Especially, I learned many lessons during the game development process.  
+> While I was able to successfully complete other projects, game development was much more difficult, with five failures along the way.  
+> When I had to face my fifth failure, I was extremely exhausted.  
+> However, what helped me rise again were the encouragements and feedbacks from my team members.  
+>   
+> Through their feedback, I realized the importance of treating people properly and maintaining a mindset of doing my best. 
+
+> I was also able to objectively assess my own abilities.  
+> I have a talent for quickly learning something new while enjoying the various aspects of the world as contents.
+> As a result, my skill set shaped into a hexagon, with each facet being slightly above average.  
+>    
+> In the past, I felt discouraged by the thought, "I am someone who couldn’t succeed at anything properly".  
+> However, after receiving feedback from my team and gaining various experiences, I could begin to think on a higher level.  
+> If my hexagonal skill set were to rise beyond the flat surface, I could become a hexagonal pyramid, climbing upwards more steadily than anyone else.  
+>  
+> I realized that there is so many things I can do, if I view the world from a new perspective with the logical mindset and my combined abilities.  
+>   
+> This can be an advantage in any field.  
+> And particularly in situations where I need to create new algorithms, it would be significant strength that I can consider multiple angles.  
+> Recognizing these strengths, I got a courage to step out into the world.  
+> And I also developed a desire to see and experience more.  
+>   
 > This is how I grew into someone who yearns for and enjoys exploring unknown worlds.  
 > I want to accumulate more experiences and gain even more insights.  
 > I have no doubt that the experiences I will encounter in my future will further elevate my hexagonal pyramid.  
