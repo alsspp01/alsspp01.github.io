@@ -92,6 +92,12 @@ enableRobotsTXT = true
   # Footer text
   footer = "The Marauders"
   
+  # Disqus
+  DisqusShortname = "dyun"
+  
+  # Show Previous and Next Buttons
+  TogglePreviousAndNextButtons = "true"
+  
 [markup]
   [markup.goldmark]
     [markup.goldmark.renderer]
@@ -100,5 +106,3 @@ enableRobotsTXT = true
 [security]
   [security.funcs]
     getenv = ["^HUGO_", "^WC_"]
-
-disqusShortname = "your-disqus-shortname"
