@@ -38,6 +38,8 @@
     
     <link rel="canonical" href="http://localhost:1313/posts/2023-12-14%EC%8B%9C%ED%81%90%EC%96%B4%EC%BD%94%EB%94%A9/">
     <link rel='icon' type='image/png' href='http://localhost:1313/image/profile/favicon-16x16.png'>
+    
+    
     <link rel="stylesheet" type="text/css" href="/css/normalize.min.css" media="print">
 
     
@@ -299,7 +301,7 @@ popen을 활용하여 원폰 파일을 호출하고 출력값을 읽어들일 �
 </span></span><span style="display:flex;"><span>	<span style="color:#66d9ef">return</span> invSbox[TA];
 </span></span><span style="display:flex;"><span>}
 </span></span></code></pre></div><p>/*	Test Result	*/
-<img src="./image/DKU/sec2.png" alt="result"></p>
+<img src="/image/DKU/sec2.png" alt="result"></p>
 <h3 id="아쉬운-점">아쉬운 점</h3>
 <p>aes 함수와 관련된 레지스터를 관찰하는 과정에서 동적으로 값이 변하며 암호값과 연관이 있어 보이는 레지스터를 발견했었지만 전체 동작에 영향을 주지 않고 hijacking할 방법을 찾지 못하여 기존의 방식대로 aes와 암호함수의 연결고리를 끊는 code injection으로 해결하였다.<br>
 결국 답은 맞췄지만, 교수님 또한 출제 의도와 다른 풀이 방식이라고 말씀하셨다.<br>
@@ -307,30 +309,26 @@ popen을 활용하여 원폰 파일을 호출하고 출력값을 읽어들일 �
 
         
         <div class="post-comments">
-            <div id="disqus_thread"></div>
-<script type="text/javascript">
-  var disqus_shortname = 'dyun'; 
+            
+  <div id="disqus_thread"></div>
+  <script type="text/javascript">
+    var disqus_config = function () {
+      this.page.url = 'http:\/\/localhost:1313\/posts\/2023-12-14%EC%8B%9C%ED%81%90%EC%96%B4%EC%BD%94%EB%94%A9\/';
+      this.page.identifier = 'posts\\2023-12-14(시큐어코딩).md';    };
 
-  (function() {
-    var dsq = document.createElement('script'); 
-    dsq.type = 'text/javascript'; 
-    dsq.async = true;
-    dsq.src = 'https://' + disqus_shortname + '.disqus.com/embed.js';
-    (document.head || document.body).appendChild(dsq);
-  })();
-</script>
+    (function() {
+      var script = document.createElement('script');
+      script.src = 'https://' + 'dyun' + '.disqus.com/embed.js';
+      script.setAttribute('data-timestamp', +new Date());
+      (document.head || document.body).appendChild(script);
+    })();
+  </script>
+  <noscript>
+    Please enable JavaScript to view the
+    <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a>
+  </noscript>
 
 
-<script type="text/javascript">
-  var disqus_shortname = 'dyun'; 
-  (function() {
-    var dsq = document.createElement('script'); 
-    dsq.type = 'text/javascript'; 
-    dsq.async = true;
-    dsq.src = 'https://' + disqus_shortname + '.disqus.com/count.js';
-    (document.head || document.body).appendChild(dsq);
-  })();
-</script>
         </div>
         
     </div>
@@ -373,43 +371,6 @@ popen을 활용하여 원폰 파일을 호출하고 출력값을 읽어들일 �
     </div>
 
     
-    
-    <svg id="btt-button" class="arrow-logo" xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 384 512" onclick="topFunction()" title="Go to top">
-        
-        <path d="M177 159.7l136 136c9.4 9.4 9.4 24.6 0 33.9l-22.6 22.6c-9.4 9.4-24.6 9.4-33.9 0L160 255.9l-96.4 96.4c-9.4 9.4-24.6 9.4-33.9 0L7 329.7c-9.4-9.4-9.4-24.6 0-33.9l136-136c9.4-9.5 24.6-9.5 34-.1z"/>
-    </svg>
- <script>
-    let backToTopButton = document.getElementById("btt-button");
-
-    window.onscroll = function() {
-        scrollFunction()
-    };
-
-    function scrollFunction() {
-        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-            backToTopButton.style.display = "block";
-        } else {
-            backToTopButton.style.display = "none";
-        }
-    }
-
-    function topFunction() {
-        smoothScrollToTop();
-    }
-
-    function smoothScrollToTop() {
-        const scrollToTop = () => {
-            const c = document.documentElement.scrollTop || document.body.scrollTop;
-            if (c > 0) {
-                window.requestAnimationFrame(scrollToTop);
-                window.scrollTo(0, 0);
-            }
-        };
-        scrollToTop();
-    }
-</script>
-
-
     
     
 </div>

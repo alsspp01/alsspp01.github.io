@@ -70,7 +70,7 @@ enableRobotsTXT = true
   accentColor = "#4d93fd"
 
   # Display "back to top" button on posts
-  ShowBackToTopButton = true
+  ShowBackToTopButton = false
 
   # You can use this to inject any HTML in the <head> tag.
   # Ideal usecase for this is to import custom js/css or add your analytics snippet
