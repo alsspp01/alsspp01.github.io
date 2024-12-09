@@ -100,3 +100,5 @@ enableRobotsTXT = true
 [security]
   [security.funcs]
     getenv = ["^HUGO_", "^WC_"]
+
+disqusShortname = "your-disqus-shortname"
