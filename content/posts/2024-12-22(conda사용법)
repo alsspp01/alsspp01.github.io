@@ -1,0 +1,14 @@
+---
+title: "컴퓨터 기본 세팅"
+date: 2024-12-22
+description: "관련 글 정리"
+image: 
+type: "post"
+tags: []
+---
+
+## Conda
+[Conda의 설치, 기초 사용법](https://m.blog.naver.com/jonghong0316/221683053696)
+
+### 현재 설정값
+pyenv312 = python 3.12.8
