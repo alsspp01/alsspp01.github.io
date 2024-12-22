@@ -6,8 +6,15 @@
     <description>Recent content on Dyun&#39;s blog</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 09 Dec 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 22 Dec 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Default Setting</title>
+      <link>http://localhost:1313/posts/2024-12-22/</link>
+      <pubDate>Sun, 22 Dec 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/2024-12-22/</guid>
+      <description>&lt;h2 id=&#34;conda&#34;&gt;Conda&lt;/h2&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://m.blog.naver.com/jonghong0316/221683053696&#34;&gt;Conda의 설치, 기초 사용법&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h3 id=&#34;현재-설정값&#34;&gt;현재 설정값&lt;/h3&gt;&#xA;&lt;p&gt;pyenv312 = python 3.12.8&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Regex 구문 정리</title>
       <link>http://localhost:1313/posts/2024-12-09%EC%A0%95%EA%B7%9C%ED%91%9C%ED%98%84%EC%8B%9D/</link>
