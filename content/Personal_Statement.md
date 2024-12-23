@@ -3,7 +3,7 @@ title: "🌟 Personal Statement"
 type: page
 ---
 
-<div style="border: 2px solid #A8D8E5; background-color: ##D3D3D3; width: 60%; padding: 10px; margin: 20px auto; text-align: center; align-items: center;">
+<div style="border: 2px solid #A8D8E5; background-color: #000000; width: 60%; padding: 10px; margin: 20px auto; text-align: center; align-items: center;">
   <h3 style="font-weight: bold;">
     <a href="#Personal_history">  🐣 성장 과정  </a><br><br><a href="#features">  🔍특징  </a>
   </h3>
@@ -45,7 +45,7 @@ type: page
 앞으로 살아갈 삶의 경험은, 제 육각뿔을 더 높이 올려줄 것이라고 믿어 의심치 않습니다.  
 
 ![육각뿔 능력치](/image/profile/HexagonalPyramid.png)
-
+<!--
 > I spent a free-spirited adolescence.  
 > Although my family’s financial situation was somewhat difficult, there were so many interesting things in my world that I never felt a lack of anything.  
 > I played the piano, created games, sometimes drew, and at other times, I immersed myself in physics.  
@@ -81,14 +81,14 @@ type: page
 > This is how I grew into someone who yearns for and enjoys exploring unknown worlds.  
 > I want to accumulate more experiences and gain even more insights.  
 > I have no doubt that the experiences I will encounter in my future will further elevate my hexagonal pyramid.  
-  
+  -->
 
 <h2 id="features">🔍특징</h2>
 
 > Features
 
   
-<div style="border: 2px solid #A8D8E5; background-color: #D3D3D3; padding: 10px; display: flex; margin: 20px; justify-content: flex-start; align-items: center; white-space: pre;">
+<div style="border: 2px solid #A8D8E5; background-color: #000000; padding: 10px; display: flex; margin: 20px; justify-content: flex-start; align-items: center; white-space: pre;">
   💡    <a href="#metamon">#️⃣ 메타몽  </a>  
   <a href="#Big_J">#️⃣ 대문자_J  </a>  
   <a href="#Bus_Driver">#️⃣ 프로_버스기사  </a>  
