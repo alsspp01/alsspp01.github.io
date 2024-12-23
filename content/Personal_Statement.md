@@ -3,7 +3,7 @@ title: "🌟 Personal Statement"
 type: page
 ---
 
-<div style="border: 2px solid #A8D8E5; background-color: #000000; width: 60%; padding: 10px; margin: 20px auto; text-align: center; align-items: center;">
+<div style="border: 2px solid #A8D8E5; width: 60%; padding: 10px; margin: 20px auto; text-align: center; align-items: center;">
   <h3 style="font-weight: bold;">
     <a href="#Personal_history">  🐣 성장 과정  </a><br><br><a href="#features">  🔍특징  </a>
   </h3>
@@ -84,11 +84,10 @@ type: page
   -->
 
 <h2 id="features">🔍특징</h2>
-
 > Features
 
   
-<div style="border: 2px solid #A8D8E5; background-color: #000000; padding: 10px; display: flex; margin: 20px; justify-content: flex-start; align-items: center; white-space: pre;">
+<div style="border: 2px solid #A8D8E5; padding: 10px; display: flex; margin: 20px; justify-content: flex-start; align-items: center; white-space: pre;">
   💡    <a href="#metamon">#️⃣ 메타몽  </a>  
   <a href="#Big_J">#️⃣ 대문자_J  </a>  
   <a href="#Bus_Driver">#️⃣ 프로_버스기사  </a>  
@@ -96,6 +95,8 @@ type: page
 </div>
 
 <h3 id="metamon">#️⃣ 메타몽</h3>
+
+![Ditto](/image/profile/metamon.png)
   
 포켓몬스터의 메타몽은 상황에 따라 원하는 형태로 변신할 수 있는 포켓몬입니다.  
 저는 두 가지 이유로 이 메타몽에 가깝다고 할 수 있습니다.  
@@ -145,6 +146,8 @@ AI 개발 프로젝트를 할 때에는 ML 개발자로서 맡은 바 소임을 
   
   
 <h3 id="Bus_Driver">#️⃣ 프로_버스기사</h3>
+
+![신기한 스쿨버스](/image/profile/school_bus.png)
 
 저는 팀 프로젝트에서 항상 팀장을 맡았고, 프로젝트를 항상 성공으로 이끌었습니다.  
 책임에 대한 두려움이 없고 자신감이 있었기 때문입니다.  
