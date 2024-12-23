@@ -82,7 +82,7 @@ type: page
 > Features
 
 <div style="border: 2px solid #4CAF50; background-color: #f9f9f9; padding: 10px;">
-  :bulb    [#️⃣ 메타몽](#metamon)  [#️⃣ 대문자_J](#Big_J)  [#️⃣ 프로_버스기사](#Bus_Driver)  [#️⃣ 도파민_중독자](#Addict)
+  <b>:bulb: <a href="#metamon">#️⃣ 메타몽</a><br><br><a href="#Big_J">#️⃣ 대문자_J</a><br><br><a href="#Bus_Driver">#️⃣ 프로_버스기사</a><br><br><a href="#Addict">#️⃣ 도파민_중독자</a><br></b>
 </div>
 
 <h3 id="metamon">#️⃣ 메타몽</h3>
