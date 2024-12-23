@@ -77,61 +77,20 @@ type: page
 > I have no doubt that the experiences I will encounter in my future will further elevate my hexagonal pyramid.  
   
 
-  
-### 🌗 성격의 장단점
-> Strength and weakness
+### 특징들
+> Features
 
-우선 저는 낙천적인 성격입니다. 인내심이 강하고 엉덩이가 무겁습니다.  
-그런데, 이에 따라 좀 포기해야할 때 포기를 못 하는 경우가 많습니다.  
+<div style="border: 2px solid #4CAF50; background-color: #f9f9f9; padding: 10px;">
+  **:bulb:** [#️⃣ 메타몽](#metamon)  [#️⃣ 대문자_J](#Big_J)  [#️⃣ 프로_버스기사](#Bus_Driver)  [#️⃣ 도파민_중독자](#Addict)
+</div>
 
-그래서 주변 사람들이 저에게 포기해야할 때를 알려주는 경우가 종종 있고,  
-저는 제가 사랑하는 사람들의 말을 신뢰하고 그들의 말을 귀 기울여 들으려 노력합니다.  
-항상 친절하려 노력하고 사람을 좋아하는 편이라 주변에 사람이 많고 사랑을 많이 받고 있습니다.  
+<h4 id="metamon">#️⃣ 메타몽</h4>
 
-다만 하나에 꽂히면 몰입하는 성향이 강해, 스스로 주기적으로 자신을 환기시켜줄 필요가 있습니다.  
-개발을 할 때에는 좋은 방향으로 작용하여 수업에 단 두 명 밖에 풀지 못한 어려운 과제를 풀어낸 한 사람이 되기도 했습니다.  
-그래도 수험생 시절에 너무 오래 앉아 있다가 허리 디스크가 도진 것 때문에 아직도 고생하고 있는 것을 생각하면 좀 적당히 몰입할 필요가 있다고 느끼고 있습니다.😅  
+<h4 id="Big_J">#️⃣ 대문자_J</h4>
 
-> First of all, I have an optimistic personality.  
-> I am patient and have a strong sense of perseverance.  
-> However, because of this, sometimes I struggle to give up even I should.  
-> 
-> People around me often point out when I need to let go,  
-> and I try my best to trust the people I love and listen carefully to what they say.  
-> I always willing to be kind and enjoy being around people, and that is why I have many people around me and receive a lot of love.  
-> 
-> However, when I get fixated on something, I tend to immerse myself deeply.  
-> Because of this, I need to regularly remind myself to take a step back.  
-> When doing development work, this has worked positively for me.  
-> I was even the one to solve a difficult assignment that only two people in the class were able to complete.  
-> Still, thinking about how I suffered from a herniated disc after sitting too long during my exam days, I'm thinking of that I need to strike a balance and avoid over-immersion.😅  
-  
-  
-  
-### 🚀 포부
-> Career goals
+<h4 id="Bus_Driver">#️⃣ 프로_버스기사</h4>
 
-저는 좀 더 많은 것을 공부하고 싶습니다.  
-언젠가는 어느 분야의 전문가라고 불려보고도 싶습니다.  
-게임을 사랑하는 저로서는, 그게 게임 산업 안에서의 일이었으면 더 좋겠습니다.  
-어떤 장르의 게임이던, 게임은 사람을 즐겁게 만든다는 목적을 가지기에 그 자체로 가치 있는 것이라고 생각합니다.  
-그렇기에 게임을 만드는 것은 행복을 창조하는 일이라고 생각합니다.  
-
-또한 그런 의미에서 이 세계 자체도 하나의 게임이라는 생각을 합니다.  
-즐거움과 행복을 찾을 수 있고, 고난과 노력이 그것을 강화해준다는 점이 마치 저에게는 게임과 같이 느껴집니다.  
-그렇기에 무슨 일이던 저는 제가 하는 일을 사랑하고 최선을 다합니다.  
-멈추지 않고 죽기 전까지 새로운 세상을 발견하는 사람이 되고 싶습니다.  
-
-> I want to study more and learn as much as I can.  
-> Someday, I would like to be called an expert in some field.  
-> As someone who loves games, it would be even best if that work were within the gaming industry.  
-> No matter what genre is, I believe that games are valuable because their purpose is to bring joy to people.  
-> Therefore, I think creating games is the same as creating happiness.  
->  
-> In that sense, I also think that the world itself is like a game.  
-> Because the world is a place where we can find joy and happiness, and the struggles and efforts we go through make them stronger.  
-> Therefore, I can love whatever I do, and always put my best effort into it.  
-> I want to be someone who continuously discovers new worlds, never stopping until the day I die.  
+<h4 id="Addict">#️⃣ 도파민_중독자</h4>
 
 
 # Thank you for reading 💕
