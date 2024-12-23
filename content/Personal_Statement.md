@@ -2,7 +2,12 @@
 title: "🌟 Personal Statement"
 type: page
 ---
-[🐣 성장 과정](#Personal_history) [🔍특징](#features)
+
+<div style="border: 2px solid #4CAF50; background-color: #f9f9f9; width: 60%; padding: 10px; margin: 20px auto; text-align: center;">
+  <b>
+    <a href="#Personal_history">  🐣 성장 과정  </a><br><a href="#features">🔍특징</a>
+  </b>
+</div>
 
 <h2 id="Personal_history">🐣 성장 과정</h2>
 > Personal history
@@ -81,8 +86,8 @@ type: page
 <h2 id="features">🔍특징</h2>
 > Features
 
-<div style="border: 2px solid #4CAF50; background-color: #f9f9f9; padding: 10px;">
-  <b>:bulb: <a href="#metamon">#️⃣ 메타몽</a><br><br><a href="#Big_J">#️⃣ 대문자_J</a><br><br><a href="#Bus_Driver">#️⃣ 프로_버스기사</a><br><br><a href="#Addict">#️⃣ 도파민_중독자</a><br></b>
+<div style="border: 2px solid #4CAF50; background-color: #f9f9f9; padding: 10px; text-align: center;">
+  <b>:bulb: <a href="#metamon">  #️⃣ 메타몽  </a><a href="#Big_J">#️⃣ 대문자_J  </a><a href="#Bus_Driver">#️⃣ 프로_버스기사  </a><a href="#Addict">#️⃣ 도파민_중독자  </a></b>
 </div>
 
 <h3 id="metamon">#️⃣ 메타몽</h3>
