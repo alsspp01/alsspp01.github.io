@@ -86,9 +86,11 @@ type: page
 <h2 id="features">🔍특징</h2>
 > Features
 
-<div style="border: 2px solid #fbceb1; background-color: #f9f9f9; padding: 10px; display: flex; justify-content: flex-start; align-items: center;">
-  <pre>💡    <a href="#metamon">#️⃣ 메타몽  </a><a href="#Big_J">#️⃣ 대문자_J  </a><a href="#Bus_Driver">#️⃣ 프로_버스기사  </a><a href="#Addict">#️⃣ 도파민_중독자</a>
-  </pre>
+<div style="border: 2px solid #fbceb1; background-color: #f9f9f9; padding: 10px; display: flex; justify-content: flex-start; align-items: center; white-space: pre;">
+  💡    <a href="#metamon">#️⃣ 메타몽  </a>  
+  <a href="#Big_J">#️⃣ 대문자_J  </a>  
+  <a href="#Bus_Driver">#️⃣ 프로_버스기사  </a>  
+  <a href="#Addict">#️⃣ 도파민_중독자  </a>
 </div>
 
 <h3 id="metamon">#️⃣ 메타몽</h3>
