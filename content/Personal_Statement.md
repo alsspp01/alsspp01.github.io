@@ -3,7 +3,7 @@ title: "🌟 Personal Statement"
 type: page
 ---
 
-<div style="border: 2px solid #4CAF50; background-color: #f9f9f9; width: 60%; padding: 10px; margin: 20px auto; text-align: center;">
+<div style="border: 2px solid #4CAF50; background-color: #f9f9f9; width: 60%; padding: 10px; margin: 20px auto; text-align: center; align-items: center;">
   <h3 style="font-weight: bold;">
     <a href="#Personal_history">  🐣 성장 과정  </a><br><br><a href="#features">  🔍특징  </a>
   </h3>
