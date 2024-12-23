@@ -87,12 +87,8 @@ type: page
 > Features
 
 <div style="border: 2px solid #4CAF50; background-color: #f9f9f9; padding: 10px; display: flex; justify-content: flex-start; align-items: center;">
-  <b>
-  <b>
-    <pre>
-      💡    <a href="#metamon">#️⃣ 메타몽  </a><a href="#Big_J">#️⃣ 대문자_J  </a><a href="#Bus_Driver">#️⃣ 프로_버스기사  </a><a href="#Addict">#️⃣ 도파민_중독자</a>
-    </pre>
-  </b>
+  <pre>💡    <a href="#metamon">#️⃣ 메타몽  </a><a href="#Big_J">#️⃣ 대문자_J  </a><a href="#Bus_Driver">#️⃣ 프로_버스기사  </a><a href="#Addict">#️⃣ 도파민_중독자</a>
+  </pre>
 </div>
 
 <h3 id="metamon">#️⃣ 메타몽</h3>
