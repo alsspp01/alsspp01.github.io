@@ -2,8 +2,9 @@
 title: "🌟 Personal Statement"
 type: page
 ---
+[🐣 성장 과정](#Personal_history) [🔍특징](#features)
 
-### 🐣 성장 과정
+<h2 id="Personal_history">🐣 성장 과정</h2>
 > Personal history
 
 저는 자유로운 청소년기를 보냈습니다.  
@@ -77,14 +78,14 @@ type: page
 > I have no doubt that the experiences I will encounter in my future will further elevate my hexagonal pyramid.  
   
 
-### 특징들
+<h2 id="features">🔍특징</h2>
 > Features
 
 <div style="border: 2px solid #4CAF50; background-color: #f9f9f9; padding: 10px;">
   :bulb    [#️⃣ 메타몽](#metamon)  [#️⃣ 대문자_J](#Big_J)  [#️⃣ 프로_버스기사](#Bus_Driver)  [#️⃣ 도파민_중독자](#Addict)
 </div>
 
-<h4 id="metamon">#️⃣ 메타몽</h4>
+<h3 id="metamon">#️⃣ 메타몽</h3>
   
 포켓몬스터의 메타몽은 상황에 따라 원하는 형태로 변신할 수 있는 포켓몬입니다.  
 저는 두 가지 이유로 이 메타몽에 가깝다고 할 수 있습니다.  
@@ -113,7 +114,7 @@ AI 개발 프로젝트를 할 때에는 ML 개발자로서 맡은 바 소임을 
 저는 앞으로 또 제가 어떤 환경에서 어떤 모습을 가지게 될지 기대하고 있습니다.  
    
   
-<h4 id="Big_J">#️⃣ 대문자_J</h4>
+<h3 id="Big_J">#️⃣ 대문자_J</h3>
 
 저는 MBTI에서 끝자리가 J 100%로, 체계적이고 계획적인 성격을 가지고 있습니다.  
 프로젝트나 과제를 시작할 때, 저는 항상 명확한 목표를 설정하고 그 목표를 달성하기 위한 구체적인 계획을 세웁니다.  
@@ -133,7 +134,7 @@ AI 개발 프로젝트를 할 때에는 ML 개발자로서 맡은 바 소임을 
 예기치 못한 변화에도 적절한 조정과 결단을 통해, 더욱 효과적으로 목표를 달성할 수 있습니다.  
   
   
-<h4 id="Bus_Driver">#️⃣ 프로_버스기사</h4>
+<h3 id="Bus_Driver">#️⃣ 프로_버스기사</h3>
 
 저는 팀 프로젝트에서 항상 팀장을 맡았고, 프로젝트를 항상 성공으로 이끌었습니다.  
 책임에 대한 두려움이 없고 자신감이 있었기 때문입니다.  
@@ -159,7 +160,7 @@ AI 개발 프로젝트를 할 때에는 ML 개발자로서 맡은 바 소임을 
 저는 지금도 두 가지 특성을 통해 팀과 함께 성장하고, 또 다양한 프로젝트를 이끌어가고 있습니다.  
 
   
-<h4 id="Addict">#️⃣ 도파민_중독자</h4>
+<h3 id="Addict">#️⃣ 도파민_중독자</h3>
 
 > 보통은 YouTube Reels나 게임 같은 것에서 도파민을 얻는데, 너는 10시간 동안 고통을 받다가 그 끝에 얻는 성취감에 의한 도파민 폭발을 즐기니 진짜 도파민 중독자는 네가 아닐까…
 > 
