@@ -5,7 +5,7 @@ type: page
 
 <div style="border: 2px solid #A8D8E5; width: 40%; padding: 10px; margin: 20px auto; text-align: center; align-items: center;">
   <h3 style="font-weight: bold;">
-    <a href="#Personal_history">  🐣 성장 과정  </a><br><br><a href="#features">  🔍특징  </a>
+    <a href="#Personal_history">  🐣 성장 과정  </a><br><br><a href="#features">  🔍특징  </a><br><br><a href="#work">  🚀작업물🚀  </a>
   </h3>
 </div>
 
@@ -247,6 +247,14 @@ AI 개발 프로젝트를 할 때에는 ML 개발자로서 맡은 바 소임을 
 남들은 이해하지 못하는, 제 취미인 셈입니다. 😆  
 
 <br>
+
+***
+<br>
+<h2 id="work">🚀작업물🚀</h2>
+
+#### [📦Projects](/projects/) : 프로젝트
+#### [🖋️Posts](/posts/) : 비프로젝트성 과제 + 공부
+
 <br>
 
 # Thank you for reading 💕
