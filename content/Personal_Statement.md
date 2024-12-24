@@ -224,10 +224,12 @@ AI 개발 프로젝트를 할 때에는 ML 개발자로서 맡은 바 소임을 
 > 끈기와 도전정신
 
 <br>
-<div style="border: 2px solid ##f5ec9f; width: 60%; padding: 10px 20px; margin: 20px auto; text-align: left; align-items: center;">
+<div style="border: 2px solid #f5ec9f; width: 80%; padding: 10px 20px; margin: 20px auto; text-align: left; align-items: center;">
+<i>
 보통은 YouTube Reels나 게임 같은 것에서 도파민을 얻는데,<br>
 너는 10시간 동안 고통을 받다가 그 끝에 얻는 성취감에 의한 도파민 폭발을 즐기니<br>
-진짜 도파민 중독자는 네가 아닐까…<br>
+진짜 도파민 중독자는 네가 아닐까…
+</i>
 </div>
 <br>
 <br>
