@@ -8,7 +8,9 @@ type: page
     <a href="#Personal_history">  🐣 성장 과정  </a><br><br><a href="#features">  🔍특징  </a><br><br><a href="#work">  🚀작업물🚀  </a>
   </h3>
 </div>
-
+<br>
+<br>
+<br>
 <h2 id="Personal_history">🐣 성장 과정</h2>
 
 > Personal history
