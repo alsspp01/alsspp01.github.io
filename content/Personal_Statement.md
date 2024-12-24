@@ -10,6 +10,7 @@ type: page
 </div>
 
 <h2 id="Personal_history">🐣 성장 과정</h2>
+
 > Personal history
 
 저는 자유로운 청소년기를 보냈습니다.  
@@ -84,6 +85,7 @@ type: page
   -->
 
 <h2 id="features">🔍특징</h2>
+
 > Features
 
   
