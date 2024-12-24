@@ -88,10 +88,10 @@ type: page
 
   
 <div style="border: 2px solid #A8D8E5; padding: 10px; display: flex; margin: 20px; justify-content: flex-start; align-items: center; white-space: pre;">
-  💡    <a href="#metamon">#️⃣ 메타몽  </a>  
-  <a href="#Big_J">#️⃣ 대문자_J  </a>  
-  <a href="#Bus_Driver">#️⃣ 프로_버스기사  </a>  
-  <a href="#Addict">#️⃣ 도파민_중독자  </a>
+  💡    <a href="#metamon">#️⃣ 메타몽</a>  
+  <a href="#Big_J">#️⃣ 대문자_J</a>  
+  <a href="#Bus_Driver">#️⃣ 프로_버스기사</a>  
+  <a href="#Addict">#️⃣ 도파민_중독자</a>  
 </div>
 
 <h3 id="metamon">#️⃣ 메타몽</h3>
