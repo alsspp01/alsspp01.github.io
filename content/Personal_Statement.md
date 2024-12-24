@@ -95,7 +95,7 @@ type: page
 
   
 <div style="border: 2px solid #A8D8E5; padding: 10px; display: flex; margin: 20px; justify-content: flex-start; align-items: center; white-space: pre;">
-  💡&emsp;&emsp;<a href="#metamon">#️⃣ 메타몽</a>&emsp;
+  💡&emsp;<a href="#metamon">#️⃣ 메타몽</a>&emsp;
   <a href="#Big_J">#️⃣ 대문자_J</a>&emsp;
   <a href="#Bus_Driver">#️⃣ 프로_버스기사</a>&emsp;
   <a href="#Addict">#️⃣ 도파민_중독자</a>  
