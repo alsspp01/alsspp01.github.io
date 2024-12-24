@@ -3,7 +3,7 @@ title: "🌟 Personal Statement"
 type: page
 ---
 
-<div style="border: 2px solid #A8D8E5; width: 60%; padding: 10px; margin: 20px auto; text-align: center; align-items: center;">
+<div style="border: 2px solid #A8D8E5; width: 40%; padding: 10px; margin: 20px auto; text-align: center; align-items: center;">
   <h3 style="font-weight: bold;">
     <a href="#Personal_history">  🐣 성장 과정  </a><br><br><a href="#features">  🔍특징  </a>
   </h3>
@@ -103,6 +103,9 @@ type: page
 
 <h3 id="metamon">#️⃣ 메타몽</h3>
 
+> 빠른 학습과 적응 능력
+ 
+<br>
 ![Ditto](/image/profile/metamon.png)
 <br>
 <br>
@@ -137,6 +140,9 @@ AI 개발 프로젝트를 할 때에는 ML 개발자로서 맡은 바 소임을 
 <br>
 <h3 id="Big_J">#️⃣ 대문자_J</h3>
 
+> 계획적이고 추진력 있는 의사결정
+
+<br>
 <img src="/image/profile/Big_J.png" width="300" alt="대문자 J">
 <br>
 <br>
@@ -162,6 +168,9 @@ AI 개발 프로젝트를 할 때에는 ML 개발자로서 맡은 바 소임을 
 <br>
 <h3 id="Bus_Driver">#️⃣ 프로_버스기사</h3>
 
+> 리더십과 친화력력
+
+<br>
 ![신기한 스쿨버스](/image/profile/school_bus.png)
 <br>
 <br>
@@ -193,9 +202,14 @@ AI 개발 프로젝트를 할 때에는 ML 개발자로서 맡은 바 소임을 
 <br>
 <h3 id="Addict">#️⃣ 도파민_중독자</h3>
 
-> 보통은 YouTube Reels나 게임 같은 것에서 도파민을 얻는데,
-> 너는 10시간 동안 고통을 받다가 그 끝에 얻는 성취감에 의한 도파민 폭발을 즐기니
-> 진짜 도파민 중독자는 네가 아닐까…
+> 끈기와 도전정신
+
+<br>
+<div style="border: 2px solid ##f5ec9f; width: 60%; padding: 10px 20px; margin: 20px auto; text-align: center; align-items: left;">
+보통은 YouTube Reels나 게임 같은 것에서 도파민을 얻는데,<br>
+너는 10시간 동안 고통을 받다가 그 끝에 얻는 성취감에 의한 도파민 폭발을 즐기니<br>
+진짜 도파민 중독자는 네가 아닐까…<br>
+</div>
 <br>
 <br>
 저는 소비보다 창작이 재밌습니다.  
