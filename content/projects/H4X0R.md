@@ -4,7 +4,7 @@ type: page
 ---
 
 
-# Game developement
+# Game Design
 
 1. 개발중!
 
