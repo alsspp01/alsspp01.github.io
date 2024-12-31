@@ -6,7 +6,7 @@ type: page
 ### 시연 영상
 #### [Youtube Link](https://bit.ly/SIAM-W)
 
-![![QR](/image/SIAM-W/QRcode.png)](https://bit.ly/SIAM-W)
+[![QR](/image/SIAM-W/QRcode.png)](https://bit.ly/SIAM-W)
 
 
 
