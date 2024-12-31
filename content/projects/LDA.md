@@ -24,7 +24,7 @@ Python
 
 #### 결과
 1. 그룹별 결과 中
-   [5m](/image/LDA/stroop_test_by_group.png)
+   ![5m](/image/LDA/stroop_test_by_group.png)
 
 ---
 
