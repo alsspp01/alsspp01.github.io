@@ -8,6 +8,6 @@ type: page
 
 1. 개발중!
 
-figma 일부 공개
-
-![figma](/image/figma.png)
+  wireframe 일부 - 매칭 시스템
+  
+  ![figma](/image/figma.png)
