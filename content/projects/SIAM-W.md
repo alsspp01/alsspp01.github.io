@@ -10,10 +10,22 @@ type: page
 
 #### < 영상 요약 >
 1. 취약점 진단
+   
 ![ex1](/image/SIAM-W/ex1.png)
 
-2. 코드 추천
+2. 예상되는 취약점 안내
+   
 ![ex2](/image/SIAM-W/ex2.png)
+
+3. 코드 보안 수정 사항 지시
+
+![ex3](/image/SIAM-W/ex3.png)
+
+
+4. 안전한 코드인 경우의 출력
+
+![ex4](/image/SIAM-W/ex4.png)
+
 
 ---
 
