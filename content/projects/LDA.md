@@ -22,6 +22,10 @@ Python
 - analysis: Numpy
 - visualization: Seaborn
 
+#### 결과
+1. 그룹별 결과 中
+   [5m](/image/LDA/stroop_test_by_group.png)
+
 ---
 
 ### 2. 전적 분석 사이트 크롤링 및 분석
