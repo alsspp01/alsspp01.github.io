@@ -1,5 +1,5 @@
 ---
-title: "GAMENAME"
+title: "Arcana Nights"
 type: page
 ---
 
