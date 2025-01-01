@@ -51,7 +51,7 @@ type: page
 
 ---
 
-### 5. [GAMENAME](/projects/h4x0r/)
+### 5. [Arcana Nights](/projects/arcananights/)
 #### A puzzle game about stars in sky.
 ##### period: 2025 11 ~
 
