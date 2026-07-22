@@ -1,21 +1,25 @@
 #social-actions {
     display: flex;
-    align-items: center;
+    justify-content: center;
+    align-items: stretch;
     gap: 10px;
-    margin: 14px 0;
+    margin: 28px 0;
 }
 
 #social-actions button {
     display: inline-flex;
     align-items: center;
+    justify-content: center;
     gap: 6px;
-    padding: 6px 14px;
+    height: 38px;
+    padding: 0 16px;
     border: 1px solid rgba(128, 128, 128, 0.35);
     border-radius: 999px;
     background: transparent;
     color: inherit;
     font-size: 0.9em;
     cursor: pointer;
+    box-sizing: border-box;
 }
 
 #social-actions button:hover:not(:disabled) {
