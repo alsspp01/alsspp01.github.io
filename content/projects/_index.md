@@ -5,7 +5,7 @@ type: page
 
 ---
 
-### 1. [Arcanam Nights](/projects/arcananights/)
+### 5. [Arcanam Nights](/projects/arcananights/)
 #### A puzzle game about stars in sky.
 ##### period: 2024 11 ~ 2026 08
 
@@ -19,7 +19,7 @@ type: page
 
 ---
 
-### 2. [League of legends Data Analysis project](/projects/lda/)
+### 4. [League of legends Data Analysis project](/projects/lda/)
 #### E-Sports Data analysis project with Doctor. Hwanho Lee
 ##### period: 2024 03 ~ 2025 06
 
@@ -43,7 +43,7 @@ type: page
 
 ---
 
-### 4. [SQLi parsing AI](/projects/sqli-parsing-ai/)
+### 2. [SQLi parsing AI](/projects/sqli-parsing-ai/)
 #### SQL Statement Parsing AI Project
 ##### period: 2024 05 ~ 2024 06
 
@@ -53,11 +53,8 @@ type: page
 
 ---
 
-### 5. [우리 정글 머함? 우정머](/projects/lrp/)
-#### League of Legends Recommand Program
+### 1. [DIFFERENT LIST TITLE](/projects/lrp/)
+#### DIFFERENT LIST SUBTITLE
 ##### period: 2021 09 ~ 2021 12
 
-> 승률 검색 사이트에서 크롤링한 상대적인 승률을 바탕으로 게임 초반 정글 동선을 추천해주는 프로그램.
->
-> With crawled data of the relative win rate from existing site,
-> this program recommends a jungler’s path in the begining of the game.
+> test
