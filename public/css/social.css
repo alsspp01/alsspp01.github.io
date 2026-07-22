@@ -1,0 +1,66 @@
+#social-actions {
+    display: flex;
+    justify-content: flex-start;
+    align-items: stretch;
+    gap: 10px;
+    margin: 28px 0;
+}
+
+#social-actions button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+    height: 38px;
+    padding: 0 16px;
+    border: 1px solid rgba(128, 128, 128, 0.35);
+    border-radius: 999px;
+    background: transparent;
+    color: inherit;
+    font-size: 0.9em;
+    cursor: pointer;
+    box-sizing: border-box;
+}
+
+#social-actions button:hover:not(:disabled) {
+    border-color: var(--accent-color);
+    color: var(--accent-color);
+}
+
+#like-button.liked {
+    border-color: var(--accent-color);
+    color: var(--accent-color);
+    cursor: default;
+}
+
+#like-button:disabled {
+    opacity: 0.85;
+}
+
+.like-icon {
+    font-size: 1.05em;
+}
+
+.share-confirm {
+    font-size: 0.85em;
+    color: var(--accent-color);
+}
+
+.footer-contact-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    margin-bottom: 16px;
+    color: inherit;
+    text-decoration: none;
+    font-size: 0.85em;
+}
+
+.footer-contact-link:hover {
+    color: var(--accent-color);
+}
+
+.footer-contact-icon {
+    width: 16px;
+    height: 16px;
+}

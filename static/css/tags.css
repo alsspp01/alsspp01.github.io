@@ -1,0 +1,38 @@
+.tags-logic-switch {
+    display: inline-flex;
+    margin: 20px auto 0;
+    border-radius: 999px;
+    background: rgba(128, 128, 128, 0.15);
+    padding: 3px;
+}
+.tags-list .tags-logic-switch { display: flex; width: fit-content; margin-left: auto; margin-right: auto; }
+.tags-logic-option {
+    border: none;
+    background: transparent;
+    color: inherit;
+    cursor: pointer;
+    padding: 5px 16px;
+    border-radius: 999px;
+    font-size: 0.85em;
+}
+.tags-logic-option.active { background: var(--accent-color); color: #fff; }
+
+.tags-list .post-tag.selected a {
+    background-color: var(--accent-color);
+    color: #fff;
+}
+.tags-list .post-tag.selected a .tag-posts-count {
+    background-color: rgba(255, 255, 255, 0.3);
+    color: #fff;
+}
+
+.tags-filter-results {
+    margin-top: 30px;
+}
+.tags-filter-results .post-title {
+    margin: 0 0 22px 15px;
+}
+.tags-filter-empty {
+    color: gray;
+    text-align: center;
+}

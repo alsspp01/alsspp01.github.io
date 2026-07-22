@@ -2,3 +2,9 @@
 ._.DS_Store
 **/.DS_Store
 **/._.DS_Store
+
+editor/
+.hugo_build.lock
+push2github.sh
+info4blog.md
+image4blog/
