@@ -9,6 +9,9 @@ theme = "gokarna"
 # Automatically generate robots.txt
 enableRobotsTXT = true
 
+[outputs]
+  home = ["HTML", "JSON"]
+
 [menu]
   [[menu.main]]
     # Unique identifier for a menu item
@@ -36,14 +39,6 @@ enableRobotsTXT = true
     weight = 2
 
     pre = "<span data-feather='box'></span>"
-
-  [[menu.main]]
-    identifier = "tags"
-    name = "tags"
-    url = "/tags/"
-    weight = 3
-
-    pre = "<span data-feather='hash'></span>"
 
   [[menu.main]]
     identifier = "github"
