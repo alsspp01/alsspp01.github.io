@@ -1,5 +1,5 @@
 ---
-title: "Chemi"
+title: "Chemi.lol"
 type: page
 ---
 

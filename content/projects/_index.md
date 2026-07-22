@@ -5,7 +5,7 @@ type: page
 
 ---
 
-### 5. [Arcanam Nights](/projects/arcananights/)
+### 1. [Arcanam Nights](/projects/arcananights/)
 #### A puzzle game about stars in sky.
 ##### period: 2024 11 ~ 2026 08
 
@@ -19,7 +19,7 @@ type: page
 
 ---
 
-### 4. [League of legends Data Analysis project](/projects/lda/)
+### 2. [League of legends Data Analysis project](/projects/lda/)
 #### E-Sports Data analysis project with Doctor. Hwanho Lee
 ##### period: 2024 03 ~ 2025 06
 
@@ -43,7 +43,7 @@ type: page
 
 ---
 
-### 2. [SQLi parsing AI](/projects/sqli-parsing-ai/)
+### 4. [SQLi parsing AI](/projects/sqli-parsing-ai/)
 #### SQL Statement Parsing AI Project
 ##### period: 2024 05 ~ 2024 06
 
@@ -53,6 +53,6 @@ type: page
 
 ---
 
-### 1. [우리 정글 머함? 우정머](/projects/lrp/)
+### 5. [우리 정글 머함? 우정머](/projects/lrp/)
 #### League of Legends Recommand Program
 ##### period: 2021 09 ~ 2021 12
