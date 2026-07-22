@@ -1,9 +1,10 @@
 ---
-title: "League of Legends Recommand Program"
+title: "우리 정글 머함? 우정머League of Legends Recommand Program"
 type: page
-description: "우리 정글 머함? 우정머"
+description: "League of Legends Recommand Program"
 dated: true
-period_start: ""
+period_start: "2021-09"
+period_end: "2021-12"
 ---
 
 ## Overview

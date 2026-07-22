@@ -1,8 +1,11 @@
 ---
 title: "SQLi parsing AI"
 type: page
+description: "SQL Statement Parsing AI Project"
 dated: true
-period_start: ""
+period_start: "2024-05"
+period_end: "2024-06"
+summary: "SQL 구문을 분석하여 SQL injection 구문인지 일반 SQL 구문인지 확인하는 구문 분석 AI 시스템.\n\nA parsing AI system that analyzes SQL statements to determine whether they are SQL injection statements or regular SQL statements."
 ---
 
 ### 제작 계기

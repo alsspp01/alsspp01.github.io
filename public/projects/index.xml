@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Projects on Dyun's blog</title><link>https://alsspp01.github.io/projects/</link><description>Recent content in Projects on Dyun's blog</description><generator>Hugo</generator><language>en</language><atom:link href="https://alsspp01.github.io/projects/index.xml" rel="self" type="application/rss+xml"/><item><title>Arcana Nights</title><link>https://alsspp01.github.io/projects/arcananights/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://alsspp01.github.io/projects/arcananights/</guid><description>&lt;h1 id="game-design">Game Design&lt;/h1>
-&lt;ol>
-&lt;li>개발중!&lt;/li>
-&lt;/ol>
-&lt;p>wireframe 일부 - 매칭 시스템&lt;/p>
-&lt;p>&lt;img src="https://alsspp01.github.io/image/figma.png" alt="figma">&lt;/p></description></item><item><title>Chemi</title><link>https://alsspp01.github.io/projects/chemi/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://alsspp01.github.io/projects/chemi/</guid><description>&lt;h1 id="game-design">Game Design&lt;/h1></description></item><item><title>GAMENAME</title><link>https://alsspp01.github.io/projects/h4x0r/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://alsspp01.github.io/projects/h4x0r/</guid><description>&lt;h1 id="game-developement">Game developement&lt;/h1>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Projects on Dyun's blog</title><link>https://alsspp01.github.io/projects/</link><description>Recent content in Projects on Dyun's blog</description><generator>Hugo</generator><language>en</language><atom:link href="https://alsspp01.github.io/projects/index.xml" rel="self" type="application/rss+xml"/><item><title>Arcana Nights</title><link>https://alsspp01.github.io/projects/arcananights/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://alsspp01.github.io/projects/arcananights/</guid><description>&lt;p>싱글 ~ 2인 게임
+해의 아이와 달의 아이가 하늘의 별자리를 수놓는 이야기.
+두 아이의 우주를 합쳐 하나의 별자리를 만들어내는 퍼즐 게임.&lt;/p>
+&lt;p>Single ~ 2 player game
+A story about a child of the sun and the moon embroidering the constellations in the sky.
+A puzzle game that combines the universes of two children to create one constellation.&lt;/p></description></item><item><title>Chemi</title><link>https://alsspp01.github.io/projects/chemi/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://alsspp01.github.io/projects/chemi/</guid><description>&lt;h1 id="game-design">Game Design&lt;/h1></description></item><item><title>GAMENAME</title><link>https://alsspp01.github.io/projects/h4x0r/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://alsspp01.github.io/projects/h4x0r/</guid><description>&lt;h1 id="game-developement">Game developement&lt;/h1>
 &lt;ol>
 &lt;li>개발중!&lt;/li>
 &lt;/ol></description></item><item><title>League of legends Data Analysis project</title><link>https://alsspp01.github.io/projects/lda/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://alsspp01.github.io/projects/lda/</guid><description>&lt;h2 id="league-of-legendslol-data-analysis">League of legends(LoL) Data Analysis&lt;/h2>
@@ -175,7 +175,13 @@
 &lt;li>수집한 데이터를 Fow.lol 크롤링 데이터의 경향성을 기반으로 분석 및 시각화&lt;/li>
 &lt;/ol>
 &lt;hr>
-&lt;p>연구 마무리 후 업데이트 예정입니다.&lt;/p></description></item><item><title>League of Legends Recommand Program</title><link>https://alsspp01.github.io/projects/lrp/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://alsspp01.github.io/projects/lrp/</guid><description>&lt;h2 id="overview">Overview&lt;/h2>
+&lt;p>연구 마무리 후 업데이트 예정입니다.&lt;/p></description></item><item><title>SIAM-W</title><link>https://alsspp01.github.io/projects/siam-w/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://alsspp01.github.io/projects/siam-w/</guid><description>&lt;p>오픈 소스 코드 사용: SQLmap
+웹사이트의 SQL injection 공격 가능성 여부를 진단 후 각 공격에 대한 대응 방법을 알려주는 보안 비전공 개발자를 위한 프로그램.&lt;/p>
+&lt;p>Use open-source program: SQLmap.
+A program for non-security developers
+that diagnoses the possibility of SQL injection attacks on a website
+and then informs them of how to respond to each attack.&lt;/p></description></item><item><title>SQLi parsing AI</title><link>https://alsspp01.github.io/projects/sqli-parsing-ai/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://alsspp01.github.io/projects/sqli-parsing-ai/</guid><description>&lt;p>SQL 구문을 분석하여 SQL injection 구문인지 일반 SQL 구문인지 확인하는 구문 분석 AI 시스템.&lt;/p>
+&lt;p>A parsing AI system that analyzes SQL statements to determine whether they are SQL injection statements or regular SQL statements.&lt;/p></description></item><item><title>우리 정글 머함? 우정머League of Legends Recommand Program</title><link>https://alsspp01.github.io/projects/lrp/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://alsspp01.github.io/projects/lrp/</guid><description>&lt;h2 id="overview">Overview&lt;/h2>
 &lt;p>당시 League of Legends(LOL)의 챔피언 티어는 정리가 되어 있었으나, 챔피언 상성을 고려하여 정글 동선을 직접적으로 짜주는 프로그램은 없었다.&lt;br>
 이에 따라 우리는 챔피언 상성을 바탕으로 분기문을 만들어 정글 동선을 추천하는 프로그램을 만들고자 하였다.&lt;br>
 또한 승률에 기반한 추천 챔프를 콤보박스로 알려주는 기능 또한 넣어 밴픽 편의성을 증대하였다.&lt;/p>
@@ -204,77 +210,4 @@
 &lt;li>데이터에 기반한 기준이 아닌 임의의 기준을 사용한 점&lt;/li>
 &lt;li>당시 영어를 좀 더 잘했으면 Riot Developer Potal에서 소환사의 협곡 맵이나 오브젝트들의 사진을 가져올 수 있었을 텐데, 잘 몰라서 직접 가져와야 했음&lt;/li>
 &lt;/ol>
-&lt;p>-&amp;gt; 이 때의 아쉬웠던 마음을 발판삼아 롤 API 데이터를 활용하여 서비스를 제공하는 사이트 제작 프로젝트 진행 중&lt;/p></description></item><item><title>SIAM-W</title><link>https://alsspp01.github.io/projects/siam-w/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://alsspp01.github.io/projects/siam-w/</guid><description>&lt;h3 id="시연-영상">시연 영상&lt;/h3>
-&lt;h4 id="youtube-linkhttpsbitlysiam-w">&lt;a href="https://bit.ly/SIAM-W">Youtube Link&lt;/a>&lt;/h4>
-&lt;p>&lt;a href="https://bit.ly/SIAM-W">&lt;img src="https://alsspp01.github.io/image/SIAM-W/QRcode.png" alt="QR">&lt;/a>&lt;/p>
-&lt;h4 id="-영상-요약-">&amp;lt; 영상 요약 &amp;gt;&lt;/h4>
-&lt;ol>
-&lt;li>취약점 진단&lt;/li>
-&lt;/ol>
-&lt;p>&lt;img src="https://alsspp01.github.io/image/SIAM-W/ex1.png" alt="ex1">&lt;/p>
-&lt;ol start="2">
-&lt;li>예상되는 취약점 안내&lt;/li>
-&lt;/ol>
-&lt;p>&lt;img src="https://alsspp01.github.io/image/SIAM-W/ex2.png" alt="ex2">&lt;/p>
-&lt;ol start="3">
-&lt;li>코드 보안 수정 사항 지시&lt;/li>
-&lt;/ol>
-&lt;p>&lt;img src="https://alsspp01.github.io/image/SIAM-W/ex3.png" alt="ex3">&lt;/p>
-&lt;ol start="4">
-&lt;li>안전한 코드인 경우의 출력&lt;/li>
-&lt;/ol>
-&lt;p>&lt;img src="https://alsspp01.github.io/image/SIAM-W/ex4.png" alt="ex4">&lt;/p>
-&lt;hr>
-&lt;h3 id="poster">Poster&lt;/h3>
-&lt;h4 id="한국어">한국어&lt;/h4>
-&lt;p>&lt;img src="https://alsspp01.github.io/image/SIAM-W/Poster_kr.jpg" alt="Poster">&lt;/p>
-&lt;h4 id="english">English&lt;/h4>
-&lt;p>&lt;img src="https://alsspp01.github.io/image/SIAM-W/Poster_en.jpg" alt="Poster">&lt;/p>
-&lt;hr>
-&lt;h3 id="code">CODE&lt;/h3>
-&lt;p>&lt;a href="https://github.com/hanja1500/SIAM-W.git">&lt;img src="https://alsspp01.github.io/image/profile/github-mark.png" alt="GITHUB">&lt;/a>
- &lt;br>
- &lt;/p>
-&lt;blockquote>
-&lt;p>그림을 클릭하면 Github repository로 연결됩니다.&lt;/p>
-&lt;/blockquote></description></item><item><title>SQLi parsing AI</title><link>https://alsspp01.github.io/projects/sqli-parsing-ai/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://alsspp01.github.io/projects/sqli-parsing-ai/</guid><description>&lt;h3 id="제작-계기">제작 계기&lt;/h3>
-&lt;p>SQL injection query는 사람이 보면 구분할 수 있지만, 기본적으로 컴퓨터는 구분하지 못한다.&lt;br>
-이에 따라 SQL injection query를 구분해내는 AI 모델을 생성하여 SQL injection 내부 대응책을 설립하기 어려운 중소기업 웹 개발자들에게 도움을 주고자 한다.&lt;/p>
-&lt;h3 id="sql-injection이란">SQL injection이란?&lt;/h3>
-&lt;p>웹 애플리케이션과 데이터베이스 간의 연동에서 발생하는 취약점을 이용해,&lt;br>
-공격자가 입력 폼에 악의적으로 조작된 쿼리를 삽입해&lt;br>
-데이터베이스 정보를 불법적으로 열람하거나 조작하는 공격&lt;/p>
-&lt;h3 id="overview">Overview&lt;/h3>
-&lt;ol>
-&lt;li>구문 분석을 위해 Secquence Data로 전처리&lt;/li>
-&lt;li>전처리 시 문법적인 부분을 강조하기 위해 기호, SQL 문법 구성 단어를 기준으로 feature 추출&lt;/li>
-&lt;li>기호, SQL언어, 변수, 처리되지 않은 일반 string 순으로 분류하여 토큰화, 정규화&lt;/li>
-&lt;li>Sezuence Data를 처리할 수 있는 모델 - LSTM(Long Short-Term Memory) 사용&lt;/li>
-&lt;li>F1 Score 등을 통해 검증&lt;/li>
-&lt;/ol>
-&lt;h3 id="process">Process&lt;/h3>
-&lt;h4 id="1-사용한-모듈">1. 사용한 모듈&lt;/h4>
-&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-python" data-lang="python">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#f92672">import&lt;/span> pandas &lt;span style="color:#66d9ef">as&lt;/span> pd
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#f92672">import&lt;/span> re
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#f92672">import&lt;/span> numpy &lt;span style="color:#66d9ef">as&lt;/span> np
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#f92672">from&lt;/span> sklearn.model_selection &lt;span style="color:#f92672">import&lt;/span> train_test_split
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#f92672">from&lt;/span> tensorflow.keras.models &lt;span style="color:#f92672">import&lt;/span> Sequential
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#f92672">from&lt;/span> tensorflow.keras.layers &lt;span style="color:#f92672">import&lt;/span> Embedding, LSTM, Dense, Dropout, BatchNormalization
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#f92672">from&lt;/span> tensorflow.keras.callbacks &lt;span style="color:#f92672">import&lt;/span> EarlyStopping
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#f92672">from&lt;/span> tensorflow.keras.preprocessing.sequence &lt;span style="color:#f92672">import&lt;/span> pad_sequences
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#f92672">import&lt;/span> matplotlib.pyplot &lt;span style="color:#66d9ef">as&lt;/span> plt
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h4 id="2-데이터-구조-분석">2. 데이터 구조 분석&lt;/h4>
-&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-python" data-lang="python">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e"># CSV 파일 읽어오기&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>data &lt;span style="color:#f92672">=&lt;/span> pd&lt;span style="color:#f92672">.&lt;/span>read_csv(&lt;span style="color:#e6db74">&amp;#34;./clean_sql_dataset.csv&amp;#34;&lt;/span>)
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e"># 데이터프레임 구조 확인&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>print(data&lt;span style="color:#f92672">.&lt;/span>head())
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e"># 데이터프레임의 컬럼 이름 확인&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>print(data&lt;span style="color:#f92672">.&lt;/span>columns)
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e"># Label 값의 개수 세기&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>label_counts &lt;span style="color:#f92672">=&lt;/span> data[&lt;span style="color:#e6db74">&amp;#39;Label&amp;#39;&lt;/span>]&lt;span style="color:#f92672">.&lt;/span>value_counts()
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>print(label_counts)
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h5 id="실행-결과">실행 결과&lt;/h5>
-&lt;p>&lt;img src="https://alsspp01.github.io/image/sqli-parsing-ai/capture01.png" alt="데이터구조분석">&lt;/p></description></item></channel></rss>
+&lt;p>-&amp;gt; 이 때의 아쉬웠던 마음을 발판삼아 롤 API 데이터를 활용하여 서비스를 제공하는 사이트 제작 프로젝트 진행 중&lt;/p></description></item></channel></rss>

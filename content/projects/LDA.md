@@ -2,7 +2,8 @@
 title: "League of legends Data Analysis project"
 type: page
 dated: true
-period_start: ""
+period_start: "2024-03"
+period_end: "2025-06"
 ---
 
 ## League of legends(LoL) Data Analysis
