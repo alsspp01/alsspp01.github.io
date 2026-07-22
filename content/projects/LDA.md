@@ -1,6 +1,8 @@
 ---
 title: "League of legends Data Analysis project"
 type: page
+dated: true
+period_start: ""
 ---
 
 ## League of legends(LoL) Data Analysis

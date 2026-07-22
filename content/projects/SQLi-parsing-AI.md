@@ -1,6 +1,8 @@
 ---
 title: "SQLi parsing AI"
 type: page
+dated: true
+period_start: ""
 ---
 
 ### 제작 계기
@@ -323,4 +325,3 @@ F1 Score: 0.9848
 #### 모델 성능
 Recall이 너무 높아서 위양성이 높을 가능성이 있지만, 보안은 탐지 목적인 만큼 위양성이 높은 편이 낫기 때문에 큰 문제가 되지 않을 것으로 생각된다.  
 Accuracy 및 F1 Score이 충분히 높기에 자체 보안 엔진 개발이 어려운 중소기업에서 SQL injection 방지를 위해 사용하기엔 적합하다고 판단된다.  
-

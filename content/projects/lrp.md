@@ -2,6 +2,8 @@
 title: "League of Legends Recommand Program"
 type: page
 description: "우리 정글 머함? 우정머"
+dated: true
+period_start: ""
 ---
 
 ## Overview

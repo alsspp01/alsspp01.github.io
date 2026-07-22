@@ -1,8 +1,9 @@
 ---
 title: "Arcana Nights"
 type: page
+dated: true
+period_start: ""
 ---
-
 
 # Game Design
 

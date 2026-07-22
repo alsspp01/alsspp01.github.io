@@ -1,6 +1,8 @@
 ---
 title: "SIAM-W"
 type: page
+dated: true
+period_start: ""
 ---
 
 ### 시연 영상
