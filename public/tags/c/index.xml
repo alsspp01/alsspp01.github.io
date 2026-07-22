@@ -144,7 +144,7 @@ popen을 활용하여 원폰 파일을 호출하고 출력값을 읽어들일 �
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>}
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>/*	Test Result	*/
 &lt;img src="https://alsspp01.github.io/image/DKU/sec2.png" alt="result">&lt;/p></description></item><item><title>rand() 무력화</title><link>https://alsspp01.github.io/posts/2023-11-21%EC%8B%9C%ED%81%90%EC%96%B4%EC%BD%94%EB%94%A9/</link><pubDate>Tue, 21 Nov 2023 00:00:00 +0000</pubDate><guid>https://alsspp01.github.io/posts/2023-11-21%EC%8B%9C%ED%81%90%EC%96%B4%EC%BD%94%EB%94%A9/</guid><description>&lt;h3 id="과제">과제&lt;/h3>
-&lt;p>간단한 암호함수에 rand() 함수가 XOR되어 있는 보안장치를 rand() 함수가 항상 0을 리턴시키도록 바이너리를 수정하여 암호에 숨겨진 비밀키를 알아내는 과제.&lt;br>
+&lt;p>간단한 암호함수에 rand() 함수가 XOR되어 있는 보안장치를 rand() 함수가 항상 0을 리턴시키도록 바이너리를 수정하여 암호에 숨겨진 비밀키를 알아내는 과제.
 사용 언어: C&lt;/p>
 &lt;h3 id="풀이">풀이&lt;/h3>
 &lt;pre tabindex="0">&lt;code>./sec_hw1		// Permission Denied
