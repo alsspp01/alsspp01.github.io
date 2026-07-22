@@ -5,18 +5,31 @@ type: page
 
 ---
 
-### 1. [우리 정글 머함? 우정머](/projects/lrp/)
-#### League of Legends Recommand Program
-##### period: 2021 09 ~ 2021 12
+### 1. [Arcanam Nights](/projects/arcananights/)
+#### A puzzle game about stars in sky.
+##### period: 2024 11 ~ 2026 08
 
-> 승률 검색 사이트에서 크롤링한 상대적인 승률을 바탕으로 게임 초반 정글 동선을 추천해주는 프로그램.
+> 싱글 ~ 2인 게임
+> 해의 아이와 달의 아이가 하늘의 별자리를 수놓는 이야기.
+> 두 아이의 우주를 합쳐 하나의 별자리를 만들어내는 퍼즐 게임.
 >
-> With crawled data of the relative win rate from existing site,
-> this program recommends a jungler’s path in the begining of the game.
+> Single ~ 2 player game
+> A story about a child of the sun and the moon embroidering the constellations in the sky.
+> A puzzle game that combines the universes of two children to create one constellation.
 
 ---
 
-### 2. [SIAM-W](/projects/siam-w/)
+### 2. [League of legends Data Analysis project](/projects/lda/)
+#### E-Sports Data analysis project with Doctor. Hwanho Lee
+##### period: 2024 03 ~ 2025 06
+
+> League of legends를 중심으로 e-sports 데이터를 분석하여 인지피로 분석을 수행하는 프로젝트를 진행하기 위한 프로그램들.
+>
+> Programs to carry out a project to perform cognitive fatigue analysis by analyzing e-sports data focusing on League of Legends
+
+---
+
+### 3. [SIAM-W](/projects/siam-w/)
 #### SQL Injection Analysis Manager for Websites
 ##### period: 2024 03 ~ 2024 06
 
@@ -30,7 +43,7 @@ type: page
 
 ---
 
-### 3. [SQLi parsing AI](/projects/sqli-parsing-ai/)
+### 4. [SQLi parsing AI](/projects/sqli-parsing-ai/)
 #### SQL Statement Parsing AI Project
 ##### period: 2024 05 ~ 2024 06
 
@@ -40,24 +53,11 @@ type: page
 
 ---
 
-### 4. [League of legends Data Analysis project](/projects/lda/)
-#### E-Sports Data analysis project with Doctor. Hwanho Lee
-##### period: 2024 03 ~ 2025 05
+### 5. [우리 정글 머함? 우정머](/projects/lrp/)
+#### League of Legends Recommand Program
+##### period: 2021 09 ~ 2021 12
 
-> League of legends를 중심으로 e-sports 데이터를 분석하여 인지피로 분석을 수행하는 프로젝트를 진행하기 위한 프로그램들.
+> 승률 검색 사이트에서 크롤링한 상대적인 승률을 바탕으로 게임 초반 정글 동선을 추천해주는 프로그램.
 >
-> Programs to carry out a project to perform cognitive fatigue analysis by analyzing e-sports data focusing on League of Legends
-
----
-
-### 5. [Arcana Nights](/projects/arcananights/)
-#### A puzzle game about stars in sky.
-##### period: 2024 11 ~ 2026 08
-
-> 싱글 ~ 2인 게임
-> 해의 아이와 달의 아이가 하늘의 별자리를 수놓는 이야기.
-> 두 아이의 우주를 합쳐 하나의 별자리를 만들어내는 퍼즐 게임.
->
-> Single ~ 2 player game
-> A story about a child of the sun and the moon embroidering the constellations in the sky.
-> A puzzle game that combines the universes of two children to create one constellation.
+> With crawled data of the relative win rate from existing site,
+> this program recommends a jungler’s path in the begining of the game.

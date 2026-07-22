@@ -1,5 +1,5 @@
 ---
-title: "Arcana Nights"
+title: "Arcanam Nights"
 type: page
 description: "A puzzle game about stars in sky."
 dated: true

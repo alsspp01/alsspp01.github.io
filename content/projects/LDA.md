@@ -1,9 +1,11 @@
 ---
 title: "League of legends Data Analysis project"
 type: page
+description: "E-Sports Data analysis project with Doctor. Hwanho Lee"
 dated: true
 period_start: "2024-03"
 period_end: "2025-06"
+summary: "League of legends를 중심으로 e-sports 데이터를 분석하여 인지피로 분석을 수행하는 프로젝트를 진행하기 위한 프로그램들.\n\nPrograms to carry out a project to perform cognitive fatigue analysis by analyzing e-sports data focusing on League of Legends"
 ---
 
 ## League of legends(LoL) Data Analysis
