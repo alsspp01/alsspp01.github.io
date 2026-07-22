@@ -12,7 +12,10 @@
   }
 
   function matchesLogic(post) {
-    var postTags = post.tags || [];
+    // data-tag values come from Hugo's taxonomy term names, which are lowercased
+    // by default — but the raw frontmatter tags (from index.json) keep their
+    // original casing, so compare case-insensitively.
+    var postTags = (post.tags || []).map(function (t) { return t.toLowerCase(); });
     var tags = Array.from(selectedTags);
     if (logic === "AND") {
       return tags.every(function (t) { return postTags.includes(t); });
