@@ -53,8 +53,6 @@ type: page
 
 ---
 
-### 1. [DIFFERENT LIST TITLE](/projects/lrp/)
-#### DIFFERENT LIST SUBTITLE
+### 1. [우리 정글 머함? 우정머](/projects/lrp/)
+#### League of Legends Recommand Program
 ##### period: 2021 09 ~ 2021 12
-
-> test

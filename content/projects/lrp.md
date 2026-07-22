@@ -5,9 +5,6 @@ description: "League of Legends Recommand Program"
 dated: true
 period_start: "2021-09"
 period_end: "2021-12"
-summary: "test"
-list_title: "DIFFERENT LIST TITLE"
-list_description: "DIFFERENT LIST SUBTITLE"
 ---
 
 ## Overview
