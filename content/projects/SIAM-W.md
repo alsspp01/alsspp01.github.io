@@ -6,6 +6,7 @@ dated: true
 period_start: "2024-03"
 period_end: "2024-06"
 summary: "오픈 소스 코드 사용: SQLmap\n웹사이트의 SQL injection 공격 가능성 여부를 진단 후 각 공격에 대한 대응 방법을 알려주는 보안 비전공 개발자를 위한 프로그램.\n\nUse open-source program: SQLmap.\nA program for non-security developers\nthat diagnoses the possibility of SQL injection attacks on a website\nand then informs them of how to respond to each attack."
+tags: ["DKU"]
 ---
 
 ### 시연 영상
