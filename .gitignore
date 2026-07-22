@@ -5,3 +5,4 @@
 
 editor/
 .hugo_build.lock
+push2github.sh

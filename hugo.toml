@@ -92,9 +92,9 @@ enableRobotsTXT = true
   # Footer text
   footer = "The Marauders"
   
-  # Disqus
-  DisqusShortname = "dyun"
-  
+  # Public API for the like button (see editor/likes/ in the private BlogEditor repo)
+  likesApiBase = "https://homeserver.tailbca43f.ts.net"
+
   # Show Previous and Next Buttons
   TogglePreviousAndNextButtons = "true"
   
