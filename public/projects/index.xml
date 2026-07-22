@@ -13,33 +13,6 @@ A puzzle game that combines the universes of two children to create one constell
 A program for non-security developers
 that diagnoses the possibility of SQL injection attacks on a website
 and then informs them of how to respond to each attack.&lt;/p></description></item><item><title>SQLi parsing AI</title><link>https://alsspp01.github.io/projects/sqli-parsing-ai/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://alsspp01.github.io/projects/sqli-parsing-ai/</guid><description>&lt;p>SQL 구문을 분석하여 SQL injection 구문인지 일반 SQL 구문인지 확인하는 구문 분석 AI 시스템.&lt;/p>
-&lt;p>A parsing AI system that analyzes SQL statements to determine whether they are SQL injection statements or regular SQL statements.&lt;/p></description></item><item><title>우리 정글 머함? 우정머</title><link>https://alsspp01.github.io/projects/lrp/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://alsspp01.github.io/projects/lrp/</guid><description>&lt;h2 id="overview">Overview&lt;/h2>
-&lt;p>당시 League of Legends(LOL)의 챔피언 티어는 정리가 되어 있었으나, 챔피언 상성을 고려하여 정글 동선을 직접적으로 짜주는 프로그램은 없었다.&lt;br>
-이에 따라 우리는 챔피언 상성을 바탕으로 분기문을 만들어 정글 동선을 추천하는 프로그램을 만들고자 하였다.&lt;br>
-또한 승률에 기반한 추천 챔프를 콤보박스로 알려주는 기능 또한 넣어 밴픽 편의성을 증대하였다.&lt;/p>
-&lt;h2 id="simualation">Simualation&lt;/h2>
-&lt;ol>
-&lt;li>아무것도 출력되기 전&lt;/li>
-&lt;/ol>
-&lt;p>&lt;img src="https://alsspp01.github.io/image/LRP/rift.jpg" alt="협곡사진">&lt;/p>
-&lt;ol start="2">
-&lt;li>전 라인 상성이 좋은 경우 사진&lt;/li>
-&lt;/ol>
-&lt;p>&lt;img src="https://alsspp01.github.io/image/LRP/buffs.jpg" alt="출력물">&lt;/p>
-&lt;p>[ 출력 구문 ]&lt;/p>
-&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-python" data-lang="python">&lt;span style="display:flex;">&lt;span>역버프를 추천드립니다&lt;span style="color:#f92672">.&lt;/span> &lt;span style="color:#75715e"># 정글 챔프 승률 기반 - 승률이 높으면 정버프 / 낮으면 역버프&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>미드갱을 추천드립니다&lt;span style="color:#f92672">.&lt;/span> &lt;span style="color:#75715e"># 승률이 똑같이 모두 높을 경우 라인 우선순위 미드, 탑, 바텀 순서&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>모든 오브젝트 싸움에서 이길 확률이 높습니다&lt;span style="color:#f92672">.&lt;/span> 최대한 챙기세요&lt;span style="color:#f92672">.&lt;/span> &lt;span style="color:#75715e"># 모든 경우의 수를 고려하여 하나하나 책정&lt;/span>
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="잘-된-점">잘 된 점&lt;/h2>
-&lt;ol>
-&lt;li>당시에 승률 기반 밴픽 추천 기능이나, 정글 동선 추천 기능이 없었음.&lt;/li>
-&lt;li>특히 상대 승률 기반 정글 동선 추천 기능은 지금까지도 없음. (변수가 너무 많아서)&lt;/li>
-&lt;li>이를 공식화하려 한 시도는 굉장히 참신했고, 정글링에 대한 이해도가 없는 플레이어들에게 도움이 될 수 있을만한 프로그램이었을 것이라 생각함.&lt;/li>
-&lt;/ol>
-&lt;h2 id="아쉬운-점">아쉬운 점&lt;/h2>
-&lt;ol>
-&lt;li>1학년 때 만든 간단한 프로그램이라 크롤링에 의존한 데이터 수집을 할 수 밖에 없던 점&lt;/li>
-&lt;li>데이터에 기반한 기준이 아닌 임의의 기준을 사용한 점&lt;/li>
-&lt;li>당시 영어를 좀 더 잘했으면 Riot Developer Potal에서 소환사의 협곡 맵이나 오브젝트들의 사진을 가져올 수 있었을 텐데, 잘 몰라서 직접 가져와야 했음&lt;/li>
-&lt;/ol>
-&lt;p>-&amp;gt; 이 때의 아쉬웠던 마음을 발판삼아 롤 API 데이터를 활용하여 서비스를 제공하는 사이트 제작 프로젝트 진행 중&lt;/p></description></item></channel></rss>
+&lt;p>A parsing AI system that analyzes SQL statements to determine whether they are SQL injection statements or regular SQL statements.&lt;/p></description></item><item><title>우리 정글 머함? 우정머</title><link>https://alsspp01.github.io/projects/lrp/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://alsspp01.github.io/projects/lrp/</guid><description>&lt;p>승률 검색 사이트에서 크롤링한 상대적인 승률을 바탕으로 게임 초반 정글 동선을 추천해주는 프로그램.&lt;/p>
+&lt;p>With crawled data of the relative win rate from existing site,
+this program recommends a jungler’s path in the begining of the game.&lt;/p></description></item></channel></rss>

@@ -56,3 +56,8 @@ type: page
 ### 5. [우리 정글 머함? 우정머](/projects/lrp/)
 #### League of Legends Recommand Program
 ##### period: 2021 09 ~ 2021 12
+
+> 승률 검색 사이트에서 크롤링한 상대적인 승률을 바탕으로 게임 초반 정글 동선을 추천해주는 프로그램.
+>
+> With crawled data of the relative win rate from existing site,
+> this program recommends a jungler’s path in the begining of the game.
