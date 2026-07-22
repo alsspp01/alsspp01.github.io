@@ -6,3 +6,5 @@
 editor/
 .hugo_build.lock
 push2github.sh
+info4blog.md
+image4blog/
