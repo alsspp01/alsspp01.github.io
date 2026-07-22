@@ -1,17 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on Dyun's blog</title><link>https://alsspp01.github.io/posts/</link><description>Recent content in Posts on Dyun's blog</description><generator>Hugo</generator><language>en</language><lastBuildDate>Wed, 22 Jul 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://alsspp01.github.io/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>블로그 구축기 01 - 블로그 재구축</title><link>https://alsspp01.github.io/posts/%EB%B8%94%EB%A1%9C%EA%B7%B8-%EA%B5%AC%EC%B6%95%EA%B8%B0-01-%EB%B8%94%EB%A1%9C%EA%B7%B8-%EC%9E%AC%EA%B5%AC%EC%B6%95/</link><pubDate>Wed, 22 Jul 2026 00:00:00 +0000</pubDate><guid>https://alsspp01.github.io/posts/%EB%B8%94%EB%A1%9C%EA%B7%B8-%EA%B5%AC%EC%B6%95%EA%B8%B0-01-%EB%B8%94%EB%A1%9C%EA%B7%B8-%EC%9E%AC%EA%B5%AC%EC%B6%95/</guid><description>&lt;h2 id="개요">개요&lt;/h2>
-&lt;p>개인 블로그(&lt;code>alsspp01.github.io&lt;/code>)를 정적 사이트 생성기(Static Site Generator)인 Hugo로 재구축하고, GitHub Pages 및 GitHub Actions를 활용한 자동 배포 환경을 파이프라인으로 구성했습니다. 이번 글에서는 블로그 사이트 자체의 보수 내역과 아키텍처를 개발 문서 형태로 정리합니다.&lt;/p>
-&lt;h2 id="시스템-아키텍처">시스템 아키텍처&lt;/h2>
-&lt;p>[ 블로그 구성 아키텍처 다이어그램 ]&lt;/p>
-&lt;p>블로그 시스템의 핵심 구성 요소는 다음과 같습니다.&lt;/p>
-&lt;ul>
-&lt;li>&lt;strong>SSG Engine&lt;/strong>: Hugo&lt;/li>
-&lt;li>&lt;strong>Theme&lt;/strong>: Gokarna (Custom Fork)&lt;/li>
-&lt;li>&lt;strong>Hosting&lt;/strong>: GitHub Pages&lt;/li>
-&lt;li>&lt;strong>CI/CD Pipeline&lt;/strong>: GitHub Actions&lt;/li>
-&lt;li>&lt;strong>Dynamic Backend Service&lt;/strong>: SQLite + Tailscale Funnel (좋아요/공유 연동)&lt;/li>
-&lt;/ul>
-&lt;h2 id="hugo-및-테마-커스터마이징">Hugo 및 테마 커스터마이징&lt;/h2>
-&lt;p>&lt;code>gokarna&lt;/code> 테마를 커스텀 포크하여 사용 중이며, 개인 블로그의 목적에 맞게 파셜(Partial) 템플릿과 스타일을 보수했습니다.&lt;/p></description></item><item><title>블로그 활성화 - PART 01. Github Blog</title><link>https://alsspp01.github.io/posts/%EB%B8%94%EB%A1%9C%EA%B7%B8-%ED%99%9C%EC%84%B1%ED%99%94-part-01-github-blog/</link><pubDate>Wed, 22 Jul 2026 00:00:00 +0000</pubDate><guid>https://alsspp01.github.io/posts/%EB%B8%94%EB%A1%9C%EA%B7%B8-%ED%99%9C%EC%84%B1%ED%99%94-part-01-github-blog/</guid><description>&lt;h2 id="1-개요">1. 개요&lt;/h2>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on Dyun's blog</title><link>https://alsspp01.github.io/posts/</link><description>Recent content in Posts on Dyun's blog</description><generator>Hugo</generator><language>en</language><lastBuildDate>Wed, 22 Jul 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://alsspp01.github.io/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>블로그 활성화 - PART 01. Github Blog</title><link>https://alsspp01.github.io/posts/%EB%B8%94%EB%A1%9C%EA%B7%B8-%ED%99%9C%EC%84%B1%ED%99%94-part-01-github-blog/</link><pubDate>Wed, 22 Jul 2026 00:00:00 +0000</pubDate><guid>https://alsspp01.github.io/posts/%EB%B8%94%EB%A1%9C%EA%B7%B8-%ED%99%9C%EC%84%B1%ED%99%94-part-01-github-blog/</guid><description>&lt;h2 id="1-개요">1. 개요&lt;/h2>
 &lt;p>본 문서는 GitHub Pages와 정적 사이트 생성기(Static Site Generator)인 Hugo를 활용하여 개인 기술 블로그를 구축한 내역을 정리합니다. 프로젝트 개발 환경 설정, Hugo 디렉터리 구조, 기본 설정 파일(&lt;code>hugo.toml&lt;/code>), GitHub Actions 기반의 자동 배포(CI/CD) 파이프라인 구축과 더불어, 블로그 사용자 경험(UX) 향상을 위해 추가한 커스텀 기능 구현 사항을 다룹니다.&lt;/p>
 &lt;hr>
 &lt;h2 id="2-저장소-구조-및-환경-구성">2. 저장소 구조 및 환경 구성&lt;/h2>
