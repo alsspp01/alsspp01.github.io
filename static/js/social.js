@@ -12,39 +12,48 @@
     return id;
   }
 
+  var HEART_OUTLINE = "♡"; // ♡
+  var HEART_FILLED = "♥"; // ♥
+
   function initLikeButton(root) {
     var postKey = root.dataset.postKey;
     var apiBase = root.dataset.apiBase;
     var button = root.querySelector("#like-button");
     var countEl = root.querySelector("#like-count");
+    var iconEl = root.querySelector("#like-icon");
     if (!postKey || !apiBase || !button || !countEl) return;
 
     var clientId = getClientId();
     var cacheKey = "liked:" + postKey;
 
-    function setLiked(count) {
-      countEl.textContent = String(count);
+    function markLiked() {
       button.disabled = true;
       button.classList.add("liked");
+      if (iconEl) iconEl.textContent = HEART_FILLED;
       localStorage.setItem(cacheKey, "1");
     }
 
     if (localStorage.getItem(cacheKey) === "1") {
-      button.disabled = true;
-      button.classList.add("liked");
+      markLiked();
     }
 
     fetch(apiBase + "/api/likes?post=" + encodeURIComponent(postKey) + "&client_id=" + encodeURIComponent(clientId))
       .then(function (res) { return res.json(); })
       .then(function (data) {
         countEl.textContent = String(data.count || 0);
-        if (data.liked) setLiked(data.count);
+        if (data.liked) markLiked();
       })
       .catch(function () { /* backend unreachable — leave default state */ });
 
     button.addEventListener("click", function () {
       if (button.disabled) return;
-      button.disabled = true;
+
+      // Optimistic update: reflect the like immediately, let the server
+      // request settle in the background — no need to wait on it.
+      var optimisticCount = (parseInt(countEl.textContent, 10) || 0) + 1;
+      countEl.textContent = String(optimisticCount);
+      markLiked();
+
       fetch(apiBase + "/api/likes", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
@@ -52,10 +61,10 @@
       })
         .then(function (res) { return res.json(); })
         .then(function (data) {
-          if (typeof data.count === "number") setLiked(data.count);
-          else button.disabled = false;
+          // Reconcile with the authoritative server count once it arrives.
+          if (typeof data.count === "number") countEl.textContent = String(data.count);
         })
-        .catch(function () { button.disabled = false; });
+        .catch(function () { /* server will catch up eventually; keep the optimistic state */ });
     });
   }
 
