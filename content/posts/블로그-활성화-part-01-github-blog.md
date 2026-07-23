@@ -1,7 +1,7 @@
 ---
 title: "블로그 활성화 - PART 01. Github Blog"
 date: 2026-07-22
-description: "Project DIA(Do It, AI) #2"
+description: "Project DIA(Do It, AI) #1"
 image: 
 type: "post"
 tags: ["DIA", "Hugo", "github-pages", "CI/CD"]

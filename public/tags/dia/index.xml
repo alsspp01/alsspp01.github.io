@@ -5,7 +5,13 @@
 &lt;li>&lt;strong>Frontend&lt;/strong>: 빌드 도구나 프레임워크 없이 브라우저가 직접 실행하는 Vanilla JS, HTML, CSS (&lt;code>app.js&lt;/code> 약 1,500라인).&lt;/li>
 &lt;li>&lt;strong>독립된 저장소&lt;/strong>: 블로그 코드와 에디터 코드가 완전히 분리된 구조다. 에디터의 소스 코드와 API 키 등 보안에 민감한 정보가 퍼블릭 블로그 저장소에 노출되지 않도록 설계했다.&lt;/li>
 &lt;/ul>
-&lt;p>[ 3단 레이아웃 UI 화면 사진 ]&lt;/p></description></item><item><title>블로그 활성화 - PART 01. Github Blog</title><link>https://alsspp01.github.io/posts/%EB%B8%94%EB%A1%9C%EA%B7%B8-%ED%99%9C%EC%84%B1%ED%99%94-part-01-github-blog/</link><pubDate>Wed, 22 Jul 2026 00:00:00 +0000</pubDate><guid>https://alsspp01.github.io/posts/%EB%B8%94%EB%A1%9C%EA%B7%B8-%ED%99%9C%EC%84%B1%ED%99%94-part-01-github-blog/</guid><description>&lt;h2 id="1-개요">1. 개요&lt;/h2>
+&lt;p>[ 3단 레이아웃 UI 화면 사진 ]&lt;/p></description></item><item><title>블로그 활성화 - PART 03. AI blogging manual</title><link>https://alsspp01.github.io/posts/%EB%B8%94%EB%A1%9C%EA%B7%B8-%ED%99%9C%EC%84%B1%ED%99%94-part-03-ai-blogging-manual/</link><pubDate>Thu, 23 Jul 2026 00:00:00 +0000</pubDate><guid>https://alsspp01.github.io/posts/%EB%B8%94%EB%A1%9C%EA%B7%B8-%ED%99%9C%EC%84%B1%ED%99%94-part-03-ai-blogging-manual/</guid><description>&lt;h3 id="블로그-작성-소스-만들기">블로그 작성 소스 만들기&lt;/h3>
+&lt;h4 id="info4blog-작성">info4blog 작성&lt;/h4>
+&lt;p>Claude에 아래 트리거 입력&lt;/p>
+&lt;p>&lt;code>info4blog 갱신 (마지막 작성일: YYYY-MM-DD)&lt;/code>&lt;/p>
+&lt;p>마지막 작성일이 없다면&lt;/p>
+&lt;p>&lt;code>info4blog 갱신&lt;/code>&lt;/p>
+&lt;p>으로 요청.&lt;/p></description></item><item><title>블로그 활성화 - PART 01. Github Blog</title><link>https://alsspp01.github.io/posts/%EB%B8%94%EB%A1%9C%EA%B7%B8-%ED%99%9C%EC%84%B1%ED%99%94-part-01-github-blog/</link><pubDate>Wed, 22 Jul 2026 00:00:00 +0000</pubDate><guid>https://alsspp01.github.io/posts/%EB%B8%94%EB%A1%9C%EA%B7%B8-%ED%99%9C%EC%84%B1%ED%99%94-part-01-github-blog/</guid><description>&lt;h2 id="1-개요">1. 개요&lt;/h2>
 &lt;p>본 문서는 Hugo 정적 사이트 생성기(Static Site Generator)와 GitHub Pages, GitHub Actions를 활용하여 개인 블로그를 구축하고 자동 배포 파이프라인을 설정한 과정을 정리한다. 외부 라이브러리 의존성을 최소화하고 CI/CD 파이프라인을 통해 배포 과정을 자동화하는 것을 목표로 한다.&lt;/p>
 &lt;hr>
 &lt;h2 id="2-hugo-사이트-구조-및-설정">2. Hugo 사이트 구조 및 설정&lt;/h2>

@@ -1,7 +1,7 @@
 ---
 title: "블로그 활성화 - PART 02. Blog Editor"
 date: 2026-07-23
-description: "Project DIA(Do It, AI) #3"
+description: "Project DIA(Do It, AI) #2"
 image: 
 type: "post"
 tags: ["DIA", "Python", "Hugo", "Regex"]
