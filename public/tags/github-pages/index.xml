@@ -12,12 +12,4 @@
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>└── .github/
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> └── workflows/
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> └── deploy.yml
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>기본 설정 파일인 &lt;code>config.toml&lt;/code>은 다음과 같이 작성했다.&lt;/p></description></item><item><title>블로그 활성화 - PART 02. Blog Editor</title><link>https://alsspp01.github.io/posts/%EB%B8%94%EB%A1%9C%EA%B7%B8-%ED%99%9C%EC%84%B1%ED%99%94-part-02-blog-editor/</link><pubDate>Wed, 22 Jul 2026 00:00:00 +0000</pubDate><guid>https://alsspp01.github.io/posts/%EB%B8%94%EB%A1%9C%EA%B7%B8-%ED%99%9C%EC%84%B1%ED%99%94-part-02-blog-editor/</guid><description>&lt;p>이전 포스트에서 블로그의 전반적인 아키텍처와 기능을 다루었다면, 이번에는 로컬에서 마크다운 파일을 직접 생성하고 수동으로 배포하는 번거로움을 해결하기 위해 개발한 전용 관리 도구인 **&amp;lsquo;Blog Editor&amp;rsquo;**를 자세히 소개한다.&lt;/p>
-&lt;h3 id="1-개발-배경">1. 개발 배경&lt;/h3>
-&lt;p>Hugo 기반의 정적 사이트(SSG)는 우수한 보안성과 빠른 속도를 자랑하지만, 콘텐츠를 관리할 때 다음과 같은 번거로운 단계를 거쳐야 한다.&lt;/p>
-&lt;ol>
-&lt;li>로컬 환경에서 마크다운 파일 생성 및 프론트매터(Front Matter) 메타데이터 수동 작성&lt;/li>
-&lt;li>로컬 서버(&lt;code>hugo server&lt;/code>)를 구동하여 렌더링 결과 확인&lt;/li>
-&lt;li>변경 사항을 Git 명령어(&lt;code>git add&lt;/code>, &lt;code>commit&lt;/code>, &lt;code>push&lt;/code>)를 통해 원격 저장소에 수동 반영&lt;/li>
-&lt;/ol>
-&lt;p>이러한 로컬 종속성과 번거로운 작성 흐름을 개선하고, 브라우저 환경에서 쉽고 빠르게 글을 쓰고 배포할 수 있도록 셀프 호스팅 기반의 웹 도구인 &lt;strong>Blog Editor&lt;/strong>를 직접 구축했다.&lt;/p></description></item></channel></rss>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>기본 설정 파일인 &lt;code>config.toml&lt;/code>은 다음과 같이 작성했다.&lt;/p></description></item></channel></rss>
