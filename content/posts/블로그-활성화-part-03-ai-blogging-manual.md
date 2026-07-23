@@ -1,7 +1,7 @@
 ---
 title: "블로그 활성화 - PART 03. AI blogging manual"
 date: 2026-07-23
-description: "DIA(Do It, AI) #prompt"
+description: "Project DIA(Do It, AI) #prompt"
 image: 
 type: "post"
 tags: ["DIA", "blog"]
