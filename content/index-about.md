@@ -6,7 +6,8 @@
 [25\`~26\`]INEEJI PM\n
   
 > My name is Min Yewon(Dyun).\n
-> I'm in charge of leader&game designer in team D3F!B.\n
+> I'm in charge of leader&game designer in team D3F!B.
+> \n
 > [21\`-25\`] Graduated in Department of Industrial Security at Dankook Univ.\n
 > [25\`-26\`] INEEJI Project Manager\n
   
