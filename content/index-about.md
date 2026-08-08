@@ -2,13 +2,13 @@
 
 게임 개발 팀 D3F!B 대표&총괄기획 민예원(Dyun)입니다.  
 
-[21\`~25\`]단국대학교 산업보안학과 졸업  
-[25\`~26\`]INEEJI PM  
+[21\`~25\`]단국대학교 산업보안학과 졸업\n
+[25\`~26\`]INEEJI PM\n
   
-> My name is Min Yewon(Dyun).  
-> I'm in charge of leader&game designer in team D3F!B.  
-> [21\`-25\`] Graduated in Department of Industrial Security at Dankook Univ.    
-> [25\`-26\`] INEEJI Project Manager  
+> My name is Min Yewon(Dyun).\n
+> I'm in charge of leader&game designer in team D3F!B.\n
+> [21\`-25\`] Graduated in Department of Industrial Security at Dankook Univ.\n
+> [25\`-26\`] INEEJI Project Manager\n
   
   
 ### 🌟 자기소개서 [▶ LINK](/personal_statement/)
