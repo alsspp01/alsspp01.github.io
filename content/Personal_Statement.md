@@ -5,251 +5,83 @@ type: page
 
 <div style="border: 2px solid #A8D8E5; width: 40%; padding: 10px; margin: 20px auto; text-align: center; align-items: center;">
   <h3 style="font-weight: bold;">
-    <a href="#Personal_history">  🐣 성장 과정  </a><br><br><a href="#features">  🔍특징  </a><br><br><a href="#work">  🚀작업물🚀  </a>
+    <a href="#growth">  🌱 저를 만들어온 시간들  </a><br><br><a href="#strength">  🧩 핵심 강점  </a><br><br><a href="#adaptability">  🚀 적응력과 실행력  </a><br><br><a href="#focus">  🎯 몰입과 다음 목표  </a>
   </h3>
 </div>
 <br>
 <br>
-<br>
-<h2 id="Personal_history">🐣 성장 과정</h2>
 
-> Personal history
+<div class="lang-ko">
 
-저는 자유로운 청소년기를 보냈습니다.  
-집안 사정이 다소 어려웠지만, 저의 세상에는 재밌는 것이 많았기에 부족함을 느끼지 못했습니다.  
-저는 피아노를 치고 놀이를 만들었고, 어떨 때는 그림을 그리고, 또 다른 떄는 물리학에 빠지기도 했습니다.  
-고등학교 시절에는 친구와 수학 문제를 같이 풀며 토론하곤 하는 게 일상이었습니다.  
-저는 이 세상의 작동 방식과 논리 구조가 재밌고 또 흥미로웠습니다.  
+<h2 id="growth">🌱 저를 만들어온 시간들</h2>
 
-그렇게 저는 논리적이고 합리적인 것을 중요시하는 사람으로 자라났습니다.  
-그러나 성인이 된 후 본 세상은 더 넓었고, 논리만으로 해결되지 않는 현상들이 일어났습니다.  
-저는 그제서야 경험적인 판단의 중요성과 가치를 깨닫고, 졸업 학년에 좀 더 많은 경험을 하고자 했습니다.  
-특히 게임 개발, 데이터 분석 연구 참여, 졸업 프로젝트 참여 등 프로젝트성 경험에 뛰어들었습니다.  
+저는 논리와 원리를 파고드는 걸 좋아하는 사람으로 자랐습니다.  
+피아노를 치다가도 문득 화성 구조가 궁금해졌고, 수학 문제는 답보다 풀이 과정을 친구와 나누는 게 더 재밌었습니다.  
+세상이 정돈된 논리로 움직인다고 믿었던 시기였습니다.
 
-그 중 게임 개발 과정에서 많은 교훈을 얻었습니다.  
-다른 프로젝트는 다소 성공적으로 해내었으나, 게임 개발은 실패를 5번 할 정도로 쉽지 않았기 때문입니다.  
-다섯 번째 실패를 겪었을 때, 저는 많이 지쳐있었습니다.  
-그럼에도 불구하고 다시 일어설 수 있었던 건 팀원들의 비판과 응원 덕분이었습니다.  
-팀원들의 피드백을 통해 저는 사람의 소중함과 최선을 다하는 태도의 중요성을 깨달았고, 제 능력에 대한 객관적인 시각을 가지게 되었습니다.   
-  
-제게는 다양한 분야를 즐기며 빠르게 배우는 능력이 있다고 생각합니다.  
-그 덕분에 저는 여러 분야에서 고르게 능력을 쌓을 수 있었으며, 이는 제 강점이 되었습니다.  
-과거에는 제가 하나에 집중하지 못한다고 느꼈지만, 이제는 여러가지를 해내는 모습이 제 장점이라고 생각합니다.  
-만약 제 능력치를 육각형으로 표현한다면, 밑변이 탄탄하기에 평면을 넘어서 위로 안정적으로 올라가는 육각뿔이 될 수 있을 것입니다.  
-예를 들어, 복잡한 문제들을 다룰 때 저는 다양한 관점을 고려하여 유연하고 창의적인 방법으로 해결책을 찾아낼 수 있습니다.  
+성인이 되고 마주한 세상은 그보다 훨씬 넓었습니다.  
+논리만으로는 설명되지 않는 일들이 생겼고, 저는 경험을 통해 판단하는 법의 가치를 뒤늦게 깨달았습니다.  
+그래서 졸업 학년에는 일부러 더 많은 프로젝트에 뛰어들었습니다.  
+게임 개발, 데이터 분석 연구, 졸업 프로젝트를 동시에 진행하며 단국대학교 산업보안학과에서 배운 논리적 사고를 실제 문제에 부딪혀 검증해보고 싶었습니다.
 
-장점을 인지하자, 저는 점점 더 많은 도전을 하고 싶다는 욕망을 가지게 되었습니다.  
-그 욕망은 단순히 지식을 습득하는 것을 넘어서, 더 넓은 세상과 마주하고 더 다양한 사람들과 협업하며 경험을 쌓고자 하는 마음으로 이어졌습니다.  
-그래서 저는 항상 새로운 기회를 찾고, 끊임없이 배우며 성장할 수 있는 환경을 추구하게 되었습니다.  
-
-앞으로도 저는 이 성장의 길을 계속해서 걸어갈 것입니다.
-많은 도전과 경험을 통해 제 자신을 더욱 발전시키려 노력할 것이며, 그 과정에서 얻는 깨달음들은 제 삶을 풍요롭고 의미 있게 만들어줄 것이라 확신합니다.  
-그럼으로 저는 단순히 개인적인 성장을 넘어서, 제 주위의 사람들과 세상에도 긍정적인 영향을 미칠 수 있는 사람이 되고 싶습니다.
+그 중에서도 게임 개발은 유독 쉽지 않았습니다.  
+다섯 번의 실패를 거치며 지칠 대로 지쳤지만, 그때마다 다시 일어설 수 있었던 건 팀원들의 냉정한 피드백과 응원 덕분이었습니다.  
+그 과정에서 제 능력을 객관적으로 보는 눈을 얻었고, 지금의 저를 만든 두 가지 기준 — 구조를 읽어내는 논리와, 사람과 함께 만들어가는 경험 — 을 갖추게 되었습니다.
 
 <br>
+
+<h2 id="strength">🧩 핵심 강점 — 낯선 구조를 읽고, 사람 중심으로 재구성하는 힘</h2>
+
+제가 가장 자신 있는 능력은 낯선 코드나 시스템의 구조를 빠르게 파악하고, 그것을 사용하는 사람을 기준으로 다시 짜는 일입니다.
+
+대학 시절 시큐어 코딩 수업에서 ELF 바이너리를 직접 분석한 적이 있습니다.  
+objdump와 readelf로 PLT/GOT를 추적해, 암호 검증 로직에 rand() 함수가 XOR로 숨겨져 있다는 걸 찾아냈고, 바이너리를 패치해 rand()가 항상 0을 반환하도록 만들어 숨겨진 비밀키를 추출해냈습니다.  
+구조를 원리부터 뜯어보는 이 습관은 이후 OllyDbg를 이용한 멀웨어 분석, 그리고 졸업 프로젝트인 SQL Injection 방지 솔루션 'SIAM-W'와 정확도 98.5%의 SQL Injection 탐지 AI 개발로 이어졌습니다.
+
+같은 힘은 사용자를 향할 때 다른 얼굴을 합니다.  
+Arcanum Nights를 전시할 때, 튜토리얼 단계를 늘렸는데도 플레이어들이 오히려 더 헷갈려한다는 걸 관찰했습니다.  
+저는 원인이 텍스트 위주의 설명 구조 자체에 있다고 판단해, 튜토리얼을 인터랙티브한 퍼즐 형태로 다시 설계하고 텍스트 대신 아이콘과 애니메이션으로 안내하도록 바꿨습니다.  
+그 결과 전시 참가자의 약 80%가 별도 설명 없이도 튜토리얼을 완료할 수 있었습니다.
+
+시스템이든 사용자 경험이든, 저는 항상 "왜 이렇게 짜였는가"를 먼저 묻고 그 다음 "무엇을 위해 다시 짜야 하는가"를 답합니다.  
+이런 이유로 저는 프로덕트 디자인, PM, 보안 엔지니어라는 서로 달라 보이는 세 직무 모두에 지원하고 있습니다.  
+세 직무 모두 결국 복잡한 구조를 이해하고, 그것을 사람 — 사용자 또는 시스템 — 의 입장에서 다시 설계한다는 같은 뿌리를 공유한다고 생각하기 때문입니다.
+
+<br>
+
+<h2 id="adaptability">🚀 다양한 역할에서 증명한 적응력과 실행력</h2>
 
 ![육각뿔 능력치](/image/profile/HexagonalPyramid.png)
-<!--
-> I spent a free-spirited adolescence.  
-> Although my family’s financial situation was somewhat difficult, there were so many interesting things in my world that I never felt a lack of anything.  
-> I played the piano, created games, sometimes drew, and at other times, I immersed myself in physics.  
-> During high school, I enjoyed discussing to solve math problems with friends.  
-> How the world works and its logical structure constructs was both fun and fascinating for me.  
-> 
-> Accordingly, I grew up as someone who values logic and reason.  
-> After becoming an adult, the world around me felt much larger, and I encountered phenomena that could not be solved through logic alone.  
-> I realized the importance and value of experiential judgment, so in my senior year in university, I decided to gain more experiences.  
-> I dove into project-based experiences such as game development, participating in data analysis research, and contributing to my graduation project.  
-> 
-> Especially, I learned many lessons during the game development process.  
-> While I was able to successfully complete other projects, game development was much more difficult, with five failures along the way.  
-> When I had to face my fifth failure, I was extremely exhausted.  
-> However, what helped me rise again were the encouragements and feedbacks from my team members.  
->   
-> Through their feedback, I realized once more about the importance of treating people properly and maintaining a mindset of doing my best.  
-> And moreover, I was also able to objectively assess my own abilities.  
-> I have a talent for quickly learning something new while enjoying the various aspects of the world as contents.
-> As a result, my skill set shaped into a hexagon, with each facet being slightly above average.  
->    
-> In the past, I felt discouraged by the thought, "I am someone who couldn’t succeed at anything properly".  
-> However, after receiving feedback from my team and gaining various experiences, I could begin to think on a higher level.  
-> If my hexagonal skill set were to rise beyond the flat surface, I could become a hexagonal pyramid, climbing upwards more steadily than anyone else.  
->  
-> I realized that there is so many things I can do, if I view the world from a new perspective with the logical mindset and my combined abilities.  
->   
-> This can be an advantage in any field.  
-> And particularly in situations where I need to create new algorithms, it would be significant strength that I can consider multiple angles.  
-> Recognizing these strengths, I got a courage to step out into the world.  
-> And I also developed a desire to see and experience more.  
->   
-> This is how I grew into someone who yearns for and enjoys exploring unknown worlds.  
-> I want to accumulate more experiences and gain even more insights.  
-> I have no doubt that the experiences I will encounter in my future will further elevate my hexagonal pyramid.  
-  -->
-<br>
-<br>
 
-***
+2024년 3월부터 2025년 5월까지 단국대학교 스포츠심리학 연구실에서 개발 리드를 맡아, Riot Games API로 게임 데이터를 수집하는 파이프라인과 PyQt/Pygame 기반 인지 테스트 도구를 직접 설계하고 만들었습니다.  
+2025년에는 인이지(INEEJI)에서 PM으로 근무하며 기상과학원 AI예보지원 프로젝트를 담당해, 4개 기관 간 소통을 조율하고 별도 강제 없이도 일주일 만에 4개 프로젝트에 자연스럽게 채택된 Notion 템플릿을 설계했습니다.  
+그리고 그 사이 내내, 게임 개발팀 D3F!B에서 리드 프로덕트 디자이너 겸 테크니컬 게임 디자이너로서 10명 규모의 팀을 이끌며 'Arcanum Nights'를 개발했습니다.
 
-<br>
-<h2 id="features">🔍특징</h2>
+1인 개발로 시작한 이 프로젝트는 기획이 구체화되며 팀을 꾸렸고, 전시와 데모를 거듭하며 네 번의 공개 버전을 만들었습니다.  
+그 과정에서 핵심 루프에서 플레이어의 주의를 흐트러뜨린다고 판단한 '히든 챌린지' 기능을 과감히 숨기는 등, 관찰과 데이터를 근거로 한 결정을 반복했습니다.  
+그렇게 파트타임으로 약 1년 만에 Steam Early Access 출시에 성공했습니다.
 
-> Features
-
-  
-<div style="border: 2px solid #A8D8E5; padding: 10px; display: flex; margin: 20px auto; justify-content: flex-start; align-items: center; white-space: pre;">
-  💡&emsp;<a href="#metamon">#️⃣ 메타몽</a>&emsp;
-  <a href="#Big_J">#️⃣ 대문자_J</a>&emsp;
-  <a href="#Bus_Driver">#️⃣ 프로_버스기사</a>&emsp;
-  <a href="#Addict">#️⃣ 도파민_중독자</a>  
-</div>
-
-<h3 id="metamon">#️⃣ 메타몽</h3>
-
-> 빠른 학습과 적응 능력
- 
-<br>
-
-![Ditto](/image/profile/metamon.png)
-
-<br>
-<br>
-
-포켓몬스터의 메타몽은 상황에 따라 원하는 형태로 변신할 수 있는 포켓몬입니다.  
-저는 두 가지 이유로 이 메타몽에 가깝다고 할 수 있습니다.  
-  
-<h4>첫째, 배우는 게 빠릅니다.</h4>
-  
-저는 새로운 분야라도 일단 시작하면 활용할 수 있게 되는 데 소요되는 시간이 짧습니다.  
-게임 개발을 하기로 마음 먹었을 때에는 책 한 권을 사서 C#과 Unity의 기본 구조를 일주일 동안 써보면서 익히고 바로 2D 게임 제작에 혼자 뛰어들었었고,  
-대학교 시절에도 교수님의 설명을 빠르게 이해해 “옆에 친구한테 물어봐.”의 ‘옆에 친구’를 자주 맡았습니다.  
-OllyDbg나 Flutter 같은 아예 새로운 프로그램도 빠른 속도로 흡수하여 다른 학우들을 도와주곤 했습니다.  
-이런 능력 덕분에 여러 개발 직군에 대한 이해를 쌓았고, 게임 제작 프로젝트에서는 총괄 기획자로서 테크니컬 디자인 또한 맡고 있습니다.  
-새로운 것을 배우고 빠르게 적용하는 능력은 저를 변화하는 환경에서도 유연하게 적응할 수 있게 합니다.  
-
-<br>
-<h4>둘째, 응용 능력이 뛰어납니다.</h4> 
-  
-저는 단순히 외우기보다 원리를 분석하며 공부하는 스타일입니다.  
-이 덕분에 심화 과정이나, 다른 분야와 연결할 때 쉽게 적응할 수 있었습니다.  
-특히 대학 시절 수강했던  OS나 시큐어 코딩 과목에서는 당시 처음 배우는 개념이었던 Linux, OpenSSL 오픈소스 라이브러리, 바이너리(ELF 파일 등) 분석을 학습하며, 암호, 코드 인젝션 및 하이재킹 등 보안적인 지식을 융합시켜야 했습니다.  
-이 과정에서 많은 시행착오를 겪었지만, 디버깅을 통해 공부해가면서 오류와 싸워서 이겨냈고, 선배들을 포함해 결과물을 제대로 완성한 몇 안 되는 사람 중 하나가 될 수 있었습니다.   
-이런 경험의 연속에서, 저는 다양한 분야에서 스스로 문제를 해결할 수 있을 것이라는 자신감을 얻을 수 있었습니다.  
+서로 다른 조직, 서로 다른 역할을 오갔지만 매번 짧은 적응 기간 안에 제 몫을 해냈습니다.  
+제 능력치를 육각형으로 그린다면 어느 한쪽으로도 치우치지 않을 것이고, 각 분야의 경험이 서로를 지지해주기에 이 육각형은 평면에 머무르지 않고 위로 쌓여 올라가는 육각뿔이 될 수 있었다고 생각합니다.
 
 <br>
 
-이 두 가지 능력으로 저는 다양한 상황에서 메타몽처럼 변신하며 빠르게 적응할 수 있습니다.  
-실제로 2024년에는 연구실 개발직 아르바이트를 할 때에는 데이터 분석가로,  
-게임 개발을 할 때에는 총괄 기획자 및 C# 개발자로,  
-AI 개발 프로젝트를 할 때에는 ML 개발자로서 맡은 바 소임을 다했습니다.  
-저는 앞으로 또 제가 어떤 환경에서 어떤 모습을 가지게 될지 기대하고 있습니다.  
+<h2 id="focus">🎯 몰입과 다음 목표</h2>
+
+저는 꼼꼼하고 디테일을 놓치지 않으려는 성향이 강합니다.  
+원격 협업 워크스페이스를 설계할 때도 Discord, Notion, Google Drive에 걸친 권한 구조와 정보 구조를 부서 단위까지 세세하게 나눴고, 회의록 작성과 메시지 예약까지 처리하는 디스코드 봇을 직접 만들어 반복 업무를 자동화했습니다.  
+이런 성향은 Arcanum Nights를 전시 때마다 손봐서 네 번이나 다시 내놓게 만든 원동력이기도 했습니다.
+
+지금은 Arcanum Nights의 정식 출시를 준비하는 동시에, 그 다음에 선보일 새로운 게임을 구상하고 있습니다.  
+하나의 결과물을 완성하는 경험이 쌓일수록, 저는 구조를 더 정확히 읽고 더 나은 방식으로 재구성할 수 있는 사람이 되어가고 있다고 느낍니다.
+
+앞으로도 낯선 문제를 마주할 때마다 그 구조를 먼저 이해하고, 사람을 중심에 둔 답을 찾아가는 사람이고 싶습니다.  
+프로덕트 디자인이든, PM이든, 보안 엔지니어링이든 — 어떤 자리에서든 이 능력으로 팀에 기여할 수 있다고 믿습니다.
 
 <br>
 
 ***
 
-<br>
-<h3 id="Big_J">#️⃣ 대문자_J</h3>
-
-> 계획적이고 추진력 있는 의사결정
-
-<br>
-<img src="/image/profile/Big_J.png" width="300" alt="대문자 J">
-<br>
-
-저는 MBTI에서 끝자리가 J 100%로, 체계적이고 계획적인 성격을 가지고 있습니다.  
-프로젝트나 과제를 시작할 때, 저는 항상 명확한 목표를 설정하고 그 목표를 달성하기 위한 구체적인 계획을 세웁니다.  
-이 때, 큰 목표부터 줄기, 가지, 잎 순서로 해야 할 일들을 세분화하고, 우선순위와 가지치기를 분명히 하여 효율적으로 작업을 진행합니다.  
-특히 예기치 못한 상황에 대비해 여유 시간을 확보하고, 그에 따라 계획을 유연하게 수정하여 마감에 쫓기는 일이 없습니다.  
-물론 할 일은 정해지자마자 즉시 추진하는 편입니다.  
-  
-2023년에 시작한 게임 개발 프로젝트는 처음에 1인 개발으로 시작했으나, 기획을 구체화 시키면서 혼자 진행하는 데 한계를 느꼈습니다.  
-그래서 팀을 구성하고, 원활한 작업을 위해 워크 스페이스와 개발 환경을 구축했습니다.  
-또한 매주/매달 회의 일정을 정하고 목표치를 설정한 뒤, 회의에서 피드백을 나누며 소정의 목표를 달성하는 문화를 만들어갔습니다.  
-그런데 프로젝트가 진행됨에 따라 예상치 못한 문제들이 계속 발생했습니다.  
-그 중 팀원 문제, 기획 문제, 일정 문제 등이 가장 큰 이슈였습니다.  
-저는 부서별 일정을 따로 관리하며 기획에서 날카로운 판단을 내리고, 면담을 진행하거나 불가피한 경우에는 팀원 제외 결정을 내리며 문제를 해결했습니다.  
-많은 고비가 있었으나 다행히 현재는 안정된 일정 내에 마무리될 수 있도록 정리되었습니다.  
-  
-저는 앞으로도 계획적이고 유연한 접근을 통해 다양한 프로젝트를 완수해 나갈 것입니다.  
-예기치 못한 변화에도 적절한 조정과 결단을 통해, 더욱 효과적으로 목표를 달성할 수 있습니다.  
-
-<br>
-
-***
-
-<br>
-<h3 id="Bus_Driver">#️⃣ 프로_버스기사</h3>
-
-> 리더십과 친화력
-
-<br>
-
-![신기한 스쿨버스](/image/profile/school_bus.png)
-<br>
-
-저는 팀 프로젝트에서 항상 팀장을 맡았고, 프로젝트를 항상 성공으로 이끌었습니다.  
-책임에 대한 두려움이 없고 자신감이 있었기 때문입니다.  
-  
-저는 발표자가 프로그램에 대해 가장 잘 알아야 한다고 생각하기 때문에, 할 줄 모른다고 발표를 시키는 일은 없었습니다.  
-무임승차에 대한 강경한 태도를 유지하며, 팀원들이 프로젝트에 각자 자신의 지분을 갖도록 했습니다.  
-우선 짧은 마감일을 부여하고, 마감일마다 진행 상황을 점검하고 피드백을 주고받았습니다.  
-또한 팀원들이 각자 맡은 부분을 충분히 이해하고 기여할 수 있도록 유도하며, 기술적으로 복잡한 일은 제가 직접 맡아 작품의 완성도를 높였습니다.  
-  
-그렇게 내내 팀장만 하다가 개인 프로젝트로 게임 팀을 운영하게 됐을 때엔  
-"항상 낙관적이고 편안하게 대해주지만, 필요할 때는 단호하게 리더십을 발휘하는 스타일”  
-이라는 평가를 팀원들에게 받을 수 있었습니다.  
-그런 평가를 받을 수 있던 것은 리더십의 영향도 있지만, 저의 친화력에서 우선 기인했다고 생각합니다.  
-저는 팀원들과 원활한 관계를 유지하려 노력합니다.  
-팀원들이 편안하고 열린 마음으로 의견을 낼 수 있는 환경을 만들어야 프로젝트가 잘 돌아간다고 믿기 때문입니다.  
-  
-저는 기본적으로 낯을 가리지 않고 사람들과 쉽게 친해집니다.  
-수업에서 친해진 스페인 친구와 썰매를 타거나 과제를 같이 하기도 하고, 모두가 어색한 학기 초반에 과 대표를 자처하여 모두를 동기들을 결속시키기도 했습니다.  
-이런 친화력은 처음 보는 팀원이나 어색한 팀원과도 원활한 소통을 할 수 있게 해 주었고,  
-실제로 원활한 소통과 비판은 저 팀의 발전과 저 스스로의 발전에도 긍정적인 영향을 주었습니다. 
-  
-저의 이런 리더십과 친화력은 버스의 엔진이자, 자율적으로 성과를 이끌어내는 키 포인트입니다.  
-지금도 두 가지 특성을 통해 팀과 함께 성장하고, 또 다양한 프로젝트를 이끌어가고 있습니다.  
-
-<br>
-
-***
-
-<br>
-<h3 id="Addict">#️⃣ 도파민_중독자</h3>
-
-> 끈기와 도전정신
-
-<br>
-<div style="border: 2px solid #f5ec9f; width: 80%; padding: 10px 20px; margin: 20px auto; text-align: left; align-items: center;">
-<i>
-보통은 YouTube Reels나 게임 같은 것에서 도파민을 얻는데,<br>
-너는 10시간 동안 고통을 받다가 그 끝에 얻는 성취감에 의한 도파민 폭발을 즐기니<br>
-진짜 도파민 중독자는 네가 아닐까…
-</i>
-</div>
-<br>
-<br>
-
-저는 소비보다 창작이 재밌습니다.  
-게임을 하는 것보다 게임을 만드는 것이 더 재밌고, 프로그램을 계획하고, 방법론을 짜고, 시간을 들여 결과물을 얻는 과정 자체가 즐겁습니다.  
-이에 대해 친구는 ‘도파민 중독자’ 라고 평가했지만, 저는 그 말이 틀린 말 같지는 않습니다.  
-  
-저는 하는 일에 항상 욕심을 내서 고생하는 편입니다.  
-항상 더 나은 결과를 위해 코드가 어떻게 활용될지, 다른 코드와 어떻게 융합될지를 고민합니다.  
-잘 만들고 싶어서 이것저것 시도하는 탓에 진척이 안 되는 버그나 문제와 오랜 시간 싸울 때도 많습니다.  
-그럴 때는 머리가 터질 것 같이 괴롭기도 하지만, 금방 주위를 환기시키고 다시 집중하는 편입니다.  
-집중이 끊기는 걸 싫어하고 목표한 바를 이루고 싶다는 집념이 강하기 때문입니다.  
-이런 도전적인 기질은 저를 끊임없이 발전시키며, 묵직하게 해야 할 일에 몰입하여 기간 내에 할 일을 해결할 수 있게 도와줍니다.  
-  
-친구의 표현처럼, 저는 어려운 상황에서도 집중하고 해결책을 찾는 과정에서 즐거움을 느끼며, 그 끝의 성취감에 중독된 사람이 맞습니다.  
-이 중독은 제 도전적인 기질을 받쳐주고, 스스로 계속해서 발전할 수 있게 하는 원동력이 되어, 새로운 목표를 향해 또 나아가게 만듭니다.  
-저는 이렇게 성장하는 제 모습이 꽤 마음에 들기에 아마 앞으로도 도파민에 중독되어 살 것 같습니다.  
-남들은 이해하지 못하는, 제 취미인 셈입니다. 😆  
-
-<br>
-
-***
 <br>
 <h2 id="work">🚀작업물🚀</h2>
 
@@ -260,4 +92,87 @@ AI 개발 프로젝트를 할 때에는 ML 개발자로서 맡은 바 소임을 
 
 # Thank you for reading 💕
 
+</div>
 
+<div class="lang-en" style="display:none">
+
+<h2 id="growth-en">🌱 The Years That Shaped Me</h2>
+
+I grew up drawn to logic and how things work.  
+I'd be playing piano and suddenly get curious about the structure of a chord progression; solving a math problem mattered less to me than talking through the process with a friend.  
+For a long time, I believed the world ran on clean, discoverable logic.
+
+Adulthood showed me a much bigger world — one where logic alone couldn't explain everything.  
+I learned, a little late, the value of judgment built from experience.  
+So in my final year at university, I deliberately took on more projects at once: game development, a data analysis research assistantship, and my graduation project, all while studying Industrial Security at Dankook University.  
+I wanted to test the logical thinking I'd built against real problems.
+
+Game development turned out to be the hardest of the three.  
+I failed five times, and by the fifth failure I was running on empty.  
+What got me back up each time was blunt feedback and steady support from my teammates.  
+That process gave me an honest, outside view of my own abilities — and left me with the two things that define how I work today: reading structure through logic, and building things together with people.
+
+<br>
+
+<h2 id="strength-en">🧩 Core Strength — Reading Unfamiliar Structures and Rebuilding Them Around People</h2>
+
+The thing I'm most confident in is picking apart an unfamiliar codebase or system quickly, then rebuilding it around the person who has to use it.
+
+During a secure coding course, I reverse-engineered an ELF binary by hand.  
+Using objdump and readelf to trace the PLT/GOT, I found that a validation routine's cipher had a call to rand() XORed into it as a hidden security check. I patched the binary so rand() always returned zero, and extracted the hidden secret key from the result.  
+That habit of taking a system apart down to first principles carried into later work: reverse-engineering malware with OllyDbg, and eventually building a SQL-injection prevention tool ('SIAM-W') and a SQL-injection detection model that hit 98.5% accuracy.
+
+The same instinct looks different when it's pointed at a user.  
+While showing Arcanum Nights at an exhibition, I noticed that adding more tutorial levels actually confused players more, not less.  
+I traced the problem to the text-heavy structure itself, so I rebuilt the tutorial as an interactive puzzle and replaced text instructions with icons and animation.  
+Afterward, about 80% of exhibition visitors finished the tutorial with no extra explanation from us.
+
+Whether it's a system or a user experience, I always start by asking why it was built this way, then figure out what it needs to become.  
+That's why I'm applying to three roles that look different on paper — product design, PM, and security engineering.  
+I think they share the same root: understanding a complex structure, then redesigning it around the people — users, or systems — that depend on it.
+
+<br>
+
+<h2 id="adaptability-en">🚀 Adaptability and Execution, Proven Across Different Roles</h2>
+
+![Hexagonal pyramid skill chart](/image/profile/HexagonalPyramid.png)
+
+From March 2024 to May 2025, I was the development lead at Dankook University's Sports Psychology Lab, where I built a data pipeline pulling game data through the Riot Games API and a PyQt/Pygame-based cognitive testing tool from scratch.  
+In 2025 I worked as a PM at Ineeji on a national weather-forecasting AI project, coordinating communication across four organizations and designing a Notion template that four separate projects adopted organically within a week — with no mandate behind it.  
+Through all of that, I was also leading Arcanum Nights as lead product designer and technical game designer for a 10-person team at D3F!B.
+
+What started as a solo project grew a team as the design took shape, and across four public demo cycles at exhibitions, I kept making calls grounded in direct observation — including hiding a "hidden challenge" feature once I saw it was pulling players' attention away from the core loop.  
+Working part-time, it took about a year to get from that first solo build to a Steam Early Access launch.
+
+Different organizations, different roles, short ramp-up each time — and I delivered in every one.  
+If I drew my skill set as a hexagon, it wouldn't lean toward any single point. Because the experience in each area reinforces the others, I think of it less as a flat hexagon and more as a hexagonal pyramid, built to climb.
+
+<br>
+
+<h2 id="focus-en">🎯 Deep Focus, and What's Next</h2>
+
+I'm meticulous, and it shows in how far I take things.  
+When I designed our remote collaboration workspace, I broke down permissions and information architecture across Discord, Notion, and Google Drive down to the department level, and built a Discord bot from scratch to handle meeting minutes and scheduled messages so the team wouldn't have to do it by hand.  
+That same instinct is what pushed me to rework Arcanum Nights after every single exhibition, four times over.
+
+Right now I'm preparing Arcanum Nights for full release, while already sketching out the next game to follow it.  
+Every time I finish something end to end, I find I read structure more accurately and rebuild it better the next time.
+
+Going forward, I want to keep being someone who understands a problem's structure first, then finds an answer centered on people.  
+Whether that's in product design, PM, or security engineering, I believe this is the strength I bring to any team I join.
+
+<br>
+
+***
+
+<br>
+<h2 id="work-en">🚀 Work 🚀</h2>
+
+#### [📦Projects](/projects/)
+#### [🖋️Posts](/posts/)
+
+<br>
+
+# Thank you for reading 💕
+
+</div>
