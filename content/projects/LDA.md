@@ -1,6 +1,6 @@
 ---
-title: "League of Legends Data Analysis"
-title_en: "League of Legends Data Analysis"
+title: "📊 League of Legends Data Analysis"
+title_en: "📊 League of Legends Data Analysis"
 type: page
 description: "단국대학교 스포츠심리학 연구실 인지피로 연구를 위한 데이터 수집 및 실험 도구."
 description_en: "Data collection and experimental tooling for cognitive-fatigue research."

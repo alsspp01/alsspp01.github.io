@@ -1,6 +1,6 @@
 ---
-title: "Chemi.lol"
-title_en: "Chemi.lol"
+title: "🧪 Chemi.lol"
+title_en: "🧪 Chemi.lol"
 type: page
 description: "LoL 듀오 데이터를 활용한 관계 기반 feature engineering 및 회귀 모델 실험."
 description_en: "Relationship-focused feature engineering and regression experiments using LoL duo data."

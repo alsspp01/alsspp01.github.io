@@ -1,6 +1,6 @@
 ---
-title: "Arcanum Nights"
-title_en: "Arcanum Nights"
+title: "🎮 Arcanum Nights"
+title_en: "🎮 Arcanum Nights"
 type: page
 description: "해와 달, 별자리를 소재로 한 싱글~2인 퍼즐게임."
 description_en: "A single-to-two-player puzzle game built around the sun, moon, and constellations."
