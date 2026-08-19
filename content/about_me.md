@@ -2,8 +2,10 @@
 title: "🌟 About Me"
 type: page
 aliases:
-  - /about_me/
+  - /personal_statement/
 ---
+
+<div class="lang-ko">
 
 # 🌟 About Me
 
