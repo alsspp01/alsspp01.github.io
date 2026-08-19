@@ -12,11 +12,7 @@ tags: ["DKU"]
 
 <div class="lang-ko">
 
-# 📊 League of Legends Data Analysis
-
 **Dankook University Sports Psychology Laboratory**
-
-LoL 플레이와 인지 피로의 관계를 연구하기 위해 데이터 수집, 실험, 분석에 필요한 프로그램을 제작했습니다.
 
 [Portfolio Case Study →](/portfolio/lol-player-research/) · [GitHub →](https://github.com/alsspp01/LDA)
 
@@ -51,11 +47,7 @@ LoL 플레이와 인지 피로의 관계를 연구하기 위해 데이터 수집
 
 <div class="lang-en" style="display:none">
 
-# 📊 League of Legends Data Analysis
-
 **Dankook University Sports Psychology Laboratory**
-
-I built data-collection, experimental, and analysis tooling for research on League of Legends play and cognitive fatigue.
 
 [Portfolio Case Study →](/portfolio/lol-player-research/) · [GitHub →](https://github.com/alsspp01/LDA)
 

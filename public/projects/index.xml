@@ -1,6 +1,4 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Projects on Dyun's blog</title><link>https://alsspp01.github.io/projects/</link><description>Recent content in Projects on Dyun's blog</description><generator>Hugo</generator><language>en</language><atom:link href="https://alsspp01.github.io/projects/index.xml" rel="self" type="application/rss+xml"/><item><title>Arcanum Nights</title><link>https://alsspp01.github.io/projects/arcananights/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://alsspp01.github.io/projects/arcananights/</guid><description>&lt;div class="lang-ko">
-&lt;h1 id="-arcanum-nights">🎮 Arcanum Nights&lt;/h1>
-&lt;p>해의 아이와 달의 아이가 각자의 우주를 연결해 하나의 별자리를 만드는 퍼즐게임.&lt;/p>
 &lt;p>&lt;strong>Single ~ 2 Players · D3F!B&lt;/strong>&lt;/p>
 &lt;p>&lt;a href="https://alsspp01.github.io/portfolio/arcanum-nights/">Portfolio Case Study →&lt;/a>&lt;/p>
 &lt;h2 id="planning">Planning&lt;/h2>
@@ -15,9 +13,11 @@
 &lt;h2 id="implementation-support">Implementation Support&lt;/h2>
 &lt;p>Unity/C# 구조를 학습하고 튜토리얼 구현과 Python 맵 툴 제작에도 참여했습니다.&lt;/p>
 &lt;h2 id="user-test">User Test&lt;/h2>
-&lt;p>PlayX4에서 표정, 자세, 입력 속도와 빈도, 플레이가 늘어지는 구간을 관찰해 템포와 연출을 재검토했습니다.&lt;/p></description></item><item><title>Chemi.lol</title><link>https://alsspp01.github.io/projects/chemi/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://alsspp01.github.io/projects/chemi/</guid><description>&lt;div class="lang-ko">
-&lt;h1 id="-chemilol">🧪 Chemi.lol&lt;/h1>
-&lt;p>League of Legends 듀오 데이터를 바탕으로 &lt;strong>두 플레이어의 관계를 데이터로 표현하고 함께한 결과를 예측할 수 있는지 탐색한 프로젝트&lt;/strong>입니다.&lt;/p>
+&lt;p>PlayX4에서 표정, 자세, 입력 속도와 빈도, 플레이가 늘어지는 구간을 관찰해 템포와 연출을 재검토했습니다.&lt;/p>
+&lt;p>&lt;a href="https://alsspp01.github.io/portfolio/arcanum-nights/">Portfolio Case Study →&lt;/a>&lt;/p>
+&lt;/div>
+&lt;div class="lang-en" style="display:none">
+&lt;p>&lt;strong>Single ~ 2 Players · D3F!B&lt;/strong>&lt;/p></description></item><item><title>Chemi.lol</title><link>https://alsspp01.github.io/projects/chemi/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://alsspp01.github.io/projects/chemi/</guid><description>&lt;div class="lang-ko">
 &lt;p>&lt;a href="https://alsspp01.github.io/portfolio/chemi-lol/">Portfolio Case Study →&lt;/a>&lt;br>
 &lt;a href="https://github.com/league-of-legend-project/Analysis">Analysis Repository →&lt;/a>&lt;/p>
 &lt;h2 id="pipeline">Pipeline&lt;/h2>
@@ -36,10 +36,13 @@
 &lt;li>MLP&lt;/li>
 &lt;li>simple ensembles&lt;/li>
 &lt;/ul>
-&lt;p>모델 복잡도를 높여도 R²가 크게 개선되지 않았고, &lt;strong>현재 feature만으로 궁합을 설명하는 데 한계가 있다&lt;/strong>는 점도 중요한 결과였습니다.&lt;/p></description></item><item><title>League of Legends Data Analysis</title><link>https://alsspp01.github.io/projects/lda/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://alsspp01.github.io/projects/lda/</guid><description>&lt;div class="lang-ko">
-&lt;h1 id="-league-of-legends-data-analysis">📊 League of Legends Data Analysis&lt;/h1>
+&lt;p>모델 복잡도를 높여도 R²가 크게 개선되지 않았고, &lt;strong>현재 feature만으로 궁합을 설명하는 데 한계가 있다&lt;/strong>는 점도 중요한 결과였습니다.&lt;/p>
+&lt;p>&lt;a href="https://alsspp01.github.io/portfolio/chemi-lol/">Portfolio Case Study →&lt;/a>&lt;/p>
+&lt;/div>
+&lt;div class="lang-en" style="display:none">
+&lt;p>&lt;a href="https://alsspp01.github.io/portfolio/chemi-lol/">Portfolio Case Study →&lt;/a>&lt;br>
+&lt;a href="https://github.com/league-of-legend-project/Analysis">Analysis Repository →&lt;/a>&lt;/p></description></item><item><title>League of Legends Data Analysis</title><link>https://alsspp01.github.io/projects/lda/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://alsspp01.github.io/projects/lda/</guid><description>&lt;div class="lang-ko">
 &lt;p>&lt;strong>Dankook University Sports Psychology Laboratory&lt;/strong>&lt;/p>
-&lt;p>LoL 플레이와 인지 피로의 관계를 연구하기 위해 데이터 수집, 실험, 분석에 필요한 프로그램을 제작했습니다.&lt;/p>
 &lt;p>&lt;a href="https://alsspp01.github.io/portfolio/lol-player-research/">Portfolio Case Study →&lt;/a> · &lt;a href="https://github.com/alsspp01/LDA">GitHub →&lt;/a>&lt;/p>
 &lt;h2 id="1-stroop-test">1. Stroop Test&lt;/h2>
 &lt;ul>
@@ -53,7 +56,13 @@
 &lt;h2 id="2-match-history-exploration">2. Match-history Exploration&lt;/h2>
 &lt;p>기존 전적 사이트의 request/JSON 구조와 pagination을 분석해 연속 플레이 데이터 수집 가능성을 확인했습니다.&lt;/p>
 &lt;h2 id="3-riot-api-pipeline">3. Riot API Pipeline&lt;/h2>
-&lt;p>티어별 플레이어, match ID, 경기 정보를 자동 수집하고 timestamp로 연속 플레이 sequence를 판별했습니다.&lt;/p></description></item><item><title>SIAM-W</title><link>https://alsspp01.github.io/projects/siam-w/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://alsspp01.github.io/projects/siam-w/</guid><description>&lt;p>오픈 소스 코드 사용: SQLmap
+&lt;p>티어별 플레이어, match ID, 경기 정보를 자동 수집하고 timestamp로 연속 플레이 sequence를 판별했습니다.&lt;/p>
+&lt;p>실험 코드에는:&lt;/p>
+&lt;ul>
+&lt;li>5분 / 10분 간격&lt;/li>
+&lt;li>6게임 / 8게임 연속 sequence&lt;/li>
+&lt;/ul>
+&lt;p>조건이 포함되어 있습니다.&lt;/p></description></item><item><title>SIAM-W</title><link>https://alsspp01.github.io/projects/siam-w/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://alsspp01.github.io/projects/siam-w/</guid><description>&lt;p>오픈 소스 코드 사용: SQLmap
 웹사이트의 SQL injection 공격 가능성 여부를 진단 후 각 공격에 대한 대응 방법을 알려주는 보안 비전공 개발자를 위한 프로그램.&lt;/p>
 &lt;p>Use open-source program: SQLmap.
 A program for non-security developers

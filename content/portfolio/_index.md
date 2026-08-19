@@ -8,10 +8,6 @@ description_en: "Selected work showing how I turn unclear problems into working 
 
 <div class="lang-ko">
 
-# Portfolio
-
-> **From foggy problems to working structures.**
-
 분야는 달라도 시작하는 방식은 비슷합니다.
 
 **맥락을 이해하고 → 구조를 정리하고 → 필요한 것을 설계하고 → 실제로 움직이는 형태까지 가져갑니다.**
@@ -71,10 +67,6 @@ Discord, Notion, Google Drive의 역할과 권한, 회의, 기록, 자동화 흐
 </div>
 
 <div class="lang-en" style="display:none">
-
-# Portfolio
-
-> **From foggy problems to working structures.**
 
 The domains change. The way I enter them is much more consistent.
 

@@ -14,10 +14,6 @@ aliases:
 
 <div class="lang-ko">
 
-# 🎮 Arcanum Nights
-
-해의 아이와 달의 아이가 각자의 우주를 연결해 하나의 별자리를 만드는 퍼즐게임.
-
 **Single ~ 2 Players · D3F!B**
 
 [Portfolio Case Study →](/portfolio/arcanum-nights/)
@@ -41,10 +37,6 @@ PlayX4에서 표정, 자세, 입력 속도와 빈도, 플레이가 늘어지는 
 </div>
 
 <div class="lang-en" style="display:none">
-
-# 🎮 Arcanum Nights
-
-A puzzle game where the Child of the Sun and the Child of the Moon connect their own universes to form a constellation together.
 
 **Single ~ 2 Players · D3F!B**
 

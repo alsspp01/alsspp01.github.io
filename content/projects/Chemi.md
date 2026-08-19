@@ -8,10 +8,6 @@ description_en: "Relationship-focused feature engineering and regression experim
 
 <div class="lang-ko">
 
-# 🧪 Chemi.lol
-
-League of Legends 듀오 데이터를 바탕으로 **두 플레이어의 관계를 데이터로 표현하고 함께한 결과를 예측할 수 있는지 탐색한 프로젝트**입니다.
-
 [Portfolio Case Study →](/portfolio/chemi-lol/)  
 [Analysis Repository →](https://github.com/league-of-legend-project/Analysis)
 
@@ -40,10 +36,6 @@ Player / Match / Timeline → MongoDB → Duo Detection → Feature Engineering 
 </div>
 
 <div class="lang-en" style="display:none">
-
-# 🧪 Chemi.lol
-
-A League of Legends duo-data project exploring **whether the relationship between two players could be represented as features and used to explain their outcomes together.**
 
 [Portfolio Case Study →](/portfolio/chemi-lol/)  
 [Analysis Repository →](https://github.com/league-of-legend-project/Analysis)

@@ -8,10 +8,6 @@ description_en: "The collaboration architecture behind a remote 10-person team."
 
 <div class="lang-ko">
 
-# 🔗 D3F!B Collaboration System
-
-> **10명이 함께 만드는 프로젝트에는 결과물의 기획만 필요한 것이 아니었습니다. 팀 자체도 하나의 시스템처럼 설계할 필요가 있었습니다.**
-
 **Team Size** · ~10  
 **Scope** · Discord · Notion · Google Drive · Permissions · Automation
 
@@ -79,10 +75,6 @@ Discord가 지금의 대화라면, Notion은 **나중에도 같은 결정을 이
 </div>
 
 <div class="lang-en" style="display:none">
-
-# 🔗 D3F!B Collaboration System
-
-> **A ten-person project needs more than a plan for the product. The team itself starts behaving like a system that needs design.**
 
 **Team Size** · ~10  
 **Scope** · Discord · Notion · Google Drive · Permissions · Automation

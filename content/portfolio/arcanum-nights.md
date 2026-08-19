@@ -8,10 +8,6 @@ description_en: "A game project where an early idea became systems, data, UI/UX,
 
 <div class="lang-ko">
 
-# 🎮 Arcanum Nights
-
-> **아이디어는 재미있을 수 있습니다. 기획은 그 아이디어를 다른 직군이 실제로 만들 수 있게 해야 합니다.**
-
 **Period** · 2024.11 – 2026.08  
 **Team** · D3F!B  
 **Role** · Team Lead / Lead Planning
@@ -82,10 +78,6 @@ PlayX4 시연에서는 클리어 여부만 보지 않았습니다.
 </div>
 
 <div class="lang-en" style="display:none">
-
-# 🎮 Arcanum Nights
-
-> **An idea can be interesting on its own. A plan has to make that idea buildable by other disciplines.**
 
 **Period** · Nov 2024 – Aug 2026  
 **Team** · D3F!B  

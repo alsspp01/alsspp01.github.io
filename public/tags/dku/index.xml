@@ -420,9 +420,7 @@ hexedit sec_hw1
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>Test &lt;span style="color:#ae81ff">04&lt;/span>&lt;span style="color:#f92672">:&lt;/span> AddRoundKey
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#ae81ff">59&lt;/span> B0 E1 &lt;span style="color:#ae81ff">62&lt;/span> &lt;span style="color:#ae81ff">98&lt;/span> F7 &lt;span style="color:#ae81ff">46&lt;/span> C9 DE F5 &lt;span style="color:#ae81ff">1&lt;/span>D &lt;span style="color:#ae81ff">10&lt;/span> E4 &lt;span style="color:#ae81ff">90&lt;/span> &lt;span style="color:#ae81ff">84&lt;/span> &lt;span style="color:#ae81ff">6&lt;/span>B
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div></description></item><item><title>League of Legends Data Analysis</title><link>https://alsspp01.github.io/projects/lda/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://alsspp01.github.io/projects/lda/</guid><description>&lt;div class="lang-ko">
-&lt;h1 id="-league-of-legends-data-analysis">📊 League of Legends Data Analysis&lt;/h1>
 &lt;p>&lt;strong>Dankook University Sports Psychology Laboratory&lt;/strong>&lt;/p>
-&lt;p>LoL 플레이와 인지 피로의 관계를 연구하기 위해 데이터 수집, 실험, 분석에 필요한 프로그램을 제작했습니다.&lt;/p>
 &lt;p>&lt;a href="https://alsspp01.github.io/portfolio/lol-player-research/">Portfolio Case Study →&lt;/a> · &lt;a href="https://github.com/alsspp01/LDA">GitHub →&lt;/a>&lt;/p>
 &lt;h2 id="1-stroop-test">1. Stroop Test&lt;/h2>
 &lt;ul>
@@ -436,7 +434,13 @@ hexedit sec_hw1
 &lt;h2 id="2-match-history-exploration">2. Match-history Exploration&lt;/h2>
 &lt;p>기존 전적 사이트의 request/JSON 구조와 pagination을 분석해 연속 플레이 데이터 수집 가능성을 확인했습니다.&lt;/p>
 &lt;h2 id="3-riot-api-pipeline">3. Riot API Pipeline&lt;/h2>
-&lt;p>티어별 플레이어, match ID, 경기 정보를 자동 수집하고 timestamp로 연속 플레이 sequence를 판별했습니다.&lt;/p></description></item><item><title>SIAM-W</title><link>https://alsspp01.github.io/projects/siam-w/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://alsspp01.github.io/projects/siam-w/</guid><description>&lt;p>오픈 소스 코드 사용: SQLmap
+&lt;p>티어별 플레이어, match ID, 경기 정보를 자동 수집하고 timestamp로 연속 플레이 sequence를 판별했습니다.&lt;/p>
+&lt;p>실험 코드에는:&lt;/p>
+&lt;ul>
+&lt;li>5분 / 10분 간격&lt;/li>
+&lt;li>6게임 / 8게임 연속 sequence&lt;/li>
+&lt;/ul>
+&lt;p>조건이 포함되어 있습니다.&lt;/p></description></item><item><title>SIAM-W</title><link>https://alsspp01.github.io/projects/siam-w/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://alsspp01.github.io/projects/siam-w/</guid><description>&lt;p>오픈 소스 코드 사용: SQLmap
 웹사이트의 SQL injection 공격 가능성 여부를 진단 후 각 공격에 대한 대응 방법을 알려주는 보안 비전공 개발자를 위한 프로그램.&lt;/p>
 &lt;p>Use open-source program: SQLmap.
 A program for non-security developers

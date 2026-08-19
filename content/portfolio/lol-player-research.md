@@ -8,10 +8,6 @@ description_en: "A research-engineering project spanning LoL data collection, ex
 
 <div class="lang-ko">
 
-# 📊 LoL Player Research
-
-> **수집한 데이터가 연구에 바로 쓰이는 것은 아닙니다. 필요한 건 ‘데이터를 얻는 코드’보다 연구자가 반복해서 사용할 수 있는 흐름이었습니다.**
-
 **Period** · 2024.03 – 2025.06  
 **Context** · Dankook University Sports Psychology Laboratory  
 **Role** · POC / Development Design / Data Engineering
@@ -89,10 +85,6 @@ Repository의 `DynamicAnalysis`에는:
 </div>
 
 <div class="lang-en" style="display:none">
-
-# 📊 LoL Player Research
-
-> **Collecting data does not automatically make it research-ready. The real goal was not a one-off script, but a workflow the researcher could keep using.**
 
 **Period** · Mar 2024 – Jun 2025  
 **Context** · Dankook University Sports Psychology Laboratory  

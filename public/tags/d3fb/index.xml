@@ -32,8 +32,6 @@
 &lt;p>이 글에서는 &amp;lsquo;집사&amp;rsquo; 봇의 전체 아키텍처, 핵심 파이프라인, 그리고 개발 과정에서 마주한 다양한 기술적 이슈들의 해결 과정을 상세히 정리한다.&lt;/p>
 &lt;h2 id="1-시스템-아키텍처-및-디렉터리-구조">1. 시스템 아키텍처 및 디렉터리 구조&lt;/h2>
 &lt;p>전체 코드베이스는 다음과 같은 단일 프로세스 구조로 설계되었다.&lt;/p></description></item><item><title>Arcanum Nights</title><link>https://alsspp01.github.io/projects/arcananights/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://alsspp01.github.io/projects/arcananights/</guid><description>&lt;div class="lang-ko">
-&lt;h1 id="-arcanum-nights">🎮 Arcanum Nights&lt;/h1>
-&lt;p>해의 아이와 달의 아이가 각자의 우주를 연결해 하나의 별자리를 만드는 퍼즐게임.&lt;/p>
 &lt;p>&lt;strong>Single ~ 2 Players · D3F!B&lt;/strong>&lt;/p>
 &lt;p>&lt;a href="https://alsspp01.github.io/portfolio/arcanum-nights/">Portfolio Case Study →&lt;/a>&lt;/p>
 &lt;h2 id="planning">Planning&lt;/h2>
@@ -48,4 +46,8 @@
 &lt;h2 id="implementation-support">Implementation Support&lt;/h2>
 &lt;p>Unity/C# 구조를 학습하고 튜토리얼 구현과 Python 맵 툴 제작에도 참여했습니다.&lt;/p>
 &lt;h2 id="user-test">User Test&lt;/h2>
-&lt;p>PlayX4에서 표정, 자세, 입력 속도와 빈도, 플레이가 늘어지는 구간을 관찰해 템포와 연출을 재검토했습니다.&lt;/p></description></item></channel></rss>
+&lt;p>PlayX4에서 표정, 자세, 입력 속도와 빈도, 플레이가 늘어지는 구간을 관찰해 템포와 연출을 재검토했습니다.&lt;/p>
+&lt;p>&lt;a href="https://alsspp01.github.io/portfolio/arcanum-nights/">Portfolio Case Study →&lt;/a>&lt;/p>
+&lt;/div>
+&lt;div class="lang-en" style="display:none">
+&lt;p>&lt;strong>Single ~ 2 Players · D3F!B&lt;/strong>&lt;/p></description></item></channel></rss>

@@ -8,10 +8,6 @@ description_en: "How I learned an unfamiliar meteorological domain and translate
 
 <div class="lang-ko">
 
-# 🌦️ AI Forecast Support
-
-> **처음에는 기상학도, 시스템도 낯설었습니다. 기능보다 먼저 ‘예보가 어떻게 만들어지는지’부터 봤습니다.**
-
 **Period** · 2025.09 – 2026.02  
 **Role** · PM / Planning / Coordination  
 **Focus** · Domain Understanding · Requirement Definition · Technical Direction
@@ -68,10 +64,6 @@ description_en: "How I learned an unfamiliar meteorological domain and translate
 </div>
 
 <div class="lang-en" style="display:none">
-
-# 🌦️ AI Forecast Support
-
-> **Meteorology was new to me, and so was the system. Before defining features, I started by learning how a forecast was actually made.**
 
 **Period** · Sep 2025 – Feb 2026  
 **Role** · PM / Planning / Coordination  

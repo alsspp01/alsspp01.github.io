@@ -8,10 +8,6 @@ description_en: "A data-product experiment modeling LoL duo relationships throug
 
 <div class="lang-ko">
 
-# 🧪 Chemi.lol
-
-> **사용자가 궁금한 건 모델이 아니라 “우리 둘, 잘 맞을까?”에 더 가깝습니다.**
-
 [Analysis Repository →](https://github.com/league-of-legend-project/Analysis)
 
 ## The Question
@@ -71,10 +67,6 @@ R² 약 0.2는 “더 복잡한 모델이면 궁합을 맞힐 수 있다”보�
 </div>
 
 <div class="lang-en" style="display:none">
-
-# 🧪 Chemi.lol
-
-> **The user does not care about the model. The real question is closer to: “Do we actually play well together?”**
 
 [Analysis Repository →](https://github.com/league-of-legend-project/Analysis)
 
