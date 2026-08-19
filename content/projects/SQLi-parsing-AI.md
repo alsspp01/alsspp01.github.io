@@ -173,7 +173,7 @@ max_length = max(len(tokens) for tokens in data['normalized_query'])
 
 최대 길이의 문장에 길이를 맞춰 벡터를 초기화하고  
 각 단어 및 기호를 vocabulary에 넣어 번호를 매긴 후  
-그 번호를 벡터에 차례로 one hot encoding한다.
+그 번호를 벡터에 차례로 정수 인덱스로 채워 넣는다 (one-hot encoding이 아닌 embedding 입력용 integer token sequence).
 
 이를 통해 시퀀스 데이터를 생성할 수 있다.
 
@@ -326,5 +326,6 @@ F1 Score: 0.9848
 
 ### conclusion
 #### 모델 성능
-Recall이 너무 높아서 위양성이 높을 가능성이 있지만, 보안은 탐지 목적인 만큼 위양성이 높은 편이 낫기 때문에 큰 문제가 되지 않을 것으로 생각된다.  
+높은 Recall(0.9990)은 실제 SQL injection을 거의 놓치지 않는다는 의미이며, 위양성 여부는 Recall이 아니라 Precision과 FPR로 판단해야 한다.  
+Precision이 0.9709로 다소 낮게 나타나 일부 위양성이 발생할 가능성은 남아 있으며, 실사용 전에는 threshold 조정과 추가 데이터셋을 통한 검증이 필요하다고 판단된다.  
 Accuracy 및 F1 Score이 충분히 높기에 자체 보안 엔진 개발이 어려운 중소기업에서 SQL injection 방지를 위해 사용하기엔 적합하다고 판단된다.  

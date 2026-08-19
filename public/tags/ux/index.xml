@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>UX on Dyun's blog</title><link>https://alsspp01.github.io/tags/ux/</link><description>Recent content in UX on Dyun's blog</description><generator>Hugo</generator><language>en</language><lastBuildDate>Wed, 19 Aug 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://alsspp01.github.io/tags/ux/index.xml" rel="self" type="application/rss+xml"/><item><title>Edge Case를 수집하는 기획</title><link>https://alsspp01.github.io/posts/2026-08-19-designing-for-edge-cases/</link><pubDate>Wed, 19 Aug 2026 00:00:00 +0000</pubDate><guid>https://alsspp01.github.io/posts/2026-08-19-designing-for-edge-cases/</guid><description>&lt;div class="lang-ko">
+&lt;p>기획서를 쓸 때 가장 쉬운 흐름은 정상적인 흐름입니다.&lt;/p>
+&lt;p>사용자가 버튼을 누르고, 다음 화면으로 가고, 필요한 값을 입력하고, 성공합니다.&lt;/p>
+&lt;p>문제는 실제 사용자가 정상적인 흐름만 밟지 않는다는 것입니다.&lt;/p>
+&lt;p>그래서 저는 기획을 하면 머릿속에서 한 번 &lt;strong>실제로 굴려보는 편&lt;/strong>입니다.&lt;/p>
+&lt;hr>
+&lt;h2 id="happy-path-다음에-나오는-질문들">Happy Path 다음에 나오는 질문들&lt;/h2>
+&lt;p>기능 하나를 생각하면 이런 질문이 따라옵니다.&lt;/p>
+&lt;ul>
+&lt;li>사용자가 중간에 취소하면?&lt;/li>
+&lt;li>같은 버튼을 연속으로 누르면?&lt;/li>
+&lt;li>값이 없으면?&lt;/li>
+&lt;li>두 조건이 동시에 만족하면?&lt;/li>
+&lt;li>우선순위가 충돌하면?&lt;/li>
+&lt;li>저장 전 상태가 바뀌면?&lt;/li>
+&lt;li>처음 보는 사람은 내가 예상한 버튼을 정말 누를까?&lt;/li>
+&lt;/ul>
+&lt;p>이 질문을 전부 문서에 적는 것은 아닙니다.&lt;/p></description></item></channel></rss>

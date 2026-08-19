@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Automation on Dyun's blog</title><link>https://alsspp01.github.io/tags/automation/</link><description>Recent content in Automation on Dyun's blog</description><generator>Hugo</generator><language>en</language><lastBuildDate>Wed, 19 Aug 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://alsspp01.github.io/tags/automation/index.xml" rel="self" type="application/rss+xml"/><item><title>사람 사이에도 Interface가 있다</title><link>https://alsspp01.github.io/posts/2026-08-19-d3fib-collaboration-system/</link><pubDate>Wed, 19 Aug 2026 00:00:00 +0000</pubDate><guid>https://alsspp01.github.io/posts/2026-08-19-d3fib-collaboration-system/</guid><description>&lt;div class="lang-ko">
+&lt;p>팀이 작을 때는 대부분의 일이 기억으로 굴러갑니다.&lt;/p>
+&lt;blockquote>
+&lt;p>“그 파일 어디 있었지?”&lt;/p>
+&lt;/blockquote>
+&lt;blockquote>
+&lt;p>“저번 회의에서 뭐로 결정했더라?”&lt;/p>
+&lt;/blockquote>
+&lt;blockquote>
+&lt;p>“이건 개발팀 채널에 올리면 되나?”&lt;/p>
+&lt;/blockquote>
+&lt;p>다 아는 사람들이라면 누군가 답해줍니다.&lt;/p>
+&lt;p>문제는 사람이 늘어날 때입니다.&lt;/p>
+&lt;p>기획, 개발, 아트로 나뉜 10명 정도의 원격 팀에서는&lt;br>
+&lt;strong>사람의 기억이 협업 시스템이 되는 방식이 금방 한계에 옵니다.&lt;/strong>&lt;/p>
+&lt;hr>
+&lt;h2 id="툴을-많이-쓰는-것과-구조가-있는-것은-다르다">툴을 많이 쓰는 것과 구조가 있는 것은 다르다&lt;/h2>
+&lt;p>D3F!B에서도 Discord, Notion, Google Drive를 사용합니다.&lt;/p>
+&lt;p>중요했던 것은 어떤 툴을 쓰느냐보다 &lt;strong>각 툴이 무엇을 책임지는지 겹치지 않게 만드는 것&lt;/strong>이었습니다.&lt;/p></description></item></channel></rss>

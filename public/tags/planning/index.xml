@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Planning on Dyun's blog</title><link>https://alsspp01.github.io/tags/planning/</link><description>Recent content in Planning on Dyun's blog</description><generator>Hugo</generator><language>en</language><lastBuildDate>Wed, 19 Aug 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://alsspp01.github.io/tags/planning/index.xml" rel="self" type="application/rss+xml"/><item><title>Edge Case를 수집하는 기획</title><link>https://alsspp01.github.io/posts/2026-08-19-designing-for-edge-cases/</link><pubDate>Wed, 19 Aug 2026 00:00:00 +0000</pubDate><guid>https://alsspp01.github.io/posts/2026-08-19-designing-for-edge-cases/</guid><description>&lt;div class="lang-ko">
+&lt;p>기획서를 쓸 때 가장 쉬운 흐름은 정상적인 흐름입니다.&lt;/p>
+&lt;p>사용자가 버튼을 누르고, 다음 화면으로 가고, 필요한 값을 입력하고, 성공합니다.&lt;/p>
+&lt;p>문제는 실제 사용자가 정상적인 흐름만 밟지 않는다는 것입니다.&lt;/p>
+&lt;p>그래서 저는 기획을 하면 머릿속에서 한 번 &lt;strong>실제로 굴려보는 편&lt;/strong>입니다.&lt;/p>
+&lt;hr>
+&lt;h2 id="happy-path-다음에-나오는-질문들">Happy Path 다음에 나오는 질문들&lt;/h2>
+&lt;p>기능 하나를 생각하면 이런 질문이 따라옵니다.&lt;/p>
+&lt;ul>
+&lt;li>사용자가 중간에 취소하면?&lt;/li>
+&lt;li>같은 버튼을 연속으로 누르면?&lt;/li>
+&lt;li>값이 없으면?&lt;/li>
+&lt;li>두 조건이 동시에 만족하면?&lt;/li>
+&lt;li>우선순위가 충돌하면?&lt;/li>
+&lt;li>저장 전 상태가 바뀌면?&lt;/li>
+&lt;li>처음 보는 사람은 내가 예상한 버튼을 정말 누를까?&lt;/li>
+&lt;/ul>
+&lt;p>이 질문을 전부 문서에 적는 것은 아닙니다.&lt;/p></description></item><item><title>낯선 도메인을 기술 방향으로 바꾸기</title><link>https://alsspp01.github.io/posts/2026-08-19-ai-forecast-domain-to-direction/</link><pubDate>Wed, 19 Aug 2026 00:00:00 +0000</pubDate><guid>https://alsspp01.github.io/posts/2026-08-19-ai-forecast-domain-to-direction/</guid><description>&lt;div class="lang-ko">
+&lt;p>프로젝트 초반에 요구사항이 흐리면 마음이 급해집니다.&lt;/p>
+&lt;p>일정은 움직이고 있고, 개발자는 무엇을 만들지 알아야 하고, 회의에서는 다음 액션이 필요합니다.&lt;br>
+이럴 때 가장 빠르게 보이는 방법은 기능 목록을 만드는 것입니다.&lt;/p>
+&lt;p>그런데 기상 예보지원 프로젝트에서는 기능부터 적기 시작하면 오히려 더 늦어질 것 같았습니다.&lt;/p>
+&lt;p>왜냐하면 저는 &lt;strong>기상학을 몰랐기 때문입니다.&lt;/strong>&lt;/p>
+&lt;hr>
+&lt;h2 id="모르는-상태에서-요구사항을-쓰면-생기는-일">모르는 상태에서 요구사항을 쓰면 생기는 일&lt;/h2>
+&lt;p>처음 보는 도메인에서는 익숙한 단어도 의미가 다릅니다.&lt;/p>
+&lt;p>같은 &amp;ldquo;데이터&amp;quot;라는 말도 누가, 언제, 어떤 판단을 위해 보는 데이터인지에 따라 중요도가 달라집니다.&lt;/p></description></item><item><title>사람 사이에도 Interface가 있다</title><link>https://alsspp01.github.io/posts/2026-08-19-d3fib-collaboration-system/</link><pubDate>Wed, 19 Aug 2026 00:00:00 +0000</pubDate><guid>https://alsspp01.github.io/posts/2026-08-19-d3fib-collaboration-system/</guid><description>&lt;div class="lang-ko">
+&lt;p>팀이 작을 때는 대부분의 일이 기억으로 굴러갑니다.&lt;/p>
+&lt;blockquote>
+&lt;p>“그 파일 어디 있었지?”&lt;/p>
+&lt;/blockquote>
+&lt;blockquote>
+&lt;p>“저번 회의에서 뭐로 결정했더라?”&lt;/p>
+&lt;/blockquote>
+&lt;blockquote>
+&lt;p>“이건 개발팀 채널에 올리면 되나?”&lt;/p>
+&lt;/blockquote>
+&lt;p>다 아는 사람들이라면 누군가 답해줍니다.&lt;/p>
+&lt;p>문제는 사람이 늘어날 때입니다.&lt;/p>
+&lt;p>기획, 개발, 아트로 나뉜 10명 정도의 원격 팀에서는&lt;br>
+&lt;strong>사람의 기억이 협업 시스템이 되는 방식이 금방 한계에 옵니다.&lt;/strong>&lt;/p>
+&lt;hr>
+&lt;h2 id="툴을-많이-쓰는-것과-구조가-있는-것은-다르다">툴을 많이 쓰는 것과 구조가 있는 것은 다르다&lt;/h2>
+&lt;p>D3F!B에서도 Discord, Notion, Google Drive를 사용합니다.&lt;/p>
+&lt;p>중요했던 것은 어떤 툴을 쓰느냐보다 &lt;strong>각 툴이 무엇을 책임지는지 겹치지 않게 만드는 것&lt;/strong>이었습니다.&lt;/p></description></item></channel></rss>

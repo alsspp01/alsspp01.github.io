@@ -1,3 +1,5 @@
+<div class="lang-ko">
+
 # Min Yewon · Dyun
 
 > **낯선 문제를 빠르게 이해하고, 실제로 작동하는 구조로 바꿉니다.**
@@ -17,45 +19,31 @@
 **Unfamiliar Domain → Understanding → Technical Direction**
 
 기상학이라는 생소한 도메인에서 예보관의 업무 흐름과 기존 시스템을 파악하고,  
-프로젝트가 만들어야 할 AI의 기술적 방향과 요구사항을 구체화했습니다.
-
-`Domain Understanding` `Technical Planning` `Cross-functional Communication`
+충분히 정리되지 않았던 기술 요구사항과 AI의 방향을 구체화했습니다.
 
 [Case Study →](/portfolio/ai-forecast-support/)
-
----
 
 ### 🧪 Chemi.lol
 **Player Data → Feature Design → Compatibility Model**
 
-League of Legends 플레이어 데이터를 바탕으로 듀오의 플레이 특성을 비교하고,  
-사용자가 이해하기 쉬운 형태의 궁합 지표를 만들기 위해 데이터 구조와 회귀 모델을 설계했습니다.
+LoL 듀오 데이터를 수집하고 관계를 설명하는 feature를 설계한 뒤,  
+여러 회귀 모델을 실험해 함께 플레이한 결과를 데이터로 어디까지 설명할 수 있는지 확인했습니다.
 
-`Data Product` `Feature Engineering` `ML Experiment`
-
-[Case Study →](/portfolio/chemi-lol/) · [GitHub Organization →](https://github.com/league-of-legend-project)
-
----
+[Case Study →](/portfolio/chemi-lol/) · [Analysis Repo →](https://github.com/league-of-legend-project/Analysis)
 
 ### 📊 LoL Player Research
-**Raw Game Data → Research Pipeline → Participant Report**
+**Research Question → Data Pipeline → Participant Report**
 
-LoL API와 오픈소스 코드를 분석해 연구용 데이터 수집 파이프라인을 만들고,  
-실험 결과를 사람이 읽을 수 있는 리포트로 변환하는 통계 시각화 툴까지 제작했습니다.
+LoL API와 오픈소스 코드를 분석해 연구 조건에 맞는 데이터 파이프라인을 만들고,  
+실험 결과를 사람이 읽을 수 있는 리포트로 바꾸는 통계 시각화 도구까지 제작했습니다.
 
-`Research Engineering` `Automation` `Data Visualization`
-
-[Case Study →](/portfolio/lol-player-research/) · [LDA →](https://github.com/alsspp01/LDA) · [Report Tool →](https://github.com/alsspp01/TestResultAnalysis)
-
----
+[Case Study →](/portfolio/lol-player-research/) · [LDA →](https://github.com/alsspp01/LDA)
 
 ### 🎮 Arcanum Nights
 **Idea → System Design → Playable Experience**
 
-10명 규모의 D3F!B에서 초기 아이디어부터 시스템/UIUX, 데이터 구조, 개발·아트 리소스를 함께 고려해  
+10명 규모의 D3F!B에서 초기 방향부터 시스템, UI/UX, 데이터 구조, 개발·아트 리소스를 함께 고려해  
 실제로 만들고 플레이할 수 있는 형태까지 기획했습니다.
-
-`System Planning` `UX` `Technical Design` `Team Collaboration`
 
 [Case Study →](/portfolio/arcanum-nights/)
 
@@ -63,24 +51,76 @@ LoL API와 오픈소스 코드를 분석해 연구용 데이터 수집 파이프
 
 ## Recent Build Log
 
-최근에는 작은 불편을 직접 도구로 바꾸는 **Project DIA (Do It, AI)** 를 진행하고 있습니다.
+최근에는 작은 불편을 직접 도구로 바꾸는 **Project DIA — Do It, AI**를 진행하고 있습니다.
 
 - Discord 회의 녹음 → AI 요약 → Notion 기록
-- Discord 메시지 예약 시스템
-- Notion 개발일지 → Discord 자동 알림
-- Python + Vanilla JS 기반 자체 Blog Editor
+- Discord 메시지 예약
+- Notion 개발일지 → Discord 알림
+- Python + Vanilla JS 기반 Blog Editor
 
-[All Projects →](/projects/) · [GitHub →](https://github.com/alsspp01?tab=repositories)
+[Projects Archive →](/projects/) · [GitHub →](https://github.com/alsspp01?tab=repositories)
+
+</div>
+
+<div class="lang-en" style="display:none">
+
+# Min Yewon · Dyun
+
+> **I turn unfamiliar problems into structures that actually work.**
+
+I like working where planning, technology, and user needs speak slightly different languages.  
+Even in a new domain, I start by mapping the system, organizing what matters, and turning it into something other people can act on.
+
+**Planning · Product · Technology**
+
+[Portfolio →](/portfolio/) · [About Me →](/about_me/) · [Projects →](/projects/) · [Posts →](/posts/)
 
 ---
 
-## A Bit More About Me
+## Selected Works
 
-새로운 일을 맡았을 때 제가 가장 먼저 찾는 것은 정답이 아닙니다.
+### 🌦️ AI Forecast Support
+**Unfamiliar Domain → Understanding → Technical Direction**
 
-**아직 무엇을 모르고 있는지**,  
-그리고 **이 문제가 어떤 구조로 움직이고 있는지**부터 찾습니다.
+I entered an unfamiliar meteorological domain, traced forecasters' real workflows and tools,  
+and helped turn underdefined needs into clearer technical requirements and direction.
 
-자세한 이야기는 About Me에 적어두었습니다.
+[Case Study →](/portfolio/ai-forecast-support/)
 
-[About Me →](/about_me/)
+### 🧪 Chemi.lol
+**Player Data → Feature Design → Compatibility Model**
+
+I worked with LoL duo data, designed relationship-level features, and compared multiple regression approaches  
+to explore how much of two players' outcomes together could actually be explained from play data.
+
+[Case Study →](/portfolio/chemi-lol/) · [Analysis Repo →](https://github.com/league-of-legend-project/Analysis)
+
+### 📊 LoL Player Research
+**Research Question → Data Pipeline → Participant Report**
+
+I analyzed Riot API data and open-source implementations, built a pipeline around the research conditions,  
+and later created a statistics/visualization utility for participant-facing reports.
+
+[Case Study →](/portfolio/lol-player-research/) · [LDA →](https://github.com/alsspp01/LDA)
+
+### 🎮 Arcanum Nights
+**Idea → System Design → Playable Experience**
+
+At D3F!B, a 10-person side-project team, I planned the game from its early direction through systems, UI/UX, data structures, and production constraints.
+
+[Case Study →](/portfolio/arcanum-nights/)
+
+---
+
+## Recent Build Log
+
+Lately, I have been running **Project DIA — Do It, AI**, a series of small tools that turn recurring friction into automation.
+
+- Discord meeting → AI summary → Notion
+- Scheduled Discord messages
+- Notion devlog → Discord notifications
+- A self-hosted Blog Editor built with Python and Vanilla JS
+
+[Projects Archive →](/projects/) · [GitHub →](https://github.com/alsspp01?tab=repositories)
+
+</div>

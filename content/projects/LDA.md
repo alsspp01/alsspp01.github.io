@@ -1,181 +1,87 @@
 ---
-title: "League of legends Data Analysis project"
+title: "League of Legends Data Analysis"
+title_en: "League of Legends Data Analysis"
 type: page
-description: "E-Sports Data analysis project with Doctor. Hwanho Lee"
+description: "단국대학교 스포츠심리학 연구실 인지피로 연구를 위한 데이터 수집 및 실험 도구."
+description_en: "Data collection and experimental tooling for cognitive-fatigue research."
 dated: true
 period_start: "2024-03"
 period_end: "2025-06"
-summary: "League of legends를 중심으로 e-sports 데이터를 분석하여 인지피로 분석을 수행하는 프로젝트를 진행하기 위한 프로그램들.\n\nPrograms to carry out a project to perform cognitive fatigue analysis by analyzing e-sports data focusing on League of Legends"
 tags: ["DKU"]
 ---
 
-## League of legends(LoL) Data Analysis
-project in Dankook Univ. Sports Psychology Laboratory
+<div class="lang-ko">
 
-#### 사용 언어
-Python
+# 📊 League of Legends Data Analysis
 
----
+**Dankook University Sports Psychology Laboratory**
 
-### 1. Stroop Test
-#### 제작 목적
-시간에 따른 인지 피로도 변화 측정 및 시각화
+LoL 플레이와 인지 피로의 관계를 연구하기 위해 데이터 수집, 실험, 분석에 필요한 프로그램을 제작했습니다.
 
-#### 제작 도구
-- UI: PyQt
-- Test: Pygame
-- data: Pandas
-- analysis: Numpy
-- visualization: Seaborn
+[Portfolio Case Study →](/portfolio/lol-player-research/) · [GitHub →](https://github.com/alsspp01/LDA)
 
-#### 결과
-1. 그룹별 결과 中
-   ![5m](/image/LDA/stroop_test_by_group.png)
+## 1. Stroop Test
+- UI · PyQt
+- Test · Pygame
+- Data · Pandas
+- Analysis · NumPy
+- Visualization
 
----
+![Stroop test result](/image/LDA/stroop_test_by_group.png)
 
-### 2. 전적 분석 사이트 크롤링 및 분석
-#### 대상
-[Fow.lol](Fow.lol)
+## 2. Match-history Exploration
+기존 전적 사이트의 request/JSON 구조와 pagination을 분석해 연속 플레이 데이터 수집 가능성을 확인했습니다.
 
-#### 제작도구
-- data: Pandas, Numpy
-- crawlling: requests, json, tqdm
-- parsing: BeatifulSoup (bs4)
+## 3. Riot API Pipeline
+티어별 플레이어, match ID, 경기 정보를 자동 수집하고 timestamp로 연속 플레이 sequence를 판별했습니다.
 
-#### 제작 방법
-1. html 코드 분석 및 API 호출 구문 확인
-2. time seed 값으로 페이지 추가 생성이 되는 것을 확인
-3. request를 통해 fow.lol 사이트 API에 직접 timeseed를 바탕으로 데이터를 요청하여 json으로 읽어들임
-4. bs4를 이용하여 parsing 및 플레이어별 데이터 분류
-5. 10분 단위로 연속 8게임을 행한 게임 플레이에 대해 따로 저장
-6. 데이터 분석 및 시각화 진행
+실험 코드에는:
+- 5분 / 10분 간격
+- 6게임 / 8게임 연속 sequence
 
----
+조건이 포함되어 있습니다.
 
-### 3. LoL API 이용 플레이어 데이터 자동 수집 및 분석
-#### 제작도구
-- API.py(Dedicated module): requests, json, re, csv, time
-- data collection: API, Pandas, tqdm
-- data analysis & visualization: Pandas, numpy, seaborn
+## 4. Dynamic Data Exploration
+`DynamicAnalysis`에 JavaScript logger, Python position logger, position dataset, notebook이 남아 있습니다.
 
-#### 제작 방법
-1. 활용할 LoL API를 정리한 API.py 모듈 제작
-   ``` python
-   import requests as rq
-   import json
-   import re
-   import csv
-   import time
+## 5. Participant Report Utility
+연구 후반에는 별도의 private 도구로 실험 결과를 통계 처리·시각화해 피험자에게 보여줄 리포트를 만들었습니다.
 
-   REQ_TERM = 1.25  # API requset limit
+</div>
 
-   # tier, division 목록
-   high_tier = ['CHALLENGER', 'GRANDMASTER', 'MASTER']
-   low_tier = ['DIAMOND', 'EMERALD', 'PLATINUM', 'GOLD', 'SILVER', 'BRONZE']
-   tiers = ['CHALLENGER', 'GRANDMASTER', 'MASTER', 'DIAMOND', 'EMERALD', 'PLATINUM', 'GOLD', 'SILVER', 'BRONZE']
-   tiers_tft = tiers[3:]
-   division = ['I', 'II', 'III', 'IV']
+<div class="lang-en" style="display:none">
 
+# 📊 League of Legends Data Analysis
 
-   def summonerData(tier, division, page, api_key):
-     url = f"https://kr.api.riotgames.com/lol/league-exp/v4/entries/RANKED_SOLO_5x5/{tier}/{division}?page={page}"
-     header = {"X-Riot-Token": api_key}
-     data = rq.get(url, headers=header).json()
-     result = []
-     for temp in data:
-       result.append(temp['summonerId'])
+**Dankook University Sports Psychology Laboratory**
 
-     time.sleep(REQ_TERM)
+I built data-collection, experimental, and analysis tooling for research on League of Legends play and cognitive fatigue.
 
-     return result
+[Portfolio Case Study →](/portfolio/lol-player-research/) · [GitHub →](https://github.com/alsspp01/LDA)
 
-   def summonerTopuuid(summonerId, api_key):
-     url = f"https://kr.api.riotgames.com/lol/summoner/v4/summoners/{summonerId}"
-     header = {"X-Riot-Token": api_key}
+## 1. Stroop Test
+- UI · PyQt
+- Test · Pygame
+- Data · Pandas
+- Analysis · NumPy
+- Visualization
 
-     time.sleep(REQ_TERM)
+![Stroop test result](/image/LDA/stroop_test_by_group.png)
 
-     return rq.get(url, headers=header).json()['puuid']
+## 2. Match-history Exploration
+I inspected request/JSON structures and pagination behavior from existing match-history services.
 
-   def puuidTogameName(puuid, api_key):
-     url = f"https://asia.api.riotgames.com/riot/account/v1/accounts/by-puuid/{puuid}"
-     header = {"X-Riot-Token": api_key}
+## 3. Riot API Pipeline
+I automated collection of players, match IDs, and match data across tiers, then used timestamps to identify consecutive-play sequences.
 
-     time.sleep(REQ_TERM)
+Experimental conditions included:
+- 5 / 10 minute gaps
+- 6 / 8 game sequences
 
-     return rq.get(url, headers=header).json()
+## 4. Dynamic Data Exploration
+`DynamicAnalysis` contains JavaScript/Python loggers, position datasets, and analysis notebooks.
 
-   def puuidTomatchId(puuid, api_key):
-     url = f"https://asia.api.riotgames.com/lol/match/v5/matches/by-puuid/{puuid}/ids?type=ranked&start=0&count=100"
-     header = {"X-Riot-Token": api_key}
+## 5. Participant Report Utility
+Later, I built a separate private utility that processed and visualized experiment outputs into participant-facing reports.
 
-     time.sleep(REQ_TERM)
-
-     return rq.get(url, headers=header).json()
-
-   def gameInfo(matchId, api_key):
-     url = f"https://asia.api.riotgames.com/lol/match/v5/matches/{matchId}"
-     header = {"X-Riot-Token": api_key}
-
-     time.sleep(REQ_TERM)
-
-     return rq.get(url, headers=header).json()
-
-   def timeline(matchId, api_key):
-     url = f"https://asia.api.riotgames.com/lol/match/v5/matches/{matchId}/timeline"
-     header = {"X-Riot-Token": api_key}
-
-     time.sleep(REQ_TERM)
-
-     return rq.get(url, headers=header).json()
-
-   def tft_summonerData(tier, division, page, api_key):
-     url = f"https://kr.api.riotgames.com/tft/league/v1/entries/{tier}/{division}?queue=RANKED_TFT&page={page}"
-     header = {"X-Riot-Token": api_key}
-     response = rq.get(url, headers=header)
-     result = []
-
-     if response.status_code == 200:
-       data = response.json()
-
-       for temp in data:
-         result.append(temp['puuid'])
-
-       time.sleep(REQ_TERM)
-
-     return result
-
-   def tft_puuidTomatchId(puuid, api_key):
-     url = f"https://asia.api.riotgames.com/tft/match/v1/matches/by-puuid/{puuid}/ids"
-     header = {"X-Riot-Token": api_key}
-
-     time.sleep(REQ_TERM)
-
-     return rq.get(url, headers=header).json()
-
-   def tft_gameInfo(matchId, api_key):
-     url = f"https://asia.api.riotgames.com/tft/match/v1/matches/{matchId}"
-     header = {"X-Riot-Token": api_key}
-
-     time.sleep(REQ_TERM)
-
-     return rq.get(url, headers=header).json()
-
-   def gameNameTopuuid(gameName, tagLine, api_key):
-     url = f"https://asia.api.riotgames.com/riot/account/v1/accounts/by-riot-id/{gameName}/{tagLine}"
-     header = {"X-Riot-Token": api_key}
-
-     time.sleep(REQ_TERM)
-
-     return rq.get(url, headers=header).json()
-   ```
-2. API.py를 활용해 데이터 자동 수집 프로그램 제작
-   - 1차 티어별 ID 및 tagline 수집
-   - 2차 플레이 데이터 수집: 게임 시작, 종료 시간 timestamp(Unix timestamp)를 활용해 10분 간격으로 8게임 연속 플레이한 플레이 데이터만을 추출하여 저장
-   - 티어별로 CSV파일로 변환 저장
-4. 수집한 데이터를 Fow.lol 크롤링 데이터의 경향성을 기반으로 분석 및 시각화
-
----
-
-연구 마무리 후 업데이트 예정입니다.
+</div>

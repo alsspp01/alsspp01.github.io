@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Database on Dyun's blog</title><link>https://alsspp01.github.io/tags/database/</link><description>Recent content in Database on Dyun's blog</description><generator>Hugo</generator><language>en</language><lastBuildDate>Wed, 19 Aug 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://alsspp01.github.io/tags/database/index.xml" rel="self" type="application/rss+xml"/><item><title>전투 로그를 RocksDB에 저장한다면</title><link>https://alsspp01.github.io/posts/2026-08-19-rocksdb-combat-log-design/</link><pubDate>Wed, 19 Aug 2026 00:00:00 +0000</pubDate><guid>https://alsspp01.github.io/posts/2026-08-19-rocksdb-combat-log-design/</guid><description>&lt;div class="lang-ko">
+&lt;p>전투 로그를 저장한다고 하면 처음에는 포맷이 먼저 떠오릅니다.&lt;/p>
+&lt;p>JSON 그대로 저장할까?&lt;br>
+압축할까?&lt;br>
+MsgPack으로 바꿀까?&lt;br>
+아예 key-path 형태로 펼칠까?&lt;/p>
+&lt;p>저도 처음에는 &lt;strong>어떤 포맷이 제일 빠르고 작을까&lt;/strong>가 핵심 질문이라고 생각했습니다.&lt;/p>
+&lt;p>RocksDB를 붙여 직접 실험해보니 그 질문만으로는 부족했습니다.&lt;/p>
+&lt;hr>
+&lt;h2 id="네-가지-저장-전략">네 가지 저장 전략&lt;/h2>
+&lt;h3 id="raw-json">Raw JSON&lt;/h3>
+&lt;p>JSON 문자열을 거의 그대로 저장합니다. 가장 단순하고 디버깅하기 쉽습니다.&lt;/p>
+&lt;h3 id="compressed-json">Compressed JSON&lt;/h3>
+&lt;p>JSON을 zlib으로 압축해 저장합니다. 직관적으로는 디스크 사용량이 가장 작을 것 같았습니다.&lt;/p>
+&lt;h3 id="msgpack">MsgPack&lt;/h3>
+&lt;p>JSON 구조를 binary serialization 형태로 변환합니다. 문자열 표현의 일부 overhead를 줄일 수 있습니다.&lt;/p></description></item></channel></rss>

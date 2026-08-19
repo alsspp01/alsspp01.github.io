@@ -36,7 +36,7 @@ aliases:
 
 ## 🦎 Metamon, v2.0
 
-2년 전 자기소개에서 저는 스스로를 **메타몽**이라고 불렀습니다.
+예전 자기소개에서 저는 스스로를 **메타몽**이라고 불렀습니다.
 
 지금 다시 봐도 꽤 정확한 표현인 것 같습니다.  
 포켓몬스터의 메타몽은 자기 모습을 
@@ -143,7 +143,7 @@ aliases:
 
 요즘은 그게 제가 해야 할 일이라고 생각합니다.
 
-2년 전에는 내가 많이 하는 것이 좋은 팀워크라고 생각했다면,  
+예전에는 내가 많이 하는 것이 좋은 팀워크라고 생각했다면,  
 지금은 **각자가 스스로 움직일 수 있는 구조를 만드는 것**에 더 관심이 있습니다.
 
 ---
@@ -192,6 +192,7 @@ aliases:
 <br>
 <h2 id="work">🚀작업물🚀</h2>
 
+#### [🗂️Portfolio](/portfolio/)
 #### [📦Projects](/projects/)
 #### [🖋️Posts](/posts/)
 
@@ -228,7 +229,7 @@ That is usually how I learn a new domain.
 
 ## 🦎 Metamon, v2.0
 
-Three years ago, I described myself as **Metamon** — the Korean name for Pokémon’s Ditto.
+In an earlier version of my About Me, I described myself as **Metamon** — the Korean name for Pokémon’s Ditto.
 
 It still fits surprisingly well.  
 Because Ditto is a character that can freely change its appearance to match anything.  
@@ -332,7 +333,7 @@ Quite the opposite.
 
 **I want each person to do their own job better because the handoff is clearer.**
 
-Three years ago, I thought contributing more meant doing more myself.  
+I used to think contributing more meant doing more myself.  
 Now I am much more interested in **building a structure where people can move without waiting on me**.
 
 ---
@@ -375,6 +376,7 @@ Clearing a messy map, finding a better route through it, and handing someone a r
 <br>
 <h2 id="work-en">🚀 Work 🚀</h2>
 
+#### [🗂️Portfolio](/portfolio/)
 #### [📦Projects](/projects/)
 #### [🖋️Posts](/posts/)
 

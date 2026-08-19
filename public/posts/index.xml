@@ -1,4 +1,63 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on Dyun's blog</title><link>https://alsspp01.github.io/posts/</link><description>Recent content in Posts on Dyun's blog</description><generator>Hugo</generator><language>en</language><lastBuildDate>Tue, 11 Aug 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://alsspp01.github.io/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>자동화 - PART 01. Notion 알림 Discord로 보내기</title><link>https://alsspp01.github.io/posts/%EC%9E%90%EB%8F%99%ED%99%94-part-01-notion-%EC%95%8C%EB%A6%BC-discord%EB%A1%9C-%EB%B3%B4%EB%82%B4%EA%B8%B0/</link><pubDate>Tue, 11 Aug 2026 00:00:00 +0000</pubDate><guid>https://alsspp01.github.io/posts/%EC%9E%90%EB%8F%99%ED%99%94-part-01-notion-%EC%95%8C%EB%A6%BC-discord%EB%A1%9C-%EB%B3%B4%EB%82%B4%EA%B8%B0/</guid><description>&lt;h2 id="1-개요-및-프로젝트-목적">1. 개요 및 프로젝트 목적&lt;/h2>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on Dyun's blog</title><link>https://alsspp01.github.io/posts/</link><description>Recent content in Posts on Dyun's blog</description><generator>Hugo</generator><language>en</language><lastBuildDate>Wed, 19 Aug 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://alsspp01.github.io/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>Edge Case를 수집하는 기획</title><link>https://alsspp01.github.io/posts/2026-08-19-designing-for-edge-cases/</link><pubDate>Wed, 19 Aug 2026 00:00:00 +0000</pubDate><guid>https://alsspp01.github.io/posts/2026-08-19-designing-for-edge-cases/</guid><description>&lt;div class="lang-ko">
+&lt;p>기획서를 쓸 때 가장 쉬운 흐름은 정상적인 흐름입니다.&lt;/p>
+&lt;p>사용자가 버튼을 누르고, 다음 화면으로 가고, 필요한 값을 입력하고, 성공합니다.&lt;/p>
+&lt;p>문제는 실제 사용자가 정상적인 흐름만 밟지 않는다는 것입니다.&lt;/p>
+&lt;p>그래서 저는 기획을 하면 머릿속에서 한 번 &lt;strong>실제로 굴려보는 편&lt;/strong>입니다.&lt;/p>
+&lt;hr>
+&lt;h2 id="happy-path-다음에-나오는-질문들">Happy Path 다음에 나오는 질문들&lt;/h2>
+&lt;p>기능 하나를 생각하면 이런 질문이 따라옵니다.&lt;/p>
+&lt;ul>
+&lt;li>사용자가 중간에 취소하면?&lt;/li>
+&lt;li>같은 버튼을 연속으로 누르면?&lt;/li>
+&lt;li>값이 없으면?&lt;/li>
+&lt;li>두 조건이 동시에 만족하면?&lt;/li>
+&lt;li>우선순위가 충돌하면?&lt;/li>
+&lt;li>저장 전 상태가 바뀌면?&lt;/li>
+&lt;li>처음 보는 사람은 내가 예상한 버튼을 정말 누를까?&lt;/li>
+&lt;/ul>
+&lt;p>이 질문을 전부 문서에 적는 것은 아닙니다.&lt;/p></description></item><item><title>낯선 도메인을 기술 방향으로 바꾸기</title><link>https://alsspp01.github.io/posts/2026-08-19-ai-forecast-domain-to-direction/</link><pubDate>Wed, 19 Aug 2026 00:00:00 +0000</pubDate><guid>https://alsspp01.github.io/posts/2026-08-19-ai-forecast-domain-to-direction/</guid><description>&lt;div class="lang-ko">
+&lt;p>프로젝트 초반에 요구사항이 흐리면 마음이 급해집니다.&lt;/p>
+&lt;p>일정은 움직이고 있고, 개발자는 무엇을 만들지 알아야 하고, 회의에서는 다음 액션이 필요합니다.&lt;br>
+이럴 때 가장 빠르게 보이는 방법은 기능 목록을 만드는 것입니다.&lt;/p>
+&lt;p>그런데 기상 예보지원 프로젝트에서는 기능부터 적기 시작하면 오히려 더 늦어질 것 같았습니다.&lt;/p>
+&lt;p>왜냐하면 저는 &lt;strong>기상학을 몰랐기 때문입니다.&lt;/strong>&lt;/p>
+&lt;hr>
+&lt;h2 id="모르는-상태에서-요구사항을-쓰면-생기는-일">모르는 상태에서 요구사항을 쓰면 생기는 일&lt;/h2>
+&lt;p>처음 보는 도메인에서는 익숙한 단어도 의미가 다릅니다.&lt;/p>
+&lt;p>같은 &amp;ldquo;데이터&amp;quot;라는 말도 누가, 언제, 어떤 판단을 위해 보는 데이터인지에 따라 중요도가 달라집니다.&lt;/p></description></item><item><title>사람 사이에도 Interface가 있다</title><link>https://alsspp01.github.io/posts/2026-08-19-d3fib-collaboration-system/</link><pubDate>Wed, 19 Aug 2026 00:00:00 +0000</pubDate><guid>https://alsspp01.github.io/posts/2026-08-19-d3fib-collaboration-system/</guid><description>&lt;div class="lang-ko">
+&lt;p>팀이 작을 때는 대부분의 일이 기억으로 굴러갑니다.&lt;/p>
+&lt;blockquote>
+&lt;p>“그 파일 어디 있었지?”&lt;/p>
+&lt;/blockquote>
+&lt;blockquote>
+&lt;p>“저번 회의에서 뭐로 결정했더라?”&lt;/p>
+&lt;/blockquote>
+&lt;blockquote>
+&lt;p>“이건 개발팀 채널에 올리면 되나?”&lt;/p>
+&lt;/blockquote>
+&lt;p>다 아는 사람들이라면 누군가 답해줍니다.&lt;/p>
+&lt;p>문제는 사람이 늘어날 때입니다.&lt;/p>
+&lt;p>기획, 개발, 아트로 나뉜 10명 정도의 원격 팀에서는&lt;br>
+&lt;strong>사람의 기억이 협업 시스템이 되는 방식이 금방 한계에 옵니다.&lt;/strong>&lt;/p>
+&lt;hr>
+&lt;h2 id="툴을-많이-쓰는-것과-구조가-있는-것은-다르다">툴을 많이 쓰는 것과 구조가 있는 것은 다르다&lt;/h2>
+&lt;p>D3F!B에서도 Discord, Notion, Google Drive를 사용합니다.&lt;/p>
+&lt;p>중요했던 것은 어떤 툴을 쓰느냐보다 &lt;strong>각 툴이 무엇을 책임지는지 겹치지 않게 만드는 것&lt;/strong>이었습니다.&lt;/p></description></item><item><title>전투 로그를 RocksDB에 저장한다면</title><link>https://alsspp01.github.io/posts/2026-08-19-rocksdb-combat-log-design/</link><pubDate>Wed, 19 Aug 2026 00:00:00 +0000</pubDate><guid>https://alsspp01.github.io/posts/2026-08-19-rocksdb-combat-log-design/</guid><description>&lt;div class="lang-ko">
+&lt;p>전투 로그를 저장한다고 하면 처음에는 포맷이 먼저 떠오릅니다.&lt;/p>
+&lt;p>JSON 그대로 저장할까?&lt;br>
+압축할까?&lt;br>
+MsgPack으로 바꿀까?&lt;br>
+아예 key-path 형태로 펼칠까?&lt;/p>
+&lt;p>저도 처음에는 &lt;strong>어떤 포맷이 제일 빠르고 작을까&lt;/strong>가 핵심 질문이라고 생각했습니다.&lt;/p>
+&lt;p>RocksDB를 붙여 직접 실험해보니 그 질문만으로는 부족했습니다.&lt;/p>
+&lt;hr>
+&lt;h2 id="네-가지-저장-전략">네 가지 저장 전략&lt;/h2>
+&lt;h3 id="raw-json">Raw JSON&lt;/h3>
+&lt;p>JSON 문자열을 거의 그대로 저장합니다. 가장 단순하고 디버깅하기 쉽습니다.&lt;/p>
+&lt;h3 id="compressed-json">Compressed JSON&lt;/h3>
+&lt;p>JSON을 zlib으로 압축해 저장합니다. 직관적으로는 디스크 사용량이 가장 작을 것 같았습니다.&lt;/p>
+&lt;h3 id="msgpack">MsgPack&lt;/h3>
+&lt;p>JSON 구조를 binary serialization 형태로 변환합니다. 문자열 표현의 일부 overhead를 줄일 수 있습니다.&lt;/p></description></item><item><title>자동화 - PART 01. Notion 알림 Discord로 보내기</title><link>https://alsspp01.github.io/posts/%EC%9E%90%EB%8F%99%ED%99%94-part-01-notion-%EC%95%8C%EB%A6%BC-discord%EB%A1%9C-%EB%B3%B4%EB%82%B4%EA%B8%B0/</link><pubDate>Tue, 11 Aug 2026 00:00:00 +0000</pubDate><guid>https://alsspp01.github.io/posts/%EC%9E%90%EB%8F%99%ED%99%94-part-01-notion-%EC%95%8C%EB%A6%BC-discord%EB%A1%9C-%EB%B3%B4%EB%82%B4%EA%B8%B0/</guid><description>&lt;h2 id="1-개요-및-프로젝트-목적">1. 개요 및 프로젝트 목적&lt;/h2>
 &lt;p>Notion의 &amp;lsquo;개발 일지&amp;rsquo; 데이터베이스에 새 페이지가 생성될 때, Discord 채널로 알림 임베드(Embed)를 자동으로 전송하는 독립형 파이프라인을 구축했다. 본 프로젝트는 &lt;code>d3fib/Devlog2Discord&lt;/code> 단일 저장소로 구성된다. 이는 기존에 회의록 등을 기록하던 상시 실행형 디스코드 봇 프로젝트인 &lt;code>secretary&lt;/code>와는 완전히 별개로 동작하는 소규모 독립 시스템이다.&lt;/p>
 &lt;h2 id="2-아키텍처-설계-github-actions에서-자체-웹훅-서버로의-전환">2. 아키텍처 설계: GitHub Actions에서 자체 웹훅 서버로의 전환&lt;/h2>
 &lt;p>초기에는 &lt;strong>GitHub Actions&lt;/strong>를 트리거로 사용하는 아키텍처를 계획했다. 하지만 조사와 실무 검증 과정에서 구조적 한계가 드러나, 최종적으로는 홈서버(노트북)에서 상시 실행되는 &lt;strong>경량 Node.js 웹훅 서버&lt;/strong>로 전환했다.&lt;/p></description></item><item><title>집사 - PART 02. 메세지 예약</title><link>https://alsspp01.github.io/posts/%EC%A7%91%EC%82%AC-part-02-%EB%A9%94%EC%84%B8%EC%A7%80-%EC%98%88%EC%95%BD/</link><pubDate>Tue, 11 Aug 2026 00:00:00 +0000</pubDate><guid>https://alsspp01.github.io/posts/%EC%A7%91%EC%82%AC-part-02-%EB%A9%94%EC%84%B8%EC%A7%80-%EC%98%88%EC%95%BD/</guid><description>&lt;p>디스코드 음성 회의 기록 및 요약 봇 **집사(defib-secretary)**에 회의 흐름과 완전히 독립적으로 동작하는 &lt;strong>메시지 예약 발송 시스템&lt;/strong>을 추가했다. 특정 시각에 지정된 채널로 메시지를 자동 전송하는 기능이다.&lt;/p>
