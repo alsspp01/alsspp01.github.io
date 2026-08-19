@@ -7,7 +7,7 @@ aliases:
 
 # 🌟 About Me
 
-## 🌫️ 전장의 안개부터 걷어냅니다.
+## 🌫️ 전장의 안개
 
 새로운 프로젝트에 들어가면 제 머릿속에는 일단 **전장의 안개**가 깔립니다.
 
@@ -146,7 +146,7 @@ aliases:
 
 ---
 
-## ⚡ 복잡하게 생각하고, 단순하게 만듭니다.
+## ⚡ 복잡하게 생각하고, 단순하게 만들기
 
 예전의 저는 아이디어가 떠오르면 가능한 한 많이 넣고 싶어 했습니다.
 
@@ -201,7 +201,7 @@ aliases:
 
 # About Me
 
-## 🌫️ First, I Clear the Fog of War.
+## 🌫️ The Fog of War.
 
 Whenever I step into a new project, my mental map starts under a layer of **Fog of War**.
 
