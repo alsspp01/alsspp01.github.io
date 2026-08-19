@@ -1,6 +1,8 @@
 ---
 title: "🌟 Personal Statement"
 type: page
+aliases:
+  - /personal_statement/
 ---
 
 <div style="border: 2px solid #A8D8E5; width: 40%; padding: 10px; margin: 20px auto; text-align: center; align-items: center;">
