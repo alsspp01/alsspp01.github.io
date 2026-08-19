@@ -23,7 +23,7 @@
 &lt;p>를 함께 봤습니다.&lt;/p>
 &lt;h2 id="design-before-questions-arrive">Design Before Questions Arrive&lt;/h2>
 &lt;p>정상적인 흐름뿐 아니라 예상 밖의 행동, 조건 충돌, 값이 없는 상태, 중간 상태 변경처럼 구현 단계에서 나올 질문을 미리 생각했습니다.&lt;/p></description></item><item><title>Chemi.lol</title><link>https://alsspp01.github.io/portfolio/chemi-lol/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://alsspp01.github.io/portfolio/chemi-lol/</guid><description>&lt;div class="lang-ko">
-&lt;p>&lt;a href="https://github.com/league-of-legend-project/Analysis">Analysis Repository →&lt;/a>&lt;/p>
+&lt;p>&lt;a href="https://github.com/league-of-legend-project/Analysis">🔗 Analysis Repository&lt;/a>&lt;/p>
 &lt;h2 id="the-question">The Question&lt;/h2>
 &lt;p>두 사람이 같이 플레이했을 때의 결과를 &lt;strong>둘의 관계를 나타내는 데이터&lt;/strong>로 어디까지 설명할 수 있는지 탐색했습니다.&lt;/p>
 &lt;h2 id="data-before-model">Data Before Model&lt;/h2>
@@ -65,7 +65,7 @@
 &lt;p>&lt;strong>Period&lt;/strong> · 2024.03 – 2025.06&lt;br>
 &lt;strong>Context&lt;/strong> · Dankook University Sports Psychology Laboratory&lt;br>
 &lt;strong>Role&lt;/strong> · POC / Development Design / Data Engineering&lt;/p>
-&lt;p>&lt;a href="https://github.com/alsspp01/LDA">LDA Repository →&lt;/a>&lt;/p>
+&lt;p>&lt;a href="https://github.com/alsspp01/LDA">🔗 LDA Repository&lt;/a>&lt;/p>
 &lt;h2 id="from-research-question-to-data">From Research Question to Data&lt;/h2>
 &lt;p>League of Legends 플레이에 따른 인지 피로를 연구하려면&lt;br>
 누가, 어느 정도 간격으로, 몇 경기를 연속 플레이했는지를 연구 조건에 맞게 찾아야 했습니다.&lt;/p>

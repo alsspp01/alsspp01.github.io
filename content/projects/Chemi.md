@@ -8,8 +8,8 @@ description_en: "Relationship-focused feature engineering and regression experim
 
 <div class="lang-ko">
 
-[Portfolio Case Study →](/portfolio/chemi-lol/)  
-[Analysis Repository →](https://github.com/league-of-legend-project/Analysis)
+[🔗 Portfolio Case Study](/portfolio/chemi-lol/)  
+[🔗 Analysis Repository](https://github.com/league-of-legend-project/Analysis)
 
 ## Pipeline
 
@@ -31,14 +31,14 @@ Player / Match / Timeline → MongoDB → Duo Detection → Feature Engineering 
 
 모델 복잡도를 높여도 R²가 크게 개선되지 않았고, **현재 feature만으로 궁합을 설명하는 데 한계가 있다**는 점도 중요한 결과였습니다.
 
-[Portfolio Case Study →](/portfolio/chemi-lol/)
+[🔗 Portfolio Case Study](/portfolio/chemi-lol/)
 
 </div>
 
 <div class="lang-en" style="display:none">
 
-[Portfolio Case Study →](/portfolio/chemi-lol/)  
-[Analysis Repository →](https://github.com/league-of-legend-project/Analysis)
+[🔗 Portfolio Case Study](/portfolio/chemi-lol/)  
+[🔗 Analysis Repository](https://github.com/league-of-legend-project/Analysis)
 
 ## Pipeline
 
@@ -60,6 +60,6 @@ Player / Match / Timeline → MongoDB → Duo Detection → Feature Engineering 
 
 Increasing model complexity did not produce a large improvement in R², which made **the limits of the available features** an important part of the result.
 
-[Portfolio Case Study →](/portfolio/chemi-lol/)
+[🔗 Portfolio Case Study](/portfolio/chemi-lol/)
 
 </div>

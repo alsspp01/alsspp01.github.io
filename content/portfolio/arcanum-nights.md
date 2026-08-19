@@ -71,9 +71,9 @@ PlayX4 시연에서는 클리어 여부만 보지 않았습니다.
 
 **뒤에서는 복잡하게 고민하되, 앞에서는 단순하게 보이게 만드는 것.**
 
-[관련 글 →](/posts/2026-08-19-designing-for-edge-cases/)  
-[D3F!B Collaboration System →](/portfolio/d3fib-workspace/)  
-[← Portfolio](/portfolio/)
+[🔗 관련 글](/posts/2026-08-19-designing-for-edge-cases/)  
+[🔗 D3F!B Collaboration System](/portfolio/d3fib-workspace/)  
+[🔗 Portfolio](/portfolio/)
 
 </div>
 
@@ -138,8 +138,8 @@ Now I ask:
 
 **Think through the complexity in the background; keep the surface simple.**
 
-[Related Post →](/posts/2026-08-19-designing-for-edge-cases/)  
-[D3F!B Collaboration System →](/portfolio/d3fib-workspace/)  
-[← Portfolio](/portfolio/)
+[🔗 Related Post](/posts/2026-08-19-designing-for-edge-cases/)  
+[🔗 D3F!B Collaboration System](/portfolio/d3fib-workspace/)  
+[🔗 Portfolio](/portfolio/)
 
 </div>

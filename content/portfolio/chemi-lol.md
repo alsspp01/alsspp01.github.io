@@ -8,7 +8,7 @@ description_en: "A data-product experiment modeling LoL duo relationships throug
 
 <div class="lang-ko">
 
-[Analysis Repository →](https://github.com/league-of-legend-project/Analysis)
+[🔗 Analysis Repository](https://github.com/league-of-legend-project/Analysis)
 
 ## The Question
 
@@ -61,14 +61,14 @@ R² 약 0.2는 “더 복잡한 모델이면 궁합을 맞힐 수 있다”보�
 > **현재 데이터에 빠진 것은 무엇인가?**  
 > **사용자에게 어느 수준의 확신으로 결과를 보여줘야 하는가?**
 
-[Analysis Repository →](https://github.com/league-of-legend-project/Analysis)  
-[← Portfolio](/portfolio/)
+[🔗 Analysis Repository](https://github.com/league-of-legend-project/Analysis)  
+[🔗 Portfolio](/portfolio/)
 
 </div>
 
 <div class="lang-en" style="display:none">
 
-[Analysis Repository →](https://github.com/league-of-legend-project/Analysis)
+[🔗 Analysis Repository](https://github.com/league-of-legend-project/Analysis)
 
 ## The Question
 
@@ -122,7 +122,7 @@ That shifted the questions toward:
 > **What is missing from the data?**  
 > **How confident should the product sound when showing a result?**
 
-[Analysis Repository →](https://github.com/league-of-legend-project/Analysis)  
-[← Portfolio](/portfolio/)
+[🔗 Analysis Repository](https://github.com/league-of-legend-project/Analysis)  
+[🔗 Portfolio](/portfolio/)
 
 </div>

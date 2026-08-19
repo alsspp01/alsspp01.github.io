@@ -16,7 +16,7 @@ aliases:
 
 **Single ~ 2 Players · D3F!B**
 
-[Portfolio Case Study →](/portfolio/arcanum-nights/)
+[🔗 Portfolio Case Study](/portfolio/arcanum-nights/)
 
 ## Planning
 - 게임 전체 방향 / core experience
@@ -32,7 +32,7 @@ Unity/C# 구조를 학습하고 튜토리얼 구현과 Python 맵 툴 제작에�
 ## User Test
 PlayX4에서 표정, 자세, 입력 속도와 빈도, 플레이가 늘어지는 구간을 관찰해 템포와 연출을 재검토했습니다.
 
-[Portfolio Case Study →](/portfolio/arcanum-nights/)
+[🔗 Portfolio Case Study](/portfolio/arcanum-nights/)
 
 </div>
 
@@ -40,7 +40,7 @@ PlayX4에서 표정, 자세, 입력 속도와 빈도, 플레이가 늘어지는 
 
 **Single ~ 2 Players · D3F!B**
 
-[Portfolio Case Study →](/portfolio/arcanum-nights/)
+[🔗 Portfolio Case Study](/portfolio/arcanum-nights/)
 
 ## Planning
 - overall direction / core experience
@@ -56,6 +56,6 @@ I learned the Unity/C# structure and contributed to tutorial implementation and 
 ## User Test
 At PlayX4, I watched expressions, posture, input rhythm, and where the experience began to drag, then revisited tempo and presentation.
 
-[Portfolio Case Study →](/portfolio/arcanum-nights/)
+[🔗 Portfolio Case Study](/portfolio/arcanum-nights/)
 
 </div>

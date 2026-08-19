@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Projects on Dyun's blog</title><link>https://alsspp01.github.io/projects/</link><description>Recent content in Projects on Dyun's blog</description><generator>Hugo</generator><language>en</language><atom:link href="https://alsspp01.github.io/projects/index.xml" rel="self" type="application/rss+xml"/><item><title>🎮 Arcanum Nights</title><link>https://alsspp01.github.io/projects/arcananights/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://alsspp01.github.io/projects/arcananights/</guid><description>&lt;div class="lang-ko">
 &lt;p>&lt;strong>Single ~ 2 Players · D3F!B&lt;/strong>&lt;/p>
-&lt;p>&lt;a href="https://alsspp01.github.io/portfolio/arcanum-nights/">Portfolio Case Study →&lt;/a>&lt;/p>
+&lt;p>&lt;a href="https://alsspp01.github.io/portfolio/arcanum-nights/">🔗 Portfolio Case Study&lt;/a>&lt;/p>
 &lt;h2 id="planning">Planning&lt;/h2>
 &lt;ul>
 &lt;li>게임 전체 방향 / core experience&lt;/li>
@@ -14,12 +14,12 @@
 &lt;p>Unity/C# 구조를 학습하고 튜토리얼 구현과 Python 맵 툴 제작에도 참여했습니다.&lt;/p>
 &lt;h2 id="user-test">User Test&lt;/h2>
 &lt;p>PlayX4에서 표정, 자세, 입력 속도와 빈도, 플레이가 늘어지는 구간을 관찰해 템포와 연출을 재검토했습니다.&lt;/p>
-&lt;p>&lt;a href="https://alsspp01.github.io/portfolio/arcanum-nights/">Portfolio Case Study →&lt;/a>&lt;/p>
+&lt;p>&lt;a href="https://alsspp01.github.io/portfolio/arcanum-nights/">🔗 Portfolio Case Study&lt;/a>&lt;/p>
 &lt;/div>
 &lt;div class="lang-en" style="display:none">
 &lt;p>&lt;strong>Single ~ 2 Players · D3F!B&lt;/strong>&lt;/p></description></item><item><title>📊 League of Legends Data Analysis</title><link>https://alsspp01.github.io/projects/lda/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://alsspp01.github.io/projects/lda/</guid><description>&lt;div class="lang-ko">
 &lt;p>&lt;strong>Dankook University Sports Psychology Laboratory&lt;/strong>&lt;/p>
-&lt;p>&lt;a href="https://alsspp01.github.io/portfolio/lol-player-research/">Portfolio Case Study →&lt;/a> · &lt;a href="https://github.com/alsspp01/LDA">GitHub →&lt;/a>&lt;/p>
+&lt;p>&lt;a href="https://alsspp01.github.io/portfolio/lol-player-research/">🔗 Portfolio Case Study&lt;/a> · &lt;a href="https://github.com/alsspp01/LDA">🔗 GitHub&lt;/a>&lt;/p>
 &lt;h2 id="1-stroop-test">1. Stroop Test&lt;/h2>
 &lt;ul>
 &lt;li>UI · PyQt&lt;/li>
@@ -47,8 +47,8 @@ and then informs them of how to respond to each attack.&lt;/p></description></it
 &lt;p>A parsing AI system that analyzes SQL statements to determine whether they are SQL injection statements or regular SQL statements.&lt;/p></description></item><item><title>우리 정글 머함? 우정머</title><link>https://alsspp01.github.io/projects/lrp/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://alsspp01.github.io/projects/lrp/</guid><description>&lt;p>승률 검색 사이트에서 크롤링한 상대적인 승률을 바탕으로 게임 초반 정글 동선을 추천해주는 프로그램.&lt;/p>
 &lt;p>With crawled data of the relative win rate from existing site,
 this program recommends a jungler’s path in the begining of the game.&lt;/p></description></item><item><title>🧪 Chemi.lol</title><link>https://alsspp01.github.io/projects/chemi/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://alsspp01.github.io/projects/chemi/</guid><description>&lt;div class="lang-ko">
-&lt;p>&lt;a href="https://alsspp01.github.io/portfolio/chemi-lol/">Portfolio Case Study →&lt;/a>&lt;br>
-&lt;a href="https://github.com/league-of-legend-project/Analysis">Analysis Repository →&lt;/a>&lt;/p>
+&lt;p>&lt;a href="https://alsspp01.github.io/portfolio/chemi-lol/">🔗 Portfolio Case Study&lt;/a>&lt;br>
+&lt;a href="https://github.com/league-of-legend-project/Analysis">🔗 Analysis Repository&lt;/a>&lt;/p>
 &lt;h2 id="pipeline">Pipeline&lt;/h2>
 &lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-text" data-lang="text">&lt;span style="display:flex;">&lt;span>Player / Match / Timeline → MongoDB → Duo Detection → Feature Engineering → Regression → Score
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="features">Features&lt;/h2>
@@ -66,8 +66,8 @@ this program recommends a jungler’s path in the begining of the game.&lt;/p></
 &lt;li>simple ensembles&lt;/li>
 &lt;/ul>
 &lt;p>모델 복잡도를 높여도 R²가 크게 개선되지 않았고, &lt;strong>현재 feature만으로 궁합을 설명하는 데 한계가 있다&lt;/strong>는 점도 중요한 결과였습니다.&lt;/p>
-&lt;p>&lt;a href="https://alsspp01.github.io/portfolio/chemi-lol/">Portfolio Case Study →&lt;/a>&lt;/p>
+&lt;p>&lt;a href="https://alsspp01.github.io/portfolio/chemi-lol/">🔗 Portfolio Case Study&lt;/a>&lt;/p>
 &lt;/div>
 &lt;div class="lang-en" style="display:none">
-&lt;p>&lt;a href="https://alsspp01.github.io/portfolio/chemi-lol/">Portfolio Case Study →&lt;/a>&lt;br>
-&lt;a href="https://github.com/league-of-legend-project/Analysis">Analysis Repository →&lt;/a>&lt;/p></description></item></channel></rss>
+&lt;p>&lt;a href="https://alsspp01.github.io/portfolio/chemi-lol/">🔗 Portfolio Case Study&lt;/a>&lt;br>
+&lt;a href="https://github.com/league-of-legend-project/Analysis">🔗 Analysis Repository&lt;/a>&lt;/p></description></item></channel></rss>

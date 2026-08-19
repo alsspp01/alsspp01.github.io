@@ -24,7 +24,7 @@ description_en: "Selected work showing how I turn unclear problems into working 
 - Technical Planning
 - Cross-functional Communication
 
-[Read Case Study →](/portfolio/ai-forecast-support/)
+[🔗 Read Case Study](/portfolio/ai-forecast-support/)
 
 ---
 
@@ -34,7 +34,7 @@ description_en: "Selected work showing how I turn unclear problems into working 
 KDA, KP, GPM, Vision, Win Rate 차이와 Lane 조합 등 둘 사이의 관계를 feature로 설계하고,  
 Random Forest, Ridge, SVR, XGBoost, MLP/앙상블을 비교했습니다.
 
-[Read Case Study →](/portfolio/chemi-lol/)
+[🔗 Read Case Study](/portfolio/chemi-lol/)
 
 ---
 
@@ -43,7 +43,7 @@ Random Forest, Ridge, SVR, XGBoost, MLP/앙상블을 비교했습니다.
 
 Riot API 기반 수집, 연속 플레이 샘플 추출, Stroop Test, 동적 데이터 탐색, 피험자 리포트 도구까지 이어진 연구 개발 프로젝트입니다.
 
-[Read Case Study →](/portfolio/lol-player-research/)
+[🔗 Read Case Study](/portfolio/lol-player-research/)
 
 ---
 
@@ -52,7 +52,7 @@ Riot API 기반 수집, 연속 플레이 샘플 추출, Stroop Test, 동적 데�
 
 게임의 초기 방향부터 시스템, UI/UX, 데이터 구조를 설계하고 개발 난이도·아트 리소스·일정·edge case를 함께 고려했습니다.
 
-[Read Case Study →](/portfolio/arcanum-nights/)
+[🔗 Read Case Study](/portfolio/arcanum-nights/)
 
 ---
 
@@ -60,9 +60,9 @@ Riot API 기반 수집, 연속 플레이 샘플 추출, Stroop Test, 동적 데�
 
 Discord, Notion, Google Drive의 역할과 권한, 회의, 기록, 자동화 흐름을 설계했습니다.
 
-[How the Team Works →](/portfolio/d3fib-workspace/)
+[🔗 How the Team Works](/portfolio/d3fib-workspace/)
 
-[Projects Archive →](/projects/) · [About Me →](/about_me/)
+[🔗 Projects Archive](/projects/) · [🔗 About Me](/about_me/)
 
 </div>
 
@@ -84,7 +84,7 @@ I traced forecasters' workflows and existing tools, then helped turn underdefine
 - Technical Planning
 - Cross-functional Communication
 
-[Read Case Study →](/portfolio/ai-forecast-support/)
+[🔗 Read Case Study](/portfolio/ai-forecast-support/)
 
 ---
 
@@ -94,7 +94,7 @@ I traced forecasters' workflows and existing tools, then helped turn underdefine
 I designed relationship-level features from differences in KDA, KP, GPM, Vision, Win Rate, and lane combinations,  
 then compared Random Forest, Ridge, SVR, XGBoost, and MLP/ensemble approaches.
 
-[Read Case Study →](/portfolio/chemi-lol/)
+[🔗 Read Case Study](/portfolio/chemi-lol/)
 
 ---
 
@@ -103,7 +103,7 @@ then compared Random Forest, Ridge, SVR, XGBoost, and MLP/ensemble approaches.
 
 A research-engineering project spanning Riot API collection, consecutive-play sampling, Stroop Test tooling, dynamic-data exploration, and participant reporting.
 
-[Read Case Study →](/portfolio/lol-player-research/)
+[🔗 Read Case Study](/portfolio/lol-player-research/)
 
 ---
 
@@ -112,7 +112,7 @@ A research-engineering project spanning Riot API collection, consecutive-play sa
 
 I planned the game from its early direction through systems, UI/UX, and data structures while accounting for implementation cost, art resources, schedule, and edge cases.
 
-[Read Case Study →](/portfolio/arcanum-nights/)
+[🔗 Read Case Study](/portfolio/arcanum-nights/)
 
 ---
 
@@ -120,8 +120,8 @@ I planned the game from its early direction through systems, UI/UX, and data str
 
 I designed how Discord, Notion, and Google Drive divided communication, knowledge, assets, permissions, meetings, and automation.
 
-[How the Team Works →](/portfolio/d3fib-workspace/)
+[🔗 How the Team Works](/portfolio/d3fib-workspace/)
 
-[Projects Archive →](/projects/) · [About Me →](/about_me/)
+[🔗 Projects Archive](/projects/) · [🔗 About Me](/about_me/)
 
 </div>

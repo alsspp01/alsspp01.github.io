@@ -58,8 +58,8 @@ description_en: "How I learned an unfamiliar meteorological domain and translate
 
 **충분히 이해하면, 무엇을 만들어야 하는지는 그다음에 보입니다.**
 
-[관련 글 →](/posts/2026-08-19-ai-forecast-domain-to-direction/)  
-[← Portfolio](/portfolio/)
+[🔗 관련 글](/posts/2026-08-19-ai-forecast-domain-to-direction/)  
+[🔗 Portfolio](/portfolio/)
 
 </div>
 
@@ -115,7 +115,7 @@ When requirements are blurry, writing a feature list faster is not always the an
 
 **Once the context is clear enough, what to build becomes much easier to see.**
 
-[Related Post →](/posts/2026-08-19-ai-forecast-domain-to-direction/)  
-[← Portfolio](/portfolio/)
+[🔗 Related Post](/posts/2026-08-19-ai-forecast-domain-to-direction/)  
+[🔗 Portfolio](/portfolio/)
 
 </div>

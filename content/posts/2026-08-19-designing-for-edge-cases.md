@@ -1,6 +1,6 @@
 ---
-title: "Edge Case를 수집하는 기획"
-title_en: "Designing for Edge Cases"
+title: "🔬 Edge Case를 수집하는 기획"
+title_en: "🔬 Designing for Edge Cases"
 date: 2026-08-19
 description: "개발자가 질문한 뒤 생각하는 대신, 구현 전에 머릿속으로 한 번 굴려보는 기획 습관."
 description_en: "A planning habit: mentally running the system before implementation questions arrive."
@@ -129,7 +129,7 @@ edge case를 많이 생각한 결과가 옵션 20개짜리 화면일 필요는 �
 
 요즘 제가 기획할 때 자주 돌아오는 기준입니다.
 
-[Arcanum Nights Case Study →](/portfolio/arcanum-nights/)
+[🔗 Arcanum Nights Case Study](/portfolio/arcanum-nights/)
 
 </div>
 
@@ -250,6 +250,6 @@ The better outcome may be that the user never has to think about those cases at 
 
 That is one of the rules I keep returning to.
 
-[Arcanum Nights Case Study →](/portfolio/arcanum-nights/)
+[🔗 Arcanum Nights Case Study](/portfolio/arcanum-nights/)
 
 </div>

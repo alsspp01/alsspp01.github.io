@@ -1,6 +1,6 @@
 ---
-title: "전투 로그를 RocksDB에 저장한다면"
-title_en: "Designing Combat-Log Storage with RocksDB"
+title: "🪨 전투 로그를 RocksDB에 저장한다면"
+title_en: "🪨 Designing Combat-Log Storage with RocksDB"
 date: 2026-08-19
 description: "Raw JSON, 압축, MsgPack, Flatten 전략을 비교하며 저장 포맷보다 시스템 동작을 먼저 보게 된 실험."
 description_en: "What comparing Raw JSON, compression, MsgPack, and flattened storage taught me about looking beyond file formats."
@@ -124,7 +124,7 @@ MsgPack이 여러 실험에서 좋은 균형을 보여준 경우가 있었지만
 
 RocksDB를 공부하면서 가장 재미있었던 부분도 결국 그 지점이었습니다.
 
-[GitHub Repository →](https://github.com/alsspp01/OpensourceBigdata)
+[🔗 GitHub Repository](https://github.com/alsspp01/OpensourceBigdata)
 
 </div>
 
@@ -247,6 +247,6 @@ A good storage decision has to fit **the data structure, workload, and lifecycle
 
 That system-level view was the part of RocksDB I ended up enjoying most.
 
-[GitHub Repository →](https://github.com/alsspp01/OpensourceBigdata)
+[🔗 GitHub Repository](https://github.com/alsspp01/OpensourceBigdata)
 
 </div>

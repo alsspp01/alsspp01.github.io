@@ -1,6 +1,6 @@
 ---
-title: "낯선 도메인을 기술 방향으로 바꾸기"
-title_en: "From an Unfamiliar Domain to Technical Direction"
+title: "🌦️ 낯선 도메인을 기술 방향으로 바꾸기"
+title_en: "🌦️ From an Unfamiliar Domain to Technical Direction"
 date: 2026-08-19
 description: "기상학을 처음 접한 PM이 기능 목록보다 먼저 사용자 업무를 따라간 이유."
 description_en: "Why I followed the user's workflow before writing a feature list in an unfamiliar meteorological domain."
@@ -110,7 +110,7 @@ tags: ["PM", "Planning", "Domain", "AI"]
 
 저에게 기획은 보통 그 질문부터 시작됩니다.
 
-[Portfolio Case Study →](/portfolio/ai-forecast-support/)
+[🔗 Portfolio Case Study](/portfolio/ai-forecast-support/)
 
 </div>
 
@@ -215,6 +215,6 @@ Then the question changes.
 
 That is usually where planning starts for me.
 
-[Portfolio Case Study →](/portfolio/ai-forecast-support/)
+[🔗 Portfolio Case Study](/portfolio/ai-forecast-support/)
 
 </div>

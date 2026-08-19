@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>D3F!B on Dyun's blog</title><link>https://alsspp01.github.io/tags/d3fb/</link><description>Recent content in D3F!B on Dyun's blog</description><generator>Hugo</generator><language>en</language><lastBuildDate>Wed, 19 Aug 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://alsspp01.github.io/tags/d3fb/index.xml" rel="self" type="application/rss+xml"/><item><title>사람 사이에도 Interface가 있다</title><link>https://alsspp01.github.io/posts/2026-08-19-d3fib-collaboration-system/</link><pubDate>Wed, 19 Aug 2026 00:00:00 +0000</pubDate><guid>https://alsspp01.github.io/posts/2026-08-19-d3fib-collaboration-system/</guid><description>&lt;div class="lang-ko">
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>D3F!B on Dyun's blog</title><link>https://alsspp01.github.io/tags/d3fb/</link><description>Recent content in D3F!B on Dyun's blog</description><generator>Hugo</generator><language>en</language><lastBuildDate>Wed, 19 Aug 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://alsspp01.github.io/tags/d3fb/index.xml" rel="self" type="application/rss+xml"/><item><title>🔗 사람 사이에도 Interface가 있다</title><link>https://alsspp01.github.io/posts/2026-08-19-d3fib-collaboration-system/</link><pubDate>Wed, 19 Aug 2026 00:00:00 +0000</pubDate><guid>https://alsspp01.github.io/posts/2026-08-19-d3fib-collaboration-system/</guid><description>&lt;div class="lang-ko">
 &lt;p>팀이 작을 때는 대부분의 일이 기억으로 굴러갑니다.&lt;/p>
 &lt;blockquote>
 &lt;p>“그 파일 어디 있었지?”&lt;/p>
@@ -33,7 +33,7 @@
 &lt;h2 id="1-시스템-아키텍처-및-디렉터리-구조">1. 시스템 아키텍처 및 디렉터리 구조&lt;/h2>
 &lt;p>전체 코드베이스는 다음과 같은 단일 프로세스 구조로 설계되었다.&lt;/p></description></item><item><title>🎮 Arcanum Nights</title><link>https://alsspp01.github.io/projects/arcananights/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://alsspp01.github.io/projects/arcananights/</guid><description>&lt;div class="lang-ko">
 &lt;p>&lt;strong>Single ~ 2 Players · D3F!B&lt;/strong>&lt;/p>
-&lt;p>&lt;a href="https://alsspp01.github.io/portfolio/arcanum-nights/">Portfolio Case Study →&lt;/a>&lt;/p>
+&lt;p>&lt;a href="https://alsspp01.github.io/portfolio/arcanum-nights/">🔗 Portfolio Case Study&lt;/a>&lt;/p>
 &lt;h2 id="planning">Planning&lt;/h2>
 &lt;ul>
 &lt;li>게임 전체 방향 / core experience&lt;/li>
@@ -47,7 +47,7 @@
 &lt;p>Unity/C# 구조를 학습하고 튜토리얼 구현과 Python 맵 툴 제작에도 참여했습니다.&lt;/p>
 &lt;h2 id="user-test">User Test&lt;/h2>
 &lt;p>PlayX4에서 표정, 자세, 입력 속도와 빈도, 플레이가 늘어지는 구간을 관찰해 템포와 연출을 재검토했습니다.&lt;/p>
-&lt;p>&lt;a href="https://alsspp01.github.io/portfolio/arcanum-nights/">Portfolio Case Study →&lt;/a>&lt;/p>
+&lt;p>&lt;a href="https://alsspp01.github.io/portfolio/arcanum-nights/">🔗 Portfolio Case Study&lt;/a>&lt;/p>
 &lt;/div>
 &lt;div class="lang-en" style="display:none">
 &lt;p>&lt;strong>Single ~ 2 Players · D3F!B&lt;/strong>&lt;/p></description></item></channel></rss>

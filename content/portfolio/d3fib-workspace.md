@@ -69,8 +69,8 @@ Discord가 지금의 대화라면, Notion은 **나중에도 같은 결정을 이
 
 지금은 그 질문에 더 관심이 있습니다.
 
-[관련 글 →](/posts/2026-08-19-d3fib-collaboration-system/)  
-[← Portfolio](/portfolio/)
+[🔗 관련 글](/posts/2026-08-19-d3fib-collaboration-system/)  
+[🔗 Portfolio](/portfolio/)
 
 </div>
 
@@ -135,7 +135,7 @@ But if the lead has to explain, approve, and relay every step, the lead becomes 
 
 That is the question I care more about now.
 
-[Related Post →](/posts/2026-08-19-d3fib-collaboration-system/)  
-[← Portfolio](/portfolio/)
+[🔗 Related Post](/posts/2026-08-19-d3fib-collaboration-system/)  
+[🔗 Portfolio](/portfolio/)
 
 </div>

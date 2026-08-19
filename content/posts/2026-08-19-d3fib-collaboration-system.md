@@ -1,6 +1,6 @@
 ---
-title: "사람 사이에도 Interface가 있다"
-title_en: "People Have Interfaces, Too"
+title: "🔗 사람 사이에도 Interface가 있다"
+title_en: "🔗 People Have Interfaces, Too"
 date: 2026-08-19
 description: "10명 규모 원격 팀을 운영하며 협업 툴을 기능이 아니라 인터페이스로 보기 시작한 과정."
 description_en: "What running a remote team taught me about treating collaboration tools as interfaces between people."
@@ -129,7 +129,7 @@ D3F!B에서도 Discord, Notion, Google Drive를 사용합니다.
 
 그냥 다음 행동이 자연스럽게 보입니다.
 
-[Portfolio Case Study →](/portfolio/d3fib-workspace/)
+[🔗 Portfolio Case Study](/portfolio/d3fib-workspace/)
 
 </div>
 
@@ -260,6 +260,6 @@ It simply makes the next action easy to see.
 
 I think good team infrastructure should feel similar.
 
-[Portfolio Case Study →](/portfolio/d3fib-workspace/)
+[🔗 Portfolio Case Study](/portfolio/d3fib-workspace/)
 
 </div>

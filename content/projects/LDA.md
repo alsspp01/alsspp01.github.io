@@ -14,7 +14,7 @@ tags: ["DKU"]
 
 **Dankook University Sports Psychology Laboratory**
 
-[Portfolio Case Study →](/portfolio/lol-player-research/) · [GitHub →](https://github.com/alsspp01/LDA)
+[🔗 Portfolio Case Study](/portfolio/lol-player-research/) · [🔗 GitHub](https://github.com/alsspp01/LDA)
 
 ## 1. Stroop Test
 - UI · PyQt
@@ -49,7 +49,7 @@ tags: ["DKU"]
 
 **Dankook University Sports Psychology Laboratory**
 
-[Portfolio Case Study →](/portfolio/lol-player-research/) · [GitHub →](https://github.com/alsspp01/LDA)
+[🔗 Portfolio Case Study](/portfolio/lol-player-research/) · [🔗 GitHub](https://github.com/alsspp01/LDA)
 
 ## 1. Stroop Test
 - UI · PyQt

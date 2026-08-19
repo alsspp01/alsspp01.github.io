@@ -12,7 +12,7 @@ description_en: "A research-engineering project spanning LoL data collection, ex
 **Context** · Dankook University Sports Psychology Laboratory  
 **Role** · POC / Development Design / Data Engineering
 
-[LDA Repository →](https://github.com/alsspp01/LDA)
+[🔗 LDA Repository](https://github.com/alsspp01/LDA)
 
 ## From Research Question to Data
 
@@ -79,8 +79,8 @@ Repository의 `DynamicAnalysis`에는:
 
 까지 생각해야 했습니다.
 
-[LDA Repository →](https://github.com/alsspp01/LDA)  
-[← Portfolio](/portfolio/)
+[🔗 LDA Repository](https://github.com/alsspp01/LDA)  
+[🔗 Portfolio](/portfolio/)
 
 </div>
 
@@ -90,7 +90,7 @@ Repository의 `DynamicAnalysis`에는:
 **Context** · Dankook University Sports Psychology Laboratory  
 **Role** · POC / Development Design / Data Engineering
 
-[LDA Repository →](https://github.com/alsspp01/LDA)
+[🔗 LDA Repository](https://github.com/alsspp01/LDA)
 
 ## From Research Question to Data
 
@@ -156,7 +156,7 @@ It had to continue to:
 
 > **“How can this data be reused in the next analysis and explained to another person?”**
 
-[LDA Repository →](https://github.com/alsspp01/LDA)  
-[← Portfolio](/portfolio/)
+[🔗 LDA Repository](https://github.com/alsspp01/LDA)  
+[🔗 Portfolio](/portfolio/)
 
 </div>
