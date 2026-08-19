@@ -199,7 +199,7 @@ aliases:
 
 <div class="lang-en" style="display:none">
 
-## 🌫️ The Fog of War.
+## 🌫️ The Fog of War
 
 Whenever I step into a new project, my mental map starts under a layer of **Fog of War**.
 
@@ -296,7 +296,7 @@ It is more about **imagining what will happen when an idea actually meets realit
 
 ---
 
-## 🔗 People Have Interfaces, Too.
+## 🔗 People Have Interfaces
 
 A few years ago, I was excited by how many different things I could do.
 
@@ -334,7 +334,7 @@ Now I am much more interested in **building a structure where people can move wi
 
 ---
 
-## ⚡ Think Deep, Ship Simple.
+## ⚡ Think Deep, Ship Simple
 
 I used to love adding things.
 
