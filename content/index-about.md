@@ -22,7 +22,7 @@
 
 <div class="lang-en" style="display:none">
 
-Yewon Min (Dyun), leader & Lead Planner of the game development team D3F!B.  
+Yewon Min (Dyun), Leader & Lead Designer of the game development team D3F!B.  
 
 [21\`~25\`] Graduated from Dankook University, Department of Industrial Security  
 [25\`~26\`] INEEJI PM  
