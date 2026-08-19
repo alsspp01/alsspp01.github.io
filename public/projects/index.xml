@@ -1,13 +1,44 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Projects on Dyun's blog</title><link>https://alsspp01.github.io/projects/</link><description>Recent content in Projects on Dyun's blog</description><generator>Hugo</generator><language>en</language><atom:link href="https://alsspp01.github.io/projects/index.xml" rel="self" type="application/rss+xml"/><item><title>Arcanam Nights</title><link>https://alsspp01.github.io/projects/arcananights/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://alsspp01.github.io/projects/arcananights/</guid><description>&lt;p>싱글 ~ 2인 게임
-해의 아이와 달의 아이가 하늘의 별자리를 수놓는 이야기.
-두 아이의 우주를 합쳐 하나의 별자리를 만들어내는 퍼즐 게임.&lt;/p>
-&lt;p>Single ~ 2 player game
-A story about a child of the sun and the moon embroidering the constellations in the sky.
-A puzzle game that combines the universes of two children to create one constellation.&lt;/p></description></item><item><title>Chemi.lol</title><link>https://alsspp01.github.io/projects/chemi/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://alsspp01.github.io/projects/chemi/</guid><description>&lt;h1 id="game-design">Game Design&lt;/h1></description></item><item><title>GAMENAME</title><link>https://alsspp01.github.io/projects/h4x0r/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://alsspp01.github.io/projects/h4x0r/</guid><description>&lt;h1 id="game-developement">Game developement&lt;/h1>
-&lt;ol>
-&lt;li>개발중!&lt;/li>
-&lt;/ol></description></item><item><title>League of legends Data Analysis project</title><link>https://alsspp01.github.io/projects/lda/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://alsspp01.github.io/projects/lda/</guid><description>&lt;p>League of legends를 중심으로 e-sports 데이터를 분석하여 인지피로 분석을 수행하는 프로젝트를 진행하기 위한 프로그램들.&lt;/p>
-&lt;p>Programs to carry out a project to perform cognitive fatigue analysis by analyzing e-sports data focusing on League of Legends&lt;/p></description></item><item><title>SIAM-W</title><link>https://alsspp01.github.io/projects/siam-w/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://alsspp01.github.io/projects/siam-w/</guid><description>&lt;p>오픈 소스 코드 사용: SQLmap
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Projects on Dyun's blog</title><link>https://alsspp01.github.io/projects/</link><description>Recent content in Projects on Dyun's blog</description><generator>Hugo</generator><language>en</language><atom:link href="https://alsspp01.github.io/projects/index.xml" rel="self" type="application/rss+xml"/><item><title>🎮 Arcanum Nights</title><link>https://alsspp01.github.io/projects/arcananights/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://alsspp01.github.io/projects/arcananights/</guid><description>&lt;div class="lang-ko">
+&lt;p>&lt;strong>Single ~ 2 Players · D3F!B&lt;/strong>&lt;/p>
+&lt;p>&lt;a href="https://alsspp01.github.io/portfolio/arcanum-nights/">🔗 Portfolio Case Study&lt;/a>&lt;/p>
+&lt;h2 id="planning">Planning&lt;/h2>
+&lt;ul>
+&lt;li>게임 전체 방향 / core experience&lt;/li>
+&lt;li>시스템 / UIUX&lt;/li>
+&lt;li>플레이 시나리오 / 튜토리얼&lt;/li>
+&lt;li>데이터 구조 및 테이블&lt;/li>
+&lt;li>개발/아트 리소스를 고려한 기능 범위&lt;/li>
+&lt;li>PlayX4 사용자 관찰 및 피드백&lt;/li>
+&lt;/ul>
+&lt;h2 id="implementation-support">Implementation Support&lt;/h2>
+&lt;p>Unity/C# 구조를 학습하고 튜토리얼 구현과 Python 맵 툴 제작에도 참여했습니다.&lt;/p>
+&lt;h2 id="user-test">User Test&lt;/h2>
+&lt;p>PlayX4에서 표정, 자세, 입력 속도와 빈도, 플레이가 늘어지는 구간을 관찰해 템포와 연출을 재검토했습니다.&lt;/p>
+&lt;p>&lt;a href="https://alsspp01.github.io/portfolio/arcanum-nights/">🔗 Portfolio Case Study&lt;/a>&lt;/p>
+&lt;/div>
+&lt;div class="lang-en" style="display:none">
+&lt;p>&lt;strong>Single ~ 2 Players · D3F!B&lt;/strong>&lt;/p></description></item><item><title>📊 League of Legends Data Analysis</title><link>https://alsspp01.github.io/projects/lda/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://alsspp01.github.io/projects/lda/</guid><description>&lt;div class="lang-ko">
+&lt;p>&lt;strong>Dankook University Sports Psychology Laboratory&lt;/strong>&lt;/p>
+&lt;p>&lt;a href="https://alsspp01.github.io/portfolio/lol-player-research/">🔗 Portfolio Case Study&lt;/a> · &lt;a href="https://github.com/alsspp01/LDA">🔗 GitHub&lt;/a>&lt;/p>
+&lt;h2 id="1-stroop-test">1. Stroop Test&lt;/h2>
+&lt;ul>
+&lt;li>UI · PyQt&lt;/li>
+&lt;li>Test · Pygame&lt;/li>
+&lt;li>Data · Pandas&lt;/li>
+&lt;li>Analysis · NumPy&lt;/li>
+&lt;li>Visualization&lt;/li>
+&lt;/ul>
+&lt;p>&lt;img src="https://alsspp01.github.io/image/LDA/stroop_test_by_group.png" alt="Stroop test result">&lt;/p>
+&lt;h2 id="2-match-history-exploration">2. Match-history Exploration&lt;/h2>
+&lt;p>기존 전적 사이트의 request/JSON 구조와 pagination을 분석해 연속 플레이 데이터 수집 가능성을 확인했습니다.&lt;/p>
+&lt;h2 id="3-riot-api-pipeline">3. Riot API Pipeline&lt;/h2>
+&lt;p>티어별 플레이어, match ID, 경기 정보를 자동 수집하고 timestamp로 연속 플레이 sequence를 판별했습니다.&lt;/p>
+&lt;p>실험 코드에는:&lt;/p>
+&lt;ul>
+&lt;li>5분 / 10분 간격&lt;/li>
+&lt;li>6게임 / 8게임 연속 sequence&lt;/li>
+&lt;/ul>
+&lt;p>조건이 포함되어 있습니다.&lt;/p></description></item><item><title>SIAM-W</title><link>https://alsspp01.github.io/projects/siam-w/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://alsspp01.github.io/projects/siam-w/</guid><description>&lt;p>오픈 소스 코드 사용: SQLmap
 웹사이트의 SQL injection 공격 가능성 여부를 진단 후 각 공격에 대한 대응 방법을 알려주는 보안 비전공 개발자를 위한 프로그램.&lt;/p>
 &lt;p>Use open-source program: SQLmap.
 A program for non-security developers
@@ -15,4 +46,45 @@ that diagnoses the possibility of SQL injection attacks on a website
 and then informs them of how to respond to each attack.&lt;/p></description></item><item><title>SQLi parsing AI</title><link>https://alsspp01.github.io/projects/sqli-parsing-ai/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://alsspp01.github.io/projects/sqli-parsing-ai/</guid><description>&lt;p>SQL 구문을 분석하여 SQL injection 구문인지 일반 SQL 구문인지 확인하는 구문 분석 AI 시스템.&lt;/p>
 &lt;p>A parsing AI system that analyzes SQL statements to determine whether they are SQL injection statements or regular SQL statements.&lt;/p></description></item><item><title>우리 정글 머함? 우정머</title><link>https://alsspp01.github.io/projects/lrp/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://alsspp01.github.io/projects/lrp/</guid><description>&lt;p>승률 검색 사이트에서 크롤링한 상대적인 승률을 바탕으로 게임 초반 정글 동선을 추천해주는 프로그램.&lt;/p>
 &lt;p>With crawled data of the relative win rate from existing site,
-this program recommends a jungler’s path in the begining of the game.&lt;/p></description></item></channel></rss>
+this program recommends a jungler’s path in the begining of the game.&lt;/p></description></item><item><title>🧪 Chemi.lol</title><link>https://alsspp01.github.io/projects/chemi/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://alsspp01.github.io/projects/chemi/</guid><description>&lt;div class="lang-ko">
+&lt;p>프로젝트는 여러 회귀 모델과 feature engineering을 거쳤지만&lt;br>
+성능이 일정 수준에서 정체되었고, 결국 중단했습니다.&lt;/p>
+&lt;p>&lt;a href="https://alsspp01.github.io/portfolio/chemi-lol/">🔗 Portfolio Case Study&lt;/a>&lt;br>
+&lt;a href="https://github.com/league-of-legend-project/Analysis">🔗 Analysis Repository&lt;/a>&lt;/p>
+&lt;hr>
+&lt;h2 id="pipeline">Pipeline&lt;/h2>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-text" data-lang="text">&lt;span style="display:flex;">&lt;span>Player / Match / Timeline
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> ↓
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>MongoDB
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> ↓
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>Duo Detection
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> ↓
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>Feature Engineering
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> ↓
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>Regression Experiments
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> ↓
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>Accuracy Ceiling
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> ↓
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>Discontinued
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;hr>
+&lt;h2 id="features">Features&lt;/h2>
+&lt;ul>
+&lt;li>KDA difference&lt;/li>
+&lt;li>Kill Participation difference&lt;/li>
+&lt;li>Gold Per Minute difference&lt;/li>
+&lt;li>Vision difference&lt;/li>
+&lt;li>Win Rate difference&lt;/li>
+&lt;li>order-invariant Lane combination&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h2 id="models">Models&lt;/h2>
+&lt;ul>
+&lt;li>Random Forest&lt;/li>
+&lt;li>Ridge&lt;/li>
+&lt;li>SVR&lt;/li>
+&lt;li>XGBoost&lt;/li>
+&lt;li>MLP&lt;/li>
+&lt;li>simple ensembles&lt;/li>
+&lt;/ul>
+&lt;p>한 실험에서 Ridge와 ensemble 모두 R²가 약 &lt;strong>0.20&lt;/strong> 수준에 머물렀고,&lt;br>
+모델과 전처리 방식을 바꿔도 의미 있는 개선이 이어지지 않았습니다.&lt;/p></description></item></channel></rss>
