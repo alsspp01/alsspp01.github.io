@@ -39,6 +39,8 @@ aliases:
 2년 전 자기소개에서 저는 스스로를 **메타몽**이라고 불렀습니다.
 
 지금 다시 봐도 꽤 정확한 표현인 것 같습니다.  
+포켓몬스터의 메타몽은 자기 모습을 
+자유자재로 바꿔내는 캐릭터니까요.  
 다만 그때는 *뭐든 빨리 배운다*는 의미에 가까웠다면, 지금은 조금 다릅니다.
 
 **낯선 환경의 규칙을 빠르게 읽고, 필요한 형태로 다시 구성하는 것.**
@@ -229,6 +231,7 @@ That is usually how I learn a new domain.
 Three years ago, I described myself as **Metamon** — the Korean name for Pokémon’s Ditto.
 
 It still fits surprisingly well.  
+Because Ditto is a character that can freely change its appearance to match anything.  
 Back then, I mostly meant *I learn things quickly*. Now I mean something a little more specific.
 
 **I read the rules of an unfamiliar system quickly, then reorganize what I learn into something useful.**
