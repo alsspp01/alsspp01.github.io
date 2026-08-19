@@ -23,22 +23,18 @@
 &lt;p>를 함께 봤습니다.&lt;/p>
 &lt;h2 id="design-before-questions-arrive">Design Before Questions Arrive&lt;/h2>
 &lt;p>정상적인 흐름뿐 아니라 예상 밖의 행동, 조건 충돌, 값이 없는 상태, 중간 상태 변경처럼 구현 단계에서 나올 질문을 미리 생각했습니다.&lt;/p></description></item><item><title>Chemi.lol</title><link>https://alsspp01.github.io/portfolio/chemi-lol/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://alsspp01.github.io/portfolio/chemi-lol/</guid><description>&lt;div class="lang-ko">
+&lt;p>&lt;strong>Type&lt;/strong> · Data / ML Side Project&lt;br>
+&lt;strong>Status&lt;/strong> · Discontinued&lt;br>
+&lt;strong>Focus&lt;/strong> · Data Pipeline · Feature Engineering · Regression · Model Evaluation&lt;/p>
 &lt;p>&lt;a href="https://github.com/league-of-legend-project/Analysis">🔗 Analysis Repository&lt;/a>&lt;/p>
+&lt;hr>
 &lt;h2 id="the-question">The Question&lt;/h2>
-&lt;p>두 사람이 같이 플레이했을 때의 결과를 &lt;strong>둘의 관계를 나타내는 데이터&lt;/strong>로 어디까지 설명할 수 있는지 탐색했습니다.&lt;/p>
-&lt;h2 id="data-before-model">Data Before Model&lt;/h2>
-&lt;p>분석 코드는 MongoDB의 &lt;code>lol_data_hub&lt;/code>에서 summoner, match, timeline 데이터를 나누어 불러옵니다.&lt;/p>
-&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-text" data-lang="text">&lt;span style="display:flex;">&lt;span>Player / Match / Timeline
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> ↓
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>Duo Detection
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> ↓
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>Feature Engineering
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> ↓
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>Regression Experiments
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> ↓
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>Score Experiments
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="turning-two-players-into-features">Turning Two Players into Features&lt;/h2>
-&lt;p>두 플레이어 수치를 옆에 붙이는 대신 관계를 표현하는 파생 변수를 만들었습니다.&lt;/p></description></item><item><title>D3F!B 협업 시스템</title><link>https://alsspp01.github.io/portfolio/d3fib-workspace/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://alsspp01.github.io/portfolio/d3fib-workspace/</guid><description>&lt;div class="lang-ko">
+&lt;p>League of Legends에는 KDA, 골드, 시야, 승률처럼 수많은 지표가 있습니다.&lt;/p>
+&lt;p>하지만 두 사람이 같이 플레이할 때 궁금한 것은&lt;br>
+각자의 기록보다 &lt;strong>둘이 함께했을 때 어떤 결과를 만드는가&lt;/strong>에 더 가깝습니다.&lt;/p>
+&lt;p>Chemi.lol은 이 관계를 데이터로 설명해보려는 프로젝트였습니다.&lt;/p>
+&lt;blockquote>
+&lt;p>&lt;strong>“두 플레이어의 플레이 특성만으로, 이 둘의 궁합을 어느 정도 예측할 수 있을까?”&lt;/strong>&lt;/p></description></item><item><title>D3F!B 협업 시스템</title><link>https://alsspp01.github.io/portfolio/d3fib-workspace/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://alsspp01.github.io/portfolio/d3fib-workspace/</guid><description>&lt;div class="lang-ko">
 &lt;p>&lt;strong>Team Size&lt;/strong> · ~10&lt;br>
 &lt;strong>Scope&lt;/strong> · Discord · Notion · Google Drive · Permissions · Automation&lt;/p>
 &lt;h2 id="the-problem-behind-the-product">The Problem Behind the Product&lt;/h2>

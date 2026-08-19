@@ -47,15 +47,36 @@ and then informs them of how to respond to each attack.&lt;/p></description></it
 &lt;p>A parsing AI system that analyzes SQL statements to determine whether they are SQL injection statements or regular SQL statements.&lt;/p></description></item><item><title>우리 정글 머함? 우정머</title><link>https://alsspp01.github.io/projects/lrp/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://alsspp01.github.io/projects/lrp/</guid><description>&lt;p>승률 검색 사이트에서 크롤링한 상대적인 승률을 바탕으로 게임 초반 정글 동선을 추천해주는 프로그램.&lt;/p>
 &lt;p>With crawled data of the relative win rate from existing site,
 this program recommends a jungler’s path in the begining of the game.&lt;/p></description></item><item><title>🧪 Chemi.lol</title><link>https://alsspp01.github.io/projects/chemi/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://alsspp01.github.io/projects/chemi/</guid><description>&lt;div class="lang-ko">
+&lt;p>프로젝트는 여러 회귀 모델과 feature engineering을 거쳤지만&lt;br>
+성능이 일정 수준에서 정체되었고, 결국 중단했습니다.&lt;/p>
 &lt;p>&lt;a href="https://alsspp01.github.io/portfolio/chemi-lol/">🔗 Portfolio Case Study&lt;/a>&lt;br>
 &lt;a href="https://github.com/league-of-legend-project/Analysis">🔗 Analysis Repository&lt;/a>&lt;/p>
+&lt;hr>
 &lt;h2 id="pipeline">Pipeline&lt;/h2>
-&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-text" data-lang="text">&lt;span style="display:flex;">&lt;span>Player / Match / Timeline → MongoDB → Duo Detection → Feature Engineering → Regression → Score
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="features">Features&lt;/h2>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-text" data-lang="text">&lt;span style="display:flex;">&lt;span>Player / Match / Timeline
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> ↓
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>MongoDB
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> ↓
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>Duo Detection
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> ↓
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>Feature Engineering
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> ↓
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>Regression Experiments
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> ↓
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>Accuracy Ceiling
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> ↓
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>Discontinued
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;hr>
+&lt;h2 id="features">Features&lt;/h2>
 &lt;ul>
-&lt;li>KDA / KP / GPM / Vision / Win Rate difference&lt;/li>
+&lt;li>KDA difference&lt;/li>
+&lt;li>Kill Participation difference&lt;/li>
+&lt;li>Gold Per Minute difference&lt;/li>
+&lt;li>Vision difference&lt;/li>
+&lt;li>Win Rate difference&lt;/li>
 &lt;li>order-invariant Lane combination&lt;/li>
 &lt;/ul>
+&lt;hr>
 &lt;h2 id="models">Models&lt;/h2>
 &lt;ul>
 &lt;li>Random Forest&lt;/li>
@@ -65,9 +86,5 @@ this program recommends a jungler’s path in the begining of the game.&lt;/p></
 &lt;li>MLP&lt;/li>
 &lt;li>simple ensembles&lt;/li>
 &lt;/ul>
-&lt;p>모델 복잡도를 높여도 R²가 크게 개선되지 않았고, &lt;strong>현재 feature만으로 궁합을 설명하는 데 한계가 있다&lt;/strong>는 점도 중요한 결과였습니다.&lt;/p>
-&lt;p>&lt;a href="https://alsspp01.github.io/portfolio/chemi-lol/">🔗 Portfolio Case Study&lt;/a>&lt;/p>
-&lt;/div>
-&lt;div class="lang-en" style="display:none">
-&lt;p>&lt;a href="https://alsspp01.github.io/portfolio/chemi-lol/">🔗 Portfolio Case Study&lt;/a>&lt;br>
-&lt;a href="https://github.com/league-of-legend-project/Analysis">🔗 Analysis Repository&lt;/a>&lt;/p></description></item></channel></rss>
+&lt;p>한 실험에서 Ridge와 ensemble 모두 R²가 약 &lt;strong>0.20&lt;/strong> 수준에 머물렀고,&lt;br>
+모델과 전처리 방식을 바꿔도 의미 있는 개선이 이어지지 않았습니다.&lt;/p></description></item></channel></rss>

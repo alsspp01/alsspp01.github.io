@@ -23,7 +23,8 @@ Notion Template, WBS, Google Sheets / Excel 기반 관리 도구 등 반복 업�
 ## Data / AI / Research
 
 ### 3. [Chemi.lol](/projects/chemi/)
-LoL 듀오 데이터를 수집하고 관계 기반 feature와 회귀 모델을 실험한 데이터 제품 프로젝트.  
+LoL 듀오 궁합을 예측하기 위해 관계 기반 feature와 여러 회귀 모델을 실험했지만, 정확도 개선이 정체되어 중단한 데이터 프로젝트.  
+충분한 궁합 데이터를 확보하지 못한 것이 가장 큰 원인이라고 보았습니다.  
 [🔗 Portfolio Case](/portfolio/chemi-lol/) · [🔗 Analysis Repo](https://github.com/league-of-legend-project/Analysis)
 
 ### 4. [League of Legends Data Analysis](/projects/lda/)
@@ -100,7 +101,8 @@ Notion templates, WBS structures, and spreadsheet-based tools for making recurri
 ## Data / AI / Research
 
 ### 3. [Chemi.lol](/projects/chemi/)
-A LoL duo data project exploring relationship-level features and regression models.  
+A LoL duo-compatibility project that explored relationship-level features and multiple regression models, then stopped after performance plateaued.  
+My strongest hypothesis was that the available paired compatibility data was not sufficient.  
 [🔗 Portfolio Case](/portfolio/chemi-lol/) · [🔗 Analysis Repo](https://github.com/league-of-legend-project/Analysis)
 
 ### 4. [League of Legends Data Analysis](/projects/lda/)

@@ -29,10 +29,13 @@ description_en: "Selected work showing how I turn unclear problems into working 
 ---
 
 ## 02 · 🧪 Chemi.lol
-### 두 사람의 관계를 feature로 만들기
+### 모델보다 먼저, 데이터의 한계를 인정하기
 
-KDA, KP, GPM, Vision, Win Rate 차이와 Lane 조합 등 둘 사이의 관계를 feature로 설계하고,  
+KDA, KP, GPM, Vision, Win Rate 차이와 Lane 조합 등 둘 사이의 관계를 feature로 설계하고  
 Random Forest, Ridge, SVR, XGBoost, MLP/앙상블을 비교했습니다.
+
+하지만 성능은 일정 수준에서 더 이상 의미 있게 개선되지 않았습니다.  
+저는 **궁합을 학습할 만큼 충분하고 다양한 듀오 데이터를 확보하지 못한 것**을 가장 큰 원인으로 보았고, 결국 프로젝트를 중단했습니다.
 
 [🔗 Read Case Study](/portfolio/chemi-lol/)
 
@@ -89,10 +92,12 @@ I traced forecasters' workflows and existing tools, then helped turn underdefine
 ---
 
 ## 02 · 🧪 Chemi.lol
-### Turning a relationship between two players into features
+### Knowing when the limitation is in the data, not the next model
 
 I designed relationship-level features from differences in KDA, KP, GPM, Vision, Win Rate, and lane combinations,  
 then compared Random Forest, Ridge, SVR, XGBoost, and MLP/ensemble approaches.
+
+Performance eventually plateaued. My strongest hypothesis was that we did not have enough diverse, reliable duo-compatibility data to learn the relationship well, and I ultimately stopped the project.
 
 [🔗 Read Case Study](/portfolio/chemi-lol/)
 

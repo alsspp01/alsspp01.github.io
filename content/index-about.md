@@ -24,10 +24,10 @@
 [🔗 Case Study](/portfolio/ai-forecast-support/)
 
 ### 🧪 Chemi.lol
-**Player Data → Feature Design → Compatibility Model**
+**Player Data → Model Experiments → Accuracy Ceiling**
 
-LoL 듀오 데이터를 수집하고 관계를 설명하는 feature를 설계한 뒤,  
-여러 회귀 모델을 실험해 함께 플레이한 결과를 데이터로 어디까지 설명할 수 있는지 확인했습니다.
+LoL 듀오의 궁합을 데이터로 설명하려 했지만, 여러 모델을 실험해도 정확도 개선이 일정 수준에서 멈췄습니다.  
+충분한 궁합 데이터를 확보하지 못한 것이 가장 큰 원인이라고 판단해 프로젝트를 중단했습니다.
 
 [🔗 Case Study](/portfolio/chemi-lol/) · [🔗 Analysis Repo](https://github.com/league-of-legend-project/Analysis)
 
@@ -88,10 +88,10 @@ and helped turn underdefined needs into clearer technical requirements and direc
 [🔗 Case Study](/portfolio/ai-forecast-support/)
 
 ### 🧪 Chemi.lol
-**Player Data → Feature Design → Compatibility Model**
+**Player Data → Model Experiments → Accuracy Ceiling**
 
-I worked with LoL duo data, designed relationship-level features, and compared multiple regression approaches  
-to explore how much of two players' outcomes together could actually be explained from play data.
+I tried to explain LoL duo compatibility from player data, but performance plateaued despite repeated model experiments.  
+My strongest hypothesis was that we simply did not have enough high-quality compatibility data to learn the relationship reliably, so I stopped the project.
 
 [🔗 Case Study](/portfolio/chemi-lol/) · [🔗 Analysis Repo](https://github.com/league-of-legend-project/Analysis)
 
