@@ -7,7 +7,7 @@
 [21\`~25\`] 단국대학교 산업보안학과 졸업  
 [25\`~26\`] INEEJI PM  
 
-### 🌟 자기소개서 [▶ LINK](/about_me/)
+### 🌟 자기소개 [▶ LINK](/about_me/)
 
 ---
 
@@ -29,7 +29,7 @@ Yewon Min (Dyun), Leader & Lead Designer of the game development team D3F!B.
 [21\`~25\`] B.S. in Industrial Security, Dankook University
 [25\`~26\`] INEEJI PM  
 
-### 🌟 About Me [▶ LINK](/personal_statement/)
+### 🌟 About Me [▶ LINK](/about_me/)
 
 ---
 
