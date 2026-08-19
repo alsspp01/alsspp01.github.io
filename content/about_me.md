@@ -1,84 +1,187 @@
 ---
-title: "🌟 Personal Statement"
+title: "🌟 About Me"
 type: page
 aliases:
-  - /personal_statement/
+  - /about_me/
 ---
 
-<div style="border: 2px solid #A8D8E5; width: 40%; padding: 10px; margin: 20px auto; text-align: center; align-items: center;">
-  <h3 style="font-weight: bold;">
-    <a href="#growth">  🌱 저를 만들어온 시간들  </a><br><br><a href="#strength">  🧩 핵심 강점  </a><br><br><a href="#adaptability">  🚀 적응력과 실행력  </a><br><br><a href="#focus">  🎯 몰입과 다음 목표  </a>
-  </h3>
-</div>
-<br>
-<br>
+# 🌟 About Me
 
-<div class="lang-ko">
+## 🌫️ 전장의 안개부터 걷어냅니다.
 
-<h2 id="growth">🌱 저를 만들어온 시간들</h2>
+새로운 프로젝트에 들어가면 제 머릿속에는 일단 **전장의 안개**가 깔립니다.
 
-저는 논리와 원리를 파고드는 걸 좋아하는 사람으로 자랐습니다.  
-피아노를 치다가도 문득 화성 구조가 궁금해졌고, 수학 문제는 답보다 풀이 과정을 친구와 나누는 게 더 재밌었습니다.  
-세상이 정돈된 논리로 움직인다고 믿었던 시기였습니다.
+처음 보는 용어가 있고,  
+처음 만나는 사람들이 있고,  
+왜 이렇게 만들어졌는지 알 수 없는 시스템이 있습니다.
 
-성인이 되고 마주한 세상은 그보다 훨씬 넓었습니다.  
-논리만으로는 설명되지 않는 일들이 생겼고, 저는 경험을 통해 판단하는 법의 가치를 뒤늦게 깨달았습니다.  
-그래서 졸업 학년에는 일부러 더 많은 프로젝트에 뛰어들었습니다.  
-게임 개발, 데이터 분석 연구, 졸업 프로젝트를 동시에 진행하며 단국대학교 산업보안학과에서 배운 논리적 사고를 실제 문제에 부딪혀 검증해보고 싶었습니다.
+저는 이 상태가 꽤 재미있습니다.
 
-그 중에서도 게임 개발은 유독 쉽지 않았습니다.  
-다섯 번의 실패를 거치며 지칠 대로 지쳤지만, 그때마다 다시 일어설 수 있었던 건 팀원들의 냉정한 피드백과 응원 덕분이었습니다.  
-그 과정에서 제 능력을 객관적으로 보는 눈을 얻었고, 지금의 저를 만든 두 가지 기준 — 구조를 읽어내는 논리와, 사람과 함께 만들어가는 경험 — 을 갖추게 되었습니다.
+일단 돌아다니기 시작합니다.
 
-<br>
+사용자는 이걸 어떻게 쓰는지,  
+이 기능은 왜 필요한지,  
+무엇과 무엇이 연결되어 있는지,  
+지금 당연하게 여기는 것 중 사실은 당연하지 않은 것이 무엇인지.
 
-<h2 id="strength">🧩 핵심 강점 — 낯선 구조를 읽고, 사람 중심으로 재구성하는 힘</h2>
+하나씩 확인하다 보면 어느 순간 맵이 밝혀집니다.
 
-제가 가장 자신 있는 능력은 낯선 코드나 시스템의 구조를 빠르게 파악하고, 그것을 사용하는 사람을 기준으로 다시 짜는 일입니다.
+그리고 전체가 보이기 시작하면 그다음 질문으로 넘어갑니다.
 
-대학 시절 시큐어 코딩 수업에서 ELF 바이너리를 직접 분석한 적이 있습니다.  
-objdump와 readelf로 PLT/GOT를 추적해, 암호 검증 로직에 rand() 함수가 XOR로 숨겨져 있다는 걸 찾아냈고, 바이너리를 패치해 rand()가 항상 0을 반환하도록 만들어 숨겨진 비밀키를 추출해냈습니다.  
-구조를 원리부터 뜯어보는 이 습관은 이후 OllyDbg를 이용한 멀웨어 분석, 그리고 졸업 프로젝트인 SQL Injection 방지 솔루션 'SIAM-W'와 정확도 98.5%의 SQL Injection 탐지 AI 개발로 이어졌습니다.
+> **그래서, 어떻게 만드는 게 제일 좋을까?**
 
-같은 힘은 사용자를 향할 때 다른 얼굴을 합니다.  
-Arcanum Nights를 전시할 때, 튜토리얼 단계를 늘렸는데도 플레이어들이 오히려 더 헷갈려한다는 걸 관찰했습니다.  
-저는 원인이 텍스트 위주의 설명 구조 자체에 있다고 판단해, 튜토리얼을 인터랙티브한 퍼즐 형태로 다시 설계하고 텍스트 대신 아이콘과 애니메이션으로 안내하도록 바꿨습니다.  
-그 결과 전시 참가자의 약 80%가 별도 설명 없이도 튜토리얼을 완료할 수 있었습니다.
+제가 새로운 일을 익히는 방식은 대체로 이렇습니다.
 
-시스템이든 사용자 경험이든, 저는 항상 "왜 이렇게 짜였는가"를 먼저 묻고 그 다음 "무엇을 위해 다시 짜야 하는가"를 답합니다.  
-이런 이유로 저는 프로덕트 디자인, PM, 보안 엔지니어라는 서로 달라 보이는 세 직무 모두에 지원하고 있습니다.  
-세 직무 모두 결국 복잡한 구조를 이해하고, 그것을 사람 — 사용자 또는 시스템 — 의 입장에서 다시 설계한다는 같은 뿌리를 공유한다고 생각하기 때문입니다.
+---
 
-<br>
+## 🦎 Metamon, v2.0
 
-<h2 id="adaptability">🚀 다양한 역할에서 증명한 적응력과 실행력</h2>
+2년 전 자기소개에서 저는 스스로를 **메타몽**이라고 불렀습니다.
 
-![육각뿔 능력치](/image/profile/HexagonalPyramid.png)
+지금 다시 봐도 꽤 정확한 표현인 것 같습니다.  
+다만 그때는 *뭐든 빨리 배운다*는 의미에 가까웠다면, 지금은 조금 다릅니다.
 
-2024년 3월부터 2025년 5월까지 단국대학교 스포츠심리학 연구실에서 개발 리드를 맡아, Riot Games API로 게임 데이터를 수집하는 파이프라인과 PyQt/Pygame 기반 인지 테스트 도구를 직접 설계하고 만들었습니다.  
-2025년에는 인이지(INEEJI)에서 PM으로 근무하며 기상과학원 AI예보지원 프로젝트를 담당해, 4개 기관 간 소통을 조율하고 별도 강제 없이도 일주일 만에 4개 프로젝트에 자연스럽게 채택된 Notion 템플릿을 설계했습니다.  
-그리고 그 사이 내내, 게임 개발팀 D3F!B에서 리드 프로덕트 디자이너 겸 테크니컬 게임 디자이너로서 10명 규모의 팀을 이끌며 'Arcanum Nights'를 개발했습니다.
+**낯선 환경의 규칙을 빠르게 읽고, 필요한 형태로 다시 구성하는 것.**
 
-1인 개발로 시작한 이 프로젝트는 기획이 구체화되며 팀을 꾸렸고, 전시와 데모를 거듭하며 네 번의 공개 버전을 만들었습니다.  
-그 과정에서 핵심 루프에서 플레이어의 주의를 흐트러뜨린다고 판단한 '히든 챌린지' 기능을 과감히 숨기는 등, 관찰과 데이터를 근거로 한 결정을 반복했습니다.  
-그렇게 파트타임으로 약 1년 만에 Steam Early Access 출시에 성공했습니다.
+이쪽이 지금의 메타몽에 더 가깝습니다.
 
-서로 다른 조직, 서로 다른 역할을 오갔지만 매번 짧은 적응 기간 안에 제 몫을 해냈습니다.  
-제 능력치를 육각형으로 그린다면 어느 한쪽으로도 치우치지 않을 것이고, 각 분야의 경험이 서로를 지지해주기에 이 육각형은 평면에 머무르지 않고 위로 쌓여 올라가는 육각뿔이 될 수 있었다고 생각합니다.
+기상과학원 AI 예보지원 프로젝트에 처음 들어갔을 때, 기상학은 제게 완전히 새로운 분야였습니다.  
+게다가 무엇을 어떻게 만들어야 하는지 기술적인 요구사항도 충분히 구체화되어 있지 않았습니다.
 
-<br>
+그래서 기상 용어를 공부하고, 예보관이 실제로 사용하는 프로그램을 살펴보고, 그 프로그램이 업무 속에서 어떤 역할을 하는지 따라가 봤습니다.
 
-<h2 id="focus">🎯 몰입과 다음 목표</h2>
+조금씩 맵이 밝혀지자 **무엇을 만들어야 하는지뿐 아니라, 왜 만들어야 하는지**가 보이기 시작했습니다.
 
-저는 꼼꼼하고 디테일을 놓치지 않으려는 성향이 강합니다.  
-원격 협업 워크스페이스를 설계할 때도 Discord, Notion, Google Drive에 걸친 권한 구조와 정보 구조를 부서 단위까지 세세하게 나눴고, 회의록 작성과 메시지 예약까지 처리하는 디스코드 봇을 직접 만들어 반복 업무를 자동화했습니다.  
-이런 성향은 Arcanum Nights를 전시 때마다 손봐서 네 번이나 다시 내놓게 만든 원동력이기도 했습니다.
+그 뒤로는 제가 이해한 도메인과 사용 방식을 바탕으로 기술적인 방향을 정리했습니다.  
+구현 과정에서 개발자들이 방향을 확인하고 싶을 때 제게 의견을 묻는 일도 자연스럽게 생겼습니다.
 
-지금은 Arcanum Nights의 정식 출시를 준비하는 동시에, 그 다음에 선보일 새로운 게임을 구상하고 있습니다.  
-하나의 결과물을 완성하는 경험이 쌓일수록, 저는 구조를 더 정확히 읽고 더 나은 방식으로 재구성할 수 있는 사람이 되어가고 있다고 느낍니다.
+게임 개발을 처음 시작했을 때는 Unity의 구조를 익혔고,  
+데이터 분석 연구에서는 처음 보는 API와 JSON을 뜯어봤고,  
+보안 공부를 할 때는 ELF와 바이너리를 몇 시간씩 붙잡았습니다.
 
-앞으로도 낯선 문제를 마주할 때마다 그 구조를 먼저 이해하고, 사람을 중심에 둔 답을 찾아가는 사람이고 싶습니다.  
-프로덕트 디자인이든, PM이든, 보안 엔지니어링이든 — 어떤 자리에서든 이 능력으로 팀에 기여할 수 있다고 믿습니다.
+대상은 매번 달랐지만 패턴은 비슷했습니다.
+
+**처음에는 모릅니다.  
+그래서 봅니다.  
+보다 보면 구조가 보입니다.  
+구조가 보이면, 그다음부터는 만들 수 있습니다.**
+
+제가 새로운 분야에서 일하는 방식입니다.
+
+---
+
+## 🔬 Edge Case 수집가
+
+저는 무언가를 기획하면 **머릿속에서 먼저 한 번 굴려봅니다.**
+
+정상적으로 잘 작동하는 경우 말고도,
+
+- 사용자가 반대로 행동하면?
+- 중간에 취소하면?
+- 두 조건이 동시에 발생하면?
+- 값이 아예 없으면?
+- 처음 보는 사람은 여기서 뭘 누를까?
+
+같은 생각을 꽤 많이 합니다.
+
+그래서 구현 단계에서 질문을 받았을 때 그제야 고민을 시작하기보다, **이미 그 경우를 한 번쯤 지나가 본 상태**인 경우가 많습니다.
+
+> **“이 경우에는 어떻게 해요?”**  
+> **“그 경우에는 이렇게 처리하면 됩니다.”**
+
+저는 이렇게 답할 수 있는 기획을 좋아합니다.
+
+이 습관은 문서와 화면을 만들 때도 그대로 나옵니다.
+
+제가 알고 있는 순서가 아니라 **처음 보는 사람이 이해할 순서**로 정보를 다시 배치합니다.
+
+사용자를 볼 때는 조금 더 집요해집니다.
+
+게임을 전시했을 때는 플레이어가 클리어했는지만 보지 않았습니다.  
+표정과 자세, 키보드와 마우스를 누르는 속도까지 살펴보면서 어느 순간 집중하고, 어디에서 템포가 처지는지를 확인했습니다.
+
+저에게 꼼꼼함은 체크리스트를 많이 만드는 성격과는 조금 다릅니다.
+
+**실제로 굴려봤을 때 무슨 일이 생길지, 끝까지 한 번 더 상상해보는 습관**에 가깝습니다.
+
+---
+
+## 🔗 사람 사이에도 Interface가 있습니다.
+
+예전에는 제가 여러 가지를 할 수 있다는 것이 꽤 신났습니다.
+
+그러다 보니 자연스럽게 이런 생각도 했습니다.
+
+> **그럼 내가 다 하면 되겠네?**
+
+이 방식은 오래 가지 못했습니다.
+
+지금은 10명 규모의 사이드 프로젝트 팀 **D3F!B**를 운영하며 기획, 개발, 아트처럼 서로 다른 방식으로 일하는 사람들과 결과물을 만들고 있습니다.
+
+그 과정에서 알게 된 것이 있습니다.
+
+**같은 것을 만들고 있어도 직군마다 보는 화면은 전혀 다릅니다.**
+
+개발자는 구조와 구현 가능성을 보고,  
+아트는 표현과 리소스를 보고,  
+기획은 사용자가 경험할 전체 흐름을 봅니다.
+
+서로 틀린 이야기를 하는 게 아닌데도 대화가 어긋날 때가 있습니다.
+
+저는 그 사이에서 이야기를 정리하는 역할을 자주 합니다.
+
+개발을 직접 해봤기 때문에 구현하는 사람의 부담을 어느 정도 상상할 수 있고,  
+디자인과 콘텐츠도 만들어봤기 때문에 다른 직군에서 필요한 것이 무엇인지도 생각할 수 있습니다.
+
+제가 모든 일을 대신할 수 있다는 의미는 아닙니다.
+
+오히려 반대입니다.
+
+**각자가 자기 일을 더 잘할 수 있도록 서로의 언어를 연결하는 것.**
+
+요즘은 그게 제가 해야 할 일이라고 생각합니다.
+
+2년 전에는 내가 많이 하는 것이 좋은 팀워크라고 생각했다면,  
+지금은 **각자가 스스로 움직일 수 있는 구조를 만드는 것**에 더 관심이 있습니다.
+
+---
+
+## ⚡ 복잡하게 생각하고, 단순하게 만듭니다.
+
+예전의 저는 아이디어가 떠오르면 가능한 한 많이 넣고 싶어 했습니다.
+
+기능이 하나보다 셋이면 더 좋고,  
+세 가지 상황보다 열 가지 상황을 지원하면 더 좋은 결과물이라고 생각했습니다.
+
+요즘은 조금 다릅니다.
+
+사람들은 제가 고민한 복잡함을 보고 싶은 것이 아니라,  
+**자기가 원하는 것을 쉽게 찾고 쓰고 싶어 한다는 것**을 알게 됐습니다.
+
+그래서 요즘 제가 좋아하는 결과물은 오히려 단순합니다.
+
+뒤에서는 수많은 경우를 생각하더라도,  
+앞에서는 필요한 것만 선명하게 보이는 것.
+
+**많이 생각하되, 많이 보여주지는 않는 것.**
+
+저는 그게 좋은 기획에 조금 더 가깝다고 생각합니다.
+
+그리고 제가 이렇게까지 고민하는 이유도 거창하지 않습니다.
+
+제가 만든 것을 누군가 사용해보고,
+
+> **“오, 이거 좋은데?”**
+
+라고 말해주는 게 좋습니다.
+
+복잡한 문제의 맵을 하나씩 밝히고,  
+그 안에서 더 좋은 길을 찾아내고,  
+마지막에는 다른 사람이 별 고민 없이 사용할 수 있는 형태로 내놓는 것.
+
+저는 그 과정이 여전히 퍼즐게임처럼 재미있습니다.
+
+**아직 안 밝혀진 맵이 많다는 것도 마음에 듭니다.**
 
 <br>
 
@@ -87,81 +190,182 @@ Arcanum Nights를 전시할 때, 튜토리얼 단계를 늘렸는데도 플레�
 <br>
 <h2 id="work">🚀작업물🚀</h2>
 
-#### [📦Projects](/projects/) : 프로젝트
-#### [🖋️Posts](/posts/) : 비프로젝트성 과제 + 공부
+#### [📦Projects](/projects/)
+#### [🖋️Posts](/posts/)
 
 <br>
-
-# Thank you for reading 💕
 
 </div>
 
 <div class="lang-en" style="display:none">
 
-<h2 id="growth-en">🌱 The Years That Shaped Me</h2>
+# About Me
 
-I grew up drawn to logic and how things work.  
-I'd be playing piano and suddenly get curious about the structure of a chord progression; solving a math problem mattered less to me than talking through the process with a friend.  
-For a long time, I believed the world ran on clean, discoverable logic.
+## 🌫️ First, I Clear the Fog of War.
 
-Adulthood showed me a much bigger world — one where logic alone couldn't explain everything.  
-I learned, a little late, the value of judgment built from experience.  
-So in my final year at university, I deliberately took on more projects at once: game development, a data analysis research assistantship, and my graduation project, all while studying Industrial Security at Dankook University.  
-I wanted to test the logical thinking I'd built against real problems.
+Whenever I step into a new project, my mental map starts under a layer of **Fog of War**.
 
-Game development turned out to be the hardest of the three.  
-I failed five times, and by the fifth failure I was running on empty.  
-What got me back up each time was blunt feedback and steady support from my teammates.  
-That process gave me an honest, outside view of my own abilities — and left me with the two things that define how I work today: reading structure through logic, and building things together with people.
+There are unfamiliar terms, unfamiliar people, and systems whose logic is not obvious yet.
 
-<br>
+I actually like that stage.
 
-<h2 id="strength-en">🧩 Core Strength — Reading Unfamiliar Structures and Rebuilding Them Around People</h2>
+So I start exploring.
 
-The thing I'm most confident in is picking apart an unfamiliar codebase or system quickly, then rebuilding it around the person who has to use it.
+How do people use this?  
+Why does this feature exist?  
+What depends on what?  
+Which assumptions only *look* obvious because everyone is used to them?
 
-During a secure coding course, I reverse-engineered an ELF binary by hand.  
-Using objdump and readelf to trace the PLT/GOT, I found that a validation routine's cipher had a call to rand() XORed into it as a hidden security check. I patched the binary so rand() always returned zero, and extracted the hidden secret key from the result.  
-That habit of taking a system apart down to first principles carried into later work: reverse-engineering malware with OllyDbg, and eventually building a SQL-injection prevention tool ('SIAM-W') and a SQL-injection detection model that hit 98.5% accuracy.
+Piece by piece, the map opens up.
 
-The same instinct looks different when it's pointed at a user.  
-While showing Arcanum Nights at an exhibition, I noticed that adding more tutorial levels actually confused players more, not less.  
-I traced the problem to the text-heavy structure itself, so I rebuilt the tutorial as an interactive puzzle and replaced text instructions with icons and animation.  
-Afterward, about 80% of exhibition visitors finished the tutorial with no extra explanation from us.
+Once I can see the whole terrain, I move on to the next question.
 
-Whether it's a system or a user experience, I always start by asking why it was built this way, then figure out what it needs to become.  
-That's why I'm applying to three roles that look different on paper — product design, PM, and security engineering.  
-I think they share the same root: understanding a complex structure, then redesigning it around the people — users, or systems — that depend on it.
+> **So, what is the best way to build this?**
 
-<br>
+That is usually how I learn a new domain.
 
-<h2 id="adaptability-en">🚀 Adaptability and Execution, Proven Across Different Roles</h2>
+---
 
-![Hexagonal pyramid skill chart](/image/profile/HexagonalPyramid.png)
+## 🦎 Metamon, v2.0
 
-From March 2024 to May 2025, I was the development lead at Dankook University's Sports Psychology Lab, where I built a data pipeline pulling game data through the Riot Games API and a PyQt/Pygame-based cognitive testing tool from scratch.  
-In 2025 I worked as a PM at Ineeji on a national weather-forecasting AI project, coordinating communication across four organizations and designing a Notion template that four separate projects adopted organically within a week — with no mandate behind it.  
-Through all of that, I was also leading Arcanum Nights as lead product designer and technical game designer for a 10-person team at D3F!B.
+Three years ago, I described myself as **Metamon** — the Korean name for Pokémon’s Ditto.
 
-What started as a solo project grew a team as the design took shape, and across four public demo cycles at exhibitions, I kept making calls grounded in direct observation — including hiding a "hidden challenge" feature once I saw it was pulling players' attention away from the core loop.  
-Working part-time, it took about a year to get from that first solo build to a Steam Early Access launch.
+It still fits surprisingly well.  
+Back then, I mostly meant *I learn things quickly*. Now I mean something a little more specific.
 
-Different organizations, different roles, short ramp-up each time — and I delivered in every one.  
-If I drew my skill set as a hexagon, it wouldn't lean toward any single point. Because the experience in each area reinforces the others, I think of it less as a flat hexagon and more as a hexagonal pyramid, built to climb.
+**I read the rules of an unfamiliar system quickly, then reorganize what I learn into something useful.**
 
-<br>
+When I joined an AI forecasting-support project for a meteorological research institute, meteorology was completely new to me.  
+The technical requirements and system design were still taking shape, too.
 
-<h2 id="focus-en">🎯 Deep Focus, and What's Next</h2>
+So I started with the domain itself.
 
-I'm meticulous, and it shows in how far I take things.  
-When I designed our remote collaboration workspace, I broke down permissions and information architecture across Discord, Notion, and Google Drive down to the department level, and built a Discord bot from scratch to handle meeting minutes and scheduled messages so the team wouldn't have to do it by hand.  
-That same instinct is what pushed me to rework Arcanum Nights after every single exhibition, four times over.
+I studied meteorological terminology, traced how forecasters used their existing software, and tried to understand where that software fit into the actual forecasting workflow.
 
-Right now I'm preparing Arcanum Nights for full release, while already sketching out the next game to follow it.  
-Every time I finish something end to end, I find I read structure more accurately and rebuild it better the next time.
+As the map cleared, I could see **not only what we needed to build, but why it needed to exist in the first place**.
 
-Going forward, I want to keep being someone who understands a problem's structure first, then finds an answer centered on people.  
-Whether that's in product design, PM, or security engineering, I believe this is the strength I bring to any team I join.
+From there, I translated that understanding into technical direction.  
+Over time, developers also started checking implementation decisions with me when they wanted to make sure they still matched the project’s intent.
+
+When I first got into game development, I learned Unity’s structure.  
+In data-analysis research, I pulled apart unfamiliar APIs and JSON.  
+In security classes, I spent hours tracing ELF files and binaries until their structure finally made sense.
+
+The subject changes. The pattern does not.
+
+**At first, I do not know.  
+So I look closer.  
+Then the structure starts to show.  
+Once I can see the structure, I can start building.**
+
+That is how I work in unfamiliar territory.
+
+---
+
+## 🔬 Edge Case Collector
+
+When I plan or design something, I like to **run it once in my head before anyone else has to**.
+
+Not just the happy path, either.
+
+- What if the user does the opposite?
+- What if they cancel halfway through?
+- What if two conditions happen at once?
+- What if the value is missing entirely?
+- What will a first-time user try to click here?
+
+I spend a surprising amount of time on questions like these.
+
+So when a question comes up during implementation, I often do not have to start from zero. **I have already walked through that branch once.**
+
+> **“What happens in this case?”**  
+> **“Then we handle it this way.”**
+
+That is the kind of thinking I like to have baked into a plan before it gets handed off.
+
+The same habit shows up in documents and interfaces.
+
+I do not arrange information in the order it happens to exist in my head. I rearrange it in **the order a first-time reader will need it**.
+
+When I watch users, I get even more particular.
+
+At a game exhibition, I did not just watch whether players cleared the demo.  
+I watched their expressions, posture, and even the rhythm of their keyboard and mouse input to see where they leaned in and where the pace started to drag.
+
+To me, being meticulous is less about making longer checklists.
+
+It is more about **imagining what will happen when an idea actually meets reality**.
+
+---
+
+## 🔗 People Have Interfaces, Too.
+
+A few years ago, I was excited by how many different things I could do.
+
+That naturally led to one very efficient-looking idea:
+
+> **Then I can just do everything myself.**
+
+It did not scale.
+
+Today, I lead **D3F!B**, a 10-person side-project team where planning, development, and art all work very differently toward the same result.
+
+That experience taught me something simple:
+
+**People can be looking at the same project through completely different screens.**
+
+Developers see structure and feasibility.  
+Artists see expression and production cost.  
+I tend to look at the overall flow and the user experience.
+
+None of those views is wrong, but they can still fail to line up.
+
+I often end up translating between them.
+
+Because I have built things myself, I can usually imagine what an implementation request actually asks of a developer.  
+Because I have also worked with design and content, I can think about what another discipline will need before I ask for something.
+
+That does not mean I want to do everyone else’s job.
+
+Quite the opposite.
+
+**I want each person to do their own job better because the handoff is clearer.**
+
+Three years ago, I thought contributing more meant doing more myself.  
+Now I am much more interested in **building a structure where people can move without waiting on me**.
+
+---
+
+## ⚡ Think Deep, Ship Simple.
+
+I used to love adding things.
+
+If one feature was useful, three felt better.  
+If three use cases were covered, ten felt even safer.
+
+I think differently now.
+
+People do not want to see every layer of complexity I considered.  
+They want **what they need to be easy to find and easy to use**.
+
+So the outcomes I like these days are often surprisingly simple.
+
+Complexity can live underneath.  
+The surface should stay clear.
+
+**Think a lot. Show less.**
+
+That, to me, is what good planning looks like.
+
+And the reason I care this much is not especially grand.
+
+I like it when someone uses something I made and says,
+
+> **“Oh, this is nice.”**
+
+Clearing a messy map, finding a better route through it, and handing someone a result that feels obvious to use — that process is still fun to me.
+
+**I also like that there is still plenty of map left under the fog.**
 
 <br>
 
@@ -174,7 +378,5 @@ Whether that's in product design, PM, or security engineering, I believe this is
 #### [🖋️Posts](/posts/)
 
 <br>
-
-# Thank you for reading 💕
 
 </div>
