@@ -7,16 +7,18 @@
 [21\`~25\`] 단국대학교 산업보안학과 졸업  
 [25\`~26\`] INEEJI PM  
 
-### 🌟 자기소개서 [▶ LINK](/personal_statement/)
+### 🌟 자기소개서 [▶ LINK](/about_me/)
 
 ---
 
 ## 🌱 Recent Works
 
-- Arcanum Nights
+- DIA (Do It, AI)  
+- Arcanum Nights  
+- Chemi.lol
 - League of Legends Data Analysis
   
-더 많은 작업물은 [여기](/projects/)에서 볼 수 있습니다.
+더 많은 작업물은 [여기](/projects/)
 
 </div>
 
@@ -24,18 +26,20 @@
 
 Yewon Min (Dyun), Leader & Lead Designer of the game development team D3F!B.  
 
-[21\`~25\`] Graduated from Dankook University, Department of Industrial Security  
+[21\`~25\`] B.S. in Industrial Security, Dankook University
 [25\`~26\`] INEEJI PM  
 
-### 🌟 Personal Statement [▶ LINK](/personal_statement/)
+### 🌟 About Me [▶ LINK](/personal_statement/)
 
 ---
 
 ## 🌱 Recent Works
 
-- Arcanum Nights
+- DIA (Do It, AI)  
+- Arcanum Nights  
+- Chemi.lol
 - League of Legends Data Analysis
   
-You can find more of my work [here](/projects/).
+Explore my work [here](/projects/).
 
 </div>
