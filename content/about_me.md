@@ -7,8 +7,6 @@ aliases:
 
 <div class="lang-ko">
 
-# 🌟 About Me
-
 ## 🌫️ 전장의 안개
 
 새로운 프로젝트에 들어가면 제 머릿속에는 일단 **전장의 안개**가 깔립니다.
@@ -200,8 +198,6 @@ aliases:
 </div>
 
 <div class="lang-en" style="display:none">
-
-# About Me
 
 ## 🌫️ The Fog of War.
 
