@@ -39,15 +39,14 @@ aliases:
 예전 자기소개에서 저는 스스로를 **메타몽**이라고 불렀습니다.
 
 지금 다시 봐도 꽤 정확한 표현인 것 같습니다.  
-포켓몬스터의 메타몽은 자기 모습을 
-자유자재로 바꿔내는 캐릭터니까요.  
+포켓몬스터의 메타몽은 모습을 자유자재로 바꾸는 캐릭터니까요. 
 다만 그때는 *뭐든 빨리 배운다*는 의미에 가까웠다면, 지금은 조금 다릅니다.
 
 **낯선 환경의 규칙을 빠르게 읽고, 필요한 형태로 다시 구성하는 것.**
 
-이쪽이 지금의 메타몽에 더 가깝습니다.
+지금의 저에게 메타몽은 이런 의미에 더 가깝습니다.
 
-기상과학원 AI 예보지원 프로젝트에 처음 들어갔을 때, 기상학은 제게 완전히 새로운 분야였습니다.  
+국립기상과학원 AI 예보지원 프로젝트에 처음 들어갔을 때, 기상학은 제게 완전히 새로운 분야였습니다.  
 게다가 무엇을 어떻게 만들어야 하는지 기술적인 요구사항도 충분히 구체화되어 있지 않았습니다.
 
 그래서 기상 용어를 공부하고, 예보관이 실제로 사용하는 프로그램을 살펴보고, 그 프로그램이 업무 속에서 어떤 역할을 하는지 따라가 봤습니다.
@@ -86,7 +85,7 @@ aliases:
 
 같은 생각을 꽤 많이 합니다.
 
-그래서 구현 단계에서 질문을 받았을 때 그제야 고민을 시작하기보다, **이미 그 경우를 한 번쯤 지나가 본 상태**인 경우가 많습니다.
+그래서 구현 단계에서 질문을 받을 때면, 대부분 **이미 그 경우를 한 번쯤 머릿속으로 지나가 본 뒤입니다.**
 
 > **“이 경우에는 어떻게 해요?”**  
 > **“그 경우에는 이렇게 처리하면 됩니다.”**
@@ -99,8 +98,8 @@ aliases:
 
 사용자를 볼 때는 조금 더 집요해집니다.
 
-게임을 전시했을 때는 플레이어가 클리어했는지만 보지 않았습니다.  
-표정과 자세, 키보드와 마우스를 누르는 속도까지 살펴보면서 어느 순간 집중하고, 어디에서 템포가 처지는지를 확인했습니다.
+게임을 전시했을 때는 플레이어가 게임을 클리어했는지만 보지 않았습니다.  
+표정과 자세, 키보드와 마우스를 누르는 속도까지 살펴보면서 언제 집중하고 어디에서 템포가 처지는지 확인했습니다.
 
 저에게 꼼꼼함은 체크리스트를 많이 만드는 성격과는 조금 다릅니다.
 
@@ -108,7 +107,7 @@ aliases:
 
 ---
 
-## 🔗 사람 사이에도 Interface가 있습니다.
+## 🧩 사람 사이에도 인터페이스가 있습니다.
 
 예전에는 제가 여러 가지를 할 수 있다는 것이 꽤 신났습니다.
 
@@ -118,7 +117,7 @@ aliases:
 
 이 방식은 오래 가지 못했습니다.
 
-지금은 10명 규모의 사이드 프로젝트 팀 **D3F!B**를 운영하며 기획, 개발, 아트처럼 서로 다른 방식으로 일하는 사람들과 결과물을 만들고 있습니다.
+지금은 10명 규모의 사이드 프로젝트 팀 **D3F!B**를 운영하며 기획팀, 개발팀, 아트팀을 꾸려 서로 다른 방식으로 일하는 사람들과 함께 결과물을 만들고 있습니다.
 
 그 과정에서 알게 된 것이 있습니다.
 
@@ -133,7 +132,7 @@ aliases:
 저는 그 사이에서 이야기를 정리하는 역할을 자주 합니다.
 
 개발을 직접 해봤기 때문에 구현하는 사람의 부담을 어느 정도 상상할 수 있고,  
-디자인과 콘텐츠도 만들어봤기 때문에 다른 직군에서 필요한 것이 무엇인지도 생각할 수 있습니다.
+디자인과 콘텐츠도 만들어봤기 때문에 다른 직군에 무엇이 필요한지도 생각할 수 있습니다.
 
 제가 모든 일을 대신할 수 있다는 의미는 아닙니다.
 
@@ -143,7 +142,7 @@ aliases:
 
 요즘은 그게 제가 해야 할 일이라고 생각합니다.
 
-예전에는 내가 많이 하는 것이 좋은 팀워크라고 생각했다면,  
+예전에는 제가 많은 일을 하는 것이 좋은 팀워크라고 생각했다면,
 지금은 **각자가 스스로 움직일 수 있는 구조를 만드는 것**에 더 관심이 있습니다.
 
 ---
@@ -155,9 +154,9 @@ aliases:
 기능이 하나보다 셋이면 더 좋고,  
 세 가지 상황보다 열 가지 상황을 지원하면 더 좋은 결과물이라고 생각했습니다.
 
-요즘은 조금 다릅니다.
+지금은 조금 다릅니다.
 
-사람들은 제가 고민한 복잡함을 보고 싶은 것이 아니라,  
+사람들은 제가 거친 복잡한 고민을 보고 싶은 것이 아니라,
 **자기가 원하는 것을 쉽게 찾고 쓰고 싶어 한다는 것**을 알게 됐습니다.
 
 그래서 요즘 제가 좋아하는 결과물은 오히려 단순합니다.
@@ -175,26 +174,22 @@ aliases:
 
 > **“오, 이거 좋은데?”**
 
-라고 말해주는 게 좋습니다.
+라고 말해주는 걸 듣는 게 좋습니다.
 
 복잡한 문제의 맵을 하나씩 밝히고,  
 그 안에서 더 좋은 길을 찾아내고,  
 마지막에는 다른 사람이 별 고민 없이 사용할 수 있는 형태로 내놓는 것.
 
-저는 그 과정이 여전히 퍼즐게임처럼 재미있습니다.
+저는 그 과정이 여전히 재미있습니다.
 
-**아직 안 밝혀진 맵이 많다는 것도 마음에 듭니다.**
+그리고 세상은 넓고, 아직 안 밝혀진 맵이 많다는 것도 마음에 듭니다.
 
 <br>
 
 ***
 
 <br>
-<h2 id="work">🚀작업물🚀</h2>
-
-#### [🗂️Portfolio](/portfolio/)
-#### [📦Projects](/projects/)
-#### [🖋️Posts](/posts/)
+<h2 id="work-ko">💼 <a href="/portfolio/">Portfolio</a></h2>
 
 <br>
 
@@ -204,181 +199,182 @@ aliases:
 
 ## 🌫️ The Fog of War
 
-Whenever I step into a new project, my mental map starts under a layer of **Fog of War**.
+Whenever I step into a new project, my mental map is shrouded in fog of war.
 
 There are unfamiliar terms, unfamiliar people, and systems whose logic is not obvious yet.
 
-I actually like that stage.
+I actually enjoy this stage.
 
 So I start exploring.
 
 How do people use this?  
 Why does this feature exist?  
-What depends on what?  
-Which assumptions only *look* obvious because everyone is used to them?
+What is connected to what?  
+Which things only seem obvious because everyone is used to them?
 
-Piece by piece, the map opens up.
+Piece by piece, the map begins to reveal itself.
 
 Once I can see the whole terrain, I move on to the next question.
 
 > **So, what is the best way to build this?**
 
-That is usually how I learn a new domain.
+That is usually how I learn something new.
 
 ---
 
 ## 🦎 Metamon, v2.0
 
-In an earlier version of my About Me, I described myself as **Metamon** — the Korean name for Pokémon’s Ditto.
+In an earlier version of my About Me, I described myself as **Metamon**—the Korean name for Pokémon's Ditto.
 
-It still fits surprisingly well.  
-Because Ditto is a character that can freely change its appearance to match anything.  
-Back then, I mostly meant *I learn things quickly*. Now I mean something a little more specific.
+Looking back, it still feels surprisingly accurate.  
+Ditto can freely transform itself, after all.  
+Back then, I mostly meant *I can learn anything quickly*. Now, I mean something a little different.
 
-**I read the rules of an unfamiliar system quickly, then reorganize what I learn into something useful.**
+**Quickly reading the rules of an unfamiliar environment and reorganizing what I learn into a form that fits the situation.**
 
-When I joined an AI forecasting-support project for a meteorological research institute, meteorology was completely new to me.  
-The technical requirements and system design were still taking shape, too.
+That is what Metamon means to me now.
 
-So I started with the domain itself.
+When I joined an AI forecast support project at the National Institute of Meteorological Sciences, meteorology was a completely new field to me.  
+The technical requirements—what to build and how to build it—were not clearly defined yet, either.
 
-I studied meteorological terminology, traced how forecasters used their existing software, and tried to understand where that software fit into the actual forecasting workflow.
+So I studied meteorological terminology, examined the software forecasters actually used, and traced how it fit into their day-to-day work.
 
-As the map cleared, I could see **not only what we needed to build, but why it needed to exist in the first place**.
+As the map gradually cleared, I began to see **not only what we needed to build, but why we needed to build it**.
 
-From there, I translated that understanding into technical direction.  
-Over time, developers also started checking implementation decisions with me when they wanted to make sure they still matched the project’s intent.
+From there, I used my understanding of the domain and its workflows to shape the project's technical direction.  
+During implementation, developers began coming to me for input when they wanted to check that they were heading in the right direction.
 
-When I first got into game development, I learned Unity’s structure.  
-In data-analysis research, I pulled apart unfamiliar APIs and JSON.  
-In security classes, I spent hours tracing ELF files and binaries until their structure finally made sense.
+When I first started game development, I learned how Unity was structured.  
+In data analysis research, I pulled apart unfamiliar APIs and JSON data.
+While studying security, I spent hours digging into ELF files and binaries.
 
-The subject changes. The pattern does not.
+The subject changed every time, but the pattern stayed much the same.
 
 **At first, I do not know.  
-So I look closer.  
-Then the structure starts to show.  
+So I look.  
+As I keep looking, the structure begins to emerge.  
 Once I can see the structure, I can start building.**
 
-That is how I work in unfamiliar territory.
+That is how I work in a new field.
 
 ---
 
 ## 🔬 Edge Case Collector
 
-When I plan or design something, I like to **run it once in my head before anyone else has to**.
+Whenever I plan something, I like to **run it through my head first**.
 
-Not just the happy path, either.
+I think beyond the cases where everything works as expected:
 
 - What if the user does the opposite?
 - What if they cancel halfway through?
-- What if two conditions happen at once?
-- What if the value is missing entirely?
+- What if two conditions occur at once?
+- What if there is no value at all?
 - What will a first-time user try to click here?
 
-I spend a surprising amount of time on questions like these.
+I spend quite a lot of time thinking about questions like these.
 
-So when a question comes up during implementation, I often do not have to start from zero. **I have already walked through that branch once.**
+So when a question comes up during implementation, I often do not have to start thinking from scratch. **I have already walked through that case once in my head.**
 
-> **“What happens in this case?”**  
-> **“Then we handle it this way.”**
+> **"What happens in this case?"**  
+> **"Then we handle it this way."**
 
-That is the kind of thinking I like to have baked into a plan before it gets handed off.
+I like plans that let me answer questions this way.
 
-The same habit shows up in documents and interfaces.
+The same habit shows up when I create documents and interfaces.
 
-I do not arrange information in the order it happens to exist in my head. I rearrange it in **the order a first-time reader will need it**.
+I rearrange information not in the order that feels natural to me, but in **the order a first-time reader will understand it**.
 
-When I watch users, I get even more particular.
+When I observe users, I become even more attentive.
 
-At a game exhibition, I did not just watch whether players cleared the demo.  
-I watched their expressions, posture, and even the rhythm of their keyboard and mouse input to see where they leaned in and where the pace started to drag.
+At a game exhibition, I did not just watch whether players completed the demo.  
+I watched their expressions, posture, and even the rhythm of their keyboard and mouse input to see when they became absorbed and where the pace began to drag.
 
-To me, being meticulous is less about making longer checklists.
-
-It is more about **imagining what will happen when an idea actually meets reality**.
+To me, being meticulous is a little different from simply making long checklists.
+It means thinking through what could happen when something is actually put to use.
 
 ---
 
-## 🔗 People Have Interfaces
+## 🧩 People Have Interfaces, Too
 
-A few years ago, I was excited by how many different things I could do.
+I used to be excited by how many different things I could do.
 
-That naturally led to one very efficient-looking idea:
+That naturally led me to think:
 
 > **Then I can just do everything myself.**
 
-It did not scale.
+That approach did not last long.
 
-Today, I lead **D3F!B**, a 10-person side-project team where planning, development, and art all work very differently toward the same result.
+Today, I run D3F!B, a side project team of around ten people across planning, development, and art. We work in different ways, but toward the same result.
 
-That experience taught me something simple:
+Along the way, I learned something.
 
-**People can be looking at the same project through completely different screens.**
+**Even when people are building the same thing, every discipline sees a completely different screen.**
 
 Developers see structure and feasibility.  
-Artists see expression and production cost.  
-I tend to look at the overall flow and the user experience.
+Artists see expression and resources.  
+Planners see the overall flow of the user's experience.
 
-None of those views is wrong, but they can still fail to line up.
+None of them is wrong, but they can still end up talking past one another.
 
-I often end up translating between them.
+I often take on the role of organizing the conversation between them.
 
-Because I have built things myself, I can usually imagine what an implementation request actually asks of a developer.  
-Because I have also worked with design and content, I can think about what another discipline will need before I ask for something.
+Because I have developed things myself, I can anticipate some of the burden an implementation request places on a developer.  
+Because I have also worked on design and content, I can consider what other disciplines need as well.
 
-That does not mean I want to do everyone else’s job.
+That does not mean I can do everyone else's job for them.
 
 Quite the opposite.
 
-**I want each person to do their own job better because the handoff is clearer.**
+**It means helping people understand one another so that each person can do their own work better.**
 
-I used to think contributing more meant doing more myself.  
-Now I am much more interested in **building a structure where people can move without waiting on me**.
+These days, I believe that is my role.
+
+I used to think good teamwork meant doing more myself.  
+Now, I am more interested in **building a structure where each person can work independently**.
 
 ---
 
 ## ⚡ Think Deep, Ship Simple
 
-I used to love adding things.
+I used to want to add as much as possible whenever I had an idea.
 
-If one feature was useful, three felt better.  
-If three use cases were covered, ten felt even safer.
+If one feature was good, three felt better.  
+If a product handled ten use cases instead of three, I thought it must be better.
 
 I think differently now.
 
-People do not want to see every layer of complexity I considered.  
-They want **what they need to be easy to find and easy to use**.
+People do not want to see all the complexity I worked through.  
+They want to find and use **what they need with ease**.
 
-So the outcomes I like these days are often surprisingly simple.
+So the results I value these days are often surprisingly simple.
 
-Complexity can live underneath.  
-The surface should stay clear.
+Even if countless possibilities are considered behind the scenes,  
+only what is needed should stand out clearly on the surface.
 
-**Think a lot. Show less.**
+**Do the deep thinking, then keep the result simple.**
 
-That, to me, is what good planning looks like.
+To me, that is what good planning looks like.
 
 And the reason I care this much is not especially grand.
 
-I like it when someone uses something I made and says,
+I like seeing someone use something I made and hearing them say,
 
-> **“Oh, this is nice.”**
+> **"Oh, this is nice."**
 
-Clearing a messy map, finding a better route through it, and handing someone a result that feels obvious to use — that process is still fun to me.
+Clearing the fog from a complex problem,
+finding a better path through it,
+and turning it into something others can use without having to think about all the complexity behind it.
 
-**I also like that there is still plenty of map left under the fog.**
+I still enjoy that process.
+
+And I like knowing that there is still plenty of the map left to uncover.
 
 <br>
 
 ***
 
 <br>
-<h2 id="work-en">🚀 Work 🚀</h2>
-
-#### [🗂️Portfolio](/portfolio/)
-#### [📦Projects](/projects/)
-#### [🖋️Posts](/posts/)
+<h2 id="work-en">💼 <a href="/portfolio/">Portfolio</a></h2>
 
 <br>
 

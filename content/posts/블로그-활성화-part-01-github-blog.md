@@ -1,11 +1,15 @@
 ---
 title: "블로그 활성화 - PART 01. Github Blog"
+title_en: "Bringing the Blog Back — Part 01: GitHub Blog"
 date: 2026-07-22
 description: "Project DIA(Do It, AI) #1"
+description_en: "Project DIA (Do It, AI) #1"
 image: 
 type: "post"
 tags: ["DIA", "Hugo", "github-pages", "CI/CD"]
 ---
+
+<div class="lang-ko">
 
 ## 1. 개요
 
@@ -98,8 +102,6 @@ jobs:
         uses: actions/deploy-pages@v4
 ```
 
-[ GitHub Actions 워크플로 배포 성공 화면 스크린샷 ]
-
 ---
 
 ## 4. 로컬 테스트 및 서빙 스크립트
@@ -146,3 +148,147 @@ if __name__ == "__main__":
 - **Hugo**: 빠른 정적 사이트 컴파일 수행
 - **GitHub Actions**: `main` 브랜치 푸시 시 자동 빌드 및 GitHub Pages 호스팅 완료
 - **Python Standard Library**: 별도 의존성 없는 가벼운 로컬 검증 및 서빙 환경 구성
+
+</div>
+
+<div class="lang-en" style="display:none">
+
+## 1. Overview
+
+This post records how I built a personal blog with Hugo, GitHub Pages, and GitHub Actions, then set up an automated deployment pipeline. I wanted to keep external dependencies to a minimum and remove manual steps from deployment.
+
+---
+
+## 2. Hugo Site Structure and Configuration
+
+The blog follows the standard Hugo directory layout.
+
+```text
+.
+├── config.toml
+├── content/
+│   ├── posts/
+│   └── projects/
+├── themes/
+└── .github/
+    └── workflows/
+        └── deploy.yml
+```
+
+I configured `config.toml` as follows.
+
+```toml
+baseURL = 'https://alsspp01.github.io/'
+languageCode = 'ko-kr'
+title = 'Dev Blog'
+theme = 'custom-theme'
+
+[markup.goldmark.renderer]
+  unsafe = true
+```
+
+---
+
+## 3. Automated Deployment with GitHub Actions
+
+I created a workflow that builds the Hugo site whenever code is pushed to `main`, then deploys the generated static files to the `github-pages` environment.
+
+```yaml
+name: Deploy Hugo Site to GitHub Pages
+
+on:
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          submodules: true
+          fetch-depth: 0
+
+      - name: Setup Pages
+        uses: actions/configure-pages@v5
+
+      - name: Build with Hugo
+        run: |
+          hugo --minify
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: ./public
+
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    needs: build
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
+```
+
+---
+
+## 4. Local Testing and Serving Script
+
+I wrote a small local server using Python's standard-library `http.server` module. It builds and serves the static site without requiring additional `pip` packages.
+
+```python logic.py
+import http.server
+import socketserver
+import subprocess
+
+PORT = 8000
+
+def build_hugo():
+    subprocess.run(["hugo", "--buildDrafts"], check=True)
+
+class Handler(http.server.SimpleHTTPRequestHandler):
+    def __init__(self, *args, **kwargs):
+        super().__init__(*args, directory="public", **kwargs)
+
+if __name__ == "__main__":
+    build_hugo()
+    with socketserver.TCPServer(("", PORT), Handler) as httpd:
+        print(f"Serving at http://localhost:{PORT}")
+        httpd.serve_forever()
+```
+
+---
+
+## 5. Custom Features and UX Changes
+
+I added the following features while adapting the blog to the way I wanted to use it.
+
+- **Combined search and AND/OR tag filters**: A dedicated search interface supports both AND and OR conditions when filtering by tags.
+- **Likes with repeated-click protection**: Each post has a like button. A like cannot be withdrawn after submission, which limits repeated clicking and keeps the count more stable.
+- **Copy link**: The Share button copies the current post URL to the clipboard.
+- **Larger previous/next navigation**: I enlarged the navigation area at the bottom of each post and made the destination titles easier to read.
+- **Responsive content width**: The layout assigns width dynamically so that the page remains readable across different screen sizes.
+
+---
+
+## 6. Stack
+
+- **Hugo**: Static-site generation
+- **GitHub Actions**: Automated builds and GitHub Pages deployment after a push to `main`
+- **Python standard library**: Lightweight local building and serving without additional dependencies
+
+</div>

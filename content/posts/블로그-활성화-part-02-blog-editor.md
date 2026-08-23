@@ -1,11 +1,15 @@
 ---
 title: "블로그 활성화 - PART 02. Blog Editor"
+title_en: "Bringing the Blog Back — Part 02: Blog Editor"
 date: 2026-07-23
 description: "Project DIA(Do It, AI) #2"
+description_en: "Project DIA (Do It, AI) #2"
 image: 
 type: "post"
 tags: ["DIA", "Python", "Hugo", "Regex"]
 ---
+
+<div class="lang-ko">
 
 블로그 운영을 자동화하고 편리하게 콘텐츠를 작성하기 위해 개발한 자체 호스팅형 'Blog Editor'의 개발 내역과 기술 스택을 정리한다. 외부 프레임워크나 무거운 서드파티 라이브러리 의존성 없이, 순수 Python 표준 라이브러리와 Vanilla JS만으로 구현하는 것을 원칙으로 삼았다.
 
@@ -15,7 +19,7 @@ tags: ["DIA", "Python", "Hugo", "Regex"]
 - **Frontend**: 빌드 도구나 프레임워크 없이 브라우저가 직접 실행하는 Vanilla JS, HTML, CSS (`app.js` 약 1,500라인).
 - **독립된 저장소**: 블로그 코드와 에디터 코드가 완전히 분리된 구조다. 에디터의 소스 코드와 API 키 등 보안에 민감한 정보가 퍼블릭 블로그 저장소에 노출되지 않도록 설계했다.
 
-[ 3단 레이아웃 UI 화면 사진 ]
+![Blog Editor 3단 레이아웃](/image/블로그-활성화-part-02-blog-editor/스크린샷-2026-07-23-074918.png)
 
 UI는 데스크톱 환경에 맞추어 왼쪽 사이드바(목록 및 필터), 중앙 에디터 폼, 오른쪽 실시간 미리보기/디프(diff) 영역으로 이루어진 3단 고정 레이아웃이다.
 
@@ -70,13 +74,9 @@ MODELS = ['gemini-3.5-flash', 'gemini-3.5-flash-lite', 'gemini-2.0-flash', 'gemi
 ### Word-level LCS 기반의 부분 병합 뷰
 외부 디프 라이브러리를 쓰지 않고, 순수 자바스크립트로 단어 단위 LCS(최장 공통 부분 수열) 정렬 알고리즘을 구현했다. 생성된 헌크(Hunk) 단위로 변경점을 모아 사용자가 클릭하는 방식으로 수정 제안을 부분 수락하거나 거절할 수 있다.
 
-[ AI Polish의 차이점 비교(diff) 및 수락/거절 화면 사진 ]
-
 ### 팝오버(Popover) 대 모달(Modal) 설계 정책
 - **Popover**: 태그 선택기, 이미지 관리자, 매뉴얼/AI 초안 선택 창처럼 특정 버튼 주위에 밀착해 열리고 외부 클릭 시 바로 닫히는 가벼운 액션에 적용했다.
 - **Modal**: 배포 승인 디프 창, 전체 삭제 확인 창, AI 생성 마법사 등 넓은 영역에서 신중하게 결정을 내려야 하는 요소에 한해 화면 뒤편에 어두운 오버레이를 까는 형태로 격리 설계했다.
-
-[ AI Draft 폴더 브라우저 및 옵션 선택 화면 사진 ]
 
 ### CSS 변수를 통한 단일 테마 컨트롤
 테마는 단 한 줄의 CSS 커스텀 프로퍼티 수정을 통해 일괄 조정된다. 기본 테마 컬러로 차분한 틸그린(Teal-Green) 계열을 설정했다.
@@ -90,3 +90,101 @@ MODELS = ['gemini-3.5-flash', 'gemini-3.5-flash-lite', 'gemini-2.0-flash', 'gemi
 
 ### Hugo 개발 서버 제어 제약 사항 해결
 에디터 내에 라이브 미리보기를 출력하기 위해 `subprocess.Popen`으로 `hugo server`를 구동할 때, 휴고 서버가 인메모리가 아닌 `.preview/` 디스크 경로에서 페이지를 서빙하도록 설계했다. 이로 인해 임시 폴더가 직접 지워지면 프로세스는 정상이지만 404 에러가 나는 버그를 방지하기 위해 로깅 시스템을 부착했다. 또한 세션이 길어짐에 따라 생기는 싱크 밀림을 수동으로 잡을 수 있도록, 휴고 서브프로세스만 가볍게 재부팅시키는 재시작 API(`api/restart-preview`)를 별도로 배치했다.
+
+</div>
+
+<div class="lang-en" style="display:none">
+
+I built a self-hosted Blog Editor to make writing and maintaining the blog more convenient. I kept it to the Python standard library and Vanilla JS rather than introducing a web framework or large third-party dependencies.
+
+## 1. Architecture and Stack
+
+- **Backend**: `server.py`, approximately 1,200 lines, built with Python standard-library modules including `http.server`, `subprocess`, `json`, and `urllib.request`. It does not use Flask, FastAPI, or Requests.
+- **Frontend**: Approximately 1,500 lines of Vanilla JS, HTML, and CSS executed directly by the browser without a framework or build tool.
+- **Separate repository**: The editor and blog live in separate repositories so that editor source code and sensitive values such as API keys are not exposed through the public blog repository.
+
+![Blog Editor three-column layout](/image/블로그-활성화-part-02-blog-editor/스크린샷-2026-07-23-074918.png)
+
+The desktop UI uses a fixed three-column layout: lists and filters on the left, the editor form in the center, and a live preview or diff on the right.
+
+---
+
+## 2. Backend
+
+### Routing and Content Parsing Without a Framework
+
+`server.py` runs a single `http.server.ThreadingHTTPServer` instance. The `Handler` class routes requests with regular-expression branches using `re.match()` rather than a routing library.
+
+```python
+# 라우팅 구현 방식 예시
+if self.path == '/api/posts':
+    self.handle_get_posts()
+elif re.match(r'^/api/posts/(post|project)/(.+)/reset$', self.path):
+    self.handle_reset_post(matched_groups)
+```
+
+I also parse YAML front matter with regular expressions and line splitting instead of a third-party YAML parser. Because the editor handles a fixed format, small helpers such as `parse_frontmatter()` and `build_frontmatter()` are enough for this use case.
+
+### Lightweight State Files
+
+The editor stores its small amount of state in gitignored JSON files rather than adding SQLite.
+
+1. **`pending_deletes.json`**: Files selected for deletion are added to this list instead of being unlinked immediately. They are deleted when `deploy()` runs. If a new draft has never been deployed, the editor checks for it with `git show HEAD:<path>` and can remove it immediately.
+2. **`duplicate_links.json`**: Stores the relationship between an original post and its duplicate. A duplicate remains directly above the original in the sidebar instead of moving according to its date. Saving an edited duplicate removes this relationship.
+3. **`config.json`**: Stores values that must not be published, including the Gemini API key.
+
+---
+
+## 3. Gemini API and AI-Assisted Editing
+
+`call_gemini(prompt, schema)` sends raw HTTP requests to the Gemini API. I use `generationConfig.responseSchema` so that the response follows a predefined JSON structure instead of returning unrestricted text.
+
+### Quota Fallback
+
+When a request returns 429 Too Many Requests, the editor retries with the next model in the fallback list.
+
+```python
+MODELS = ['gemini-3.5-flash', 'gemini-3.5-flash-lite', 'gemini-2.0-flash', 'gemini-2.0-flash-lite']
+```
+
+The models use separate free-tier quotas, so the fallback helps when one quota is temporarily exhausted.
+
+### AI Draft and AI Polish
+
+- **AI Draft**: Searches a selected directory and its subdirectories for `info4blog.md` files, merges them, and generates a title, description, tags, and body. Images first use `/image/블로그-활성화-part-02-blog-editor/<filename>` as a temporary path. After the title determines the final slug, the editor replaces those paths in one pass rather than asking the model to guess the slug.
+- **AI Polish**: Rewrites the current draft from feedback or instructions. The new text is not written over the original immediately; the frontend presents a diff where each change can be accepted or rejected.
+
+I initially separated sections in the prompt template with Markdown `---`. The model sometimes copied those separators into its output, so I replaced them with the less ambiguous `<<<START>>>` and `<<<END>>>` markers.
+
+---
+
+## 4. Frontend
+
+### Partial Merge with Word-Level LCS
+
+I implemented word-level LCS alignment in Vanilla JS rather than adding a diff library. Changes are grouped into hunks, and the user can accept or reject them individually.
+
+### Popovers and Modals
+
+- **Popover**: Used for lightweight actions attached to a button, including the tag selector, image manager, and manual/AI draft chooser. It closes when the user clicks outside it.
+- **Modal**: Used when the action requires more space or deliberate confirmation, including the deployment diff, delete-all confirmation, and AI-generation wizard.
+
+### One Theme Control with CSS Variables
+
+The editor theme can be changed through a single CSS custom property. The default accent is a muted teal-green.
+
+```css
+:root {
+  --accent: #14b8a6; /* 메인 테마 컬러 */
+}
+```
+
+Edited drafts appear in orange, pending deletions in red, and additions or active states in green so that their status is visible at a glance.
+
+### Keeping the Hugo Preview Available
+
+The editor starts `hugo server` through `subprocess.Popen` and serves the preview from a `.preview/` directory instead of relying on Hugo's in-memory output. If that temporary directory is removed while the process is still running, the server remains alive but returns 404. I added logging to make that state visible.
+
+Long sessions could also leave the preview out of sync, so I added `api/restart-preview`, which restarts only the Hugo subprocess without restarting the editor itself.
+
+</div>

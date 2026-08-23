@@ -1,11 +1,15 @@
 ---
 title: "집사 - PART 01. 회의록"
+title_en: "Jipsa — Part 01: Meeting Records"
 date: 2026-07-23
 description: "Project DIA(Do It, AI) #3"
+description_en: "Project DIA (Do It, AI) #3"
 image: 
 type: "post"
 tags: ["DIA", "D3F!B", "Discord-bot", "Node.js", "Gemini", "Notion"]
 ---
+
+<div class="lang-ko">
 
 # defib-secretary (집사) 개발 일지 및 아키텍처 분석
 
@@ -41,7 +45,7 @@ tags: ["DIA", "D3F!B", "Discord-bot", "Node.js", "Gemini", "Notion"]
 - **회의 종료**: 마지막 활성 세그먼트를 마감 및 요약하여 노션에 기록한 뒤 음성 채널에서 퇴장한다.
 
 #### 세그먼트 분할 설계의 명확한 이유
-1. **API 토큰 제한 극복**: Gemini API의 오디오 데이터 처리는 초당 약 32 토큰을 소모한다. 2~3시간 분량의 긴 회의를 일괄 전송하면 Gemini 무료 티어의 요청당 토큰 제한인 약 25만 TPM을 초과할 수 있다. 반면 45분 단위 세그먼트는 약 86,000 토큰에 불과해 한도 내에서 안전하게 처리가 가능하다.
+1. **API 토큰 제한 극복**: 긴 회의를 한 번에 보내면 요청 크기가 커지고, 요약에 실패했을 때 전체 녹음을 다시 처리해야 합니다. 45분 단위로 나누면 한 번에 처리할 오디오와 재시도 범위를 줄일 수 있습니다.
 2. **데이터 유실 최소화**: 녹음 도중 정전이나 네트워크 장해 등으로 봇 프로세스가 강제 종료되더라도, 이미 마감되어 노션에 업로드된 이전 세그먼트의 요약본은 안전하게 보존된다.
 
 ### 사후 관리 기능
@@ -60,7 +64,7 @@ tags: ["DIA", "D3F!B", "Discord-bot", "Node.js", "Gemini", "Notion"]
 ### Gemini API 연동 및 장애 극복 전략
 기본 엔진 모델로 `gemini-flash-latest`(내부적으로 `gemini-3.5-flash`로 매핑됨) 버전을 사용한다. 특정 버전을 하드코딩할 경우 구글 측의 이전 세대 API 지원 종료 시 404 에러가 발생하므로, 항상 최신 빌드를 가리키는 Alias 식별자를 사용한다.
 
-`gemini-3.5-flash` 모델의 무료 티어 API 호출 한도는 일일 20회로 매우 제한적이다. 이를 우회하기 위해 다음과 같은 다단계 예외 처리 메커니즘을 내장했다.
+`gemini-3.5-flash` 모델의 무료 티어 API 호출 한도는 개발 당시 확인한 기준으로 일일 20회로 매우 제한적이었다. 이를 우회하기 위해 다음과 같은 다단계 예외 처리 메커니즘을 내장했다.
 
 - **일일 한도 초과 대응 (Fallback)**: API 호출 결과 `RESOURCE_EXHAUSTED` 에러코드와 일일 할당량 초과(`PerDay`) 패턴이 감지되면, 호출 제한이 훨씬 유연한 하위 모델인 `gemini-flash-lite-latest`로 즉시 요청 대상을 대체하여 재시도한다.
 - **일시적 서버 에러 대응 (Retry)**: 503(Service Unavailable), 500(Internal Server Error), 429(Rate Limit) 등 일시적 네트워크 및 서버 장애에 대해서는 지수 백오프(Exponential Backoff - 2초, 4초, 6초, 8초 간격)를 적용하여 최대 5회 재시도한다.
@@ -102,3 +106,116 @@ Notion SDK를 통해 회의록 본문을 기록할 때, Gemini가 반환하는 �
 1. **경계선 유실 우려**: 백그라운드 스케줄러가 작동하여 정밀한 세그먼트 자동 회전(안건 마감 및 신규 회전)이 이루어지는 수백 밀리초의 찰나의 시점에 발화된 오디오 파편의 종단 일부는 유실될 가능성이 존재한다.
 2. **글로벌 다중 세션 제약**: 세션 데이터 상태가 프로세스 전역 수준에서 단일 메모리 공간에 고정 상주하도록 구현되어 있다. 여러 디스코드 길드(서버)에서 본 봇을 초대하여 동시 다발적인 회의 기록을 진행하는 시나리오는 불가능하며, 이를 보완하려면 길드 고유 ID를 키셋으로 삼아 다중 세션 인스턴스를 파티셔닝하는 별도 추상화 설계가 수반되어야 한다.
 3. **민감 정보 노출**: 환경설정 파일인 `.env`에 Notion 토큰, Discord 봇 토큰 및 Gemini API 프라이빗 키 정보가 마스킹 없이 일반 텍스트 형태로 적재되어 있어, 형상 관리 저장소에 코드를 push할 경우 각별한 기밀 유지가 필요하다.
+
+</div>
+
+<div class="lang-en" style="display:none">
+
+# defib-secretary (Jipsa): Development Log and Architecture
+
+Jipsa is an internal Discord bot that records meetings held in a voice channel, summarizes them with the Google Gemini API, and writes the results to Notion. It runs as a single Node.js 22 and discord.js 14 application inside a Docker container.
+
+This post covers the main architecture, the audio-to-Notion pipeline, and the issues I encountered while building and deploying it.
+
+## 1. Architecture
+
+- **`index.js`**: Application entry point. Binds Discord events, handles buttons and select menus, rotates recording segments, and manages temporary files.
+- **`src/session.js`**: Holds the single process-wide meeting session, including the `STATES` enum, duplicate-click locks, and rewrite history persisted to `tmp/session-history.json`.
+- **`src/ui.js`**: Builds Discord embeds, control buttons, and select menus.
+- **`src/audio.service.js`**: Connects to the voice channel, subscribes to and decodes Opus streams, merges PCM files, converts them to MP3 with FFmpeg, and manages segments.
+- **`src/gemini.service.js`**: Uploads completed recordings to the Gemini File API and generates summaries, with retry and model-fallback handling.
+- **`src/notion.service.js`**: Creates a meeting page through the Notion API, converts the summary into Notion blocks, and appends it to the page.
+- **`src/time.util.js`**: Formats dates and times in KST regardless of the host system's timezone.
+
+## 2. User Flow
+
+### Controls
+
+Typing `집사~` in a Discord channel opens the control embed and button menu. Previous control messages sent by the bot are removed to keep the channel readable. The bot deletes only its own messages, so it does not require the Manage Messages permission.
+
+### Starting a Meeting
+
+When the user presses **Start Meeting**, the bot joins that user's current voice channel and begins recording. It also creates a Notion meeting page. The bot reads the Discord roles of people in the voice channel and writes only the configured roles—Development, Planning, and Art—to the page's Department multi-select property.
+
+### Recording by Segment
+
+The meeting is stored as a series of agenda segments rather than one long audio file.
+
+- **Break**: Finalizes the current segment, summarizes it with Gemini, appends it to Notion, and pauses audio capture while keeping the voice connection open.
+- **Resume**: Assigns the next segment number and resumes recording.
+- **Automatic rotation**: A background timer finalizes the current segment and starts the next after a configured interval. The default is 45 minutes and can be changed with `SEGMENT_DURATION_MINUTES` in `.env`.
+- **End Meeting**: Finalizes and summarizes the last active segment, writes it to Notion, and leaves the voice channel.
+
+#### Why I Split the Recording
+
+1. **API limits**: Long meetings create large requests and require the entire recording to be processed again when summarization fails. Splitting the recording into 45-minute segments keeps each request and retry smaller.
+2. **Reducing data loss**: If the process stops because of a power or network failure, summaries from earlier finalized segments remain stored in Notion.
+
+### After the Meeting
+
+- **Rewrite a segment**: While the original MP3 remains on the server, the user can select a segment and run the Gemini summary again.
+- **Delete temporary files**: The user can remove individual or all segment directories under `tmp/`. The active recording segment is excluded.
+- Both select menus include a Return to Menu option at the bottom.
+
+## 3. Pipeline
+
+### Audio Capture and Conversion
+
+1. When a user begins speaking, the bot subscribes to the Opus packet stream through `connection.receiver.subscribe(userId)` from `@discordjs/voice`.
+2. A Node.js `stream.pipeline()` passes the packets through `prism.opus.Decoder`, decodes them to raw PCM, and writes them to local files. The pipeline also closes stream resources when an exception interrupts processing.
+3. At `finalizeSegment`, the per-user PCM files are merged in timestamp order and FFmpeg encodes the result as a `16kHz Mono 64kbps` MP3.
+4. If a speaker continues talking across a segment rotation, that speech stream remains in the segment where it began until the utterance ends.
+
+### Gemini API Handling
+
+The default model alias is `gemini-flash-latest`, which currently maps to `gemini-3.5-flash`. Using an alias avoids hard-coding a version that may later return 404 after support ends.
+
+- **Daily-limit fallback**: If the response contains `RESOURCE_EXHAUSTED` and a `PerDay` quota pattern, the bot retries with `gemini-flash-lite-latest`.
+- **Retry for temporary failures**: For 503, 500, and 429 responses, it retries up to five times with waits of 2, 4, 6, and 8 seconds.
+- **Explicit timeouts**: Metadata requests time out after 30 seconds, while summary generation can run for up to five minutes.
+
+### Writing to Notion
+
+The bot parses the Markdown returned by Gemini line by line. Headings, bullets, numbered items, paragraphs, and bold markers are converted into Notion `heading_3`, `bulleted_list_item`, `numbered_list_item`, and `paragraph` blocks with the corresponding annotations. A private `USER_MAP` converts Discord IDs into recognizable attendee names for the Notion callout.
+
+## 4. Troubleshooting
+
+### 1. Department Values Missing from Notion
+
+- **Problem**: Pages were created with an empty Department property even when Discord members had matching roles.
+- **Cause**: Discord's `Collection.prototype.flatMap` does not behave like `Array.prototype.flatMap`. The collection returns a Map-like structure, so strings were destructured as `[key, value]`; for example, only the second character of a two-character Korean role name remained.
+- **Fix**: I converted the collection to a plain array with `[...collection.values()]`, then used the native Array `flatMap` and filtered the resulting role list.
+
+### 2. FFmpeg Produced Empty MP3 Files
+
+- **Problem**: FFmpeg completed with an error and left a zero-byte MP3 after the PCM streams were merged.
+- **Cause**: `prism.FFmpeg` automatically appends `pipe:1` to its arguments. I had also supplied a local output path, which configured two output destinations.
+- **Fix**: I removed the file path from the FFmpeg arguments and piped stdout into an explicit `fs.createWriteStream` instead.
+
+### 3. Discord Interaction Crash
+
+- **Problem**: Opening the rewrite or temporary-file menus could throw while building a component and crash the bot after `deferUpdate()`.
+- **Cause**: Discord limits a select-option `value` to 100 characters. I had combined a full local file path and Notion page ID in that field.
+- **Fix**: The component now carries a short timestamp-based key. The bot resolves that key to the file path and Notion page through the in-memory session.
+
+### 4. Gemini File Upload Returned 404
+
+- **Problem**: `Files.upload()` from `@google/genai` returned 404 for the source audio.
+- **Cause**: I passed custom `httpOptions` to set an upload timeout. Inspection of the SDK showed that this path omitted the `X-Goog-Upload-*` session headers required by the upload endpoint.
+- **Fix**: I removed `httpOptions` from `Files.upload()`. Timeouts remain on the later metadata `get`, `generateContent`, and resource `delete` operations.
+
+## 5. Deployment Requirements and Known Limits
+
+### Deployment
+
+- **DAVE support**: The bot requires `@discordjs/voice ^0.19.2` and Node.js 22 or later. Older voice libraries receive close code `4017` after Discord's rollout of DAVE end-to-end encryption to regular voice channels in March 2026.
+- **Network policy**: Tailscale VPN and Docker bridge networking on the same host left `rp_filter` in strict mode and blocked outbound UDP voice packets. The container runs with `--cap-add=NET_ADMIN`; `rp_filter=2` enables loose mode, and public DNS addresses are configured explicitly.
+- **Host laptop**: `HandleLidSwitch=ignore` keeps the laptop awake with the lid closed. The BIOS charge threshold is set to 60% for long-running use.
+
+### Known Limits
+
+1. **Audio at a rotation boundary**: A small fragment spoken within the few hundred milliseconds of an automatic segment rotation may be lost.
+2. **One global session**: Session state is process-wide, so the bot cannot record meetings in multiple Discord guilds at the same time. Supporting that would require session instances keyed by guild ID.
+3. **Secrets in `.env`**: Notion, Discord, and Gemini credentials are stored as plain text in `.env`; the file must never be committed to source control.
+
+</div>
