@@ -38,7 +38,7 @@ SQLmap 결과를 분석해 취약점과 대응 방향을 보여주는 졸업 프
 ### 7. [Arcanum Nights](/projects/arcananights/)
 해와 달, 별자리를 소재로 한 싱글~2인 퍼즐게임.  
 
-### 8. 곰팡이 키우기
+### 8. [곰팡이 키우기](https://www.game-ping.kr/games/growing-mold)
 방치형 클리커 게임. 시스템 기획 및 UI 설계/개발.
 
 ### 9. [D3F!B Collaboration System](/projects/d3fib-workspace/)
@@ -104,7 +104,7 @@ A graduation project connecting SQLmap findings with mitigation guidance.
 ### 7. [Arcanum Nights](/projects/arcananights/)
 A single-to-two-player puzzle game built around the sun, moon, and constellations.  
 
-### 8. Mold Growing Game
+### 8. [Mold Growing Game](https://www.game-ping.kr/games/growing-mold)
 An idle clicker project involving system planning and UI design/development.
 
 ### 9. [D3F!B Collaboration System](/projects/d3fib-workspace/)
