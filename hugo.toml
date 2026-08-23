@@ -85,7 +85,11 @@ enableRobotsTXT = true
 
   # You can use this to inject any HTML in the <head> tag.
   # Ideal usecase for this is to import custom js/css or add your analytics snippet
-  customHeadHTML = ""
+  customHeadHTML = """
+  <style>
+    .post-content a { color: inherit; }
+  </style>
+  """
 
   socialIcons = [
     {name = "instagram", url = "https://www.instagram.com/alsspp01/"},
