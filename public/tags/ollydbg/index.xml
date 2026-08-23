@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>OllyDbg on Yewon Min</title><link>https://alsspp01.github.io/tags/ollydbg/</link><description>Recent content in OllyDbg on Yewon Min</description><generator>Hugo</generator><language>en</language><lastBuildDate>Sun, 31 Mar 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://alsspp01.github.io/tags/ollydbg/index.xml" rel="self" type="application/rss+xml"/><item><title>시리얼 넘버 해킹</title><link>https://alsspp01.github.io/posts/2024-03-31%EB%A9%80%EC%9B%A8%EC%96%B4-%EB%B6%84%EC%84%9D/</link><pubDate>Sun, 31 Mar 2024 00:00:00 +0000</pubDate><guid>https://alsspp01.github.io/posts/2024-03-31%EB%A9%80%EC%9B%A8%EC%96%B4-%EB%B6%84%EC%84%9D/</guid><description>&lt;h3 id="과제">과제&lt;/h3>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>OllyDbg on Yewon Min</title><link>https://alsspp01.github.io/tags/ollydbg/</link><description>Recent content in OllyDbg on Yewon Min</description><generator>Hugo</generator><language>en</language><lastBuildDate>Sun, 31 Mar 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://alsspp01.github.io/tags/ollydbg/index.xml" rel="self" type="application/rss+xml"/><item><title>시리얼 넘버 해킹</title><link>https://alsspp01.github.io/posts/2024-03-31%EB%A9%80%EC%9B%A8%EC%96%B4-%EB%B6%84%EC%84%9D/</link><pubDate>Sun, 31 Mar 2024 00:00:00 +0000</pubDate><guid>https://alsspp01.github.io/posts/2024-03-31%EB%A9%80%EC%9B%A8%EC%96%B4-%EB%B6%84%EC%84%9D/</guid><description>&lt;div class="lang-ko">
+&lt;h3 id="과제">과제&lt;/h3>
 &lt;p>Abexcm2-voiees.exe에서 자기 이름에 맞는 serial number 찾기&lt;/p>
 &lt;h3 id="풀이">풀이&lt;/h3>
 &lt;p>&lt;img src="https://alsspp01.github.io/image/DKU/malware/media2/image1.png" alt="01">&lt;/p>
@@ -11,11 +12,12 @@
 &lt;p>&lt;img src="https://alsspp01.github.io/image/DKU/malware/media2/image4.png" alt="04">&lt;/p>
 &lt;p>아랫부분&lt;/p>
 &lt;p>이 중 아래에 있는 부분에서만 분기문이 사용되는 것으로 보아 아래 부분이
-시리얼이 맞는 지 확인하는 부분임을 알 수 있다.&lt;/p>
+시리얼이 맞는지 확인하는 부분임을 알 수 있다.&lt;/p>
 &lt;p>잘 살펴보면 PUSH EDX, PUSH EAX로 함수 호출 전에 로컬변수를 세팅하는 것이
 보인다.&lt;/p>
 &lt;p>이에 따라 함수의 return 값은 EAX에 저장되고 EDX에 있는 값과 비교할
-것으로 추측된다.&lt;/p></description></item><item><title>비밀번호 해킹</title><link>https://alsspp01.github.io/posts/2024-03-22%EB%A9%80%EC%9B%A8%EC%96%B4-%EB%B6%84%EC%84%9D/</link><pubDate>Fri, 22 Mar 2024 00:00:00 +0000</pubDate><guid>https://alsspp01.github.io/posts/2024-03-22%EB%A9%80%EC%9B%A8%EC%96%B4-%EB%B6%84%EC%84%9D/</guid><description>&lt;h3 id="과제">과제&lt;/h3>
+것으로 추측된다.&lt;/p></description></item><item><title>비밀번호 해킹</title><link>https://alsspp01.github.io/posts/2024-03-22%EB%A9%80%EC%9B%A8%EC%96%B4-%EB%B6%84%EC%84%9D/</link><pubDate>Fri, 22 Mar 2024 00:00:00 +0000</pubDate><guid>https://alsspp01.github.io/posts/2024-03-22%EB%A9%80%EC%9B%A8%EC%96%B4-%EB%B6%84%EC%84%9D/</guid><description>&lt;div class="lang-ko">
+&lt;h3 id="과제">과제&lt;/h3>
 &lt;p>crackme.exe를 olly debugger를 활용하여 바이너리 파일 분석 및 비밀번호를 추출&lt;/p>
 &lt;h3 id="풀이">풀이&lt;/h3>
 &lt;p>&lt;img src="https://alsspp01.github.io/image/DKU/malware/media1/image1.png" alt="01">&lt;/p>

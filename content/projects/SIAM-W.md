@@ -10,7 +10,7 @@ tags: ["DKU"]
 ---
 
 ### 시연 영상
-#### [Youtube Link](https://bit.ly/SIAM-W)
+#### [YouTube Demo](https://bit.ly/SIAM-W)
 
 [![QR](/image/SIAM-W/QRcode.png)](https://bit.ly/SIAM-W)
 
@@ -50,4 +50,4 @@ tags: ["DKU"]
 [![GITHUB](/image/profile/github-mark.png)](https://github.com/hanja1500/SIAM-W.git)
 &nbsp;  
 &nbsp;  
-> 그림을 클릭하면 GitHub repository로 연결됩니다.
+> 그림을 클릭하면 GitHub 저장소로 연결됩니다.

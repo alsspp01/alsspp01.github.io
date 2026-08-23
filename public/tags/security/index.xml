@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Security on Yewon Min</title><link>https://alsspp01.github.io/tags/security/</link><description>Recent content in Security on Yewon Min</description><generator>Hugo</generator><language>en</language><lastBuildDate>Sun, 31 Mar 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://alsspp01.github.io/tags/security/index.xml" rel="self" type="application/rss+xml"/><item><title>시리얼 넘버 해킹</title><link>https://alsspp01.github.io/posts/2024-03-31%EB%A9%80%EC%9B%A8%EC%96%B4-%EB%B6%84%EC%84%9D/</link><pubDate>Sun, 31 Mar 2024 00:00:00 +0000</pubDate><guid>https://alsspp01.github.io/posts/2024-03-31%EB%A9%80%EC%9B%A8%EC%96%B4-%EB%B6%84%EC%84%9D/</guid><description>&lt;h3 id="과제">과제&lt;/h3>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Security on Yewon Min</title><link>https://alsspp01.github.io/tags/security/</link><description>Recent content in Security on Yewon Min</description><generator>Hugo</generator><language>en</language><lastBuildDate>Sun, 31 Mar 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://alsspp01.github.io/tags/security/index.xml" rel="self" type="application/rss+xml"/><item><title>시리얼 넘버 해킹</title><link>https://alsspp01.github.io/posts/2024-03-31%EB%A9%80%EC%9B%A8%EC%96%B4-%EB%B6%84%EC%84%9D/</link><pubDate>Sun, 31 Mar 2024 00:00:00 +0000</pubDate><guid>https://alsspp01.github.io/posts/2024-03-31%EB%A9%80%EC%9B%A8%EC%96%B4-%EB%B6%84%EC%84%9D/</guid><description>&lt;div class="lang-ko">
+&lt;h3 id="과제">과제&lt;/h3>
 &lt;p>Abexcm2-voiees.exe에서 자기 이름에 맞는 serial number 찾기&lt;/p>
 &lt;h3 id="풀이">풀이&lt;/h3>
 &lt;p>&lt;img src="https://alsspp01.github.io/image/DKU/malware/media2/image1.png" alt="01">&lt;/p>
@@ -11,11 +12,12 @@
 &lt;p>&lt;img src="https://alsspp01.github.io/image/DKU/malware/media2/image4.png" alt="04">&lt;/p>
 &lt;p>아랫부분&lt;/p>
 &lt;p>이 중 아래에 있는 부분에서만 분기문이 사용되는 것으로 보아 아래 부분이
-시리얼이 맞는 지 확인하는 부분임을 알 수 있다.&lt;/p>
+시리얼이 맞는지 확인하는 부분임을 알 수 있다.&lt;/p>
 &lt;p>잘 살펴보면 PUSH EDX, PUSH EAX로 함수 호출 전에 로컬변수를 세팅하는 것이
 보인다.&lt;/p>
 &lt;p>이에 따라 함수의 return 값은 EAX에 저장되고 EDX에 있는 값과 비교할
-것으로 추측된다.&lt;/p></description></item><item><title>비밀번호 해킹</title><link>https://alsspp01.github.io/posts/2024-03-22%EB%A9%80%EC%9B%A8%EC%96%B4-%EB%B6%84%EC%84%9D/</link><pubDate>Fri, 22 Mar 2024 00:00:00 +0000</pubDate><guid>https://alsspp01.github.io/posts/2024-03-22%EB%A9%80%EC%9B%A8%EC%96%B4-%EB%B6%84%EC%84%9D/</guid><description>&lt;h3 id="과제">과제&lt;/h3>
+것으로 추측된다.&lt;/p></description></item><item><title>비밀번호 해킹</title><link>https://alsspp01.github.io/posts/2024-03-22%EB%A9%80%EC%9B%A8%EC%96%B4-%EB%B6%84%EC%84%9D/</link><pubDate>Fri, 22 Mar 2024 00:00:00 +0000</pubDate><guid>https://alsspp01.github.io/posts/2024-03-22%EB%A9%80%EC%9B%A8%EC%96%B4-%EB%B6%84%EC%84%9D/</guid><description>&lt;div class="lang-ko">
+&lt;h3 id="과제">과제&lt;/h3>
 &lt;p>crackme.exe를 olly debugger를 활용하여 바이너리 파일 분석 및 비밀번호를 추출&lt;/p>
 &lt;h3 id="풀이">풀이&lt;/h3>
 &lt;p>&lt;img src="https://alsspp01.github.io/image/DKU/malware/media1/image1.png" alt="01">&lt;/p>
@@ -29,12 +31,16 @@ height=&amp;ldquo;2.0506944444444444in&amp;rdquo;}F7을 눌러 들어가 멈추�
 &lt;p>주요 문자열이 있는 것으로 보아 main 함수와 관련된 것으로 보인다.&lt;/p>
 &lt;p>&lt;img src="https://alsspp01.github.io/image/DKU/malware/media1/image4.png" alt="04">&lt;/p>
 &lt;p>결과 출력 직전 LOCAL.1과 LOCAL.2를 비교하는 걸로 보아 LOCAL.1과
-LOCAL.2는 정답에 가깝다고 생각할 수 있다.&lt;/p></description></item><item><title>aes() 무력화</title><link>https://alsspp01.github.io/posts/2023-12-14%EC%8B%9C%ED%81%90%EC%96%B4%EC%BD%94%EB%94%A9/</link><pubDate>Thu, 14 Dec 2023 00:00:00 +0000</pubDate><guid>https://alsspp01.github.io/posts/2023-12-14%EC%8B%9C%ED%81%90%EC%96%B4%EC%BD%94%EB%94%A9/</guid><description>&lt;h3 id="과제">과제&lt;/h3>
-&lt;p>간단한 암호함수에 user-defined aes-128 함수가 XOR 되어 있는 암호장치를 aes-128 암호 함수가 항상 16 byte 길이의 0으로 구성된 배열을 리턴시키도록 바이너리를 수정.&lt;br>
+LOCAL.2는 정답에 가깝다고 생각할 수 있다.&lt;/p></description></item><item><title>aes() 무력화</title><link>https://alsspp01.github.io/posts/2023-12-14%EC%8B%9C%ED%81%90%EC%96%B4%EC%BD%94%EB%94%A9/</link><pubDate>Thu, 14 Dec 2023 00:00:00 +0000</pubDate><guid>https://alsspp01.github.io/posts/2023-12-14%EC%8B%9C%ED%81%90%EC%96%B4%EC%BD%94%EB%94%A9/</guid><description>&lt;div class="lang-ko">
+&lt;h3 id="과제">과제&lt;/h3>
+&lt;p>간단한 암호함수에 사용자 정의 AES-128 함수가 XOR 연산을 하는 암호장치를 aes-128 암호 함수가 항상 16바이트 길이의 0으로 구성된 배열을 리턴시키도록 바이너리를 수정.&lt;br>
 비밀키는 column-oriented state로 정렬되어 있음.&lt;br>
-popen을 활용하여 원폰 파일을 호출하고 출력값을 읽어들일 것.&lt;br>
+popen을 활용하여 원본 파일을 호출하고 출력값을 읽어들일 것.&lt;br>
 출력값을 토대로 자신에게 부여된 비밀키를 역산하는 함수를 통해 분석 결과를 보여줄 것.&lt;/p>
 &lt;h3 id="풀이">풀이&lt;/h3>
+&lt;blockquote>
+&lt;p>당시 과제 풀이를 옮긴 기록으로, 게시글의 코드 조각만으로는 바로 컴파일되지 않을 수 있습니다.&lt;/p>
+&lt;/blockquote>
 &lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-C" data-lang="C">&lt;span style="display:flex;">&lt;span>.&lt;span style="color:#f92672">/&lt;/span>sec_hw2		&lt;span style="color:#75715e">// Permission Denied
 &lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">&lt;/span>chmod &lt;span style="color:#ae81ff">777&lt;/span> .&lt;span style="color:#f92672">/&lt;/span>sec_hw2	&lt;span style="color:#75715e">// Permission 부여
 &lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">&lt;/span>file .&lt;span style="color:#f92672">/&lt;/span>sec_hw2		&lt;span style="color:#75715e">// ELF FILE
@@ -174,10 +180,14 @@ popen을 활용하여 원폰 파일을 호출하고 출력값을 읽어들일 �
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>	&lt;span style="color:#66d9ef">return&lt;/span> invSbox[TA];
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>}
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>/*	Test Result	*/
-&lt;img src="https://alsspp01.github.io/image/DKU/sec2.png" alt="result">&lt;/p></description></item><item><title>rand() 무력화</title><link>https://alsspp01.github.io/posts/2023-11-21%EC%8B%9C%ED%81%90%EC%96%B4%EC%BD%94%EB%94%A9/</link><pubDate>Tue, 21 Nov 2023 00:00:00 +0000</pubDate><guid>https://alsspp01.github.io/posts/2023-11-21%EC%8B%9C%ED%81%90%EC%96%B4%EC%BD%94%EB%94%A9/</guid><description>&lt;h3 id="과제">과제&lt;/h3>
-&lt;p>간단한 암호함수에 rand() 함수가 XOR되어 있는 보안장치를 rand() 함수가 항상 0을 리턴시키도록 바이너리를 수정하여 암호에 숨겨진 비밀키를 알아내는 과제.
+&lt;img src="https://alsspp01.github.io/image/DKU/sec2.png" alt="result">&lt;/p></description></item><item><title>rand() 무력화</title><link>https://alsspp01.github.io/posts/2023-11-21%EC%8B%9C%ED%81%90%EC%96%B4%EC%BD%94%EB%94%A9/</link><pubDate>Tue, 21 Nov 2023 00:00:00 +0000</pubDate><guid>https://alsspp01.github.io/posts/2023-11-21%EC%8B%9C%ED%81%90%EC%96%B4%EC%BD%94%EB%94%A9/</guid><description>&lt;div class="lang-ko">
+&lt;h3 id="과제">과제&lt;/h3>
+&lt;p>간단한 암호함수에 rand() 함수와 XOR 연산을 하는 보안장치를 rand() 함수가 항상 0을 리턴시키도록 바이너리를 수정하여 암호에 숨겨진 비밀키를 알아내는 과제.
 사용 언어: C&lt;/p>
 &lt;h3 id="풀이">풀이&lt;/h3>
+&lt;blockquote>
+&lt;p>당시 과제 풀이를 옮긴 기록으로, 게시글의 코드 조각만으로는 바로 컴파일되지 않을 수 있습니다.&lt;/p>
+&lt;/blockquote>
 &lt;pre tabindex="0">&lt;code>./sec_hw1		// Permission Denied
 chmod 777 ./sec_hw1	// Permission 부여
 file ./sec_hw1		// ELF FILE
@@ -401,4 +411,7 @@ hexedit sec_hw1
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>Test &lt;span style="color:#ae81ff">04&lt;/span>&lt;span style="color:#f92672">:&lt;/span> AddRoundKey
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#ae81ff">59&lt;/span> B0 E1 &lt;span style="color:#ae81ff">62&lt;/span> &lt;span style="color:#ae81ff">98&lt;/span> F7 &lt;span style="color:#ae81ff">46&lt;/span> C9 DE F5 &lt;span style="color:#ae81ff">1&lt;/span>D &lt;span style="color:#ae81ff">10&lt;/span> E4 &lt;span style="color:#ae81ff">90&lt;/span> &lt;span style="color:#ae81ff">84&lt;/span> &lt;span style="color:#ae81ff">6&lt;/span>B
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div></description></item></channel></rss>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/div>
+&lt;div class="lang-en" style="display:none">
+&lt;h3 id="assignment">Assignment&lt;/h3>
+&lt;p>The program used &lt;code>rand()&lt;/code> as part of an XOR-based protection mechanism around a simple encryption function. The assignment was to patch the binary so that &lt;code>rand()&lt;/code> always returned zero, then recover the secret key hidden by the encryption process.&lt;/p></description></item></channel></rss>

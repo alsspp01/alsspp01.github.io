@@ -3,7 +3,7 @@ title: "SQLi parsing AI"
 type: page
 description: "SQL Statement Parsing AI Project"
 dated: true
-period_start: "2024-05"
+period_start: "2024-03"
 period_end: "2024-06"
 summary: "SQL 구문을 분석하여 SQL injection 구문인지 일반 SQL 구문인지 확인하는 구문 분석 AI 시스템.\n\nA parsing AI system that analyzes SQL statements to determine whether they are SQL injection statements or regular SQL statements."
 ---
@@ -278,13 +278,13 @@ ex_data['normalized_query'] = ex_data['tokenized_query'].apply(normalize_query)
 # 벡터화 적용
 ex_vocabulary = set(token for tokens in ex_data['normalized_query'] for token in tokens)
 ex_token_to_index = {token: i for i, token in enumerate(vocabulary)}
-ex_max_length = max(len(tokens) for tokens in ex_data['normalized_query'])
-ex_data['query_vector'] = ex_data['normalized_query'].apply(lambda tokens: tokens_to_vector(tokens, ex_token_to_index, ex_max_length))
+ex_data['query_vector'] = ex_data['normalized_query'].apply(lambda tokens: tokens_to_vector(tokens, ex_token_to_index, max_length))
 
 # tensor로 변환
 ex_tensor = tf.convert_to_tensor(np.array(ex_data['query_vector'].tolist()))
 
 # 예측값 생성
+threshold = 0.5
 ex_prediction = model.predict(ex_tensor)
 ex_binary_predictions = (ex_prediction > threshold).astype(int)
 
@@ -328,4 +328,4 @@ F1 Score: 0.9848
 #### 모델 성능
 높은 Recall(0.9990)은 실제 SQL injection을 거의 놓치지 않는다는 의미이며, 위양성 여부는 Recall이 아니라 Precision과 FPR로 판단해야 한다.  
 Precision이 0.9709로 다소 낮게 나타나 일부 위양성이 발생할 가능성은 남아 있으며, 실사용 전에는 threshold 조정과 추가 데이터셋을 통한 검증이 필요하다고 판단된다.  
-Accuracy 및 F1 Score이 충분히 높기에 자체 보안 엔진 개발이 어려운 중소기업에서 SQL injection 방지를 위해 사용하기엔 적합하다고 판단된다.  
+별도의 데이터셋에서도 높은 Accuracy와 F1 Score을 확인했지만, 실제 보안 환경에 적용하려면 임계값 조정과 더 다양한 공격 · 정상 구문을 사용한 추가 검증이 필요하다.  

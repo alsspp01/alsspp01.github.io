@@ -164,13 +164,13 @@ ex_data[&#39;normalized_query&#39;] = ex_data[&#39;tokenized_query&#39;].apply(n
 # 벡터화 적용
 ex_vocabulary = set(token for tokens in ex_data[&#39;normalized_query&#39;] for token in tokens)
 ex_token_to_index = {token: i for i, token in enumerate(vocabulary)}
-ex_max_length = max(len(tokens) for tokens in ex_data[&#39;normalized_query&#39;])
-ex_data[&#39;query_vector&#39;] = ex_data[&#39;normalized_query&#39;].apply(lambda tokens: tokens_to_vector(tokens, ex_token_to_index, ex_max_length))
+ex_data[&#39;query_vector&#39;] = ex_data[&#39;normalized_query&#39;].apply(lambda tokens: tokens_to_vector(tokens, ex_token_to_index, max_length))
 
 # tensor로 변환
 ex_tensor = tf.convert_to_tensor(np.array(ex_data[&#39;query_vector&#39;].tolist()))
 
 # 예측값 생성
+threshold = 0.5
 ex_prediction = model.predict(ex_tensor)
 ex_binary_predictions = (ex_prediction &gt; threshold).astype(int)
 
@@ -199,7 +199,7 @@ print(f&#34;Recall: {recall:.4f}&#34;)
 # F1 Score 계산
 f1 = f1_score(ex_y_sr, ex_pred_sr)
 print(f&#34;F1 Score: {f1:.4f}&#34;)
-</code></pre><p>Accuracy: 0.9855<br>Precision: 0.9709<br>Recall: 0.9990<br>F1 Score: 0.9848</p><h3 id=conclusion>conclusion</h3><h4 id=모델-성능>모델 성능</h4><p>높은 Recall(0.9990)은 실제 SQL injection을 거의 놓치지 않는다는 의미이며, 위양성 여부는 Recall이 아니라 Precision과 FPR로 판단해야 한다.<br>Precision이 0.9709로 다소 낮게 나타나 일부 위양성이 발생할 가능성은 남아 있으며, 실사용 전에는 threshold 조정과 추가 데이터셋을 통한 검증이 필요하다고 판단된다.<br>Accuracy 및 F1 Score이 충분히 높기에 자체 보안 엔진 개발이 어려운 중소기업에서 SQL injection 방지를 위해 사용하기엔 적합하다고 판단된다.</p></div></div></main><footer class=footer><a class=footer-contact-link href=mailto:alsspp01@gmail.com><img class="svg-inject footer-contact-icon" src=/svg/icons/email.svg alt>
+</code></pre><p>Accuracy: 0.9855<br>Precision: 0.9709<br>Recall: 0.9990<br>F1 Score: 0.9848</p><h3 id=conclusion>conclusion</h3><h4 id=모델-성능>모델 성능</h4><p>높은 Recall(0.9990)은 실제 SQL injection을 거의 놓치지 않는다는 의미이며, 위양성 여부는 Recall이 아니라 Precision과 FPR로 판단해야 한다.<br>Precision이 0.9709로 다소 낮게 나타나 일부 위양성이 발생할 가능성은 남아 있으며, 실사용 전에는 threshold 조정과 추가 데이터셋을 통한 검증이 필요하다고 판단된다.<br>별도의 데이터셋에서도 높은 Accuracy와 F1 Score을 확인했지만, 실제 보안 환경에 적용하려면 임계값 조정과 더 다양한 공격 · 정상 구문을 사용한 추가 검증이 필요하다.</p></div></div></main><footer class=footer><a class=footer-contact-link href=mailto:alsspp01@gmail.com><img class="svg-inject footer-contact-icon" src=/svg/icons/email.svg alt>
 Contact
 </a><span>&copy; 2026 The Marauders</span>
 <span>Made with &#10084;&#65039; using <a target=_blank href=https://github.com/526avijitgupta/gokarna>Gokarna</a></span></footer></body></html>

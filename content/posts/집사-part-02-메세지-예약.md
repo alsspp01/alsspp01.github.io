@@ -1,11 +1,15 @@
 ---
 title: "집사 - PART 02. 메시지 예약"
+title_en: "Jipsa — Part 02: Scheduled Messages"
 date: 2026-08-11
 description: "Project DIA(Do It, AI) #4"
+description_en: "Project DIA (Do It, AI) #4"
 image: 
 type: "post"
 tags: ["DIA", "D3F!B", "Discord-bot", "Node.js"]
 ---
+
+<div class="lang-ko">
 
 디스코드 음성 회의 기록 및 요약 봇 집사(defib-secretary)에 회의 흐름과 별개로 동작하는 메시지 예약 발송 기능을 추가했다. 특정 시각에 지정된 채널로 메시지를 자동 전송하는 기능이다.
 
@@ -109,3 +113,109 @@ function normalizeReservationMessage(message) {
    - 임시 피커용 `drafts` 상태 전환 흐름 검증
    - `time.util.js`를 사용한 KST ↔ UTC 시간 변환 정확성 검증
 4. **스키마 검증**: `SlashCommandBuilder`를 거쳐 빌드된 최종 디스코드 커맨드 스키마가 예외 없이 올바른 JSON 규격(`.toJSON()`)으로 변환되는지 최종 확인을 완료했다.
+
+</div>
+
+<div class="lang-en" style="display:none">
+
+I added scheduled message delivery to Jipsa (`defib-secretary`) as a module independent of the voice-meeting flow. It sends a message to a selected Discord channel at a specified time.
+
+This post covers the scheduler, interactive components, and input handling required by Discord's API constraints.
+
+## Architecture and Main Files
+
+The reservation module is separated from the audio-recording pipeline.
+
+- **`src/reservation.service.js`**: CRUD operations, persistence in `tmp/reservations.json`, the 15-second polling scheduler, and temporary `drafts` state for the time picker.
+- **`src/ui.js`**: Reservation-list embeds, the cancellation select menu, and date/hour/minute picker components.
+- **`index.js`**: Slash-command registration and routing for buttons, select menus, and command handlers.
+
+---
+
+## Slash Commands and Discord API Constraints
+
+### 1. Option Order and Subcommands
+
+Discord requires every required option to appear before optional options. `SlashCommandBuilder` throws at runtime when the order is invalid.
+
+I originally wanted the order `[date] -> [time] -> [message]`, but only the message was required. I rearranged the command accordingly.
+
+```javascript
+// `/예약 등록` 커맨드 구조
+/예약 등록 [메시지:필수] [시간:선택] [날짜:선택] [채널:선택]
+```
+
+Discord also does not allow top-level options and subcommands in the same command, so registration, cancellation, and editing use separate subcommands:
+
+- `/예약 등록`
+- `/예약 취소`
+- `/예약 수정`
+
+### 2. Channel and Message Limits
+
+- **Channel**: Uses Discord's native channel option type. If omitted, the bot uses `RESERVATION_DEFAULT_CHANNEL_ID` from `.env`, or the current channel when no default is configured.
+- **Message length**: `setMaxLength(200)` caps the message at 200 characters. Unbounded messages could make the reservation-list embed exceed Discord's 4,096-character limit.
+
+---
+
+## Interactive Time Picker in Memory
+
+Discord has no calendar or dedicated time-picker component. If the user omits the `시간` option from `/예약 등록`, the bot renders its own picker.
+
+1. **Components**: Three select menus cover the next 14 dates, 24 hours, and six ten-minute intervals, followed by a Confirm button.
+2. **Temporary `drafts` state**: Values selected before confirmation are held in an in-memory `drafts` Map keyed by `draftId` rather than being written to disk after every interaction.
+3. **State through `customId`**: Each Discord component encodes the `draftId` in its `customId`, linking the displayed picker to the corresponding in-memory state.
+4. **Expiration**: An unconfirmed draft is removed after ten minutes.
+
+---
+
+## 15-Second Polling Scheduler
+
+I used polling rather than a long-running Node.js `setTimeout`.
+
+- **Reason**: `setTimeout` has a maximum delay of roughly 24.8 days. Timers are also lost if the laptop sleeps or the container restarts.
+- **Implementation**: Every 15 seconds, the scheduler reads the reservations persisted in `tmp/reservations.json`. It sends entries whose scheduled KST time has passed, then removes them from the file.
+- **Persistence**: Because reservations are stored as JSON on disk, they survive a container restart or redeployment.
+
+---
+
+## Dynamic Display Numbers
+
+The reservation list shows short numbers generated at read time instead of exposing permanent IDs.
+
+- **Rule**: Reservations are sorted by delivery time and displayed with two-digit numbers such as `01` and `02`.
+- **Reason**: The user can pass the number visible in the current list to `/예약 취소 번호:1` without dealing with UUIDs.
+- **Tradeoff**: If another reservation is added or removed between viewing the list and sending the cancellation command, the index may shift. I accepted this limitation because simultaneous edits are rare in the small internal meeting environment.
+
+---
+
+## Line Breaks in Scheduled Messages
+
+Discord slash-command input did not preserve an Enter key press as a line break. Rather than replace the command flow with a modal, I added an input-normalization function.
+
+```javascript
+// 입력 필터 유틸리티 함수
+function normalizeReservationMessage(message) {
+  // 사용자가 입력한 리터럴 '\\n'을 실제 개행 문자로 치환
+  return message.replace(/\\\\n/g, '\\n');
+}
+```
+
+Both `/예약 등록` and `/예약 수정` pass the message through this filter. Their help text tells the user to enter `\\n` for a line break.
+
+---
+
+## Testing
+
+I could not run an end-to-end test against a live Discord server in the local environment because the bot token was unavailable there. I used unit and smoke tests for the parts that could be isolated.
+
+1. **Syntax**: Ran `node --check`.
+2. **Container smoke test**: Used `node:22-slim` and skipped the native `@discordjs/opus` build with `--ignore-scripts`.
+3. **Core logic**:
+   - CRUD operations and JSON persistence
+   - Renumbering after sorting
+   - State transitions in the temporary `drafts` picker
+   - KST and UTC conversion through `time.util.js`
+4. **Schema**: Confirmed that the final `SlashCommandBuilder` definitions converted to valid JSON through `.toJSON()` without throwing.
+
+</div>

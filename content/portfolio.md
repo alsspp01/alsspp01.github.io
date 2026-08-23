@@ -84,14 +84,14 @@ SQL Injection 문장을 토큰 단위로 전처리하고 공격 구문을 분류
 
 ---
 
-### 🗃️ [RocksDB Combat Log Storage](/projects/rocksdb-combat-log/)
+### 🔍 [SIAM-W](/projects/siam-w/)
 
-**2025.04–2025.06 · 팀장 / 성능 측정 / 데이터 파싱**
+**2024.03–2024.06 · 졸업 프로젝트 / 보안 도구**
 
-전투 로그를 가정해 RocksDB의 JSON 저장 방식과 실제 성능을 비교했습니다.
+SQLmap 분석 결과를 바탕으로 웹사이트의 SQL Injection 가능성과 대응 방안을 보여주는 도구를 제작했습니다.
 
-- 네 가지 저장 방식의 쓰기 · 병합 · 읽기 속도와 디스크 사용량 측정
-- 게임 기록 스트리밍과 스냅샷 기반 `Chrono Break` 기능 구현
+- 취약점 진단 결과와 예상되는 취약점을 화면으로 정리
+- 보안 비전공 개발자가 이해할 수 있는 코드 수정 방향 안내
 
 ---
 
@@ -180,14 +180,14 @@ I developed a model that tokenized SQL Injection statements and classified attac
 
 ---
 
-### 🗃️ [RocksDB Combat Log Storage](/projects/rocksdb-combat-log/)
+### 🔍 [SIAM-W](/projects/siam-w/)
 
-**Apr 2025–Jun 2025 · Team Lead / Performance Benchmarking / Data Parsing**
+**Mar 2024–Jun 2024 · Graduation Project / Security Tool**
 
-I compared the performance of JSON storage strategies in RocksDB using a combat-log workload.
+I built a tool that used SQLmap results to explain potential SQL Injection vulnerabilities and appropriate responses.
 
-- Measured write, merge, and read speed and disk usage across four storage strategies
-- Implemented gameplay streaming and the snapshot-based `Chrono Break` feature
+- Organized scan results and likely vulnerabilities in an accessible interface
+- Provided code-remediation guidance for developers without a security background
 
 ---
 

@@ -1,11 +1,15 @@
 ---
 title: "자동화 - PART 01. Notion 알림 Discord로 보내기"
+title_en: "Automation — Part 01: Sending Notion Updates to Discord"
 date: 2026-08-11
 description: "Project DIA(Do It, AI) #5"
+description_en: "Project DIA (Do It, AI) #5"
 image: 
 type: "post"
 tags: ["DIA", "DEFIB", "Node.js", "Notion", "Discord", "Webhook"]
 ---
+
+<div class="lang-ko">
 
 ## 1. 개요 및 프로젝트 목적
 
@@ -18,10 +22,8 @@ Notion의 '개발 일지' 데이터베이스에 새 페이지가 생성될 때, 
 ### GitHub Actions 설계 폐기 이유
 
 1. **Inbound Webhook 엔드포인트의 부재**: GitHub Actions는 외부 시스템의 단순 웹훅 요청을 직접 수신할 수 없다. 외부에서 워크플로우를 깨우는 유일한 방법은 `repository_dispatch` API를 사용하는 것뿐이다. 그러나 이 API는 반드시 `{'event_type': ..., 'client_payload': {...}}` 형태의 고정된 JSON 본문을 요구한다.
-2. **Notion 자동화 웹훅의 고정 포맷 한계**: Notion이 제공하는 'Send webhook' 액션(2026년 1월 출시)은 커스텀 헤더는 지원하지만, JSON 본문은 사용자가 수정할 수 없는 고정 포맷(`{ source: {...}, data: <Notion page object> }`)으로만 전송된다. Notion 측에서 `event_type`과 같은 커스텀 키를 포함하도록 페이로드를 가공할 방법이 없다.
+2. **Notion 자동화 웹훅의 고정 포맷 한계**: Notion이 제공하는 'Send webhook' 액션은 커스텀 헤더는 지원하지만, JSON 본문은 사용자가 수정할 수 없는 고정 포맷(`{ source: {...}, data: <Notion page object> }`)으로만 전송된다. Notion 측에서 `event_type`과 같은 커스텀 키를 포함하도록 페이로드를 가공할 방법이 없다.
 3. **연동 실패 및 자동화 일시 중지**: 결과적으로 Notion에서 GitHub로 직접 전송되는 요청은 스키마 검증 단계에서 항상 **422 Unprocessable Entity** 오류로 거부되었다. Notion은 이러한 실패가 반복되면 해당 자동화를 '예기치 않은 오류로 인해 자동화 일시 중지됨' 상태로 전환하며 비활성화한다.
-
-[ Notion 자동화 설정 중 webhook 전송 실패 경고 화면 ]
 
 이러한 근본적 한계를 확인한 후, GitHub Actions 및 Notion API 재조회(폴링) 방식을 모두 걷어냈다. Notion의 페이로드를 직접 수신해 처리하는 단일 파일 구조의 `server.js` 기반 서버를 구축했다. Notion이 전송하는 페이로드(`data`) 내에 이미 페이지 제목, 속성, URL이 모두 포함되어 있으므로 `@notionhq/client` 라이브러리를 통한 추가 API 호출이나 커서 상태 관리도 불필요해졌다.
 
@@ -92,3 +94,91 @@ Funnel이 구동 중인 호스트에서 신규 경로를 추가하기 위해 `ta
 
 * 공용 템플릿의 기본 대기 포트는 Node 개발 환경에서 흔히 사용하는 `3000`이나 `8080` 대신, 포트 충돌 위험이 적은 번호로 새로 지정했다.
 * Notion이 호출하는 외부 URL 경로(`FUNNEL_PATH`)와 서버 내부에서 처리하는 수신 경로(`RELAY_PATH`)가 기능적으로 서로 다름을 인지하고, 이를 환경 변수 내에서 완전히 분리 설계하여 잠재적 경로 일치 오류를 원천 차단했다.
+
+</div>
+
+<div class="lang-en" style="display:none">
+
+## 1. Purpose
+
+I built a standalone pipeline that posts a Discord embed whenever a page is created in Notion's Development Log database. The project lives in a single repository, `d3fib/Devlog2Discord`, and runs independently from `secretary`, the always-on Discord bot used for meeting records.
+
+## 2. Moving from GitHub Actions to a Webhook Server
+
+I initially planned to use GitHub Actions as the trigger. After testing the integration, I replaced it with a small Node.js webhook server running continuously on a home server.
+
+### Why GitHub Actions Did Not Fit
+
+1. **No inbound webhook endpoint**: GitHub Actions cannot receive an ordinary webhook request directly. An external system can trigger a workflow through `repository_dispatch`, but that API requires a fixed JSON shape: `{'event_type': ..., 'client_payload': {...}}`.
+2. **Fixed Notion webhook body**: Notion's Send webhook action supports custom headers but not a custom JSON body. It sends a fixed payload in the form `{ source: {...}, data: <Notion page object> }`, so I could not add a key such as `event_type`.
+3. **Rejected requests**: Requests sent directly from Notion to GitHub failed schema validation with `422 Unprocessable Entity`. After repeated failures, Notion disabled the automation with an unexpected-error status.
+
+After confirming the mismatch, I removed both GitHub Actions and the option of polling the Notion API. I built a single-file `server.js` service that receives and processes Notion's payload directly. The `data` object already contains the page title, properties, and URL, so the service does not need `@notionhq/client`, an additional API request, or cursor state.
+
+## 3. Public Endpoint with Tailscale Funnel
+
+The home server has neither a public IP address nor a domain, while Notion needs a public HTTPS URL to deliver the webhook. I considered an ngrok free domain but reused the Tailscale Funnel already running on the host.
+
+I added `/notion-relay/devlog` to the existing Funnel configuration without creating another account or token.
+
+- The relay container binds only to `127.0.0.1:####`, so it is not exposed directly to the host network or LAN.
+- The following command forwards external traffic to the internal port:  
+  `tailscale funnel --set-path=/notion-relay/devlog http://127.0.0.1:####`
+
+## 4. Implementation
+
+The service uses a small dependency-free structure.
+
+### `server.js`
+
+The runtime uses Node.js's built-in `http` module and global `fetch`, with no external libraries.
+
+- **`getPageTitle`**: Finds the property whose `type` is `title` instead of assuming that every database uses the same property name.
+- **`formatPropertyValue`**: Converts Notion values including `select`, `multi_select`, `rich_text`, `status`, `number`, `checkbox`, `url`, and `date` to strings. It looks up Project, Tag, and Description by name and omits empty values.
+- **`handleNotionPage`**: Builds the Discord embed. The heading remains `📝 Devlog updated`, while the Notion page title is a clickable Markdown link in the form `[**title**](page.url)`. Properties are listed as `**Label:** value`, with one blank line between the title and the list.
+- **HTTP server**: Accepts POST requests only on the configured `RELAY_PATH`. It compares the `x-relay-secret` header with the `RELAY_SECRET` environment variable before processing the request.
+
+### Infrastructure and Configuration
+
+- **Dockerfile**: Uses `node:20-alpine`. With no package dependencies, the image does not run `npm install`.
+- **`start.sh` / `stop.sh`**: Automate the build, container startup with port forwarding, and Funnel path registration. `stop.sh` stops only the container and leaves the shared Tailscale configuration intact.
+- **`.env` / `.env.example`**: Define `RELAY_SECRET`, `DISCORD_WEBHOOK_URL`, `RELAY_PORT`, `RELAY_PATH`, and `FUNNEL_PATH`.
+
+## 5. Incidents During Deployment
+
+### Incident 1: Mixing `tailscale serve` and `funnel`
+
+I ran `tailscale serve --set-path=...` to add a path on a host where Funnel was already active. This replaced the host-wide public Funnel configuration with a tailnet-only Serve configuration. The blog's Like API, which used the root path on the same host, also became unreachable from outside.
+
+- **Cause**: `serve` overwrote the existing `funnel` configuration.
+- **Fix**: I restored the original ports and settings, then restarted the public endpoint with `tailscale funnel --bg 443`.
+- **Rule recorded afterward**: When adding a path to an existing public Funnel, use `funnel --set-path`, not `serve`. I recorded this warning in `~/portInfo.md` and the project README.
+
+### Incident 2: Funnel Removed the Path Prefix
+
+After the initial setup, every external request returned 404.
+
+- **Cause**: Although the public URL contained `/notion-relay/devlog`, Tailscale Funnel removed that prefix when forwarding the request and passed `/` to the backend. The server expected `RELAY_PATH` to equal `/notion-relay/devlog`, so the route did not match.
+- **Fix**: I ran a temporary Python echo server to inspect the incoming payload and headers, then changed the default internal `RELAY_PATH` in `server.js` to `/`.
+
+### Live-Test Policy
+
+During setup, validation requests sent unnecessary notifications to the production Discord channel. I stopped using the live channel for tests. Further checks use local `curl` requests, container logs, and text previews.
+
+## 6. Separating Public and Private Repositories
+
+I prepared a sanitized public version while keeping operational details private.
+
+### Repository Split
+
+- **Private repository (`d3fib/Devlog2Discord`)**: Retains the development history, including failed attempts and commits that contain the real home-server domain and internal ports.
+- **Public repository (`alsspp01/Notion2Discord`)**: Starts from a new history created with `git checkout --orphan`. I combined the publishable code into a single clean initial commit and removed sensitive values before pushing it.
+
+### Ports and Host Details as Environment Variables
+
+I removed hard-coded ports and the Tailscale Funnel domain and replaced them with environment variables.
+
+- The public template uses a less common default port rather than `3000` or `8080` to reduce the chance of a local conflict.
+- `FUNNEL_PATH`, the external path called by Notion, and `RELAY_PATH`, the internal path accepted by the server, are configured separately because Funnel does not necessarily pass them through as the same value.
+
+</div>

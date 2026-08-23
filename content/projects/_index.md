@@ -51,32 +51,28 @@ Discord / Notion / Google Drive를 기반으로 원격 팀의 협업 구조와 �
 
 ## Engineering / Security
 
-### 10. [RocksDB Combat Log Experiments](/projects/rocksdb-combat-log/)
-Raw JSON, compressed JSON, MsgPack, flattened JSON 저장 전략과 MergeOperator, TTL, Compaction을 실험했습니다.  
-[🔗 Case Study](/projects/rocksdb-combat-log/#case-study) · [🔗 GitHub](https://github.com/alsspp01/OpensourceBigdata)
-
-### 11. ELF / Binary Analysis
+### 10. ELF / Binary Analysis
 Linux ELF 구조, 함수 호출과 binary patching을 분석한 Secure Coding coursework.
 
-### 12. Malware Reverse Engineering
+### 11. Malware Reverse Engineering
 OllyDbg 기반 crackme / serial validation 분석.
 
 ## Project DIA · Do It, AI
 
-### 13. Blog Editor
+### 12. Blog Editor
 Python 표준 라이브러리와 Vanilla JS 기반 자체 호스팅 블로그 에디터.
 
-### 14. Secretary4Discord
+### 13. Secretary4Discord
 Discord 회의를 기록하고 AI로 요약해 Notion으로 연결하는 도구.  
 [🔗 GitHub](https://github.com/alsspp01/Secretary4Discord)
 
-### 15. Notion2Discord
+### 14. Notion2Discord
 Notion 개발일지 이벤트를 Discord 알림으로 연결하는 자동화.  
 [🔗 GitHub](https://github.com/alsspp01/Notion2Discord)
 
 ## Early Works
 
-### 16. [우리 정글 머함?](/projects/lrp/)
+### 15. [우리 정글 머함?](/projects/lrp/)
 경험적 기준의 한계를 느낀 뒤 실제 LoL API 데이터를 다루는 프로젝트로 이어진 초기 작업.
 
 [🔗 Home](/) · [🔗 About Me](/about_me/)
@@ -129,32 +125,28 @@ A collaboration architecture for a remote team using Discord, Notion, Google Dri
 
 ## Engineering / Security
 
-### 10. [RocksDB Combat Log Experiments](/projects/rocksdb-combat-log/)
-Experiments comparing Raw JSON, compressed JSON, MsgPack, flattened JSON, MergeOperator, TTL, and Compaction.  
-[🔗 Case Study](/projects/rocksdb-combat-log/#case-study-en) · [🔗 GitHub](https://github.com/alsspp01/OpensourceBigdata)
-
-### 11. ELF / Binary Analysis
+### 10. ELF / Binary Analysis
 Secure Coding coursework involving Linux ELF structures, function calls, and binary patching.
 
-### 12. Malware Reverse Engineering
+### 11. Malware Reverse Engineering
 OllyDbg-based crackme and serial-validation analysis.
 
 ## Project DIA · Do It, AI
 
-### 13. Blog Editor
+### 12. Blog Editor
 A self-hosted blog editor built primarily with the Python standard library and Vanilla JS.
 
-### 14. Secretary4Discord
+### 13. Secretary4Discord
 A tool that records Discord meetings, summarizes them with AI, and connects the result to Notion.  
 [🔗 GitHub](https://github.com/alsspp01/Secretary4Discord)
 
-### 15. Notion2Discord
+### 14. Notion2Discord
 Automation that turns Notion devlog events into Discord notifications.  
 [🔗 GitHub](https://github.com/alsspp01/Notion2Discord)
 
 ## Early Works
 
-### 16. [What Should Our Jungler Do?](/projects/lrp/)
+### 15. [What Should Our Jungler Do?](/projects/lrp/)
 An early recommendation project whose limitations later pushed me toward real LoL API data.
 
 [🔗 Home](/) · [🔗 About Me](/about_me/)
