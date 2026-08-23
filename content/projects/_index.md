@@ -13,60 +13,60 @@ aliases:
 ## Work / Planning
 
 ### 1. [AI Forecast Support](/projects/ai-forecast-support/)
-기상 도메인 학습, 요구사항 구체화, 기술 방향 정리, 개발자 온보딩, 기관 간 커뮤니케이션.  
+> 기상 도메인 학습, 요구사항 구체화, 기술 방향 정리, 개발자 온보딩, 기관 간 커뮤니케이션.
 
 ### 2. PM Workflow Automation
-Notion Template, WBS, Google Sheets / Excel 기반 관리 도구 등 반복 업무를 재사용 가능한 구조로 정리했습니다.
+> Notion Template, WBS, Google Sheets / Excel 기반 관리 도구 등 반복 업무를 재사용 가능한 구조로 정리했습니다.
 
 ## Data / AI / Research
 
 ### 3. [Chemi.lol](/projects/chemi/)
-LoL 듀오 궁합을 예측하기 위해 관계 기반 feature와 여러 회귀 모델을 실험했지만, 정확도 개선이 정체되어 중단한 데이터 프로젝트.  
-충분한 궁합 데이터를 확보하지 못한 것이 가장 큰 원인이라고 보았습니다.  
+> LoL 듀오 궁합을 예측하기 위해 관계 기반 feature와 여러 회귀 모델을 실험했지만, 정확도 개선이 정체되어 중단한 데이터 프로젝트.
+> 충분한 궁합 데이터를 확보하지 못한 것이 가장 큰 원인이라고 보았습니다.
 
 ### 4. [League of Legends Data Analysis](/projects/lda/)
-인지피로 연구를 위한 Riot API 데이터 수집, 연속 플레이 샘플 추출, Stroop Test, 동적 데이터 탐색 및 분석.  
+> 인지피로 연구를 위한 Riot API 데이터 수집, 연속 플레이 샘플 추출, Stroop Test, 동적 데이터 탐색 및 분석.
 
 ### 5. [SQL Injection Parsing AI](/projects/sqli-parsing-ai/)
-SQL 구문을 분류해 SQL Injection 가능성을 탐지하는 ML 실험.
+> SQL 구문을 분류해 SQL Injection 가능성을 탐지하는 ML 실험.
 
 ### 6. [SIAM-W](/projects/siam-w/)
-SQLmap 결과를 분석해 취약점과 대응 방향을 보여주는 졸업 프로젝트.
+> SQLmap 결과를 분석해 취약점과 대응 방향을 보여주는 졸업 프로젝트.
 
 ## Product / Game
 
 ### 7. [Arcanum Nights](/projects/arcananights/)
-해와 달, 별자리를 소재로 한 싱글~2인 퍼즐게임.  
+> 해와 달, 별자리를 소재로 한 싱글~2인 퍼즐게임.
 
 ### 8. [곰팡이 키우기](https://www.game-ping.kr/games/growing-mold)
-방치형 클리커 게임. 시스템 기획 및 UI 설계/개발.
+> 방치형 클리커 게임. 시스템 기획 및 UI 설계/개발.
 
 ### 9. [D3F!B Collaboration System](/projects/d3fib-workspace/)
-Discord / Notion / Google Drive를 기반으로 원격 팀의 협업 구조와 자동화를 설계 · 운영했습니다.  
+> Discord / Notion / Google Drive를 기반으로 원격 팀의 협업 구조와 자동화를 설계 · 운영했습니다.
 
 ## Engineering / Security
 
-### 10. ELF / Binary Analysis
-Linux ELF 구조, 함수 호출과 binary patching을 분석한 Secure Coding coursework.
+### 10. [ELF / Binary Analysis](/posts/2023-11-21시큐어코딩/)
+> Linux ELF 구조, 함수 호출과 binary patching을 분석한 Secure Coding coursework.
 
-### 11. Malware Reverse Engineering
-OllyDbg 기반 crackme / serial validation 분석.
+### 11. [Malware Reverse Engineering](/posts/2024-03-22멀웨어-분석/)
+> OllyDbg 기반 crackme / serial validation 분석.
 
 ## Project DIA · Do It, AI
 
 ### 12. [Blog Editor](/posts/블로그-활성화-part-02-blog-editor/)
-Python 표준 라이브러리와 Vanilla JS 기반 자체 호스팅 블로그 에디터.
+> Python 표준 라이브러리와 Vanilla JS 기반 자체 호스팅 블로그 에디터.
 
 ### 13. [Secretary4Discord](/posts/집사-part-01-회의록/)
-Discord 회의를 기록하고 AI로 요약해 Notion으로 연결하는 도구.  
+> Discord 회의를 기록하고 AI로 요약해 Notion으로 연결하는 도구.
 
 ### 14. [Notion2Discord](/posts/자동화-part-01-notion-알림-discord로-보내기/)
-Notion 개발일지 이벤트를 Discord 알림으로 연결하는 자동화.  
+> Notion 개발일지 이벤트를 Discord 알림으로 연결하는 자동화.
 
 ## Early Works
 
 ### 15. [우리 정글 머함?](/projects/lrp/)
-경험적 기준의 한계를 느낀 뒤 실제 LoL API 데이터를 다루는 프로젝트로 이어진 초기 작업.
+> 경험적 기준의 한계를 느낀 뒤 실제 LoL API 데이터를 다루는 프로젝트로 이어진 초기 작업.
 
 [🔗 Home](/) · [🔗 About Me](/about_me/)
 
@@ -79,60 +79,60 @@ This page is the broader archive of things I have built, tested, and learned fro
 ## Work / Planning
 
 ### 1. [AI Forecast Support](/projects/ai-forecast-support/)
-Domain learning, requirement clarification, technical direction, developer onboarding, and cross-organization coordination.  
+> Domain learning, requirement clarification, technical direction, developer onboarding, and cross-organization coordination.
 
 ### 2. PM Workflow Automation
-Notion templates, WBS structures, and spreadsheet-based tools for making recurring PM work easier to reuse.
+> Notion templates, WBS structures, and spreadsheet-based tools for making recurring PM work easier to reuse.
 
 ## Data / AI / Research
 
 ### 3. [Chemi.lol](/projects/chemi/)
-A LoL duo-compatibility project that explored relationship-level features and multiple regression models, then stopped after performance plateaued.  
-My strongest hypothesis was that the available paired compatibility data was not sufficient.  
+> A LoL duo-compatibility project that explored relationship-level features and multiple regression models, then stopped after performance plateaued.
+> My strongest hypothesis was that the available paired compatibility data was not sufficient.
 
 ### 4. [League of Legends Data Analysis](/projects/lda/)
-Research tooling for Riot API collection, consecutive-play sampling, Stroop Test experiments, dynamic-data exploration, and analysis.  
+> Research tooling for Riot API collection, consecutive-play sampling, Stroop Test experiments, dynamic-data exploration, and analysis.
 
 ### 5. [SQL Injection Parsing AI](/projects/sqli-parsing-ai/)
-An ML experiment classifying SQL statements for potential SQL Injection patterns.
+> An ML experiment classifying SQL statements for potential SQL Injection patterns.
 
 ### 6. [SIAM-W](/projects/siam-w/)
-A graduation project connecting SQLmap findings with mitigation guidance.
+> A graduation project connecting SQLmap findings with mitigation guidance.
 
 ## Product / Game
 
 ### 7. [Arcanum Nights](/projects/arcananights/)
-A single-to-two-player puzzle game built around the sun, moon, and constellations.  
+> A single-to-two-player puzzle game built around the sun, moon, and constellations.
 
 ### 8. [Mold Growing Game](https://www.game-ping.kr/games/growing-mold)
-An idle clicker project involving system planning and UI design/development.
+> An idle clicker project involving system planning and UI design/development.
 
 ### 9. [D3F!B Collaboration System](/projects/d3fib-workspace/)
-A collaboration architecture for a remote team using Discord, Notion, Google Drive, permissions, and automation.  
+> A collaboration architecture for a remote team using Discord, Notion, Google Drive, permissions, and automation.
 
 ## Engineering / Security
 
-### 10. ELF / Binary Analysis
-Secure Coding coursework involving Linux ELF structures, function calls, and binary patching.
+### 10. [ELF / Binary Analysis](/posts/2023-11-21시큐어코딩/)
+> Secure Coding coursework involving Linux ELF structures, function calls, and binary patching.
 
-### 11. Malware Reverse Engineering
-OllyDbg-based crackme and serial-validation analysis.
+### 11. [Malware Reverse Engineering](/posts/2024-03-22멀웨어-분석/)
+> OllyDbg-based crackme and serial-validation analysis.
 
 ## Project DIA · Do It, AI
 
 ### 12. [Blog Editor](/posts/블로그-활성화-part-02-blog-editor/)
-A self-hosted blog editor built primarily with the Python standard library and Vanilla JS.
+> A self-hosted blog editor built primarily with the Python standard library and Vanilla JS.
 
 ### 13. [Secretary4Discord](/posts/집사-part-01-회의록/)
-A tool that records Discord meetings, summarizes them with AI, and connects the result to Notion.  
+> A tool that records Discord meetings, summarizes them with AI, and connects the result to Notion.
 
 ### 14. [Notion2Discord](/posts/자동화-part-01-notion-알림-discord로-보내기/)
-Automation that turns Notion devlog events into Discord notifications.  
+> Automation that turns Notion devlog events into Discord notifications.
 
 ## Early Works
 
 ### 15. [What Should Our Jungler Do?](/projects/lrp/)
-An early recommendation project whose limitations later pushed me toward real LoL API data.
+> An early recommendation project whose limitations later pushed me toward real LoL API data.
 
 [🔗 Home](/) · [🔗 About Me](/about_me/)
 
