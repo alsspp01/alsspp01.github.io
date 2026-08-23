@@ -14,7 +14,6 @@ aliases:
 
 ### 1. [AI Forecast Support](/projects/ai-forecast-support/)
 기상 도메인 학습, 요구사항 구체화, 기술 방향 정리, 개발자 온보딩, 기관 간 커뮤니케이션.  
-[🔗 Case Study](/projects/ai-forecast-support/#case-study)
 
 ### 2. PM Workflow Automation
 Notion Template, WBS, Google Sheets / Excel 기반 관리 도구 등 반복 업무를 재사용 가능한 구조로 정리했습니다.
@@ -24,11 +23,9 @@ Notion Template, WBS, Google Sheets / Excel 기반 관리 도구 등 반복 업�
 ### 3. [Chemi.lol](/projects/chemi/)
 LoL 듀오 궁합을 예측하기 위해 관계 기반 feature와 여러 회귀 모델을 실험했지만, 정확도 개선이 정체되어 중단한 데이터 프로젝트.  
 충분한 궁합 데이터를 확보하지 못한 것이 가장 큰 원인이라고 보았습니다.  
-[🔗 Case Study](/projects/chemi/#case-study) · [🔗 Analysis Repo](https://github.com/league-of-legend-project/Analysis)
 
 ### 4. [League of Legends Data Analysis](/projects/lda/)
 인지피로 연구를 위한 Riot API 데이터 수집, 연속 플레이 샘플 추출, Stroop Test, 동적 데이터 탐색 및 분석.  
-[🔗 Case Study](/projects/lda/#case-study) · [🔗 GitHub](https://github.com/alsspp01/LDA)
 
 ### 5. [SQL Injection Parsing AI](/projects/sqli-parsing-ai/)
 SQL 구문을 분류해 SQL Injection 가능성을 탐지하는 ML 실험.
@@ -40,14 +37,12 @@ SQLmap 결과를 분석해 취약점과 대응 방향을 보여주는 졸업 프
 
 ### 7. [Arcanum Nights](/projects/arcananights/)
 해와 달, 별자리를 소재로 한 싱글~2인 퍼즐게임.  
-[🔗 Case Study](/projects/arcananights/#case-study)
 
 ### 8. 곰팡이 키우기
 방치형 클리커 게임. 시스템 기획 및 UI 설계/개발.
 
 ### 9. [D3F!B Collaboration System](/projects/d3fib-workspace/)
 Discord / Notion / Google Drive를 기반으로 원격 팀의 협업 구조와 자동화를 설계 · 운영했습니다.  
-[🔗 Case Study](/projects/d3fib-workspace/#case-study)
 
 ## Engineering / Security
 
@@ -59,16 +54,14 @@ OllyDbg 기반 crackme / serial validation 분석.
 
 ## Project DIA · Do It, AI
 
-### 12. Blog Editor
+### 12. [Blog Editor](/posts/블로그-활성화-part-02-blog-editor/)
 Python 표준 라이브러리와 Vanilla JS 기반 자체 호스팅 블로그 에디터.
 
-### 13. Secretary4Discord
+### 13. [Secretary4Discord](/posts/집사-part-01-회의록/)
 Discord 회의를 기록하고 AI로 요약해 Notion으로 연결하는 도구.  
-[🔗 GitHub](https://github.com/alsspp01/Secretary4Discord)
 
-### 14. Notion2Discord
+### 14. [Notion2Discord](/posts/자동화-part-01-notion-알림-discord로-보내기/)
 Notion 개발일지 이벤트를 Discord 알림으로 연결하는 자동화.  
-[🔗 GitHub](https://github.com/alsspp01/Notion2Discord)
 
 ## Early Works
 
@@ -81,14 +74,12 @@ Notion 개발일지 이벤트를 Discord 알림으로 연결하는 자동화.
 
 <div class="lang-en" style="display:none">
 
-Each flagship project has its own page split into a Case Study (the problem and the decisions) and a Devlog (the implementation record).  
 This page is the broader archive of things I have built, tested, and learned from.
 
 ## Work / Planning
 
 ### 1. [AI Forecast Support](/projects/ai-forecast-support/)
 Domain learning, requirement clarification, technical direction, developer onboarding, and cross-organization coordination.  
-[🔗 Case Study](/projects/ai-forecast-support/#case-study-en)
 
 ### 2. PM Workflow Automation
 Notion templates, WBS structures, and spreadsheet-based tools for making recurring PM work easier to reuse.
@@ -98,11 +89,9 @@ Notion templates, WBS structures, and spreadsheet-based tools for making recurri
 ### 3. [Chemi.lol](/projects/chemi/)
 A LoL duo-compatibility project that explored relationship-level features and multiple regression models, then stopped after performance plateaued.  
 My strongest hypothesis was that the available paired compatibility data was not sufficient.  
-[🔗 Case Study](/projects/chemi/#case-study-en) · [🔗 Analysis Repo](https://github.com/league-of-legend-project/Analysis)
 
 ### 4. [League of Legends Data Analysis](/projects/lda/)
 Research tooling for Riot API collection, consecutive-play sampling, Stroop Test experiments, dynamic-data exploration, and analysis.  
-[🔗 Case Study](/projects/lda/#case-study-en) · [🔗 GitHub](https://github.com/alsspp01/LDA)
 
 ### 5. [SQL Injection Parsing AI](/projects/sqli-parsing-ai/)
 An ML experiment classifying SQL statements for potential SQL Injection patterns.
@@ -114,14 +103,12 @@ A graduation project connecting SQLmap findings with mitigation guidance.
 
 ### 7. [Arcanum Nights](/projects/arcananights/)
 A single-to-two-player puzzle game built around the sun, moon, and constellations.  
-[🔗 Case Study](/projects/arcananights/#case-study-en)
 
 ### 8. Mold Growing Game
 An idle clicker project involving system planning and UI design/development.
 
 ### 9. [D3F!B Collaboration System](/projects/d3fib-workspace/)
 A collaboration architecture for a remote team using Discord, Notion, Google Drive, permissions, and automation.  
-[🔗 Case Study](/projects/d3fib-workspace/#case-study-en)
 
 ## Engineering / Security
 
@@ -133,16 +120,14 @@ OllyDbg-based crackme and serial-validation analysis.
 
 ## Project DIA · Do It, AI
 
-### 12. Blog Editor
+### 12. [Blog Editor](/posts/블로그-활성화-part-02-blog-editor/)
 A self-hosted blog editor built primarily with the Python standard library and Vanilla JS.
 
-### 13. Secretary4Discord
+### 13. [Secretary4Discord](/posts/집사-part-01-회의록/)
 A tool that records Discord meetings, summarizes them with AI, and connects the result to Notion.  
-[🔗 GitHub](https://github.com/alsspp01/Secretary4Discord)
 
-### 14. Notion2Discord
+### 14. [Notion2Discord](/posts/자동화-part-01-notion-알림-discord로-보내기/)
 Automation that turns Notion devlog events into Discord notifications.  
-[🔗 GitHub](https://github.com/alsspp01/Notion2Discord)
 
 ## Early Works
 
