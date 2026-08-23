@@ -1,90 +1,70 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Projects on Dyun's blog</title><link>https://alsspp01.github.io/projects/</link><description>Recent content in Projects on Dyun's blog</description><generator>Hugo</generator><language>en</language><atom:link href="https://alsspp01.github.io/projects/index.xml" rel="self" type="application/rss+xml"/><item><title>🎮 Arcanum Nights</title><link>https://alsspp01.github.io/projects/arcananights/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://alsspp01.github.io/projects/arcananights/</guid><description>&lt;div class="lang-ko">
-&lt;p>&lt;strong>Single ~ 2 Players · D3F!B&lt;/strong>&lt;/p>
-&lt;p>&lt;a href="https://alsspp01.github.io/portfolio/arcanum-nights/">🔗 Portfolio Case Study&lt;/a>&lt;/p>
-&lt;h2 id="planning">Planning&lt;/h2>
-&lt;ul>
-&lt;li>게임 전체 방향 / core experience&lt;/li>
-&lt;li>시스템 / UIUX&lt;/li>
-&lt;li>플레이 시나리오 / 튜토리얼&lt;/li>
-&lt;li>데이터 구조 및 테이블&lt;/li>
-&lt;li>개발/아트 리소스를 고려한 기능 범위&lt;/li>
-&lt;li>PlayX4 사용자 관찰 및 피드백&lt;/li>
-&lt;/ul>
-&lt;h2 id="implementation-support">Implementation Support&lt;/h2>
-&lt;p>Unity/C# 구조를 학습하고 튜토리얼 구현과 Python 맵 툴 제작에도 참여했습니다.&lt;/p>
-&lt;h2 id="user-test">User Test&lt;/h2>
-&lt;p>PlayX4에서 표정, 자세, 입력 속도와 빈도, 플레이가 늘어지는 구간을 관찰해 템포와 연출을 재검토했습니다.&lt;/p>
-&lt;p>&lt;a href="https://alsspp01.github.io/portfolio/arcanum-nights/">🔗 Portfolio Case Study&lt;/a>&lt;/p>
-&lt;/div>
-&lt;div class="lang-en" style="display:none">
-&lt;p>&lt;strong>Single ~ 2 Players · D3F!B&lt;/strong>&lt;/p></description></item><item><title>📊 League of Legends Data Analysis</title><link>https://alsspp01.github.io/projects/lda/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://alsspp01.github.io/projects/lda/</guid><description>&lt;div class="lang-ko">
-&lt;p>&lt;strong>Dankook University Sports Psychology Laboratory&lt;/strong>&lt;/p>
-&lt;p>&lt;a href="https://alsspp01.github.io/portfolio/lol-player-research/">🔗 Portfolio Case Study&lt;/a> · &lt;a href="https://github.com/alsspp01/LDA">🔗 GitHub&lt;/a>&lt;/p>
-&lt;h2 id="1-stroop-test">1. Stroop Test&lt;/h2>
-&lt;ul>
-&lt;li>UI · PyQt&lt;/li>
-&lt;li>Test · Pygame&lt;/li>
-&lt;li>Data · Pandas&lt;/li>
-&lt;li>Analysis · NumPy&lt;/li>
-&lt;li>Visualization&lt;/li>
-&lt;/ul>
-&lt;p>&lt;img src="https://alsspp01.github.io/image/LDA/stroop_test_by_group.png" alt="Stroop test result">&lt;/p>
-&lt;h2 id="2-match-history-exploration">2. Match-history Exploration&lt;/h2>
-&lt;p>기존 전적 사이트의 request/JSON 구조와 pagination을 분석해 연속 플레이 데이터 수집 가능성을 확인했습니다.&lt;/p>
-&lt;h2 id="3-riot-api-pipeline">3. Riot API Pipeline&lt;/h2>
-&lt;p>티어별 플레이어, match ID, 경기 정보를 자동 수집하고 timestamp로 연속 플레이 sequence를 판별했습니다.&lt;/p>
-&lt;p>실험 코드에는:&lt;/p>
-&lt;ul>
-&lt;li>5분 / 10분 간격&lt;/li>
-&lt;li>6게임 / 8게임 연속 sequence&lt;/li>
-&lt;/ul>
-&lt;p>조건이 포함되어 있습니다.&lt;/p></description></item><item><title>SIAM-W</title><link>https://alsspp01.github.io/projects/siam-w/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://alsspp01.github.io/projects/siam-w/</guid><description>&lt;p>오픈 소스 코드 사용: SQLmap
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Projects on Yewon Min</title><link>https://alsspp01.github.io/projects/</link><description>Recent content in Projects on Yewon Min</description><generator>Hugo</generator><language>en</language><atom:link href="https://alsspp01.github.io/projects/index.xml" rel="self" type="application/rss+xml"/><item><title>⚡ D3F!B Team Operations &amp; Automation</title><link>https://alsspp01.github.io/projects/d3fib-workspace/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://alsspp01.github.io/projects/d3fib-workspace/</guid><description>&lt;div class="lang-ko">
+&lt;p>&lt;a id="top">&lt;/a>&lt;/p>
+&lt;p>&lt;strong>기간&lt;/strong> · 2024.11–현재&lt;br>
+&lt;strong>역할&lt;/strong> · 창립자 · 대표 · 팀장 · 팀 운영 체계 및 자동화 설계&lt;br>
+&lt;strong>팀&lt;/strong> · 약 10명, 완전 원격&lt;br>
+&lt;strong>구성&lt;/strong> · 기획 3 · 개발 4 · 아트 3&lt;br>
+&lt;strong>주요 작업&lt;/strong> · 조직 운영 · 정보 구조 · 권한 설계 · 업무 흐름 · AI 보조 자동화 개발&lt;/p>
+&lt;p>&lt;a href="#case-study">&lt;strong>Case Study ↓&lt;/strong>&lt;/a>&lt;/p>
+&lt;hr>
+&lt;p>&lt;a id="case-study">&lt;/a>&lt;/p>
+&lt;h2 id="case-study">Case Study&lt;/h2>
+&lt;h3 id="플레이어의-심장을-다시-뛰게-하는-게임">플레이어의 심장을 다시 뛰게 하는 게임&lt;/h3>
+&lt;p>D3F!B는 여러 장르의 게임 시리즈를 만들기 위해 시작한 게임 제작팀입니다. 이름은 심장 제세동을 뜻하는 &lt;code>defibrillation&lt;/code>에서 가져왔고, &lt;code>3&lt;/code>과 &lt;code>!&lt;/code>는 leetspeak로 표현했습니다.&lt;/p></description></item><item><title>🎮 Arcanum Nights</title><link>https://alsspp01.github.io/projects/arcananights/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://alsspp01.github.io/projects/arcananights/</guid><description>&lt;div class="lang-ko">
+&lt;p>&lt;a id="top">&lt;/a>&lt;/p>
+&lt;p>&lt;strong>기간&lt;/strong> · 2025.01–현재&lt;br>
+&lt;strong>팀&lt;/strong> · D3F!B, 약 10명&lt;br>
+&lt;strong>역할&lt;/strong> · 대표 / 팀장 / 게임 기획 리드&lt;br>
+&lt;strong>플랫폼&lt;/strong> · PC / 1~2인 플레이&lt;br>
+&lt;strong>상태&lt;/strong> · Steam Early Access&lt;/p>
+&lt;p>&lt;a href="#case-study">&lt;strong>Case Study ↓&lt;/strong>&lt;/a> · &lt;a href="https://store.steampowered.com/app/3453760/Arcanum_Nights/">&lt;strong>Steam ↗&lt;/strong>&lt;/a>&lt;/p>
+&lt;hr>
+&lt;p>&lt;a id="case-study">&lt;/a>&lt;/p>
+&lt;h2 id="case-study">Case Study&lt;/h2>
+&lt;h3 id="x에서-시작한-퍼즐">X에서 시작한 퍼즐&lt;/h3>
+&lt;p>Arcanum Nights의 퍼즐은 단순한 &lt;code>X&lt;/code>에서 시작했습니다.&lt;/p>
+&lt;p>X는 두 개의 선이 만나 만들어집니다. 그렇다면 서로 떨어진 두 개의 패턴과 그 관계를 알면, 원래의 형태를 다시 만들 수 있지 않을까 생각했습니다.&lt;/p>
+&lt;p>이 생각을 &lt;strong>각자의 시점에서는 의미 없어 보이는 두 패턴이 하나의 시점에서 만날 때 특별한 형태로 완성되는 퍼즐&lt;/strong>로 발전시켰습니다. 두 플레이어는 서로 다른 정보를 보고, 대화를 통해 하나의 답을 찾아야 합니다.&lt;/p></description></item><item><title>📊 League of Legends Data Analysis</title><link>https://alsspp01.github.io/projects/lda/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://alsspp01.github.io/projects/lda/</guid><description>&lt;div class="lang-ko">
+&lt;p>&lt;a id="top">&lt;/a>&lt;/p>
+&lt;p>&lt;strong>기간&lt;/strong> · 2024.03–2025.06&lt;br>
+&lt;strong>소속&lt;/strong> · 단국대학교 스포츠심리학 연구실&lt;br>
+&lt;strong>역할&lt;/strong> · 연구 개발 아르바이트 · 개발 전반&lt;br>
+&lt;strong>주요 작업&lt;/strong> · 인지과제 프로그램 · Riot API 수집 · 조건별 데이터 분석 · 참가자 리포트&lt;/p>
+&lt;p>&lt;a href="https://github.com/alsspp01/LDA">🔗 LDA GitHub&lt;/a>&lt;br>
+&lt;a href="https://github.com/alsspp01/TestResultAnalysis">🔗 TestResultAnalysis GitHub&lt;/a>&lt;/p>
+&lt;h3 id="바로가기">바로가기&lt;/h3>
+&lt;p>&lt;a href="#case-study">&lt;strong>Case Study ↓&lt;/strong>&lt;/a> · &lt;a href="#devlog">&lt;strong>Devlog ↓&lt;/strong>&lt;/a>&lt;/p>
+&lt;hr>
+&lt;p>&lt;a id="case-study">&lt;/a>&lt;/p>
+&lt;h2 id="case-study">Case Study&lt;/h2>
+&lt;h3 id="정해진-연구-조건을-실행-가능한-시스템으로-바꾸기">정해진 연구 조건을 실행 가능한 시스템으로 바꾸기&lt;/h3>
+&lt;p>연구진은 League of Legends의 연속 플레이와 인지피로의 관계를 살펴보기 위한 연구를 기획했습니다. 저는 연구 기획이나 가설 수립에는 참여하지 않았고, 연구실의 개발 아르바이트로 합류해 정해진 실험 조건을 실제로 실행할 수 있는 시스템으로 만드는 일을 맡았습니다.&lt;/p></description></item><item><title>SIAM-W</title><link>https://alsspp01.github.io/projects/siam-w/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://alsspp01.github.io/projects/siam-w/</guid><description>&lt;p>오픈 소스 코드 사용: SQLmap
 웹사이트의 SQL injection 공격 가능성 여부를 진단 후 각 공격에 대한 대응 방법을 알려주는 보안 비전공 개발자를 위한 프로그램.&lt;/p>
-&lt;p>Use open-source program: SQLmap.
-A program for non-security developers
-that diagnoses the possibility of SQL injection attacks on a website
-and then informs them of how to respond to each attack.&lt;/p></description></item><item><title>SQLi parsing AI</title><link>https://alsspp01.github.io/projects/sqli-parsing-ai/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://alsspp01.github.io/projects/sqli-parsing-ai/</guid><description>&lt;p>SQL 구문을 분석하여 SQL injection 구문인지 일반 SQL 구문인지 확인하는 구문 분석 AI 시스템.&lt;/p>
+&lt;p>Uses SQLmap to identify possible SQL injection vulnerabilities and explain appropriate responses to developers without a security background.&lt;/p></description></item><item><title>SQLi parsing AI</title><link>https://alsspp01.github.io/projects/sqli-parsing-ai/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://alsspp01.github.io/projects/sqli-parsing-ai/</guid><description>&lt;p>SQL 구문을 분석하여 SQL injection 구문인지 일반 SQL 구문인지 확인하는 구문 분석 AI 시스템.&lt;/p>
 &lt;p>A parsing AI system that analyzes SQL statements to determine whether they are SQL injection statements or regular SQL statements.&lt;/p></description></item><item><title>우리 정글 머함? 우정머</title><link>https://alsspp01.github.io/projects/lrp/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://alsspp01.github.io/projects/lrp/</guid><description>&lt;p>승률 검색 사이트에서 크롤링한 상대적인 승률을 바탕으로 게임 초반 정글 동선을 추천해주는 프로그램.&lt;/p>
 &lt;p>With crawled data of the relative win rate from existing site,
-this program recommends a jungler’s path in the begining of the game.&lt;/p></description></item><item><title>🧪 Chemi.lol</title><link>https://alsspp01.github.io/projects/chemi/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://alsspp01.github.io/projects/chemi/</guid><description>&lt;div class="lang-ko">
-&lt;p>프로젝트는 여러 회귀 모델과 feature engineering을 거쳤지만&lt;br>
-성능이 일정 수준에서 정체되었고, 결국 중단했습니다.&lt;/p>
-&lt;p>&lt;a href="https://alsspp01.github.io/portfolio/chemi-lol/">🔗 Portfolio Case Study&lt;/a>&lt;br>
-&lt;a href="https://github.com/league-of-legend-project/Analysis">🔗 Analysis Repository&lt;/a>&lt;/p>
+this program recommends a jungler&amp;rsquo;s early-game path.&lt;/p></description></item><item><title>🌦️ AI Forecast Support</title><link>https://alsspp01.github.io/projects/ai-forecast-support/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://alsspp01.github.io/projects/ai-forecast-support/</guid><description>&lt;div class="lang-ko">
+&lt;p>&lt;a id="top">&lt;/a>&lt;/p>
+&lt;p>&lt;strong>기간&lt;/strong> · 2025.09–2026.02&lt;br>
+&lt;strong>역할&lt;/strong> · PM / 기획 / 협업 조율&lt;br>
+&lt;strong>소속&lt;/strong> · Ineeji(주관기관)&lt;br>
+&lt;strong>고객사&lt;/strong> · 국립기상과학원&lt;br>
+&lt;strong>협업&lt;/strong> · 대학 연구실 2곳&lt;/p>
+&lt;p>&lt;a href="#case-study">&lt;strong>Case Study ↓&lt;/strong>&lt;/a> · &lt;a href="https://dl.nanet.go.kr/detail/MONO12026000015571">&lt;strong>공식 보고서 ↗&lt;/strong>&lt;/a>&lt;/p>
 &lt;hr>
-&lt;h2 id="pipeline">Pipeline&lt;/h2>
-&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-text" data-lang="text">&lt;span style="display:flex;">&lt;span>Player / Match / Timeline
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> ↓
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>MongoDB
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> ↓
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>Duo Detection
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> ↓
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>Feature Engineering
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> ↓
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>Regression Experiments
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> ↓
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>Accuracy Ceiling
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> ↓
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>Discontinued
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;hr>
-&lt;h2 id="features">Features&lt;/h2>
-&lt;ul>
-&lt;li>KDA difference&lt;/li>
-&lt;li>Kill Participation difference&lt;/li>
-&lt;li>Gold Per Minute difference&lt;/li>
-&lt;li>Vision difference&lt;/li>
-&lt;li>Win Rate difference&lt;/li>
-&lt;li>order-invariant Lane combination&lt;/li>
-&lt;/ul>
+&lt;p>&lt;a id="case-study">&lt;/a>&lt;/p>
+&lt;h2 id="case-study">Case Study&lt;/h2>
+&lt;h3 id="무엇을-만들어야-하는지부터-찾아야-했습니다">무엇을 만들어야 하는지부터 찾아야 했습니다&lt;/h3>
+&lt;p>이 프로젝트의 목표는 &lt;strong>예보관의 초기 판단을 돕는 AI 에이전트&lt;/strong>를 만드는 것이었습니다.&lt;/p>
+&lt;p>여러 언어 모델이 내놓은 예측 결과를 예보관이 일일이 확인하는 대신, 시기와 기상 환경에 맞는 결과를 찾고 예보에 활용할 수 있도록 기상 용어로 설명해주는 서비스였습니다.&lt;/p></description></item><item><title>🧪 Chemi.lol</title><link>https://alsspp01.github.io/projects/chemi/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://alsspp01.github.io/projects/chemi/</guid><description>&lt;div class="lang-ko">
+&lt;p>&lt;a id="top">&lt;/a>&lt;/p>
+&lt;p>&lt;strong>기간&lt;/strong> · 2024.12–2025.05&lt;br>
+&lt;strong>역할&lt;/strong> · 팀장 · 서비스 기획 · AI 개발&lt;br>
+&lt;strong>팀&lt;/strong> · 5명&lt;br>
+&lt;strong>주요 작업&lt;/strong> · API 기반 데이터 수집 · 변수 설계 · 회귀 모델 실험 · 제품 의사결정&lt;/p>
+&lt;p>&lt;a href="#case-study">&lt;strong>Case Study ↓&lt;/strong>&lt;/a> · &lt;a href="https://github.com/league-of-legend-project/Analysis">&lt;strong>분석 저장소 ↗&lt;/strong>&lt;/a>&lt;/p>
 &lt;hr>
-&lt;h2 id="models">Models&lt;/h2>
-&lt;ul>
-&lt;li>Random Forest&lt;/li>
-&lt;li>Ridge&lt;/li>
-&lt;li>SVR&lt;/li>
-&lt;li>XGBoost&lt;/li>
-&lt;li>MLP&lt;/li>
-&lt;li>simple ensembles&lt;/li>
-&lt;/ul>
-&lt;p>한 실험에서 Ridge와 ensemble 모두 R²가 약 &lt;strong>0.20&lt;/strong> 수준에 머물렀고,&lt;br>
-모델과 전처리 방식을 바꿔도 의미 있는 개선이 이어지지 않았습니다.&lt;/p></description></item></channel></rss>
+&lt;p>&lt;a id="case-study">&lt;/a>&lt;/p>
+&lt;h2 id="case-study">Case Study&lt;/h2>
+&lt;h3 id="친구와-듀오-랭크를-하다가-시작한-서비스">친구와 듀오 랭크를 하다가 시작한 서비스&lt;/h3>
+&lt;p>친구와 League of Legends 듀오 랭크를 하던 중, 사람 사이의 궁합을 보는 것처럼 게임에서도 두 플레이어의 궁합을 확인할 수 있다면 재미있겠다는 생각이 들었습니다. 여기서 두 플레이어의 전적을 분석해 함께 플레이했을 때의 승률을 보여주는 웹 서비스 Chemi.lol을 기획했습니다.&lt;/p></description></item></channel></rss>

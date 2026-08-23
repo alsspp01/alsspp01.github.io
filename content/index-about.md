@@ -1,126 +1,74 @@
 <div class="lang-ko">
 
-# Min Yewon · Dyun
+# Yewon Min · 민예원
 
-> **낯선 문제를 빠르게 이해하고, 실제로 작동하는 구조로 바꿉니다.**
+> **Think Deep, Ship Simple**
 
-기획, 기술, 사용자의 언어가 서로 다를 때 그 사이를 연결하는 일을 좋아합니다.  
-처음 보는 도메인이라도 구조를 파악하고, 필요한 정보를 정리하고, 다른 사람이 움직일 수 있는 형태까지 구체화합니다.
+기획, 기술, 사용자의 언어를 연결합니다. 
 
 **Planning · Product · Technology**
 
-[🔗 Portfolio](/portfolio/) · [🔗 About Me](/about_me/) · [🔗 Projects](/projects/) · [🔗 Posts](/posts/)
+🌟 [About Me](/about_me/)
+
+💼 [Portfolio](/portfolio/)
 
 ---
 
-## Selected Works
+## Recent Works
 
-### 🌦️ AI Forecast Support
-**Unfamiliar Domain → Understanding → Technical Direction**
+- 🎮 [Arcanum Nights](/projects/arcananights/)
 
-기상학이라는 생소한 도메인에서 예보관의 업무 흐름과 기존 시스템을 파악하고,  
-충분히 정리되지 않았던 기술 요구사항과 AI의 방향을 구체화했습니다.
+- 🌦️ [AI Forecast Support](/projects/ai-forecast-support/)
 
-[🔗 Case Study](/portfolio/ai-forecast-support/)
+- 🧪 [Chemi.lol](/projects/chemi/)
 
-### 🧪 Chemi.lol
-**Player Data → Model Experiments → Accuracy Ceiling**
-
-LoL 듀오의 궁합을 데이터로 설명하려 했지만, 여러 모델을 실험해도 정확도 개선이 일정 수준에서 멈췄습니다.  
-충분한 궁합 데이터를 확보하지 못한 것이 가장 큰 원인이라고 판단해 프로젝트를 중단했습니다.
-
-[🔗 Case Study](/portfolio/chemi-lol/) · [🔗 Analysis Repo](https://github.com/league-of-legend-project/Analysis)
-
-### 📊 LoL Player Research
-**Research Question → Data Pipeline → Participant Report**
-
-LoL API와 오픈소스 코드를 분석해 연구 조건에 맞는 데이터 파이프라인을 만들고,  
-실험 결과를 사람이 읽을 수 있는 리포트로 바꾸는 통계 시각화 도구까지 제작했습니다.
-
-[🔗 Case Study](/portfolio/lol-player-research/) · [🔗 LDA](https://github.com/alsspp01/LDA)
-
-### 🎮 Arcanum Nights
-**Idea → System Design → Playable Experience**
-
-10명 규모의 D3F!B에서 초기 방향부터 시스템, UI/UX, 데이터 구조, 개발·아트 리소스를 함께 고려해  
-실제로 만들고 플레이할 수 있는 형태까지 기획했습니다.
-
-[🔗 Case Study](/portfolio/arcanum-nights/)
+- 📊 [League of Legends Data Analysis](/projects/lda/)
 
 ---
 
-## Recent Build Log
+## DIA — Do It, AI
 
-최근에는 작은 불편을 직접 도구로 바꾸는 **Project DIA — Do It, AI**를 진행하고 있습니다.
+> AI로 상상을 실현하는 프로젝트
 
-- Discord 회의 녹음 → AI 요약 → Notion 기록
-- Discord 메시지 예약
-- Notion 개발일지 → Discord 알림
-- Python + Vanilla JS 기반 Blog Editor
-
-[🔗 Projects Archive](/projects/) · [🔗 GitHub](https://github.com/alsspp01?tab=repositories)
-
+- Discord 봇, "집사"
+- 자동화
+- 블로그 활성화
 </div>
 
 <div class="lang-en" style="display:none">
 
-# Min Yewon · Dyun
+# Yewon Min
 
-> **I turn unfamiliar problems into structures that actually work.**
+> **Think Deep, Ship Simple**
 
-I like working where planning, technology, and user needs speak slightly different languages.  
-Even in a new domain, I start by mapping the system, organizing what matters, and turning it into something other people can act on.
+I connect planning, technology, and the language of users.
 
 **Planning · Product · Technology**
 
-[🔗 Portfolio](/portfolio/) · [🔗 About Me](/about_me/) · [🔗 Projects](/projects/) · [🔗 Posts](/posts/)
+🌟 [About Me](/about_me/)
+
+💼 [Portfolio](/portfolio/)
 
 ---
 
-## Selected Works
+## Recent Works
 
-### 🌦️ AI Forecast Support
-**Unfamiliar Domain → Understanding → Technical Direction**
+- 🎮 [Arcanum Nights](/projects/arcananights/)
 
-I entered an unfamiliar meteorological domain, traced forecasters' real workflows and tools,  
-and helped turn underdefined needs into clearer technical requirements and direction.
+- 🌦️ [AI Forecast Support](/projects/ai-forecast-support/)
 
-[🔗 Case Study](/portfolio/ai-forecast-support/)
+- 🧪 [Chemi.lol](/projects/chemi/)
 
-### 🧪 Chemi.lol
-**Player Data → Model Experiments → Accuracy Ceiling**
-
-I tried to explain LoL duo compatibility from player data, but performance plateaued despite repeated model experiments.  
-My strongest hypothesis was that we simply did not have enough high-quality compatibility data to learn the relationship reliably, so I stopped the project.
-
-[🔗 Case Study](/portfolio/chemi-lol/) · [🔗 Analysis Repo](https://github.com/league-of-legend-project/Analysis)
-
-### 📊 LoL Player Research
-**Research Question → Data Pipeline → Participant Report**
-
-I analyzed Riot API data and open-source implementations, built a pipeline around the research conditions,  
-and later created a statistics/visualization utility for participant-facing reports.
-
-[🔗 Case Study](/portfolio/lol-player-research/) · [🔗 LDA](https://github.com/alsspp01/LDA)
-
-### 🎮 Arcanum Nights
-**Idea → System Design → Playable Experience**
-
-At D3F!B, a 10-person side-project team, I planned the game from its early direction through systems, UI/UX, data structures, and production constraints.
-
-[🔗 Case Study](/portfolio/arcanum-nights/)
+- 📊 [League of Legends Data Analysis](/projects/lda/)
 
 ---
 
-## Recent Build Log
+## DIA — Do It, AI
 
-Lately, I have been running **Project DIA — Do It, AI**, a series of small tools that turn recurring friction into automation.
+> A series of projects that bring ideas to life with AI
 
-- Discord meeting → AI summary → Notion
-- Scheduled Discord messages
-- Notion devlog → Discord notifications
-- A self-hosted Blog Editor built with Python and Vanilla JS
-
-[🔗 Projects Archive](/projects/) · [🔗 GitHub](https://github.com/alsspp01?tab=repositories)
+- "Jipsa," a Discord bot
+- Automation
+- Bringing the blog back to life
 
 </div>

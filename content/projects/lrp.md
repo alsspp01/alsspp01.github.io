@@ -1,11 +1,11 @@
 ---
 title: "우리 정글 머함? 우정머"
 type: page
-description: "League of Legends Recommand Program"
+description: "League of Legends Recommendation Program"
 dated: true
 period_start: "2021-09"
 period_end: "2021-12"
-summary: "승률 검색 사이트에서 크롤링한 상대적인 승률을 바탕으로 게임 초반 정글 동선을 추천해주는 프로그램.\n\nWith crawled data of the relative win rate from existing site,\nthis program recommends a jungler’s path in the begining of the game."
+summary: "승률 검색 사이트에서 크롤링한 상대적인 승률을 바탕으로 게임 초반 정글 동선을 추천해주는 프로그램.\n\nWith crawled data of the relative win rate from existing site,\nthis program recommends a jungler's early-game path."
 ---
 
 ## Overview
@@ -13,7 +13,7 @@ summary: "승률 검색 사이트에서 크롤링한 상대적인 승률을 바�
 이에 따라 우리는 챔피언 상성을 바탕으로 분기문을 만들어 정글 동선을 추천하는 프로그램을 만들고자 하였다.  
 또한 승률에 기반한 추천 챔프를 콤보박스로 알려주는 기능 또한 넣어 밴픽 편의성을 증대하였다.
 
-## Simualation
+## Simulation
 
 1. 아무것도 출력되기 전
    
@@ -41,7 +41,7 @@ summary: "승률 검색 사이트에서 크롤링한 상대적인 승률을 바�
 
 1. 1학년 때 만든 간단한 프로그램이라 크롤링에 의존한 데이터 수집을 할 수 밖에 없던 점
 2. 데이터에 기반한 기준이 아닌 임의의 기준을 사용한 점
-3. 당시 영어를 좀 더 잘했으면 Riot Developer Potal에서 소환사의 협곡 맵이나 오브젝트들의 사진을 가져올 수 있었을 텐데, 잘 몰라서 직접 가져와야 했음
+3. 당시 영어를 좀 더 잘했으면 Riot Developer Portal에서 소환사의 협곡 맵이나 오브젝트들의 사진을 가져올 수 있었을 텐데, 잘 몰라서 직접 가져와야 했음
 
 -> 이 때의 아쉬웠던 마음을 발판삼아 롤 API 데이터를 활용하여 서비스를 제공하는 사이트 제작 프로젝트 진행 중
 ### [PROJECTNAME]()
@@ -54,4 +54,4 @@ summary: "승률 검색 사이트에서 크롤링한 상대적인 승률을 바�
 [![GITHUB](/image/profile/github-mark.png)](https://github.com/alsspp01/LRP.git)
 &nbsp;  
 &nbsp;  
-> 그림을 클릭하면 Github repository로 연결됩니다.
+> 그림을 클릭하면 GitHub repository로 연결됩니다.

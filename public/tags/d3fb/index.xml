@@ -1,22 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>D3F!B on Dyun's blog</title><link>https://alsspp01.github.io/tags/d3fb/</link><description>Recent content in D3F!B on Dyun's blog</description><generator>Hugo</generator><language>en</language><lastBuildDate>Wed, 19 Aug 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://alsspp01.github.io/tags/d3fb/index.xml" rel="self" type="application/rss+xml"/><item><title>🔗 사람 사이에도 Interface가 있다</title><link>https://alsspp01.github.io/posts/2026-08-19-d3fib-collaboration-system/</link><pubDate>Wed, 19 Aug 2026 00:00:00 +0000</pubDate><guid>https://alsspp01.github.io/posts/2026-08-19-d3fib-collaboration-system/</guid><description>&lt;div class="lang-ko">
-&lt;p>팀이 작을 때는 대부분의 일이 기억으로 굴러갑니다.&lt;/p>
-&lt;blockquote>
-&lt;p>“그 파일 어디 있었지?”&lt;/p>
-&lt;/blockquote>
-&lt;blockquote>
-&lt;p>“저번 회의에서 뭐로 결정했더라?”&lt;/p>
-&lt;/blockquote>
-&lt;blockquote>
-&lt;p>“이건 개발팀 채널에 올리면 되나?”&lt;/p>
-&lt;/blockquote>
-&lt;p>다 아는 사람들이라면 누군가 답해줍니다.&lt;/p>
-&lt;p>문제는 사람이 늘어날 때입니다.&lt;/p>
-&lt;p>기획, 개발, 아트로 나뉜 10명 정도의 원격 팀에서는&lt;br>
-&lt;strong>사람의 기억이 협업 시스템이 되는 방식이 금방 한계에 옵니다.&lt;/strong>&lt;/p>
-&lt;hr>
-&lt;h2 id="툴을-많이-쓰는-것과-구조가-있는-것은-다르다">툴을 많이 쓰는 것과 구조가 있는 것은 다르다&lt;/h2>
-&lt;p>D3F!B에서도 Discord, Notion, Google Drive를 사용합니다.&lt;/p>
-&lt;p>중요했던 것은 어떤 툴을 쓰느냐보다 &lt;strong>각 툴이 무엇을 책임지는지 겹치지 않게 만드는 것&lt;/strong>이었습니다.&lt;/p></description></item><item><title>집사 - PART 02. 메세지 예약</title><link>https://alsspp01.github.io/posts/%EC%A7%91%EC%82%AC-part-02-%EB%A9%94%EC%84%B8%EC%A7%80-%EC%98%88%EC%95%BD/</link><pubDate>Tue, 11 Aug 2026 00:00:00 +0000</pubDate><guid>https://alsspp01.github.io/posts/%EC%A7%91%EC%82%AC-part-02-%EB%A9%94%EC%84%B8%EC%A7%80-%EC%98%88%EC%95%BD/</guid><description>&lt;p>디스코드 음성 회의 기록 및 요약 봇 **집사(defib-secretary)**에 회의 흐름과 완전히 독립적으로 동작하는 &lt;strong>메시지 예약 발송 시스템&lt;/strong>을 추가했다. 특정 시각에 지정된 채널로 메시지를 자동 전송하는 기능이다.&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>D3F!B on Yewon Min</title><link>https://alsspp01.github.io/tags/d3fb/</link><description>Recent content in D3F!B on Yewon Min</description><generator>Hugo</generator><language>en</language><lastBuildDate>Tue, 11 Aug 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://alsspp01.github.io/tags/d3fb/index.xml" rel="self" type="application/rss+xml"/><item><title>집사 - PART 02. 메시지 예약</title><link>https://alsspp01.github.io/posts/%EC%A7%91%EC%82%AC-part-02-%EB%A9%94%EC%84%B8%EC%A7%80-%EC%98%88%EC%95%BD/</link><pubDate>Tue, 11 Aug 2026 00:00:00 +0000</pubDate><guid>https://alsspp01.github.io/posts/%EC%A7%91%EC%82%AC-part-02-%EB%A9%94%EC%84%B8%EC%A7%80-%EC%98%88%EC%95%BD/</guid><description>&lt;p>디스코드 음성 회의 기록 및 요약 봇 집사(defib-secretary)에 회의 흐름과 별개로 동작하는 메시지 예약 발송 기능을 추가했다. 특정 시각에 지정된 채널로 메시지를 자동 전송하는 기능이다.&lt;/p>
 &lt;p>이 글에서는 디스코드 API가 가진 한계를 극복하며 예약 스케줄러, 대화형 컴포넌트, 입력값 처리 등을 어떻게 설계하고 코드로 구현했는지 다룬다.&lt;/p>
 &lt;h2 id="시스템-아키텍처-및-핵심-파일">시스템 아키텍처 및 핵심 파일&lt;/h2>
 &lt;p>예약 시스템은 기존의 음성 녹음 파이프라인과 겹치지 않도록 모듈화하여 설계했다.&lt;/p>
@@ -32,22 +14,17 @@
 &lt;p>이 글에서는 &amp;lsquo;집사&amp;rsquo; 봇의 전체 아키텍처, 핵심 파이프라인, 그리고 개발 과정에서 마주한 다양한 기술적 이슈들의 해결 과정을 상세히 정리한다.&lt;/p>
 &lt;h2 id="1-시스템-아키텍처-및-디렉터리-구조">1. 시스템 아키텍처 및 디렉터리 구조&lt;/h2>
 &lt;p>전체 코드베이스는 다음과 같은 단일 프로세스 구조로 설계되었다.&lt;/p></description></item><item><title>🎮 Arcanum Nights</title><link>https://alsspp01.github.io/projects/arcananights/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://alsspp01.github.io/projects/arcananights/</guid><description>&lt;div class="lang-ko">
-&lt;p>&lt;strong>Single ~ 2 Players · D3F!B&lt;/strong>&lt;/p>
-&lt;p>&lt;a href="https://alsspp01.github.io/portfolio/arcanum-nights/">🔗 Portfolio Case Study&lt;/a>&lt;/p>
-&lt;h2 id="planning">Planning&lt;/h2>
-&lt;ul>
-&lt;li>게임 전체 방향 / core experience&lt;/li>
-&lt;li>시스템 / UIUX&lt;/li>
-&lt;li>플레이 시나리오 / 튜토리얼&lt;/li>
-&lt;li>데이터 구조 및 테이블&lt;/li>
-&lt;li>개발/아트 리소스를 고려한 기능 범위&lt;/li>
-&lt;li>PlayX4 사용자 관찰 및 피드백&lt;/li>
-&lt;/ul>
-&lt;h2 id="implementation-support">Implementation Support&lt;/h2>
-&lt;p>Unity/C# 구조를 학습하고 튜토리얼 구현과 Python 맵 툴 제작에도 참여했습니다.&lt;/p>
-&lt;h2 id="user-test">User Test&lt;/h2>
-&lt;p>PlayX4에서 표정, 자세, 입력 속도와 빈도, 플레이가 늘어지는 구간을 관찰해 템포와 연출을 재검토했습니다.&lt;/p>
-&lt;p>&lt;a href="https://alsspp01.github.io/portfolio/arcanum-nights/">🔗 Portfolio Case Study&lt;/a>&lt;/p>
-&lt;/div>
-&lt;div class="lang-en" style="display:none">
-&lt;p>&lt;strong>Single ~ 2 Players · D3F!B&lt;/strong>&lt;/p></description></item></channel></rss>
+&lt;p>&lt;a id="top">&lt;/a>&lt;/p>
+&lt;p>&lt;strong>기간&lt;/strong> · 2025.01–현재&lt;br>
+&lt;strong>팀&lt;/strong> · D3F!B, 약 10명&lt;br>
+&lt;strong>역할&lt;/strong> · 대표 / 팀장 / 게임 기획 리드&lt;br>
+&lt;strong>플랫폼&lt;/strong> · PC / 1~2인 플레이&lt;br>
+&lt;strong>상태&lt;/strong> · Steam Early Access&lt;/p>
+&lt;p>&lt;a href="#case-study">&lt;strong>Case Study ↓&lt;/strong>&lt;/a> · &lt;a href="https://store.steampowered.com/app/3453760/Arcanum_Nights/">&lt;strong>Steam ↗&lt;/strong>&lt;/a>&lt;/p>
+&lt;hr>
+&lt;p>&lt;a id="case-study">&lt;/a>&lt;/p>
+&lt;h2 id="case-study">Case Study&lt;/h2>
+&lt;h3 id="x에서-시작한-퍼즐">X에서 시작한 퍼즐&lt;/h3>
+&lt;p>Arcanum Nights의 퍼즐은 단순한 &lt;code>X&lt;/code>에서 시작했습니다.&lt;/p>
+&lt;p>X는 두 개의 선이 만나 만들어집니다. 그렇다면 서로 떨어진 두 개의 패턴과 그 관계를 알면, 원래의 형태를 다시 만들 수 있지 않을까 생각했습니다.&lt;/p>
+&lt;p>이 생각을 &lt;strong>각자의 시점에서는 의미 없어 보이는 두 패턴이 하나의 시점에서 만날 때 특별한 형태로 완성되는 퍼즐&lt;/strong>로 발전시켰습니다. 두 플레이어는 서로 다른 정보를 보고, 대화를 통해 하나의 답을 찾아야 합니다.&lt;/p></description></item></channel></rss>

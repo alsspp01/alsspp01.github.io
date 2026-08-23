@@ -5,7 +5,7 @@ description: "SQL Injection Analysis Manager for Websites"
 dated: true
 period_start: "2024-03"
 period_end: "2024-06"
-summary: "오픈 소스 코드 사용: SQLmap\n웹사이트의 SQL injection 공격 가능성 여부를 진단 후 각 공격에 대한 대응 방법을 알려주는 보안 비전공 개발자를 위한 프로그램.\n\nUse open-source program: SQLmap.\nA program for non-security developers\nthat diagnoses the possibility of SQL injection attacks on a website\nand then informs them of how to respond to each attack."
+summary: "오픈 소스 코드 사용: SQLmap\n웹사이트의 SQL injection 공격 가능성 여부를 진단 후 각 공격에 대한 대응 방법을 알려주는 보안 비전공 개발자를 위한 프로그램.\n\nUses SQLmap to identify possible SQL injection vulnerabilities and explain appropriate responses to developers without a security background."
 tags: ["DKU"]
 ---
 
@@ -50,4 +50,4 @@ tags: ["DKU"]
 [![GITHUB](/image/profile/github-mark.png)](https://github.com/hanja1500/SIAM-W.git)
 &nbsp;  
 &nbsp;  
-> 그림을 클릭하면 Github repository로 연결됩니다.
+> 그림을 클릭하면 GitHub repository로 연결됩니다.
