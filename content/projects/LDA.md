@@ -1,11 +1,7 @@
 ---
 title: "📊 League of Legends Data Analysis"
-title_en: "📊 League of Legends Data Analysis"
 type: page
-aliases:
-  - /portfolio/lol-player-research/
 description: "LoL 연속 플레이와 인지피로 연구를 위한 실험 도구, 데이터 수집 · 분석 및 개인 리포트 개발."
-description_en: "Experimental tooling, data collection, analysis, and participant reporting for research on consecutive League of Legends play and cognitive fatigue."
 dated: true
 period_start: "2024-03"
 period_end: "2025-06"
