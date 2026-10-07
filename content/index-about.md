@@ -2,15 +2,16 @@
 
 # Yewon Min · 민예원
 
-> **Think Deep, Ship Simple**
-
+> **Think Deep, Ship Simple**  
+  
 기획, 기술, 사용자의 언어를 연결합니다. 
 
 **Planning · Product · Technology**
 
-🌟 [About Me](/about_me/)
 
-💼 [Portfolio](/portfolio/)
+
+🌟 [About Me](/about_me/)    💼 [Portfolio](/portfolio/)
+
 
 ---
 
@@ -45,9 +46,9 @@ I connect planning, technology, and the language of users.
 
 **Planning · Product · Technology**
 
-🌟 [About Me](/about_me/)
 
-💼 [Portfolio](/portfolio/)
+
+🌟 [About Me](/about_me/)    💼 [Portfolio](/portfolio/)
 
 ---
 
