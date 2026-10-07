@@ -10,9 +10,8 @@ url: "/portfolio/"
 <div class="lang-ko">
 
 ## 주요 프로젝트
-
-기획, 기술, 사용자의 언어를 연결하며 만든 작업입니다.  
-프로젝트를 선택하면 더 자세한 과정과 결과를 볼 수 있습니다.
+ 
+프로젝트 이름을 클릭하면 더 자세한 내용을 볼 수 있습니다.
 
 ### 🌦️ [AI 예보지원](/projects/ai-forecast-support/)
 
@@ -62,7 +61,7 @@ League of Legends 듀오 데이터로 두 플레이어의 ‘궁합’을 설명
 
 ### 📊 [League of Legends Data Analysis](/projects/lda/)
 
-**2024.03–2025.06 · 연구 도구 / 데이터 파이프라인**
+**2024.03–2025.06 · 연구 도구 / 데이터 파이프라인 / 리포트 제작**
 
 인지 피로 연구에 필요한 데이터 수집부터 결과 리포트 생성까지 자동화했습니다.
 
@@ -75,7 +74,7 @@ League of Legends 듀오 데이터로 두 플레이어의 ‘궁합’을 설명
 
 ### 🛡️ [SQLi Parsing AI](/projects/sqli-parsing-ai/)
 
-**2024.03–2024.06 · 팀장 / 기획 / AI 연구 · 개발**
+**2024.03–2024.06 · AI 연구 · 개발 / 보안 도구**
 
 SQL Injection 문장을 토큰 단위로 전처리하고 공격 구문을 분류하는 모델을 개발했습니다.
 
@@ -107,8 +106,7 @@ SQLmap 분석 결과를 바탕으로 웹사이트의 SQL Injection 가능성과 
 
 ## Selected Work
 
-These projects show how I connect planning, technology, and the language of users.  
-Select a project to read more about the process and results.
+Click the name of each project to read more.
 
 ### 🌦️ [AI Forecast Support](/projects/ai-forecast-support/)
 
@@ -158,7 +156,7 @@ I tested whether League of Legends duo data could explain compatibility between 
 
 ### 📊 [League of Legends Data Analysis](/projects/lda/)
 
-**Mar 2024–Jun 2025 · Research Tooling / Data Pipeline**
+**Mar 2024–Jun 2025 · Research Tooling / Data Pipeline / Report Paper**
 
 I automated the workflow from data collection to participant-facing reports for cognitive fatigue research.
 
@@ -171,7 +169,7 @@ I automated the workflow from data collection to participant-facing reports for 
 
 ### 🛡️ [SQLi Parsing AI](/projects/sqli-parsing-ai/)
 
-**Mar 2024–Jun 2024 · Team Lead / Planning / AI Research & Development**
+**Mar 2024–Jun 2024 · AI Research & Development / Security Tool**
 
 I developed a model that tokenized SQL Injection statements and classified attack syntax.
 
