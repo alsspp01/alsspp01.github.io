@@ -23,6 +23,14 @@
 
 ---
 
+## Writing
+
+- [PM용 협업 도구 두 가지: Notion 템플릿과 WBS](/posts/2025-11-29-pm-collaboration-template/)
+- [기상학을 모르는 PM이 요구사항을 정리하기까지](/posts/2026-08-19-ai-forecast-domain-to-direction/)
+- [만들기 전에 한 번 플레이해보는 기획](/posts/2026-08-19-designing-for-edge-cases/)
+
+---
+
 ## DIA — Do It, AI
 
 AI와 함께 만든 개인 자동화 프로젝트
@@ -56,6 +64,14 @@ A planner who structures complex problems and turns ideas into things that work.
 - [Arcanum Nights](/projects/arcananights/) · Lead game designer
 - [Chemi.lol](/projects/chemi/) · A release call based on the data's limits
 - [RocksDB Chrono Break](/projects/rocksdb-chronobreak/) · Log DB team lead
+
+---
+
+## Writing
+
+- [Two PM tools: a Notion template and a WBS sheet](/posts/2025-11-29-pm-collaboration-template/)
+- [Learning the domain before writing requirements](/posts/2026-08-19-ai-forecast-domain-to-direction/)
+- [Playing a design before it exists](/posts/2026-08-19-designing-for-edge-cases/)
 
 ---
 
