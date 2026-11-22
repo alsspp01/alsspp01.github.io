@@ -1,136 +1,79 @@
 ---
 title: "기상학을 모르는 PM이 요구사항을 정리하기까지"
-title_en: "Learning the Domain Before Defining the Requirements"
+title_en: "Learning the Domain Before Writing Requirements"
 date: 2026-08-19
-description: "온보딩 없이 투입된 기상 예보지원 프로젝트에서 예보 업무를 배우고 개발 방향을 정리한 과정."
-description_en: "How I learned the forecasting workflow and clarified the development direction after joining without domain onboarding."
+description: "모르는 분야의 과제에서 기능 목록보다 업무 흐름을 먼저 정리한 이유"
+description_en: "Why I mapped the workflow before writing a feature list in an unfamiliar domain"
 type: "post"
 tags: ["PM", "Planning", "Domain", "AI"]
 ---
 
 <div class="lang-ko">
 
-기상 예보지원 프로젝트에 들어갔을 때 저는 기상학을 전혀 몰랐습니다.  
-기존 프로그램이 어떻게 작동하는지도, 예보관이 어떤 순서로 판단하는지도 배운 적이 없었습니다.  
-첫 직장이었고 별도의 온보딩도 없었지만, PM으로서 개발 방향과 기관 사이의 작업을 정리해야 했습니다.
+AI 예보지원 과제에 PM으로 들어갔을 때 기상학을 전혀 몰랐습니다.  
+첫 직장이었고 따로 온보딩도 없었습니다.  
+개발은 약 3개월째 멈춰 있었고, 고객사와 개발 기관의 대화는 계속 어긋났습니다.
 
-처음에는 누가 요구사항을 잘못 이해하고 있다고 생각했습니다.  
-국립기상과학원은 원하는 바가 분명한 것처럼 보였고, 컨소시엄도 각자 맡은 기술을 개발하고 있었는데 대화는 계속 어긋났습니다.  
-개발은 약 3개월 동안 정체돼 있었고 서로에 대한 신뢰도 좋지 않았습니다.
+## 누가 틀린 게 아니었음
 
-그런데 양쪽의 이야기를 계속 듣다 보니 어느 한쪽이 틀린 문제가 아니었습니다.  
-국립기상과학원은 실제 예보 업무를 기준으로 설명하고 있었고, 개발 기관은 기술이 작동하는 순서를 기준으로 이해하고 있었습니다.  
-같은 단어를 사용해도 머릿속에 그리는 과정이 달랐습니다.
+양쪽 이야기를 계속 들어 보니, 고객사는 예보 업무 순서로, 개발 기관은 기술이 동작하는 순서로 말하고 있었습니다.  
+같은 단어를 쓰면서 다른 과정을 떠올리고 있었습니다.
 
-## 예보 업무의 흐름부터 배웠습니다
+## 기능 이름보다 먼저 확인한 것
 
-문서만 읽어서는 어떤 정보가 왜 필요한지 알기 어려웠습니다.  
-국립기상과학원에 방문해 연구진과 담당자에게 기존 프로그램의 작동 방식과 예보 업무의 흐름을 설명 들었고, 이후에도 지속적으로 소통하며 이해를 넓혔습니다.  
-예보관을 직접 관찰하거나 인터뷰한 것은 아닙니다.
-
-예보관이 어떤 정보를 먼저 확인하는지, 언제 다른 예측 결과와 비교하는지, 어느 지점에서 사람이 판단하는지를 설명을 바탕으로 순서대로 정리했습니다.  
-AI가 들어가야 할 위치도 그 뒤에야 보이기 시작했습니다.  
-여러 예측 결과를 단순히 한 화면에 모으는 것이 아니라, 시기와 기상 환경에 맞는 결과를 찾고 예보관이 사용하는 용어로 설명해 초기 판단을 도와야 했습니다.
-
-그때부터 요구사항을 볼 때 기능명보다 다음 내용을 먼저 확인했습니다.
+국립기상과학원 연구진과 담당자에게 업무 흐름을 설명 듣고, 요구사항마다 아래를 먼저 봤습니다.
 
 - 이 정보는 예보 과정의 어느 시점에 필요한가
-- 현재 예보관이 직접 비교하거나 판단하는 부분은 어디인가
-- AI가 그 판단을 대신하는가, 판단할 재료를 정리해주는가
-- 각 연구기관의 결과는 앞뒤 단계와 어떻게 연결되는가
+- 지금 사람이 직접 비교하거나 판단하는 부분은 어디인가
+- AI가 그 판단을 대신하는가, 판단할 재료를 정리해 주는가
+- 각 기관의 결과는 앞뒤 단계와 어떻게 이어지는가
 
-## 서로 다른 설명을 하나의 흐름으로 맞췄습니다
+세 번째 질문이 예측 모델의 목표를 회귀에서 분류로 바꾸자는 제안으로 이어졌습니다.
 
-컨소시엄의 기관들은 각자 자신이 해야 한다고 생각한 연구를 진행하고 있었습니다.  
-문제는 그 결과가 하나의 에이전트 안에서 어떻게 이어져야 하는지 아무도 전체 그림을 공유하지 못하고 있다는 점이었습니다.
+## 요구사항을 빨리 쓰는 게 빠른 건 아니었음
 
-기관별 작업이 무엇을 입력받고 무엇을 다음 단계에 전달해야 하는지 정리해 전체 흐름을 그렸습니다.  
-개발자들을 모아 화이트보드에 구조를 설명하고, 어느 지점에서 다른 기관과 협력해야 하는지도 함께 확인했습니다.
+모호할수록 기능 목록부터 쓰고 싶어집니다.  
+하지만 사용자의 일을 모르고 쓴 목록은 개발이 시작된 뒤 다시 고치게 됩니다.
 
-이후에는 개발자들이 구현 방향이 애매할 때 제게 물어보기 시작했습니다.  
-제가 모든 기술적 답을 알고 있었기 때문은 아닙니다.  
-고객사가 왜 그 기능을 필요로 하는지와 각 작업이 전체에서 어떤 역할을 하는지를 계속 확인하고 있었기 때문에, 함께 판단할 기준이 생긴 것입니다.
+새 과제를 시작하면 안개 낀 게임 맵을 떠올립니다.  
+보이지 않는 곳에 목적지만 찍기보다, 돌아다니며 지형을 밝혀야 다음 판단이 쉬워집니다.  
+이 과제에서는 업무를 가장 잘 아는 사람들에게 배우고 용어를 익히는 일이 그 맵을 밝히는 일이었습니다.
 
-국립기상과학원과도 요구사항을 실시간으로 확인했습니다.  
-예보 업무를 기준으로 나온 설명은 연구진과 개발자가 이해할 수 있도록 기술적인 맥락으로 바꾸고, 반대로 기술적 제약과 구현 방식은 고객사가 판단할 수 있는 말로 설명했습니다.  
-서로의 전제가 맞춰지자 대화가 훨씬 수월해졌고, 약 3개월간 정체돼 있던 작업이 다시 진행되어 팀은 이후 2개월 안에 이를 마무리했습니다.
-
-## 요구사항을 빨리 쓰는 것이 항상 빠른 것은 아니었습니다
-
-요구사항이 모호하면 우선 기능 목록부터 만들어야 할 것처럼 느껴집니다.  
-하지만 사용자의 일을 모르는 상태에서 작성한 기능 목록은 개발이 시작된 뒤 다시 고칠 가능성이 큽니다.
-
-이 프로젝트에서는 먼저 예보 업무를 배우고, 고객사와 개발 기관이 서로 다르게 이해하던 부분을 찾는 데 시간을 썼습니다.  
-당장은 돌아가는 것처럼 보여도, 결과적으로는 개발자가 무엇을 만들어야 하는지 설명하고 멈춘 작업을 다시 움직이는 데 필요한 과정이었습니다.
-
-새로운 프로젝트를 시작하면 저는 게임의 안개 낀 맵을 떠올립니다.  
-보이지 않는 곳에 목적지만 찍기보다, 직접 돌아다니며 지형을 확인해야 다음 판단이 쉬워집니다.  
-저에게는 사용자의 업무를 가장 잘 아는 사람들에게 배우고 용어를 익히는 과정이 그 맵을 밝히는 일이었습니다.
-
-[Alpha Weather Case Study](/projects/ai-forecast-support/#case-study)
+관련 사례: [Alpha Weather](/projects/ai-forecast-support/)
 
 </div>
 
 <div class="lang-en" style="display:none">
 
-When I joined the AI forecasting-support project, I knew nothing about meteorology.  
-I had never used the existing forecasting software or learned how forecasters reached their decisions.  
-It was my first job, and I received no formal onboarding, but as the PM I still had to clarify the development direction and coordinate the participating organizations.
+When I joined an AI forecasting project as PM, I knew nothing about meteorology.  
+It was my first job, with no formal onboarding.  
+Development had been stalled for about three months, and the client and developers kept talking past each other.
 
-At first, I assumed someone had misunderstood the requirements.  
-The National Institute of Meteorological Sciences appeared to know what it wanted, and each organization in the consortium was working on its assigned technology, yet their conversations kept missing each other.  
-One workstream had been stalled for roughly three months, and trust between the two sides had deteriorated.
+## Nobody was wrong
 
-After listening to both sides, I realized that neither was simply wrong.  
-The client explained everything through the forecasting workflow, while the consortium interpreted it through the technical development process.  
-They used some of the same words but pictured different sequences behind them.
+Listening to both sides, I found the client described things in the order of forecasting work, and the developers in the order the technology runs.  
+They used the same words and pictured different processes.
 
-## Learning the forecasting workflow
+## What I checked before feature names
 
-Documents were not enough to explain why each piece of information mattered.  
-I visited the institute, where researchers and staff explained how the existing program worked and how a forecast was produced, and I stayed in regular contact with them afterward.  
-I did not observe or interview forecasters directly.
+After NIMS researchers and staff walked me through the workflow, I asked of every requirement:
 
-From their explanations, I mapped the order in which forecasters review information, compare predictions, and make their own judgments.  
-Only then could I see where AI belonged. The goal was not merely to collect several prediction results on one screen.  
-The agent needed to identify results suited to the time and weather conditions, then explain them in meteorological terms that could support a forecaster's initial judgment.
+- At what point in forecasting is this information needed?
+- Where does a person compare or decide today?
+- Does the AI make that decision, or prepare what is needed to make it?
+- How does each organization's output connect to the steps around it?
 
-From that point on, I reviewed requirements by asking:
+The third question led to the proposal to reframe the prediction model from regression to classification.
 
-- At what point in the forecasting process is this information needed?
-- Which comparisons or decisions are currently made by the forecaster?
-- Is the AI replacing that judgment or organizing the evidence used to make it?
-- How does each organization's research output connect to the stages before and after it?
+## Writing requirements fast was not faster
 
-## Aligning different explanations into one flow
+The vaguer things are, the more tempting it is to start with a feature list.  
+A list written without knowing the user's work gets rewritten once development starts.
 
-Each organization had been pursuing the work it believed it was responsible for.  
-What was missing was a shared view of how those results should connect as one agent.
+At the start of a project I picture a map under fog of war.  
+Rather than dropping a waypoint somewhere unseen, I walk around until the terrain shows.  
+Here, learning from the people who knew the work best, and learning their vocabulary, was how the map cleared.
 
-I mapped what each workstream received and what it needed to pass to the next stage.  
-I then brought the developers together and explained the flow on a whiteboard, including the points where they needed another organization's input.
-
-After that, developers began coming to me when the implementation direction was unclear.  
-This was not because I had every technical answer.  
-I kept track of why the client needed each function and what role each workstream played in the whole system, which gave us a common basis for deciding what to do next.
-
-I also confirmed requirements with the client as they changed.  
-I translated explanations grounded in forecasting practice into technical context for the researchers and developers, and explained technical constraints in terms the client could evaluate.  
-Once both sides shared the same assumptions, the conversations became much easier.  
-The workstream that had stalled for about three months started moving again, and the team completed it within the following two months.
-
-## Writing requirements quickly was not always the fastest route
-
-When requirements are vague, producing a feature list can feel like the first sign of progress.  
-But a feature list written without understanding the user's work is likely to be rewritten after development has already begun.
-
-In this project, I spent time learning the forecasting workflow and locating the assumptions the client and developers did not share.  
-It looked indirect at first, but it gave developers a clear reason behind the work and helped the project move again.
-
-When I enter a new project, I often picture a game map covered in fog.  
-Placing a waypoint in an unseen area is less useful than revealing enough of the terrain to make the next decision.  
-Learning the user's work from the people closest to it, and picking up the language of the domain, was how I uncovered that map here.
-
-[Alpha Weather Case Study](/projects/ai-forecast-support/#case-study-en)
+Related case study: [Alpha Weather](/projects/ai-forecast-support/)
 
 </div>

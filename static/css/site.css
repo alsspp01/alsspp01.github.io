@@ -8,6 +8,7 @@
   --light-primary-color: 250, 249, 246;   /* warm neutral background */
   --light-secondary-color: #e4e1db;       /* hairlines */
   --light-text-color: #2a2c2e;            /* dark gray body text */
+  --dark-text-color: #dde1e5;             /* softer than pure white in dark mode */
 
   --muted: #6b6f73;
   --line: #e4e1db;
