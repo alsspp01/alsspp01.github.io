@@ -11,6 +11,11 @@ tags: ["DIA", "Hugo", "github-pages", "CI/CD"]
 
 <div class="lang-ko">
 
+> **요약**  
+> 만든 것 · Hugo 블로그와 GitHub Pages · Actions 자동 배포  
+> 핵심 판단 · 외부 의존성을 줄이고, main에 push하면 빌드부터 배포까지 자동으로  
+> 역할 · 구조 결정, 설정, 운영 (작성은 Claude 보조)
+
 ## 1. 개요
 
 본 문서는 Hugo 정적 사이트 생성기(Static Site Generator)와 GitHub Pages, GitHub Actions를 활용하여 개인 블로그를 구축하고 자동 배포 파이프라인을 설정한 과정을 정리한다. 외부 라이브러리 의존성을 최소화하고 CI/CD 파이프라인을 통해 배포 과정을 자동화하는 것을 목표로 한다.
@@ -152,6 +157,11 @@ if __name__ == "__main__":
 </div>
 
 <div class="lang-en" style="display:none">
+
+> **Summary**  
+> Built · This Hugo blog with automatic GitHub Pages deployment via Actions  
+> Key choices · Few dependencies; a push to main builds and deploys everything  
+> My role · Structure, configuration, operation (written with Claude)
 
 ## 1. Overview
 

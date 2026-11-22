@@ -44,7 +44,8 @@ html {
 }
 .post-content h2:first-child,
 .post-content > div > h2:first-child,
-.post-content a + h2 { border-top: 0; padding-top: 0; }
+.post-content a + h2,
+.post-content hr + h2 { border-top: 0; padding-top: 0; margin-top: 1.2em; }
 .post-content h3 { font-size: 1.1em; font-weight: 600; margin: 1.8em 0 0.6em; }
 .post-content h4 { font-size: 1em; font-weight: 600; margin: 1.4em 0 0.4em; }
 /* A line holding only <small> (dates, team) reads as metadata under the heading above it */
@@ -70,6 +71,17 @@ a:hover, .post-content a { color: var(--accent); }
   padding: 0.2em 0 0.2em 1em;
   border-left: 2px solid var(--line);
   color: var(--muted);
+}
+/* A quote that opens a language block is a summary box, not a side note */
+.post-content .lang-ko > blockquote:first-child,
+.post-content .lang-en > blockquote:first-child {
+  margin: 0 0 2em;
+  padding: 0.9em 1.1em;
+  border-left: 2px solid var(--accent);
+  background: var(--surface);
+  color: inherit;
+  font-size: 0.95em;
+  line-height: 1.75;
 }
 .post-content table { border-collapse: collapse; font-size: 0.94em; line-height: 1.6; }
 .post-content table thead { background: var(--surface); }

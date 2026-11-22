@@ -11,6 +11,11 @@ tags: ["DIA", "DEFIB", "Node.js", "Notion", "Discord", "Webhook"]
 
 <div class="lang-ko">
 
+> **요약**  
+> 만든 것 · Notion 개발일지에 새 글이 생기면 Discord에 알리는 웹훅 서버  
+> 핵심 판단 · Notion 웹훅 형식이 고정돼 GitHub Actions로는 받을 수 없음을 확인 → 홈서버의 작은 Node.js 서버로 전환  
+> 역할 · 요구사항 · 구조 결정, 네트워크 구성, 장애 대응 · 운영 (코드는 Claude 보조)
+
 ## 1. 개요 및 프로젝트 목적
 
 Notion의 '개발 일지' 데이터베이스에 새 페이지가 생성될 때, Discord 채널로 알림 임베드(Embed)를 자동으로 전송하는 독립형 파이프라인을 구축했다. 본 프로젝트는 `d3fib/Devlog2Discord` 단일 저장소로 구성된다. 이는 기존에 회의록 등을 기록하던 상시 실행형 디스코드 봇 프로젝트인 `secretary`와는 완전히 별개로 동작하는 소규모 독립 시스템이다.
@@ -98,6 +103,11 @@ Funnel이 구동 중인 호스트에서 신규 경로를 추가하기 위해 `ta
 </div>
 
 <div class="lang-en" style="display:none">
+
+> **Summary**  
+> Built · A webhook server that posts to Discord whenever a new devlog appears in Notion  
+> Key choices · Notion's fixed webhook body cannot trigger GitHub Actions → switched to a small Node.js server on a home machine  
+> My role · Requirements, architecture decisions, networking, incident handling, operation (code written with Claude)
 
 ## 1. Purpose
 

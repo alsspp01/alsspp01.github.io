@@ -11,6 +11,11 @@ tags: ["DIA", "D3F!B", "Discord-bot", "Node.js"]
 
 <div class="lang-ko">
 
+> **요약**  
+> 만든 것 · 회의 봇에 정해진 시각 · 채널로 메시지를 보내는 예약 기능 추가  
+> 핵심 판단 · Discord 슬래시 커맨드 제약에 맞춘 입력 구조, 15초 주기 폴링, 파일 기반 저장  
+> 역할 · 요구사항 · 흐름 설계, 테스트 · 운영 (코드는 Claude 보조)
+
 디스코드 음성 회의 기록 및 요약 봇 집사(defib-secretary)에 회의 흐름과 별개로 동작하는 메시지 예약 발송 기능을 추가했다. 특정 시각에 지정된 채널로 메시지를 자동 전송하는 기능이다.
 
 이 글에서는 디스코드 API가 가진 한계를 극복하며 예약 스케줄러, 대화형 컴포넌트, 입력값 처리 등을 어떻게 설계하고 코드로 구현했는지 다룬다.
@@ -117,6 +122,11 @@ function normalizeReservationMessage(message) {
 </div>
 
 <div class="lang-en" style="display:none">
+
+> **Summary**  
+> Built · Scheduled messages for the meeting bot, sent to a chosen channel at a set time  
+> Key choices · Input shaped around Discord slash-command limits, 15-second polling, file-based storage  
+> My role · Requirements, flow design, testing, operation (code written with Claude)
 
 I added scheduled message delivery to Jipsa (`defib-secretary`) as a module independent of the voice-meeting flow. It sends a message to a selected Discord channel at a specified time.
 

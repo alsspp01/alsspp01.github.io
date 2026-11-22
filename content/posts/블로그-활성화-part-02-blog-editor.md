@@ -11,6 +11,11 @@ tags: ["DIA", "Python", "Hugo", "Regex"]
 
 <div class="lang-ko">
 
+> **요약**  
+> 만든 것 · 이 블로그 글을 쓰고 고치는 개인용 웹 에디터  
+> 핵심 판단 · 외부 프레임워크 없이 Python 표준 라이브러리와 Vanilla JS만 사용, 에디터는 별도 비공개 저장소로 분리  
+> 역할 · 요구사항 · 화면 흐름 설계, 테스트 · 운영 (코드는 Claude 보조)
+
 블로그 운영을 자동화하고 편리하게 콘텐츠를 작성하기 위해 개발한 자체 호스팅형 'Blog Editor'의 개발 내역과 기술 스택을 정리한다. 외부 프레임워크나 무거운 서드파티 라이브러리 의존성 없이, 순수 Python 표준 라이브러리와 Vanilla JS만으로 구현하는 것을 원칙으로 삼았다.
 
 ## 1. 아키텍처 및 기술 스택 개요
@@ -94,6 +99,11 @@ MODELS = ['gemini-3.5-flash', 'gemini-3.5-flash-lite', 'gemini-2.0-flash', 'gemi
 </div>
 
 <div class="lang-en" style="display:none">
+
+> **Summary**  
+> Built · A personal web editor for writing and revising posts on this blog  
+> Key choices · No frameworks, only the Python standard library and vanilla JS; the editor lives in a separate private repo  
+> My role · Requirements, screen flow, testing, operation (code written with Claude)
 
 I built a self-hosted Blog Editor to make writing and maintaining the blog more convenient. I kept it to the Python standard library and Vanilla JS rather than introducing a web framework or large third-party dependencies.
 
