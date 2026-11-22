@@ -46,6 +46,9 @@ html {
 .post-content a + h2 { border-top: 0; padding-top: 0; }
 .post-content h3 { font-size: 1.1em; font-weight: 600; margin: 1.8em 0 0.6em; }
 .post-content h4 { font-size: 1em; font-weight: 600; margin: 1.4em 0 0.4em; }
+/* A line holding only <small> (dates, team) reads as metadata under the heading above it */
+.post-content p:has(> small:only-child) { margin: -0.3em 0 0.5em; color: var(--muted); }
+.post-content p:has(> small:only-child) small { font-size: 0.85em; }
 .post-content strong, .post-content b { font-weight: 600; }
 
 .post-header-section h1 { font-weight: 600; letter-spacing: -0.01em; }

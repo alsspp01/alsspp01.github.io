@@ -2,7 +2,7 @@
 
 > **Think Deep, Ship Simple**
 
-모호한 요구사항을 실행 가능한 계획과 실제로 쓰이는 도구로 바꿉니다.
+복잡한 문제를 구조화하고, 아이디어를 실제로 작동하는 결과물로 만드는 기획자입니다.
 
 <div class="home-links">
 
@@ -18,7 +18,7 @@
 - [LoL Data Analysis](/projects/lda/) · 연구실 실험 도구
 - [D3F!B Operations](/projects/d3fib-workspace/) · 원격 팀 협업 · 자동화
 - [Arcanum Nights](/projects/arcananights/) · 퍼즐 게임 기획 리드
-- [Chemi.lol](/projects/chemi/) · 데이터로 내린 출시 판단
+- [Chemi.lol](/projects/chemi/) · 데이터 한계로 내린 출시 판단
 - [RocksDB Chrono Break](/projects/rocksdb-chronobreak/) · 로그 DB 팀 리드
 
 ---
@@ -38,7 +38,7 @@ AI와 함께 만든 개인 자동화 프로젝트
 
 > **Think Deep, Ship Simple**
 
-I turn ambiguous requirements into practical plans and working tools.
+A planner who structures complex problems and turns ideas into things that work.
 
 <div class="home-links">
 
@@ -54,7 +54,7 @@ I turn ambiguous requirements into practical plans and working tools.
 - [LoL Data Analysis](/projects/lda/) · Research lab tooling
 - [D3F!B Operations](/projects/d3fib-workspace/) · Remote team ops & automation
 - [Arcanum Nights](/projects/arcananights/) · Lead game designer
-- [Chemi.lol](/projects/chemi/) · A data-driven release call
+- [Chemi.lol](/projects/chemi/) · A release call based on the data's limits
 - [RocksDB Chrono Break](/projects/rocksdb-chronobreak/) · Log DB team lead
 
 ---

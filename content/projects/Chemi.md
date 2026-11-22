@@ -86,7 +86,7 @@ Random Forest, Ridge, SVR, XGBoost, MLP, 앙상블을 비교했습니다.
 - **What I did** · Product planning, player statistics, feature design, model experiments
 - **Result** · The team shipped a duo win-rate lookup based on shared matches. I proposed not releasing the prediction feature because the data could not support it, and the team agreed to end the project
 
-| | |
+| Stage | Detail |
 |---|---|
 | Shipped | Duo win-rate lookup from shared match history |
 | Experimental | Predicting duo win rate from individual stats and roles (never released) |
