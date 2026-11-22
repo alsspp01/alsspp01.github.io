@@ -1,14 +1,18 @@
 ---
-title: "SQLi parsing AI"
+title: "SQLi Parsing AI"
+title_en: "SQLi Parsing AI"
 type: page
-description: "SQL Statement Parsing AI Project"
+description: "SQL 구문을 토큰화해 SQL Injection 여부를 분류한 LSTM 모델"
+description_en: "An LSTM model that tokenizes SQL and classifies SQL Injection"
 dated: true
 period_start: "2024-03"
 period_end: "2024-06"
 summary: "SQL 구문을 분석하여 SQL injection 구문인지 일반 SQL 구문인지 확인하는 구문 분석 AI 시스템.\n\nA parsing AI system that analyzes SQL statements to determine whether they are SQL injection statements or regular SQL statements."
 ---
 
-### 요약 · Summary
+<div class="lang-ko">
+
+## 요약
 
 - **문제** · 내부 보안 대응을 갖추기 어려운 중소 규모 웹 개발 환경에서 SQL Injection 구문과 일반 SQL 구문을 자동으로 구분
 - **역할** · 팀장 · 프로젝트 기획 · AI 연구 개발
@@ -17,14 +21,24 @@ summary: "SQL 구문을 분석하여 SQL injection 구문인지 일반 SQL 구�
 - **결과** · 별도 데이터셋 기준 Accuracy 0.9855 · Precision 0.9709 · Recall 0.9990 · F1 0.9848
 - **한계** · Precision 기준 위양성 가능성이 남아 있어, 실사용 전 임계값 조정과 다양한 공격 · 정상 구문을 이용한 추가 검증이 필요
 
-> **Problem** · Automatically separate SQL Injection from ordinary SQL for small web teams without in-house security support  
-> **Role** · Team lead · Project planning · AI research & development  
-> **Data** · Trained and tested on a Kaggle SQL Injection dataset, then checked against a separate Kaggle dataset  
-> **Model** · Tokenized and normalized queries by symbols, SQL keywords, variables, and strings, then classified them with a two-layer LSTM (TensorFlow, threshold 0.5)  
-> **Result** · On the separate dataset: Accuracy 0.9855 · Precision 0.9709 · Recall 0.9990 · F1 0.9848  
-> **Limits** · Some false positives remain likely; threshold tuning and broader attack and benign queries are needed before real use
+</div>
 
----
+<div class="lang-en" style="display:none">
+
+## Summary
+
+- **Problem** · Automatically separate SQL Injection from ordinary SQL for small web teams without in-house security support
+- **Role** · Team lead · Project planning · AI research & development
+- **Data** · Trained and tested on a Kaggle SQL Injection dataset, then checked against a separate Kaggle dataset
+- **Model** · Tokenized and normalized queries by symbols, SQL keywords, variables, and strings, then classified them with a two-layer LSTM (TensorFlow, threshold 0.5)
+- **Result** · On the separate dataset: Accuracy 0.9855 · Precision 0.9709 · Recall 0.9990 · F1 0.9848
+- **Limits** · Some false positives remain likely; threshold tuning and broader attack and benign queries are needed before real use
+
+</div>
+
+
+<details>
+<summary>개발 기록 · 전처리, 모델, 검증 코드 (Development log)</summary>
 
 ### 제작 계기
 SQL injection query는 사람이 보면 구분할 수 있지만, 기본적으로 컴퓨터는 구분하지 못한다.  
@@ -347,6 +361,8 @@ F1 Score: 0.9848
 높은 Recall(0.9990)은 실제 SQL injection을 거의 놓치지 않는다는 의미이며, 위양성 여부는 Recall이 아니라 Precision과 FPR로 판단해야 한다.  
 Precision이 0.9709로 다소 낮게 나타나 일부 위양성이 발생할 가능성은 남아 있으며, 실사용 전에는 threshold 조정과 추가 데이터셋을 통한 검증이 필요하다고 판단된다.  
 별도의 데이터셋에서도 높은 Accuracy와 F1 Score을 확인했지만, 실제 보안 환경에 적용하려면 임계값 조정과 더 다양한 공격 · 정상 구문을 사용한 추가 검증이 필요하다.  
+
+</details>
 
 ---
 

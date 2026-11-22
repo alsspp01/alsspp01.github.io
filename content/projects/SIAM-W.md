@@ -1,7 +1,9 @@
 ---
 title: "SIAM-W"
+title_en: "SIAM-W"
 type: page
-description: "SQL Injection Analysis Manager for Websites"
+description: "SQLmap 결과로 웹사이트의 SQL Injection 위험과 대응 방법을 안내하는 도구"
+description_en: "A tool that turns SQLmap results into SQL Injection risks and fixes"
 dated: true
 period_start: "2024-03"
 period_end: "2024-06"
@@ -9,7 +11,9 @@ summary: "오픈 소스 코드 사용: SQLmap\n웹사이트의 SQL injection 공
 tags: ["DKU"]
 ---
 
-### 요약 · Summary
+<div class="lang-ko">
+
+## 요약
 
 - **문제** · 보안 비전공 개발자도 자신의 웹사이트에 SQL Injection 위험이 있는지 확인하고 대응할 수 있도록 돕기
 - **팀** · 3명, 2024년 1학기 산업보안학과 졸업(캡스톤) 프로젝트
@@ -19,13 +23,21 @@ tags: ["DKU"]
 - **검증** · 공개 테스트 사이트와 로컬 더미 서버(Ubuntu · nginx · PHP · MariaDB)에서 동작 확인
 - **한계** · 탐지는 SQLmap에 의존하며, 대응 안내는 유형별로 미리 정리한 규칙 기반 설명
 
-> **Problem** · Help developers without a security background check their sites for SQL Injection and respond  
-> **Team** · 3 members, Industrial Security graduation (capstone) project, spring 2024  
-> **Role** · Researched SQLi techniques; built SQLmap output parsing (`crawling.py`) and the PySide6 GUI  
-> **Flow** · Enter a URL → run SQLmap automatically (`--batch`) → extract detected SQLi types and payloads → show type-specific countermeasures (prepared statements, input validation, etc.)  
-> **Design choice** · Since every site is built differently, the tool recommends fixes rather than enforcing rules, at a level a security beginner can follow  
-> **Validation** · Tested against a public test site and a local dummy server (Ubuntu · nginx · PHP · MariaDB)  
-> **Limits** · Detection relies on SQLmap; guidance is rule-based text prepared per SQLi type
+</div>
+
+<div class="lang-en" style="display:none">
+
+## Summary
+
+- **Problem** · Help developers without a security background check their sites for SQL Injection and respond
+- **Team** · 3 members, Industrial Security graduation (capstone) project, spring 2024
+- **Role** · Researched SQLi techniques; built SQLmap output parsing (`crawling.py`) and the PySide6 GUI
+- **Flow** · Enter a URL → run SQLmap automatically (`--batch`) → extract detected SQLi types and payloads → show type-specific countermeasures (prepared statements, input validation, etc.)
+- **Design choice** · Since every site is built differently, the tool recommends fixes rather than enforcing rules, at a level a security beginner can follow
+- **Validation** · Tested against a public test site and a local dummy server (Ubuntu · nginx · PHP · MariaDB)
+- **Limits** · Detection relies on SQLmap; guidance is rule-based text prepared per SQLi type
+
+</div>
 
 ---
 
