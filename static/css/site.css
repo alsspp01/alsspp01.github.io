@@ -116,6 +116,10 @@ html.is-dark .site-top-btn { background: rgb(var(--dark-primary-color)); }
 .site-top-btn.is-visible { opacity: 1; pointer-events: auto; }
 .site-top-btn:hover, .site-top-btn:focus-visible { color: var(--accent); border-color: var(--accent); }
 
+/* Footer: keep the theme credit, but quieter */
+.footer { color: var(--muted); font-size: 0.88em; }
+.footer > span:last-child { font-size: 0.85em; opacity: 0.75; }
+
 @media (max-width: 600px) {
   html { font-size: 16px; }
   .post-content table td, .post-content table th { padding: 7px 9px; }
