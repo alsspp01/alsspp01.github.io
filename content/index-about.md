@@ -25,6 +25,8 @@
 
 ## DIA — Do It, AI
 
+AI와 함께 만든 개인 자동화 프로젝트
+
 - 🤖 [집사](/posts/집사-part-01-회의록/) · Discord 회의록 · 예약 봇
 - 🔔 [Notion → Discord](/posts/자동화-part-01-notion-알림-discord로-보내기/) · 개발일지 알림
 - 🎉 AI Party · 여러 AI를 한 화면에서 쓰는 Obsidian 플러그인 (Claude 보조 개발)
@@ -58,6 +60,8 @@ I turn ambiguous requirements into practical plans and working tools.
 ---
 
 ## DIA — Do It, AI
+
+Personal automation projects built with AI
 
 - 🤖 [Jipsa](/posts/집사-part-01-회의록/) · Discord meeting-notes bot
 - 🔔 [Notion → Discord](/posts/자동화-part-01-notion-알림-discord로-보내기/) · Devlog alerts
