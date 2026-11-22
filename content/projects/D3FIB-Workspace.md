@@ -4,216 +4,123 @@ title_en: "D3F!B Team Operations & Automation"
 type: page
 aliases:
   - /portfolio/d3fib-workspace/
-description: "활동 시간이 다른 10명 규모 원격 게임 제작팀을 창립하고 운영하며 구축한 정보 구조와 자동화."
-description_en: "Team operations, information architecture, and automation built for a ten-person remote game development team working on different schedules."
+description: "활동 시간이 다른 10명 원격 게임 제작팀의 협업 구조와 운영 자동화"
+description_en: "Collaboration structure and automation for a ten-person remote game team on different schedules"
 ---
 
 <div class="lang-ko">
 
-<a id="top"></a>
-
 **기간** · 2024.11–현재  
-**역할** · 창립자 · 대표 · 팀장 · 팀 운영 체계 및 자동화 설계  
-**팀** · 약 10명, 완전 원격  
-**주요 작업** · 조직 운영 · 정보 구조 · 권한 설계 · 업무 흐름 · AI 보조 자동화 개발
+**역할** · 창립자 · 대표 · 팀장 · 운영 체계와 자동화 설계  
+**팀** · 약 10명, 완전 원격 (기획 · 개발 · 아트)
 
-[**Case Study ↓**](#case-study)
+## 요약
 
----
+- **문제** · 학생과 직장인이 섞여 활동 시간이 모두 다른 팀. 자료와 결정이 흩어지고, 질문이 대표 한 명에게 몰림
+- **한 일** · Discord · Notion · Drive 역할 분리, 권한 구조 설계, Notion 워크스페이스 구축과 탐색 구조 개선, 회의록 · 개발일지 자동화 적용
+- **결과** · 회의 기록과 온보딩이 문서로 이어지고, 같은 설명을 반복하는 시간이 줄어 방향과 의사결정에 집중
 
-<a id="case-study"></a>
-## Case Study
-
-### 플레이어의 심장을 다시 뛰게 하는 게임
-
-D3F!B는 여러 장르의 게임 시리즈를 만들기 위해 시작한 게임 제작팀입니다.  
-이름은 심장 제세동을 뜻하는 `defibrillation`에서 가져왔고, `3`과 `!`는 leetspeak로 표현했습니다.
-
-비슷한 문법을 반복하는 게임에 지친 플레이어에게 다시 심장이 뛰는 듯한 새로운 경험을 주고 싶다는 포부를 담았습니다.  
-첫 작품은 Arcanum Nights이며, 현재 차기작도 준비하고 있습니다.  
-앞으로 제작하고 싶은 사이버펑크 게임까지 하나의 세계관으로 연결할 계획입니다.
-
-저는 팀을 만들고 사람을 모은 창립자이자 대표입니다.  
-약 10명의 팀원이 기획, 개발, 아트로 나뉘어 완전 원격으로 활동하고 있습니다.  
-학생과 직장인이 섞여 있어 활동 시간이 모두 다르고, 한 달에 한 번 전원이 모여 진행 상황을 공유하는 것 외에는 각자의 일정에 맞춰 작업합니다.
+## 과정
 
 ### 도구마다 역할 나누기
 
-팀이 커지면서 운영상의 문제가 한꺼번에 나타났습니다.  
-자료와 결정 사항을 찾기 어려웠고, 회의가 끝나면 논의 결과가 사라졌습니다.  
-담당자와 마감일이 불분명한 일도 생겼고, 채널과 문서는 늘어났지만 어디에 무엇을 남겨야 하는지는 더 모호해졌습니다.  
-접근 권한 요청도 반복됐습니다.
+새 도구를 늘리기보다 이미 쓰던 도구의 역할부터 정했습니다.
 
-무엇보다 대부분의 질문과 전달이 대표인 저를 거쳐야 했습니다.  
-제가 모든 내용을 기억하고 다시 설명하는 방식으로는 팀의 규모를 유지할 수 없다고 판단했습니다.  
-그래서 새 도구를 하나 더 도입하기보다, Discord · Notion · Google Drive의 역할을 먼저 나눴습니다.
+| 도구 | 역할 |
+|---|---|
+| Discord | 실시간 대화, 회의, 공지, 자동 알림 |
+| Notion | 기획, 일정, 회의록, 개발일지, 팀 가이드, 부서별 마일스톤 |
+| Google Drive | 함께 쓰는 최종 제작 리소스 |
 
-- **Discord** · 실시간 대화, 회의, 공지와 자동 알림
-- **Notion** · 기획, 일정, 회의록, 개발일지, 팀 가이드와 부서별 마일스톤
-- **Google Drive** · 팀원이 함께 열람하고 활용할 수 있는 최종 제작 리소스
+채널 · 역할 체계, Notion 데이터베이스, Drive 폴더와 파일명 규칙, 회의 방식, 온보딩 문서까지 직접 설계했습니다.
 
-Discord 서버와 채널, 역할 체계부터 Notion 데이터베이스, Drive 폴더와 파일명 규칙, 회의 및 기록 방식, 일정과 업무 배분, 신규 팀원 온보딩 문서까지 직접 설계하고 운영했습니다.
+### 권한은 필요한 만큼만
 
-### 보안과 접근성을 함께 고려한 권한 구조
+- 운영 · 계약 문서는 대표만 접근, 신규 팀원은 합류 시 보안서약
+- 최종 리소스는 팀원 누구나 열람 가능
+- 세부 작업 과정은 부서 채널 안에서만 공유, GitHub 알림은 개발 채널로
 
-운영 · 계약 관련 문서는 대표인 저만 접근할 수 있도록 분리하고, 새로운 팀원이 합류하면 먼저 보안서약을 체결합니다.  
-반면 Drive에 올라온 최종 리소스는 팀원이 서로 열람하고 활용하는 데 제한을 두지 않았습니다.
+### 쓰고 있던 워크스페이스를 더 찾기 쉽게
 
-Discord에는 기획 · 개발 · 아트 부서별 채널을 두어 세부 작업 과정은 해당 부서 안에서 공유하게 했습니다.  
-다른 부서가 모든 중간 과정을 따라가느라 정보에 묻히지 않으면서도, 최종 결과물과 협업에 필요한 정보에는 접근할 수 있도록 한 구조입니다.  
-GitHub 웹훅 알림도 개발팀 전용 채널에 연결했습니다.
+Notion 워크스페이스는 빈 페이지에서 시작해 처음부터 만들었고, 팀은 초기 구조도 사용하고 있었습니다.  
+다만 필요한 정보까지 여러 번 클릭해야 했습니다.
 
-권한은 역할마다 필요한 정보가 바로 보이고, 접근 요청이 반복되지 않도록 나눴습니다.
+- 기획 · 개발 · 아트별 메인 페이지를 강화
+- 각 페이지에서 마일스톤, 작업 문서, 자주 쓰는 정보로 바로 이동하도록 탐색 깊이 축소
+- 개편 후 부서 페이지 활용을 Notion 트래픽으로 확인
 
-### 사용 중인 워크스페이스의 탐색 구조 개선
+### 반복 업무 자동화
 
-팀의 Notion 워크스페이스는 빈 페이지에서 시작해 제가 처음부터 설계하고 구축했습니다.  
-초기 구성에도 메인 페이지, 게시판, 직무별 문서 구조가 있었고 팀은 이를 실제로 사용하고 있었습니다.
+개인 사이드 프로젝트 DIA에서 만든 도구를 팀 운영에 적용했습니다. DIA는 D3F!B와 별개 프로젝트입니다.
 
-다만 필요한 정보에 도달하려면 여러 번 클릭해야 하는 경우가 많아 정보 접근성이 아쉬웠습니다.  
-그래서 기획 · 개발 · 아트가 각자 즐겨찾기해 사용할 수 있도록 직무별 메인 페이지를 강화하고, 각 페이지에서 해당 부서의 마일스톤, 작업 문서와 자주 쓰는 정보에 바로 접근할 수 있도록 탐색 깊이를 줄였습니다.  
-개편 이후 팀원들이 부서 페이지를 활용하고 있다는 것을 Notion 트래픽으로 확인했습니다.
+- [Secretary4Discord](https://github.com/alsspp01/Secretary4Discord) · Discord 음성 회의를 안건 단위로 요약해 Notion 회의록으로 저장
+- [Notion2Discord](https://github.com/alsspp01/Notion2Discord) · 새 개발일지를 Discord에 자동 알림
+- 예약 메시지로 정기 공지, GitHub 웹훅으로 저장소 변경 공유
 
-운영 시스템은 관리자가 보기에 정돈된 구조보다 팀원이 빠르게 찾아 쓸 수 있는 구조여야 한다는 것을 배웠습니다.
+요구사항 정의, 흐름 설계, 기술 구조 결정, API 연결, 테스트, 운영은 제가 했고, 코드는 Claude의 도움을 받아 작성했습니다.
 
-### 별도 사이드 프로젝트를 팀 운영에 적용하기
+## 배운 점
 
-반복되는 운영 업무는 제 별도 사이드 프로젝트인 DIA의 자동화 도구를 적용해 줄였습니다.  
-DIA가 D3F!B에 속한 프로젝트인 것은 아니며, 한 사이드 프로젝트에서 만든 도구를 다른 프로젝트의 실제 운영 환경에 적용한 사례입니다.
-
-#### 회의 기록 자동화
-
-[Secretary4Discord](https://github.com/alsspp01/Secretary4Discord)는 Discord 음성 회의를 녹음하고, 긴 회의를 안건 단위로 나누어 Gemini로 요약한 뒤 참석자와 부서 정보를 포함한 Notion 회의록을 생성합니다. 회의 중 휴식과 재개, 요약 재작성, 임시 파일 관리도 Discord 안에서 처리할 수 있습니다.
-
-이를 통해 회의 내용을 제가 전부 기억했다가 다시 전달할 필요가 줄었고, 참석하지 못한 팀원도 정리된 기록을 확인할 수 있게 됐습니다.
-
-#### 개발일지 공유 자동화
-
-[Notion2Discord](https://github.com/alsspp01/Notion2Discord)는 Notion 개발일지 데이터베이스에 새 페이지가 생기면 웹훅을 받아 Discord 채널에 알립니다. 팀원들은 별도로 공지문을 작성하지 않고도 새 개발일지를 공유할 수 있고, Discord에서 해당 글을 바로 인용해 대화를 이어갈 수 있습니다.
-
-#### 반복 공지와 개발 상황 공유
-
-Discord 예약 메시지를 만들어 정해진 시간의 공지를 자동으로 전송하도록 했습니다.  
-GitHub 활동은 웹훅을 통해 개발팀 채널에 전달해 저장소의 변경 사항을 별도로 옮겨 적지 않아도 확인할 수 있게 했습니다.
-
-이 도구들은 실제 팀 운영에 사용하고 있습니다.  
-저는 문제와 요구사항 정의, 기능 및 사용자 흐름 설계, 기술 구조 결정, Claude에 대한 구현 지시, API 연결, 테스트와 오류 재현, 수정 방향 결정, 운영 및 유지보수를 담당했습니다.  
-코드는 Claude의 도움을 받아 작성한 AI 보조 개발 방식이었습니다.
-
-### 설명을 반복하지 않아도 움직이는 팀
-
-시스템을 적용한 뒤 회의 내용을 일일이 기억할 필요가 줄었고, 신규 팀원의 온보딩도 구두 설명 대신 문서로 진행할 수 있게 됐습니다.  
-개발일지는 Discord에서 바로 공유하고 인용할 수 있게 되었으며, 리소스 목록을 Notion에 정리한 뒤에는 어떤 리소스가 필요한지 묻는 일도 줄었습니다.
-
-가장 큰 변화는 대표인 제가 같은 내용을 반복해서 설명하는 시간이 줄었다는 점입니다.  
-팀원은 각자의 활동 시간에 필요한 기록과 자료를 찾고, 저는 모든 정보 전달의 중간에 서는 대신 방향과 의사결정에 집중할 수 있게 됐습니다.
-
-[↑ Top](#top)
+- 운영 구조는 관리자가 보기 좋은 것보다 팀원이 빨리 찾아 쓰는 쪽이 맞음
+- 정보가 한 사람을 거치지 않게 만드는 것이 원격 팀 규모를 유지하는 조건
 
 </div>
 
 <div class="lang-en" style="display:none">
 
-<a id="top-en"></a>
+**Period** · Nov 2024–present  
+**Role** · Founder · Representative · Team Lead · Operations and automation design  
+**Team** · About 10, fully remote (planning · development · art)
 
-**Period** · Nov 2024–Present  
-**Role** · Founder · Representative · Team Lead · Team Operations and Automation Design  
-**Team** · Around 10 members, fully remote  
-**Scope** · Team Operations · Information Architecture · Access Design · Workflows · AI-Assisted Automation
+## Summary
 
-[**Case Study ↓**](#case-study-en)
+- **Problem** · Students and full-time workers on different schedules. Documents and decisions were scattered, and questions kept routing through one person
+- **What I did** · Gave Discord, Notion, and Drive distinct roles, designed permissions, built the Notion workspace and later improved its navigation, applied meeting-note and devlog automation
+- **Result** · Meeting records and onboarding moved into documents, and less time went into repeating explanations, leaving more for direction and decisions
 
----
+## Process
 
-<a id="case-study-en"></a>
-## Case Study
+### A role for each tool
 
-### Games that make players' hearts race again
+Instead of adding tools, I defined what each existing one was for.
 
-D3F!B is a game development team I founded to create a series of games across different genres.  
-The name comes from `defibrillation`, expressed with `3` and `!` as leetspeak.
+| Tool | Role |
+|---|---|
+| Discord | Live talk, meetings, announcements, automated alerts |
+| Notion | Plans, schedules, meeting notes, devlogs, team guide, milestones by discipline |
+| Google Drive | Final production assets for everyone |
 
-It reflects our goal of making unfamiliar experiences that can bring excitement back to players who have grown tired of formulaic games.  
-Arcanum Nights is our first title, and we are already preparing a follow-up project.  
-The longer-term plan is to connect these games, including a cyberpunk title I want to make, through a shared universe.
+I designed the channel and role structure, Notion databases, Drive folders and naming rules, meeting practice, and onboarding documents.
 
-I founded the team, recruited its members, and continue to run it as its representative.  
-Around ten people work remotely across planning, development, and art.  
-The team includes both students and full-time employees with different working hours.  
-Apart from a monthly all-hands progress meeting, members work asynchronously around their own schedules.
+### Permissions, only as needed
 
-### Giving each tool a role
+- Operations and contract documents are representative-only; new members sign an NDA
+- Final assets are open to every member
+- Work in progress stays in discipline channels; GitHub alerts go to the dev channel
 
-As the team grew, several operational problems appeared at once.  
-Documents and decisions were difficult to find, meeting outcomes disappeared into chat history, and ownership and deadlines were not always clear.  
-We accumulated more channels and documents without a shared understanding of where information belonged.  
-Access requests also became repetitive.
+### Making an active workspace easier to navigate
 
-Most questions and updates eventually passed through me.  
-A team of this size could not depend on its representative remembering and re-explaining everything, so I first gave each existing tool a clear role instead of adding another platform.
+I built the Notion workspace from a blank page, and the team was already using it.  
+Reaching what you needed, though, often took several clicks.
 
-- **Discord** · Live communication, meetings, announcements, and automated notifications
-- **Notion** · Plans, schedules, meeting notes, development logs, team guides, and department milestones
-- **Google Drive** · Final production assets available for team-wide use
+- Strengthened a main page for each discipline
+- Cut navigation depth so milestones, working documents, and common links were one step away
+- Confirmed through Notion traffic that members used the new pages
 
-I designed and operated the Discord server, channel and role structure, Notion databases, Drive folders and naming conventions, meeting and documentation practices, task allocation, schedules, and onboarding documentation.
+### Automating repeated work
 
-### Balancing security and access
+I applied tools from DIA, a separate personal side project, to the team's operations.
 
-Operational and contract documents are restricted to me as the team representative, and new members sign a confidentiality agreement when they join.  
-Final assets placed in Drive, however, are available for members to review and reuse without unnecessary restrictions.
+- [Secretary4Discord](https://github.com/alsspp01/Secretary4Discord) · Summarizes Discord voice meetings by agenda item into Notion notes
+- [Notion2Discord](https://github.com/alsspp01/Notion2Discord) · Posts new devlogs to Discord automatically
+- Scheduled messages for recurring notices; GitHub webhooks for repository updates
 
-Discord channels for planning, development, and art keep detailed work in progress within the relevant discipline.  
-This prevents other departments from being overwhelmed by every intermediate step while preserving access to final assets and information needed for collaboration.  
-GitHub webhook notifications are likewise routed to a development-only channel.
+I defined the requirements, designed the flows, chose the structure, connected the APIs, tested, and run the tools; the code was written with Claude's help.
 
-Permissions were set so each role sees what it needs without repeated access requests.
+## What I learned
 
-### Improving navigation in an active workspace
-
-I designed and built the team's Notion workspace from a blank page.  
-The first version already had a main page, boards, and documents organized by discipline, and the team was using it.
-
-Important information, however, often sat several clicks below the top level.  
-I strengthened the discipline home pages for planning, development, and art so each department could bookmark one page and reach its milestones, working documents, and frequently needed information directly.  
-Notion traffic showed that members were using these pages after the change, so I did not have to assume it had worked.
-
-The experience taught me that an operational system should be designed around how people retrieve information, not around how tidy its hierarchy looks to the administrator.
-
-### Applying a separate side project to team operations
-
-I reduced recurring administrative work by applying tools from DIA, a separate automation side project of mine.  
-DIA is not a subproject of D3F!B; this was a case of using tools from one side project in the live environment of another.
-
-#### Automated meeting records
-
-[Secretary4Discord](https://github.com/alsspp01/Secretary4Discord) records Discord voice meetings, splits longer sessions into agenda-sized segments, summarizes the audio with Gemini, and creates Notion meeting notes with attendee and department information. Breaks, resumptions, summary regeneration, and temporary-file cleanup can also be handled from Discord.
-
-This reduced the need for me to remember and relay every discussion, while giving members who missed a meeting a durable record to consult.
-
-#### Automated development-log sharing
-
-[Notion2Discord](https://github.com/alsspp01/Notion2Discord) receives a webhook whenever a page is added to the Notion development-log database and posts the update to Discord. Members no longer need to write a separate announcement, and the team can cite and discuss the log directly from Discord.
-
-#### Scheduled communication and development visibility
-
-Scheduled Discord messages handle announcements that must be sent at a particular time.  
-GitHub webhooks deliver repository activity to the development channel, removing the need to relay every update manually.
-
-These tools are used in the team's day-to-day operations.  
-I defined the problems and requirements, designed the functions and user flows, decided the technical structure, directed Claude's implementation, connected the APIs and runtime environment, tested and reproduced failures, decided how they should be fixed, and now operate and maintain the tools.  
-The code itself was produced through an AI-assisted development process with Claude.
-
-### A team that can move without repeated explanations
-
-The system reduced the need to remember every meeting detail and made onboarding less dependent on verbal explanations.  
-Development logs became easier to share and cite from Discord.  
-After I documented the available assets in Notion, members also stopped needing to ask which resources were available.
-
-The most meaningful result was a reduction in the time I spent explaining the same information repeatedly.  
-Members can find the records and resources they need on their own schedules, while I can focus on direction and decisions instead of acting as the team's central relay.
-
-[↑ Top](#top-en)
+- An operating structure should fit how members look things up, not how tidy it looks to the admin
+- A remote team scales only when information stops passing through one person
 
 </div>
 
