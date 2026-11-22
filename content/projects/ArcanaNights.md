@@ -12,10 +12,10 @@ tags: ["D3F!B"]
 <a id="top"></a>
 
 **기간** · 2025.01–현재  
-**팀** · D3F!B, 약 10명  
+**팀** · D3F!B · 기획 2 · 개발 4 · 아트 4  
 **역할** · 대표 / 팀장 / 게임 기획 리드  
 **플랫폼** · PC / 1~2인 플레이  
-**상태** · Steam Early Access
+**상태** · Steam Early Access(2026.02.20, 싱글 플레이) · 멀티플레이 개발 중
 
 [**Case Study ↓**](#case-study) · [**Steam ↗**](https://store.steampowered.com/app/3453760/Arcanum_Nights/)
 
@@ -66,7 +66,7 @@ PlayX4에서는 플레이어의 표정과 자세뿐 아니라 클릭하는 속�
 
 그래서 이동 애니메이션을 줄이고, 이동 중 들어온 다음 입력을 기억했다가 현재 이동이 끝난 직후 이어서 움직이도록 바꿨습니다. 조작의 끊김이 줄어들자 플레이어가 맵을 살피고 퍼즐을 고민하는 흐름도 자연스러워졌습니다.
 
-힌든 엔딩 조건도 처음에는 튜토리얼에서 알려줬습니다. 플레이어들은 처음부터 조건을 만족하려고 힌트 사용을 참았고, 한 스테이지에 오래 머물다 지쳐 게임을 그만두기도 했습니다.
+히든 엔딩 조건도 처음에는 튜토리얼에서 알려줬습니다. 플레이어들은 처음부터 조건을 만족하려고 힌트 사용을 참았고, 한 스테이지에 오래 머물다 지쳐 게임을 그만두기도 했습니다.
 
 조건을 바로 보여주지 않도록 바꾸자 플레이어들은 먼저 힌트를 사용해 규칙을 익혔습니다. 이후에는 더 잘 풀기 위해 스스로 힌트 사용을 줄였습니다.
 
@@ -90,7 +90,7 @@ Arcanum Nights는 처음부터 2인 멀티플레이를 중심으로 설계했습
 
 ### 대표, 팀장, 게임 기획 리드
 
-D3F!B는 기획 3명, 개발 4명, 아트 3명으로 구성된 약 10명 규모의 팀입니다.
+Arcanum Nights는 D3F!B의 기획 2명, 개발 4명, 아트 4명이 함께 만들고 있습니다.
 
 대표로서 외부 네트워킹, 시연 행사와 공모전 출품에 책임을 지고 있습니다. 팀장으로서는 일정과 업무를 배분하고 각 직군의 결정을 검토해 최종 방향을 정합니다.
 
@@ -286,10 +286,10 @@ Happy path 외 상태 선행 정의
 <a id="top-en"></a>
 
 **Period** · Jan 2025–Present  
-**Team** · D3F!B, around 10 people  
+**Team** · D3F!B · Planning 2 · Development 4 · Art 4  
 **Role** · Studio Head / Team Lead / Lead Game Designer  
 **Platform** · PC / 1–2 players  
-**Status** · Steam Early Access
+**Status** · Steam Early Access (Feb 20, 2026, single-player) · Multiplayer in development
 
 [**Case Study ↓**](#case-study-en) · [**Steam ↗**](https://store.steampowered.com/app/3453760/Arcanum_Nights/)
 
@@ -364,7 +364,7 @@ Multiplayer is being developed on top of the systems established in single-playe
 
 ### Studio Head, Team Lead, and Lead Game Designer
 
-D3F!B is a team of around ten: three planners, four developers, and three artists.
+Arcanum Nights is made by D3F!B's two planners, four developers, and four artists.
 
 As studio head, I represent the team in external networking, showcases, and competitions. As team lead, I assign work, manage the schedule, review decisions across disciplines, and make the final calls.
 

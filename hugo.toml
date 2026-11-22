@@ -75,7 +75,7 @@ enableRobotsTXT = true
   avatarSize = ""
 
   # Description to display on homepage
-  description = "Republic of Korea 대한민국"
+  description = "Project Lead · Technical Planning · Data & Automation"
 
   # Accent color is displayed when you hover over <a> tags
   accentColor = "#4d93fd"
@@ -88,27 +88,32 @@ enableRobotsTXT = true
   customHeadHTML = """
   <style>
     .post-content a { color: inherit; }
+    .site-top-btn { position: fixed; right: 20px; bottom: 20px; width: 44px; height: 44px; border: 0; border-radius: 50%;
+      background: #4d93fd; color: #fff; display: flex; align-items: center; justify-content: center; cursor: pointer;
+      box-shadow: 0 2px 8px rgba(0,0,0,.2); opacity: 0; pointer-events: none; transition: opacity .2s; z-index: 50; }
+    .site-top-btn.is-visible { opacity: .9; pointer-events: auto; }
+    .site-top-btn:hover, .site-top-btn:focus-visible { opacity: 1; }
+    .home-links p { display: flex; flex-wrap: wrap; gap: 8px 20px; justify-content: center; margin: 8px 0 4px; }
   </style>
+  <script src="/js/site.js" defer></script>
   """
 
   socialIcons = [
-    {name = "instagram", url = "https://www.instagram.com/alsspp01/"},
+    {name = "github", url = "https://github.com/alsspp01"},
     {name = "email", url = "mailto:alsspp01@gmail.com"}
   ]
   
   # Keywords relevant for SEO
-  metaKeywords = ["blog", "gokarna", "hugo"]
+  metaKeywords = ["Yewon Min", "portfolio", "project management", "technical planning", "data analysis", "automation"]
 
   # If you want to display posts on the homepage, the options are
   # "popular" (order posts by weight), "recent" (order posts by date)
   # or "" (do not display, default option)
-  showPostsOnHomePage = "popular"
+  # showPostsOnHomePage = "popular"  # off: the homepage lists Featured Work instead
 
   # Footer text
-  footer = "The Marauders"
+  footer = "© 2026 Yewon Min"
   
-  # Public API for the like button (see editor/likes/ in the private BlogEditor repo)
-
   # Show Previous and Next Buttons
   TogglePreviousAndNextButtons = "true"
   

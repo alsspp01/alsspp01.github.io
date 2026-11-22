@@ -15,6 +15,7 @@ tags: ["DKU"]
 **기간** · 2024.03–2025.06  
 **소속** · 단국대학교 스포츠심리학 연구실  
 **역할** · 연구 개발 아르바이트 · 개발 전반  
+**상태** · 연구실 내부 실험 · 분석 도구  
 **주요 작업** · 인지과제 프로그램 · Riot API 수집 · 조건별 데이터 분석 · 참가자 리포트
 
 [🔗 LDA GitHub](https://github.com/alsspp01/LDA)  
@@ -34,11 +35,11 @@ tags: ["DKU"]
 
 연구자가 필요한 실험과 분석 조건을 전달하면, 저는 구현 방식과 데이터 흐름을 정하고 프로그램으로 옮겼습니다. 인지기능 변화를 측정하는 Stroop Test부터 약 6개월간의 플레이 데이터 수집, 연속 경기 조건 분류, 통계 처리와 참가자별 결과 리포트까지 개발 전반을 담당했습니다.
 
-### 약 40명이 사용한 인지과제 프로그램
+### 실험 참가자 약 40명이 사용한 인지과제 프로그램
 
 인지피로에 따른 반응속도 변화를 확인하기 위해 PySide6와 Pygame으로 Stroop Test 프로그램을 제작했습니다. 참가자 ID를 입력하면 연습 세션과 세 개의 본 실험 블록을 진행하고, 자극의 제시 순서를 무작위화해 정답 여부와 반응시간을 기록하도록 만들었습니다.
 
-실험 전 · 중 · 후 결과를 비교할 수 있도록 블록별 데이터를 분리해 저장하고 CSV 분석으로 연결했습니다. 약 40명의 참가자가 이 프로그램으로 인지피로를 측정하고 개인 결과 리포트를 받았습니다.
+실험 전 · 중 · 후 결과를 비교할 수 있도록 블록별 데이터를 분리해 저장하고 CSV 분석으로 연결했습니다. 연구에 참여한 실험 참가자 약 40명이 이 프로그램으로 인지피로를 측정하고 개인 결과 리포트를 받았습니다.
 
 연구실에서 반복 실험에 사용하는 도구였기 때문에 화면이 동작하는 것만으로는 부족했습니다. 참가자별 데이터가 같은 형식으로 저장되고, 이후 분석 코드가 별도의 수작업 없이 읽을 수 있도록 실험부터 결과 처리까지 연결했습니다.
 
@@ -63,11 +64,11 @@ TFT에서도 같은 접근이 가능한지 수집 코드를 만들어 검토했�
 
 연구 개념을 코드로 옮길 때는 조건문을 작성하는 것보다, 그 조건이 실제로 어떤 사람을 표본에 포함하는지 확인하는 일이 더 중요했습니다.
 
-### 시간의 방향이 뒤집힌 오류
+### 내 처리 코드에서 뒤집힌 시간 순서
 
-분석 과정에서는 Riot API의 최근 경기 목록이 최신순으로 반환된다는 점 때문에, 연속 경기 데이터가 실제 플레이 순서와 반대로 정렬된 오류를 발견했습니다. 게임을 시작한 순서가 아니라 마지막 게임부터 거꾸로 변화량을 계산하고 있었기 때문에, 그대로 두면 경기 수가 늘어날수록 지표가 어떻게 변하는지 반대로 해석할 수 있었습니다.
+Riot API의 최근 경기 목록은 최신순으로 반환됩니다. 제가 작성한 초기 처리 코드는 이를 시간순으로 다시 정렬하지 않아, 연속 경기의 변화량을 첫 경기가 아니라 마지막 경기부터 거꾸로 계산하는 버그가 있었습니다. 그대로 두었다면 경기 수가 늘어날수록 지표가 어떻게 변하는지 반대로 해석할 수 있었습니다.
 
-타임스탬프를 기준으로 데이터를 다시 시간순으로 정렬하고, 분석 과정 전반에서 경기 순서를 일관되게 사용하도록 수정했습니다. 데이터가 모두 존재하는지뿐 아니라 시간축이 연구 질문과 같은 방향인지 검증해야 한다는 것을 배운 사례였습니다.
+분석 결과를 검토하다 이 버그를 찾았고, 타임스탬프 기준으로 다시 정렬한 뒤 분석 과정 전반에서 같은 시간 방향을 쓰도록 고쳤습니다. 데이터가 모두 있는지뿐 아니라 시간축이 연구 질문과 같은 방향인지 검증해야 한다는 것을 배운 사례였습니다.
 
 ### 수집할 수 있어도 수집하지 않은 데이터
 
@@ -246,6 +247,7 @@ Participant Report
 **Period** · Mar 2024–Jun 2025  
 **Organization** · Dankook University Sports Psychology Laboratory  
 **Role** · Research Developer (Part-time) · End-to-End Development  
+**Status** · Internal lab tools for experiments and analysis  
 **Scope** · Cognitive Task Application · Riot API Collection · Conditional Data Analysis · Participant Reports
 
 [🔗 LDA GitHub](https://github.com/alsspp01/LDA)  
@@ -265,11 +267,11 @@ The research team planned a study on consecutive League of Legends play and cogn
 
 When the researchers provided the experimental and analytical requirements, I decided how to implement them and structure the data flow. I was responsible for the development work end to end: the Stroop Test application, six months of gameplay-data collection, consecutive-play classification, statistical processing, and participant-level reporting.
 
-### A cognitive task used by around 40 participants
+### A cognitive task used by around 40 study participants
 
 I built a Stroop Test application with PySide6 and Pygame to measure changes in response time associated with cognitive fatigue. Participants entered an ID and completed a practice session followed by three experimental blocks. Stimuli were presented in randomized order, and the application recorded both response accuracy and reaction time.
 
-The data from each block was stored separately so that results from before, during, and after the task could be compared and passed directly into the CSV-based analysis workflow. Around 40 participants completed the cognitive-fatigue assessment and received an individual report.
+The data from each block was stored separately so that results from before, during, and after the task could be compared and passed directly into the CSV-based analysis workflow. Around 40 study participants completed the cognitive-fatigue assessment with it and received an individual report.
 
 Because the application was used for repeated research sessions, a working interface was not enough. Participant data had to be stored consistently and remain readable by the downstream analysis without manual reformatting.
 
@@ -294,11 +296,11 @@ These were not equivalent samples. The first included people who continued playi
 
 Translating a research concept into code required more than implementing a condition. I had to verify which people that condition actually included in the sample.
 
-### An error that reversed the direction of time
+### A bug in my own code that reversed time
 
-During analysis, I found that Riot's recent-match endpoint returned matches newest first. The consecutive-play records were therefore ordered in the opposite direction from the actual sessions. If left unchanged, the analysis could have interpreted changes across a session backwards.
+Riot's recent-match endpoint returns matches newest first. My early processing code did not re-sort them, so it calculated changes across a session from the last match backward instead of from the first. Left in place, the bug could have reversed how the analysis read change over a session.
 
-I reordered the data chronologically by timestamp and made the rest of the analysis use the same time direction. The lesson was that complete data is not necessarily correctly structured data, especially when the research question depends on change over time.
+I caught it while reviewing analysis results, re-sorted the data by timestamp, and made the rest of the pipeline use the same time direction. The lesson was that complete data is not necessarily correctly structured data, especially when the research question depends on change over time.
 
 ### Data I chose not to collect
 

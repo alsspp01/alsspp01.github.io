@@ -8,6 +8,24 @@ period_end: "2024-06"
 summary: "SQL 구문을 분석하여 SQL injection 구문인지 일반 SQL 구문인지 확인하는 구문 분석 AI 시스템.\n\nA parsing AI system that analyzes SQL statements to determine whether they are SQL injection statements or regular SQL statements."
 ---
 
+### 요약 · Summary
+
+- **문제** · 내부 보안 대응을 갖추기 어려운 중소 규모 웹 개발 환경에서 SQL Injection 구문과 일반 SQL 구문을 자동으로 구분
+- **역할** · 팀장 · 프로젝트 기획 · AI 연구 개발
+- **데이터** · Kaggle SQL Injection 데이터셋으로 학습 · 테스트, 별도의 Kaggle SQL Injection 데이터셋으로 추가 검증
+- **모델** · 기호 · SQL 키워드 · 변수 · 문자열 단위 토큰화와 정규화 후 2층 LSTM 이진 분류(TensorFlow, 임계값 0.5)
+- **결과** · 별도 데이터셋 기준 Accuracy 0.9855 · Precision 0.9709 · Recall 0.9990 · F1 0.9848
+- **한계** · Precision 기준 위양성 가능성이 남아 있어, 실사용 전 임계값 조정과 다양한 공격 · 정상 구문을 이용한 추가 검증이 필요
+
+> **Problem** · Automatically separate SQL Injection from ordinary SQL for small web teams without in-house security support  
+> **Role** · Team lead · Project planning · AI research & development  
+> **Data** · Trained and tested on a Kaggle SQL Injection dataset, then checked against a separate Kaggle dataset  
+> **Model** · Tokenized and normalized queries by symbols, SQL keywords, variables, and strings, then classified them with a two-layer LSTM (TensorFlow, threshold 0.5)  
+> **Result** · On the separate dataset: Accuracy 0.9855 · Precision 0.9709 · Recall 0.9990 · F1 0.9848  
+> **Limits** · Some false positives remain likely; threshold tuning and broader attack and benign queries are needed before real use
+
+---
+
 ### 제작 계기
 SQL injection query는 사람이 보면 구분할 수 있지만, 기본적으로 컴퓨터는 구분하지 못한다.  
 이에 따라 SQL injection query를 구분해내는 AI 모델을 생성하여 SQL injection 내부 대응책을 설립하기 어려운 중소기업 웹 개발자들에게 도움을 주고자 한다.

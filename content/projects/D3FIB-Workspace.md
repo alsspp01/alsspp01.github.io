@@ -15,7 +15,6 @@ description_en: "Team operations, information architecture, and automation built
 **기간** · 2024.11–현재  
 **역할** · 창립자 · 대표 · 팀장 · 팀 운영 체계 및 자동화 설계  
 **팀** · 약 10명, 완전 원격  
-**구성** · 기획 3 · 개발 4 · 아트 3  
 **주요 작업** · 조직 운영 · 정보 구조 · 권한 설계 · 업무 흐름 · AI 보조 자동화 개발
 
 [**Case Study ↓**](#case-study)
@@ -53,13 +52,13 @@ Discord에는 기획 · 개발 · 아트 부서별 채널을 두어 세부 작�
 
 권한을 단순히 많이 열거나 잠그는 문제가 아니라, 각 역할에 필요한 정보가 자연스럽게 보이도록 설계하는 문제로 다뤘습니다.
 
-### 사용하지 않는 페이지를 다시 설계한 과정
+### 사용 중인 워크스페이스의 탐색 구조 개선
 
-처음 만든 Notion 페이지는 필요한 정보가 있어도 여러 번 클릭해야 도달할 수 있었습니다. 구조는 정돈되어 있었지만 팀원들이 잘 사용하지 않았습니다.
+팀의 Notion 워크스페이스는 빈 페이지에서 시작해 제가 처음부터 설계하고 구축했습니다. 초기 구성에도 메인 페이지, 게시판, 직무별 문서 구조가 있었고 팀은 이를 실제로 사용하고 있었습니다.
 
-이를 확인한 뒤 기획 · 개발 · 아트가 각자 즐겨찾기해 사용할 수 있는 부서별 메인 페이지를 만들었습니다. 각 페이지에서 해당 부서의 마일스톤, 작업 문서와 필요한 정보에 바로 접근할 수 있도록 탐색 깊이를 줄였습니다. 개편 이후 팀원들이 부서 페이지를 실제로 사용하고 있다는 것을 Notion 트래픽으로 확인했습니다.
+다만 필요한 정보에 도달하려면 여러 번 클릭해야 하는 경우가 많아 정보 접근성이 아쉬웠습니다. 그래서 기획 · 개발 · 아트가 각자 즐겨찾기해 사용할 수 있도록 직무별 메인 페이지를 강화하고, 각 페이지에서 해당 부서의 마일스톤, 작업 문서와 자주 쓰는 정보에 바로 접근할 수 있도록 탐색 깊이를 줄였습니다. 개편 이후 팀원들이 부서 페이지를 활용하고 있다는 것을 Notion 트래픽으로 확인했습니다.
 
-운영 시스템은 관리자가 보기에 완성된 구조보다 팀원이 실제로 찾아 쓰는 구조여야 한다는 것을 배웠습니다.
+운영 시스템은 관리자가 보기에 정돈된 구조보다 팀원이 빠르게 찾아 쓸 수 있는 구조여야 한다는 것을 배웠습니다.
 
 ### 별도 사이드 프로젝트를 팀 운영에 적용하기
 
@@ -98,7 +97,6 @@ Discord 예약 메시지를 만들어 정해진 시간의 공지를 자동으로
 **Period** · Nov 2024–Present  
 **Role** · Founder · Representative · Team Lead · Team Operations and Automation Design  
 **Team** · Around 10 members, fully remote  
-**Disciplines** · Planning 3 · Development 4 · Art 3  
 **Scope** · Team Operations · Information Architecture · Access Design · Workflows · AI-Assisted Automation
 
 [**Case Study ↓**](#case-study-en)
@@ -136,13 +134,13 @@ Discord channels for planning, development, and art keep detailed work in progre
 
 I treated permissions as a workflow-design problem: each role should naturally see what it needs without exposing unrelated information or creating repeated access requests.
 
-### Redesigning a workspace people were not using
+### Improving navigation in an active workspace
 
-The first Notion workspace was organized, but important information sat several clicks below the top level. Team members rarely used it.
+I designed and built the team's Notion workspace from a blank page. The first version already had a main page, boards, and documents organized by discipline, and the team was using it.
 
-I replaced the single deep structure with dedicated home pages for planning, development, and art. Each page gave its department direct access to milestones, working documents, and frequently needed information. Members bookmarked and began using these pages, which I verified through Notion traffic rather than assuming the redesign had worked.
+Important information, however, often sat several clicks below the top level. I strengthened the discipline home pages for planning, development, and art so each department could bookmark one page and reach its milestones, working documents, and frequently needed information directly. Notion traffic showed that members were using these pages after the change, so I did not have to assume it had worked.
 
-The experience taught me that an operational system must be designed around how people retrieve information, not around how tidy its hierarchy looks to the administrator.
+The experience taught me that an operational system should be designed around how people retrieve information, not around how tidy its hierarchy looks to the administrator.
 
 ### Applying a separate side project to team operations
 

@@ -9,6 +9,24 @@ summary: "오픈 소스 코드 사용: SQLmap\n웹사이트의 SQL injection 공
 tags: ["DKU"]
 ---
 
+### 요약 · Summary
+
+- **문제** · 보안 비전공 개발자도 자신의 웹사이트에 SQL Injection 위험이 있는지 확인하고 대응할 수 있도록 돕기
+- **팀** · 3명, 2024년 1학기 산업보안학과 졸업(캡스톤) 프로젝트
+- **역할** · SQLi 기법 자료 조사, SQLmap 결과 파싱(`crawling.py`)과 PySide6 GUI 개발
+- **구조** · URL 입력 → SQLmap 자동 실행(`--batch`) → 탐지된 SQLi 유형 · Payload 추출 → 유형별 대응 방법(Prepared Statement, 입력값 검증 등) 안내
+- **검증** · 공개 테스트 사이트와 로컬 더미 서버(Ubuntu · nginx · PHP · MariaDB)에서 동작 확인
+- **한계** · 탐지는 SQLmap에 의존하며, 대응 안내는 유형별로 미리 정리한 규칙 기반 설명
+
+> **Problem** · Help developers without a security background check their sites for SQL Injection and respond  
+> **Team** · 3 members, Industrial Security graduation (capstone) project, spring 2024  
+> **Role** · Researched SQLi techniques; built SQLmap output parsing (`crawling.py`) and the PySide6 GUI  
+> **Flow** · Enter a URL → run SQLmap automatically (`--batch`) → extract detected SQLi types and payloads → show type-specific countermeasures (prepared statements, input validation, etc.)  
+> **Validation** · Tested against a public test site and a local dummy server (Ubuntu · nginx · PHP · MariaDB)  
+> **Limits** · Detection relies on SQLmap; guidance is rule-based text prepared per SQLi type
+
+---
+
 ### 시연 영상
 #### [YouTube Demo](https://bit.ly/SIAM-W)
 

@@ -16,11 +16,11 @@ tags: ["PM", "Planning", "Domain", "AI"]
 
 그런데 양쪽의 이야기를 계속 듣다 보니 어느 한쪽이 틀린 문제가 아니었습니다. 국립기상과학원은 실제 예보 업무를 기준으로 설명하고 있었고, 개발 기관은 기술이 작동하는 순서를 기준으로 이해하고 있었습니다. 같은 단어를 사용해도 머릿속에 그리는 과정이 달랐습니다.
 
-## 예보관이 일하는 순서부터 배웠습니다
+## 예보 업무의 흐름부터 배웠습니다
 
-문서만 읽어서는 어떤 정보가 왜 필요한지 알기 어려웠습니다. 직접 국립기상과학원에 방문해 기존 프로그램의 작동 방식과 기상예보 과정을 배웠습니다.
+문서만 읽어서는 어떤 정보가 왜 필요한지 알기 어려웠습니다. 국립기상과학원에 방문해 연구진과 담당자에게 기존 프로그램의 작동 방식과 예보 업무의 흐름을 설명 들었고, 이후에도 지속적으로 소통하며 이해를 넓혔습니다. 예보관을 직접 관찰하거나 인터뷰한 것은 아닙니다.
 
-예보관이 어떤 정보를 먼저 확인하는지, 언제 다른 예측 결과와 비교하는지, 어느 지점에서 사람이 판단하는지를 순서대로 따라갔습니다. AI가 들어가야 할 위치도 그 뒤에야 보이기 시작했습니다. 여러 언어 모델의 결과를 단순히 한 화면에 모으는 것이 아니라, 시기와 기상 환경에 맞는 결과를 찾고 예보관이 사용하는 용어로 설명해 초기 판단을 도와야 했습니다.
+예보관이 어떤 정보를 먼저 확인하는지, 언제 다른 예측 결과와 비교하는지, 어느 지점에서 사람이 판단하는지를 설명을 바탕으로 순서대로 정리했습니다. AI가 들어가야 할 위치도 그 뒤에야 보이기 시작했습니다. 여러 예측 결과를 단순히 한 화면에 모으는 것이 아니라, 시기와 기상 환경에 맞는 결과를 찾고 예보관이 사용하는 용어로 설명해 초기 판단을 도와야 했습니다.
 
 그때부터 요구사항을 볼 때 기능명보다 다음 내용을 먼저 확인했습니다.
 
@@ -37,7 +37,7 @@ tags: ["PM", "Planning", "Domain", "AI"]
 
 이후에는 개발자들이 구현 방향이 애매할 때 제게 물어보기 시작했습니다. 제가 모든 기술적 답을 알고 있었기 때문은 아닙니다. 고객사가 왜 그 기능을 필요로 하는지와 각 작업이 전체에서 어떤 역할을 하는지를 계속 확인하고 있었기 때문에, 함께 판단할 기준이 생긴 것입니다.
 
-국립기상과학원과도 요구사항을 실시간으로 확인했습니다. 예보 업무를 기준으로 나온 설명은 연구진과 개발자가 이해할 수 있도록 기술적인 맥락으로 바꾸고, 반대로 기술적 제약과 구현 방식은 고객사가 판단할 수 있는 말로 설명했습니다. 서로의 전제가 맞춰지자 대화가 훨씬 수월해졌고, 정체돼 있던 작업도 이후 1 ~ 2개월 안에 마무리할 수 있었습니다.
+국립기상과학원과도 요구사항을 실시간으로 확인했습니다. 예보 업무를 기준으로 나온 설명은 연구진과 개발자가 이해할 수 있도록 기술적인 맥락으로 바꾸고, 반대로 기술적 제약과 구현 방식은 고객사가 판단할 수 있는 말로 설명했습니다. 서로의 전제가 맞춰지자 대화가 훨씬 수월해졌고, 약 3개월간 정체돼 있던 작업이 다시 진행되어 팀은 이후 2개월 안에 이를 마무리했습니다.
 
 ## 요구사항을 빨리 쓰는 것이 항상 빠른 것은 아니었습니다
 
@@ -45,9 +45,9 @@ tags: ["PM", "Planning", "Domain", "AI"]
 
 이 프로젝트에서는 먼저 예보 업무를 배우고, 고객사와 개발 기관이 서로 다르게 이해하던 부분을 찾는 데 시간을 썼습니다. 당장은 돌아가는 것처럼 보여도, 결과적으로는 개발자가 무엇을 만들어야 하는지 설명하고 멈춘 작업을 다시 움직이는 데 필요한 과정이었습니다.
 
-새로운 프로젝트를 시작하면 저는 게임의 안개 낀 맵을 떠올립니다. 보이지 않는 곳에 목적지만 찍기보다, 직접 돌아다니며 지형을 확인해야 다음 판단이 쉬워집니다. 저에게는 사용자의 업무를 보고 용어를 배우는 과정이 그 맵을 밝히는 일이었습니다.
+새로운 프로젝트를 시작하면 저는 게임의 안개 낀 맵을 떠올립니다. 보이지 않는 곳에 목적지만 찍기보다, 직접 돌아다니며 지형을 확인해야 다음 판단이 쉬워집니다. 저에게는 사용자의 업무를 가장 잘 아는 사람들에게 배우고 용어를 익히는 과정이 그 맵을 밝히는 일이었습니다.
 
-[🔗 AI Forecast Support Case Study](/projects/ai-forecast-support/#case-study)
+[🔗 Alpha Weather Case Study](/projects/ai-forecast-support/#case-study)
 
 </div>
 
@@ -59,11 +59,11 @@ At first, I assumed someone had misunderstood the requirements. The National Ins
 
 After listening to both sides, I realized that neither was simply wrong. The client explained everything through the forecasting workflow, while the consortium interpreted it through the technical development process. They used some of the same words but pictured different sequences behind them.
 
-## Learning how forecasters work
+## Learning the forecasting workflow
 
-Documents were not enough to explain why each piece of information mattered. I visited the institute and learned how the existing program worked and how a forecast was produced.
+Documents were not enough to explain why each piece of information mattered. I visited the institute, where researchers and staff explained how the existing program worked and how a forecast was produced, and I stayed in regular contact with them afterward. I did not observe or interview forecasters directly.
 
-I followed the order in which forecasters reviewed information, compared predictions, and made their own judgments. Only then could I see where AI belonged. The goal was not merely to collect the outputs of several language models on one screen. The agent needed to identify results suited to the time and weather conditions, then explain them in meteorological terms that could support a forecaster's initial judgment.
+From their explanations, I mapped the order in which forecasters review information, compare predictions, and make their own judgments. Only then could I see where AI belonged. The goal was not merely to collect several prediction results on one screen. The agent needed to identify results suited to the time and weather conditions, then explain them in meteorological terms that could support a forecaster's initial judgment.
 
 From that point on, I reviewed requirements by asking:
 
@@ -80,7 +80,7 @@ I mapped what each workstream received and what it needed to pass to the next st
 
 After that, developers began coming to me when the implementation direction was unclear. This was not because I had every technical answer. I kept track of why the client needed each function and what role each workstream played in the whole system, which gave us a common basis for deciding what to do next.
 
-I also confirmed requirements with the client as they changed. I translated explanations grounded in forecasting practice into technical context for the researchers and developers, and explained technical constraints in terms the client could evaluate. Once both sides shared the same assumptions, the conversations became much easier. The stalled workstream was completed within the following one to two months.
+I also confirmed requirements with the client as they changed. I translated explanations grounded in forecasting practice into technical context for the researchers and developers, and explained technical constraints in terms the client could evaluate. Once both sides shared the same assumptions, the conversations became much easier. The workstream that had stalled for about three months started moving again, and the team completed it within the following two months.
 
 ## Writing requirements quickly was not always the fastest route
 
@@ -88,8 +88,8 @@ When requirements are vague, producing a feature list can feel like the first si
 
 In this project, I spent time learning the forecasting workflow and locating the assumptions the client and developers did not share. It looked indirect at first, but it gave developers a clear reason behind the work and helped the project move again.
 
-When I enter a new project, I often picture a game map covered in fog. Placing a waypoint in an unseen area is less useful than revealing enough of the terrain to make the next decision. Watching the user work and learning the language of the domain was how I uncovered that map here.
+When I enter a new project, I often picture a game map covered in fog. Placing a waypoint in an unseen area is less useful than revealing enough of the terrain to make the next decision. Learning the user's work from the people closest to it, and picking up the language of the domain, was how I uncovered that map here.
 
-[🔗 AI Forecast Support Case Study](/projects/ai-forecast-support/#case-study-en)
+[🔗 Alpha Weather Case Study](/projects/ai-forecast-support/#case-study-en)
 
 </div>
