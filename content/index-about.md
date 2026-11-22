@@ -19,7 +19,7 @@
 - [D3F!B Operations](/projects/d3fib-workspace/) · 원격 팀 협업 · 자동화
 - [Arcanum Nights](/projects/arcananights/) · 퍼즐 게임 기획 리드
 - [Chemi.lol](/projects/chemi/) · 데이터 한계로 내린 출시 판단
-- [RocksDB Chrono Break](/projects/rocksdb-chronobreak/) · 로그 DB 팀 리드
+- [RocksDB Chrono Break](/projects/rocksdb-chronobreak/) · 로그 DB 팀장
 
 ---
 

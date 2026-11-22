@@ -11,7 +11,7 @@ tags: ["DKU"]
 
 **기간** · 2025년 1학기, 4주 (주차별 발표)  
 **과목** · 단국대학교 오픈소스SW분석(빅데이터) · 4조  
-**역할** · 팀 리더 · 주제 제안 · 발표  
+**역할** · 팀장 · 주제 제안 · 발표  
 **팀** · 3명 (실험 · 벤치마크, 자료 분석 · 발표자료는 팀원 담당)
 
 [ChronobreakFilter 코드](https://github.com/alsspp01/RocksDB_ChronobreakFilter) · [db_bench 실험용 RocksDB fork](https://github.com/alsspp01/OpensourceBigdata)

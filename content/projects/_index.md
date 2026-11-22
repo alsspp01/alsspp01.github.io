@@ -36,7 +36,7 @@ type: page
 ## 학부 프로젝트
 
 ### [RocksDB Chrono Break DB](/projects/rocksdb-chronobreak/)
-RocksDB 기능 분석에서 게임 로그 시점 복구 DB 구현까지 · 팀 리더  
+RocksDB 기능 분석에서 게임 로그 시점 복구 DB 구현까지 · 팀장  
 <small>2025 1학기 · 오픈소스SW분석</small>
 
 ### [SQLi Parsing AI](/projects/sqli-parsing-ai/)

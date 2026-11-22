@@ -39,7 +39,7 @@ url: "/portfolio/"
 ## 학부 프로젝트
 
 ### [RocksDB Chrono Break DB](/projects/rocksdb-chronobreak/)
-<small>2025 1학기 · 3인 팀 · 리더 · 주제 제안</small>
+<small>2025 1학기 · 3인 팀 · 팀장 · 주제 제안</small>
 
 제안한 "게임 로그 저장 시스템" 주제를 4주에 걸쳐 시점 복구 로그 DB로 발전시켰습니다(구현 · 벤치마크는 팀원).
 
