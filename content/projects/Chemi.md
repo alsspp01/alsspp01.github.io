@@ -74,7 +74,7 @@ Random Forest, Ridge, SVR, XGBoost, MLP, 앙상블을 비교했습니다.
 <div class="lang-en" style="display:none">
 
 **Period** · Dec 2024–May 2025  
-**Role** · Initiator · Team Lead · Planning · Statistical Analysis · Prediction Experiments  
+**Role** · Initiator · Team lead · Planning · Statistical analysis · Prediction experiments  
 **Team** · 5 members  
 **Status** · Lookup feature shipped (team) · Prediction stopped at the experiment stage
 

@@ -97,7 +97,7 @@ PlayX4에서 클리어 여부뿐 아니라 표정, 자세, 클릭 속도, 반복
 
 **Period** · Jan 2025–present  
 **Team** · D3F!B · planning 2 · development 4 · art 4  
-**Role** · Representative · Team Lead · Lead Game Designer  
+**Role** · Studio head · Team lead · Lead game designer  
 **Status** · Steam Early Access (Feb 20, 2026, single-player) · Multiplayer in development
 
 [Steam](https://store.steampowered.com/app/3453760/Arcanum_Nights/)

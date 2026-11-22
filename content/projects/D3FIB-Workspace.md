@@ -69,7 +69,7 @@ Notion 워크스페이스는 빈 페이지에서 시작해 처음부터 만들�
 <div class="lang-en" style="display:none">
 
 **Period** · Nov 2024–present  
-**Role** · Founder · Representative · Team Lead · Operations and automation design  
+**Role** · Founder · Team lead · Operations and automation design  
 **Team** · About 10, fully remote (planning · development · art)
 
 ## Summary

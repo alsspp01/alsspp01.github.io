@@ -64,7 +64,7 @@ summary: "승률 검색 사이트에서 크롤링한 상대적인 승률을 바�
 <div class="lang-en" style="display:none">
 
 **Period** · Sep–Dec 2021 (first year of university)  
-**Role** · Team Lead · Algorithm Design · Data Format · UI Integration  
+**Role** · Team lead · Algorithm design · Data format · UI integration  
 **Team** · 4 members  
 **Status** · Course project completed · Python / PyQt
 
