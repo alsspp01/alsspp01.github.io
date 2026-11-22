@@ -28,8 +28,18 @@
     if (e.key === 'Escape') closeMenu();
   });
 
+  // Mirror the theme's dark stylesheet state as a class so site.css can adjust colors.
+  function syncDark() {
+    var css = document.getElementById('dark-theme');
+    document.documentElement.classList.toggle('is-dark', !!css && !css.disabled);
+  }
+  document.addEventListener('click', function (e) {
+    if (e.target.closest && e.target.closest('.dark-theme-toggle')) setTimeout(syncDark, 0);
+  });
+
   // Back-to-top button on every page.
   document.addEventListener('DOMContentLoaded', function () {
+    syncDark();
     var btn = document.createElement('button');
     btn.type = 'button';
     btn.className = 'site-top-btn';

@@ -1,5 +1,5 @@
 ---
-title: "🌟 About Me"
+title: "About Me"
 type: page
 aliases:
   - /personal_statement/
@@ -7,7 +7,7 @@ aliases:
 
 <div class="lang-ko">
 
-## 👋 하는 일
+## 하는 일
 
 현업의 문제를 이해하고, 모호한 요구사항을 실행 가능한 기술적 결정과 작업 흐름으로 연결하는 일을 합니다.
 
@@ -19,7 +19,7 @@ aliases:
 
 ---
 
-## 🦎 Metamon, v2.0
+## Metamon, v2.0
 
 예전 자기소개에서 저는 스스로를 **메타몽**이라고 불렀습니다.
 
@@ -51,7 +51,7 @@ aliases:
 
 ---
 
-## 🔬 Edge Case 수집가
+## Edge Case 수집가
 
 저는 무언가를 기획하면 **머릿속에서 먼저 한 번 굴려봅니다.**
 
@@ -77,7 +77,7 @@ PlayX4에서 게임 시연 부스를 운영했을 때에도 플레이어가 게�
 
 ---
 
-## 🧩 사람 사이에도 인터페이스가 있습니다
+## 사람 사이에도 인터페이스가 있습니다
 
 저는 현재 10명 규모의 사이드 프로젝트 팀 **D3F!B**를 운영하며 기획 · 개발 · 아트 팀원들과 함께 게임을 만들고 있습니다.
 
@@ -101,7 +101,7 @@ PlayX4에서 게임 시연 부스를 운영했을 때에도 플레이어가 게�
 
 ---
 
-## ⚡ 복잡하게 생각하고, 단순하게 만들기
+## 복잡하게 생각하고, 단순하게 만들기
 
 예전의 저는 아이디어가 떠오르면 가능한 한 많이 넣고 싶어 했습니다.
 
@@ -132,7 +132,7 @@ PlayX4에서 게임 시연 부스를 운영했을 때에도 플레이어가 게�
 ***
 
 <br>
-<h2 id="work-ko">💼 <a href="/portfolio/">Portfolio</a></h2>
+<h2 id="work-ko"><a href="/portfolio/">Portfolio</a></h2>
 
 <br>
 
@@ -140,7 +140,7 @@ PlayX4에서 게임 시연 부스를 운영했을 때에도 플레이어가 게�
 
 <div class="lang-en" style="display:none">
 
-## 👋 What I do
+## What I do
 
 I turn ambiguous requirements and cross-functional input into practical technical plans and working tools.
 
@@ -152,7 +152,7 @@ Detailed case studies are on the [Portfolio](/portfolio/) page.
 
 ---
 
-## 🦎 Metamon, v2.0
+## Metamon, v2.0
 
 In a past self-introduction, I called myself **Metamon** (Ditto).
 
@@ -181,7 +181,7 @@ Experiences like this give me confidence that I can adapt to unfamiliar fields.
 
 ---
 
-## 🔬 A Collector of Edge Cases
+## A Collector of Edge Cases
 
 Whenever I plan something, I **run the scenario through my mind first.**
 
@@ -204,7 +204,7 @@ I compiled several days of observations into a QA document, and the team worked 
 
 ---
 
-## 🧩 There are interfaces between people, too
+## There are interfaces between people, too
 
 I run **D3F!B**, a ten-person side-project team where planning, development, and art members make games together.
 
@@ -229,7 +229,7 @@ These days, rather than taking on more work myself, I focus on **connecting each
 
 ---
 
-## ⚡ Think Complex, Build Simple
+## Think Complex, Build Simple
 
 I used to want to pack every idea I had into whatever I was making.
 
@@ -251,7 +251,7 @@ The reason I care this much is not grand. I just love it when someone tries what
 ***
 
 <br>
-<h2 id="work-en">💼 <a href="/portfolio/">Portfolio</a></h2>
+<h2 id="work-en"><a href="/portfolio/">Portfolio</a></h2>
 
 <br>
 

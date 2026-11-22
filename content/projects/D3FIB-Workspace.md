@@ -1,6 +1,6 @@
 ---
-title: "⚡ D3F!B Team Operations & Automation"
-title_en: "⚡ D3F!B Team Operations & Automation"
+title: "D3F!B Team Operations & Automation"
+title_en: "D3F!B Team Operations & Automation"
 type: page
 aliases:
   - /portfolio/d3fib-workspace/
@@ -83,13 +83,13 @@ DIA가 D3F!B에 속한 프로젝트인 것은 아니며, 한 사이드 프로젝
 
 #### 회의 기록 자동화
 
-[🔗 Secretary4Discord](https://github.com/alsspp01/Secretary4Discord)는 Discord 음성 회의를 녹음하고, 긴 회의를 안건 단위로 나누어 Gemini로 요약한 뒤 참석자와 부서 정보를 포함한 Notion 회의록을 생성합니다. 회의 중 휴식과 재개, 요약 재작성, 임시 파일 관리도 Discord 안에서 처리할 수 있습니다.
+[Secretary4Discord](https://github.com/alsspp01/Secretary4Discord)는 Discord 음성 회의를 녹음하고, 긴 회의를 안건 단위로 나누어 Gemini로 요약한 뒤 참석자와 부서 정보를 포함한 Notion 회의록을 생성합니다. 회의 중 휴식과 재개, 요약 재작성, 임시 파일 관리도 Discord 안에서 처리할 수 있습니다.
 
 이를 통해 회의 내용을 제가 전부 기억했다가 다시 전달할 필요가 줄었고, 참석하지 못한 팀원도 정리된 기록을 확인할 수 있게 됐습니다.
 
 #### 개발일지 공유 자동화
 
-[🔗 Notion2Discord](https://github.com/alsspp01/Notion2Discord)는 Notion 개발일지 데이터베이스에 새 페이지가 생기면 웹훅을 받아 Discord 채널에 알립니다. 팀원들은 별도로 공지문을 작성하지 않고도 새 개발일지를 공유할 수 있고, Discord에서 해당 글을 바로 인용해 대화를 이어갈 수 있습니다.
+[Notion2Discord](https://github.com/alsspp01/Notion2Discord)는 Notion 개발일지 데이터베이스에 새 페이지가 생기면 웹훅을 받아 Discord 채널에 알립니다. 팀원들은 별도로 공지문을 작성하지 않고도 새 개발일지를 공유할 수 있고, Discord에서 해당 글을 바로 인용해 대화를 이어갈 수 있습니다.
 
 #### 반복 공지와 개발 상황 공유
 
@@ -187,13 +187,13 @@ DIA is not a subproject of D3F!B; this was a case of using tools from one side p
 
 #### Automated meeting records
 
-[🔗 Secretary4Discord](https://github.com/alsspp01/Secretary4Discord) records Discord voice meetings, splits longer sessions into agenda-sized segments, summarizes the audio with Gemini, and creates Notion meeting notes with attendee and department information. Breaks, resumptions, summary regeneration, and temporary-file cleanup can also be handled from Discord.
+[Secretary4Discord](https://github.com/alsspp01/Secretary4Discord) records Discord voice meetings, splits longer sessions into agenda-sized segments, summarizes the audio with Gemini, and creates Notion meeting notes with attendee and department information. Breaks, resumptions, summary regeneration, and temporary-file cleanup can also be handled from Discord.
 
 This reduced the need for me to remember and relay every discussion, while giving members who missed a meeting a durable record to consult.
 
 #### Automated development-log sharing
 
-[🔗 Notion2Discord](https://github.com/alsspp01/Notion2Discord) receives a webhook whenever a page is added to the Notion development-log database and posts the update to Discord. Members no longer need to write a separate announcement, and the team can cite and discuss the log directly from Discord.
+[Notion2Discord](https://github.com/alsspp01/Notion2Discord) receives a webhook whenever a page is added to the Notion development-log database and posts the update to Discord. Members no longer need to write a separate announcement, and the team can cite and discuss the log directly from Discord.
 
 #### Scheduled communication and development visibility
 

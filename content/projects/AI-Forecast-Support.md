@@ -1,6 +1,6 @@
 ---
-title: "🌦️ Alpha Weather · AI 예보지원"
-title_en: "🌦️ Alpha Weather · AI Forecast Support"
+title: "Alpha Weather · AI 예보지원"
+title_en: "Alpha Weather · AI Forecast Support"
 type: page
 aliases:
   - /portfolio/ai-forecast-support/
@@ -96,7 +96,7 @@ Alpha Weather 프로젝트의 목표는 **예보관의 초기 판단을 돕는 A
 
 보고서 『AI기반 예보지원 기술개발 1』은 2025년 기상청 국립기상과학원에서 발행됐으며 국회도서관에 소장되어 있습니다.
 
-🔗 [국회도서관 소장정보](https://dl.nanet.go.kr/detail/MONO12026000015571)
+[국회도서관 소장정보](https://dl.nanet.go.kr/detail/MONO12026000015571)
 
 ### 별도 운영 개선: 사내 도구의 자발적 확산
 
@@ -369,7 +369,7 @@ As PM for the lead organization, I managed the preparation and submission of the
 
 The report, **Development of AI-Based Technology for Weather Forecasting, Vol. 1**, was published by NIMS in 2025 and is held by the National Assembly Library of Korea.
 
-🔗 [National Assembly Library Catalog](https://dl.nanet.go.kr/detail/MONO12026000015571)
+[National Assembly Library Catalog](https://dl.nanet.go.kr/detail/MONO12026000015571)
 
 ### A separate operations improvement: internal tools adopted by other teams
 

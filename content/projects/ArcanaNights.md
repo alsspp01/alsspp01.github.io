@@ -1,5 +1,5 @@
 ---
-title: "🎮 Arcanum Nights"
+title: "Arcanum Nights"
 type: page
 description: "해와 달, 별자리를 소재로 한 싱글~2인 퍼즐게임."
 dated: true
@@ -133,7 +133,7 @@ Arcanum Nights는 D3F!B의 기획 2명, 개발 4명, 아트 4명이 함께 만�
 
 팀이 구현할 수 있는 구조로 설명하고, 처음 보는 플레이어가 이해할 수 있도록 다시 보여주고, 팀이 끝까지 만들 수 있는 범위로 조정해야 했습니다.
 
-🔗 [Steam에서 Arcanum Nights 보기](https://store.steampowered.com/app/3453760/Arcanum_Nights/)
+[Steam에서 Arcanum Nights 보기](https://store.steampowered.com/app/3453760/Arcanum_Nights/)
 
 [↑ Top](#top)
 
@@ -427,7 +427,7 @@ Inventing an original mechanic was not enough to make a game.
 
 I had to explain it in a structure the team could implement, present it in a way a first-time player could understand, and adjust the scope so the team could finish and release it.
 
-🔗 [View Arcanum Nights on Steam](https://store.steampowered.com/app/3453760/Arcanum_Nights/)
+[View Arcanum Nights on Steam](https://store.steampowered.com/app/3453760/Arcanum_Nights/)
 
 [↑ Top](#top-en)
 

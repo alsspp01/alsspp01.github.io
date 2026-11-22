@@ -80,7 +80,7 @@ enableRobotsTXT = true
   description = "Project Lead · Technical Planning · Data & Automation"
 
   # Accent color is displayed when you hover over <a> tags
-  accentColor = "#4d93fd"
+  accentColor = "#3a6f73"
 
   # Display "back to top" button on posts
   ShowBackToTopButton = false
@@ -88,6 +88,8 @@ enableRobotsTXT = true
   # You can use this to inject any HTML in the <head> tag.
   # Ideal usecase for this is to import custom js/css or add your analytics snippet
   customHeadHTML = """
+  <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css">
   <link rel="stylesheet" href="/css/site.css">
   <script src="/js/site.js" defer></script>
   """

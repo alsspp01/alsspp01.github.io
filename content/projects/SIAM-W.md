@@ -67,7 +67,7 @@ tags: ["DKU"]
 ---
 
 ### CODE
-🔗 [GitHub 저장소 · Repository](https://github.com/hanja1500/SIAM-W)
+[GitHub 저장소 · Repository](https://github.com/hanja1500/SIAM-W)
 
 ---
 

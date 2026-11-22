@@ -16,7 +16,7 @@ PM, 연구 도구 개발, 원격 팀 운영, 게임 기획, 데이터 분석에�
 
 ## 주요 사례
 
-### 🌦️ [INEEJI · Alpha Weather (AI 예보지원)](/projects/ai-forecast-support/)
+### [INEEJI · Alpha Weather (AI 예보지원)](/projects/ai-forecast-support/)
 
 **2025.09–2026.02 · PM / 기획 / 기관 간 조율 · 4개 기관 공동 연구**
 
@@ -26,7 +26,7 @@ PM, 연구 도구 개발, 원격 팀 운영, 게임 기획, 데이터 분석에�
 
 ---
 
-### 📊 [단국대 스포츠심리학 연구실 · 연구 도구 개발](/projects/lda/)
+### [단국대 스포츠심리학 연구실 · 연구 도구 개발](/projects/lda/)
 
 **2024.03–2025.06 · 연구 개발 아르바이트 · 개발 전반**
 
@@ -36,7 +36,7 @@ PM, 연구 도구 개발, 원격 팀 운영, 게임 기획, 데이터 분석에�
 
 ---
 
-### ⚡ [D3F!B · 협업 구조와 자동화](/projects/d3fib-workspace/)
+### [D3F!B · 협업 구조와 자동화](/projects/d3fib-workspace/)
 
 **2024.11–현재 · 창립자 / 팀장 / 운영 체계 · 자동화 설계**
 
@@ -46,7 +46,7 @@ PM, 연구 도구 개발, 원격 팀 운영, 게임 기획, 데이터 분석에�
 
 ---
 
-### 🎮 [Arcanum Nights](/projects/arcananights/)
+### [Arcanum Nights](/projects/arcananights/)
 
 **2025.01–현재 · 대표 / 팀장 / 게임 기획 리드 · D3F!B 팀 프로젝트**
 
@@ -56,7 +56,7 @@ PM, 연구 도구 개발, 원격 팀 운영, 게임 기획, 데이터 분석에�
 
 ---
 
-### 🧪 [Chemi.lol](/projects/chemi/)
+### [Chemi.lol](/projects/chemi/)
 
 **2024.12–2025.05 · 프로젝트 발의 / 팀장 / 통계 분석 · 예측 실험 · 5인 팀**
 
@@ -68,7 +68,7 @@ PM, 연구 도구 개발, 원격 팀 운영, 게임 기획, 데이터 분석에�
 
 ## 보안과 시스템
 
-### 🗄️ [RocksDB Chrono Break DB](/projects/rocksdb-chronobreak/)
+### [RocksDB Chrono Break DB](/projects/rocksdb-chronobreak/)
 
 **2025 1학기 · 팀 리더 / 구상 / 발표 · 3인 팀**
 
@@ -79,7 +79,7 @@ RocksDB의 Compaction · TTL · Merge 분석을 4주에 걸쳐 게임 로그를 
 
 ---
 
-### 🛡️ [SQLi Parsing AI](/projects/sqli-parsing-ai/)
+### [SQLi Parsing AI](/projects/sqli-parsing-ai/)
 
 **2024.03–2024.06 · AI 연구 · 개발 / 보안 도구**
 
@@ -90,7 +90,7 @@ SQL Injection 문장을 토큰 단위로 전처리하고 공격 구문을 분류
 
 ---
 
-### 🔍 [SIAM-W](/projects/siam-w/)
+### [SIAM-W](/projects/siam-w/)
 
 **2024.03–2024.06 · 졸업 프로젝트 / 보안 도구 · 3인 팀**
 
@@ -101,13 +101,13 @@ SQLmap 분석 결과를 바탕으로 웹사이트의 SQL Injection 가능성과 
 
 ---
 
-🔗 [모든 프로젝트](/projects/)  
+[모든 프로젝트](/projects/)  
   
-🔗 [About Me](/about_me/)  
+[About Me](/about_me/)  
   
-🔗 [게시글](/posts/)  
+[게시글](/posts/)  
   
-🔗 [GitHub](https://github.com/alsspp01)
+[GitHub](https://github.com/alsspp01)
 
 </div>
 
@@ -120,7 +120,7 @@ Click a project name to read the full case study.
 
 ## Selected Work
 
-### 🌦️ [INEEJI · Alpha Weather (AI Forecast Support)](/projects/ai-forecast-support/)
+### [INEEJI · Alpha Weather (AI Forecast Support)](/projects/ai-forecast-support/)
 
 **Sep 2025–Feb 2026 · PM / Planning / Cross-organization Coordination · Four-organization research program**
 
@@ -130,7 +130,7 @@ Click a project name to read the full case study.
 
 ---
 
-### 📊 [Dankook University Sport Psychology Lab · Research Tooling](/projects/lda/)
+### [Dankook University Sport Psychology Lab · Research Tooling](/projects/lda/)
 
 **Mar 2024–Jun 2025 · Research Developer (Part-time) · End-to-End Development**
 
@@ -140,7 +140,7 @@ Click a project name to read the full case study.
 
 ---
 
-### ⚡ [D3F!B · Collaboration Structure & Automation](/projects/d3fib-workspace/)
+### [D3F!B · Collaboration Structure & Automation](/projects/d3fib-workspace/)
 
 **Nov 2024–Present · Founder / Team Lead / Operations & Automation Design**
 
@@ -150,7 +150,7 @@ Click a project name to read the full case study.
 
 ---
 
-### 🎮 [Arcanum Nights](/projects/arcananights/)
+### [Arcanum Nights](/projects/arcananights/)
 
 **Jan 2025–Present · Studio Head / Team Lead / Lead Game Designer · D3F!B team project**
 
@@ -160,7 +160,7 @@ Click a project name to read the full case study.
 
 ---
 
-### 🧪 [Chemi.lol](/projects/chemi/)
+### [Chemi.lol](/projects/chemi/)
 
 **Dec 2024–May 2025 · Initiator / Team Lead / Statistical Analysis & Prediction Experiments · Five-person team**
 
@@ -172,7 +172,7 @@ Click a project name to read the full case study.
 
 ## Security & Systems
 
-### 🗄️ [RocksDB Chrono Break DB](/projects/rocksdb-chronobreak/)
+### [RocksDB Chrono Break DB](/projects/rocksdb-chronobreak/)
 
 **Spring 2025 · Team Lead / Concept / Presenter · Three-person team**
 
@@ -183,7 +183,7 @@ Over four weeks, we took an analysis of RocksDB's Compaction, TTL, and Merge and
 
 ---
 
-### 🛡️ [SQLi Parsing AI](/projects/sqli-parsing-ai/)
+### [SQLi Parsing AI](/projects/sqli-parsing-ai/)
 
 **Mar 2024–Jun 2024 · AI Research & Development / Security Tool**
 
@@ -194,7 +194,7 @@ I developed a model that tokenized SQL Injection statements and classified attac
 
 ---
 
-### 🔍 [SIAM-W](/projects/siam-w/)
+### [SIAM-W](/projects/siam-w/)
 
 **Mar 2024–Jun 2024 · Graduation Project / Security Tool · Three-person team**
 
@@ -205,12 +205,12 @@ Our team built a tool that used SQLmap results to explain potential SQL Injectio
 
 ---
 
-🔗 [All Projects →](/projects/)  
+[All Projects →](/projects/)  
   
-🔗 [About Me →](/about_me/)  
+[About Me →](/about_me/)  
   
-🔗 [Posts →](/posts/)  
+[Posts →](/posts/)  
   
-🔗 [GitHub →](https://github.com/alsspp01)  
+[GitHub →](https://github.com/alsspp01)  
 
 </div>

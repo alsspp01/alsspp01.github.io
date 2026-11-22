@@ -1,6 +1,6 @@
 ---
-title: "🔬 만들기 전에 한 번 플레이해보는 기획"
-title_en: "🔬 Testing a Design Before It Exists"
+title: "만들기 전에 한 번 플레이해보는 기획"
+title_en: "Testing a Design Before It Exists"
 date: 2026-08-19
 description: "Arcanum Nights를 만들며 입력, 힌트와 플레이어 행동을 미리 검토하고 수정한 경험."
 description_en: "How I reviewed input, hints, and player behavior while designing Arcanum Nights."
@@ -76,7 +76,7 @@ Arcanum Nights는 장소를 클릭해 이동하는 게임입니다.
 제가 기획할 때 미리 여러 상황을 생각하는 이유도 문서를 길게 만들기 위해서가 아닙니다.  
 개발과 아트가 작업을 시작한 뒤 처음부터 방향을 다시 정하는 일을 줄이고, 플레이어에게는 고민한 흔적이 복잡한 옵션이 아니라 자연스러운 경험으로 남게 하고 싶기 때문입니다.
 
-[🔗 Arcanum Nights Case Study](/projects/arcananights/#case-study)
+[Arcanum Nights Case Study](/projects/arcananights/#case-study)
 
 </div>
 
@@ -151,6 +151,6 @@ If it does not, the team should still understand why it is being left unsupporte
 I consider these cases before implementation not to make the document longer, but to reduce the number of times development and art must stop and redefine the direction.  
 For the player, that preparation should appear as a natural experience rather than a long list of visible options.
 
-[🔗 Arcanum Nights Case Study](/projects/arcananights/#case-study-en)
+[Arcanum Nights Case Study](/projects/arcananights/#case-study-en)
 
 </div>

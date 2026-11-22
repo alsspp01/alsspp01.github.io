@@ -1,6 +1,6 @@
 ---
-title: "🗄️ RocksDB Chrono Break DB"
-title_en: "🗄️ RocksDB Chrono Break DB"
+title: "RocksDB Chrono Break DB"
+title_en: "RocksDB Chrono Break DB"
 type: page
 description: "RocksDB의 Compaction · TTL · Merge 분석에서 출발해, 게임 로그를 특정 시점으로 되돌리는 로그 DB를 설계 · 구현한 4주 팀 프로젝트."
 description_en: "A four-week team project that started with analyzing RocksDB's Compaction, TTL, and Merge and ended with a game-log DB that can roll a session back to a point in time."
@@ -104,7 +104,7 @@ Snapshot 복원 테스트에서는 2,933개 엔트리를 복원해 원본과 모
 - 3주차 비교는 "한 세션의 로그 전체를 읽는다"는 가정 아래의 결과이며, 다른 읽기 패턴에서는 결론이 달라질 수 있습니다.
 - 성능 수치는 위의 실험 조건에서만 의미가 있고, RocksDB 일반의 성능 비교로 확장하지 않습니다.
 
-🔗 [ChronobreakFilter 코드](https://github.com/alsspp01/RocksDB_ChronobreakFilter) · [db_bench 실험용 RocksDB fork](https://github.com/alsspp01/OpensourceBigdata)
+[ChronobreakFilter 코드](https://github.com/alsspp01/RocksDB_ChronobreakFilter) · [db_bench 실험용 RocksDB fork](https://github.com/alsspp01/OpensourceBigdata)
 
 [↑ Top](#top)
 
@@ -207,7 +207,7 @@ A snapshot restore test recovered 2,933 entries, all matching the original.
 - The week 3 comparison assumes reading a whole session's logs; other read patterns could change the conclusion.
 - The numbers hold only under these experiment conditions and are not a general RocksDB performance claim.
 
-🔗 [ChronobreakFilter code](https://github.com/alsspp01/RocksDB_ChronobreakFilter) · [RocksDB fork used for db_bench experiments](https://github.com/alsspp01/OpensourceBigdata)
+[ChronobreakFilter code](https://github.com/alsspp01/RocksDB_ChronobreakFilter) · [RocksDB fork used for db_bench experiments](https://github.com/alsspp01/OpensourceBigdata)
 
 [↑ Top](#top-en)
 

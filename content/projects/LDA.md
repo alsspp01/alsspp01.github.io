@@ -1,5 +1,5 @@
 ---
-title: "📊 League of Legends Data Analysis"
+title: "League of Legends Data Analysis"
 type: page
 description: "LoL 연속 플레이와 인지피로 연구를 위한 실험 도구, 데이터 수집 · 분석 및 개인 리포트 개발."
 dated: true
@@ -18,8 +18,8 @@ tags: ["DKU"]
 **상태** · 연구실 내부 실험 · 분석 도구  
 **주요 작업** · 인지과제 프로그램 · Riot API 수집 · 조건별 데이터 분석 · 참가자 리포트
 
-[🔗 LDA GitHub](https://github.com/alsspp01/LDA)  
-[🔗 TestResultAnalysis GitHub](https://github.com/alsspp01/TestResultAnalysis)
+[LDA GitHub](https://github.com/alsspp01/LDA)  
+[TestResultAnalysis GitHub](https://github.com/alsspp01/TestResultAnalysis)
 
 ### 바로가기
 [**Case Study ↓**](#case-study) · [**Devlog ↓**](#devlog)
@@ -106,7 +106,7 @@ JavaScript 로거와 Python 위치 기록기, 분석용 노트북으로 가능�
 아래 논문은 같은 연구 주제를 다룬 연구실의 질적 연구입니다.  
 저는 논문의 저자나 연구 기획 · 면담 · 질적 분석에 참여하지 않았으며, 제가 개발한 도구가 해당 논문의 방법이나 결과에 사용된 것은 아닙니다.
 
-🔗 [「e스포츠 참여자들의 인지피로 경험에 관한 현상학적 연구」](https://doi.org/10.21097/ksw.2025.2.20.1.303)  
+[「e스포츠 참여자들의 인지피로 경험에 관한 현상학적 연구」](https://doi.org/10.21097/ksw.2025.2.20.1.303)  
 한국웰니스학회지 · 2025 · 20(1) · 303–313
 
 [↑ Top](#top)
@@ -231,7 +231,7 @@ Public Riot API 외 데이터 수집 가능성 검토
 - Visualization
 - Report output
 
-공개 저장소로 관리 · [🔗 TestResultAnalysis GitHub](https://github.com/alsspp01/TestResultAnalysis)
+공개 저장소로 관리 · [TestResultAnalysis GitHub](https://github.com/alsspp01/TestResultAnalysis)
 
 ### 09. Final Structure
 
@@ -253,7 +253,7 @@ Participant Report
 
 단발성 script보다 반복 가능한 research pipeline 중심 정리
 
-[🔗 GitHub](https://github.com/alsspp01/LDA)
+[GitHub](https://github.com/alsspp01/LDA)
 [↑ Case Study](#case-study)
 
 </div>
@@ -268,8 +268,8 @@ Participant Report
 **Status** · Internal lab tools for experiments and analysis  
 **Scope** · Cognitive Task Application · Riot API Collection · Conditional Data Analysis · Participant Reports
 
-[🔗 LDA GitHub](https://github.com/alsspp01/LDA)  
-[🔗 TestResultAnalysis GitHub](https://github.com/alsspp01/TestResultAnalysis)
+[LDA GitHub](https://github.com/alsspp01/LDA)  
+[TestResultAnalysis GitHub](https://github.com/alsspp01/TestResultAnalysis)
 
 ### Jump to
 [**Case Study ↓**](#case-study-en) · [**Devlog ↓**](#devlog-en)
@@ -360,7 +360,7 @@ The paper below is a separate qualitative study from the laboratory on the same 
 I was not an author and did not participate in its research planning, interviews, or qualitative analysis.  
 The tools I developed were not part of the paper's methods or results.
 
-🔗 [“Phenomenological Study on Cognitive Fatigue Experiences of eSports Participants”](https://doi.org/10.21097/ksw.2025.2.20.1.303)  
+[“Phenomenological Study on Cognitive Fatigue Experiences of eSports Participants”](https://doi.org/10.21097/ksw.2025.2.20.1.303)  
 Journal of Korea Society for Wellness · 2025 · 20(1) · 303–313
 
 [↑ Top](#top-en)
@@ -485,7 +485,7 @@ Separate reporting utility for the later research stage
 - Visualization
 - Report output
 
-Public repository · [🔗 TestResultAnalysis GitHub](https://github.com/alsspp01/TestResultAnalysis)
+Public repository · [TestResultAnalysis GitHub](https://github.com/alsspp01/TestResultAnalysis)
 
 ### 09. Final Structure
 
@@ -507,7 +507,7 @@ Participant Report
 
 Repeatable research pipeline over one-off scripts
 
-[🔗 GitHub](https://github.com/alsspp01/LDA)
+[GitHub](https://github.com/alsspp01/LDA)
 [↑ Case Study](#case-study-en)
 
 </div>

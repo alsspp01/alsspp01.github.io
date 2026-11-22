@@ -1,26 +1,112 @@
-/* Site-level styles layered on top of the gokarna theme. */
-.post-content a { color: inherit; }
+/*
+  Site-level styles layered on top of the gokarna theme.
+  Direction: clear borders, soft contrast, restrained decoration, generous spacing.
+*/
+
+:root {
+  /* Theme variables (light mode). dark.css keeps its own values. */
+  --light-primary-color: 250, 249, 246;   /* warm neutral background */
+  --light-secondary-color: #e4e1db;       /* hairlines */
+  --light-text-color: #2a2c2e;            /* dark gray body text */
+
+  --muted: #6b6f73;
+  --line: #e4e1db;
+  --surface: #f3f1ec;
+  --accent: #3a6f73;                      /* calm teal, one accent only */
+}
+html.is-dark {
+  --muted: #a3a9ae;
+  --line: #3a4048;
+  --surface: #2b3139;
+  --accent: #8cc2c4;
+}
+
+/* Typography */
+html {
+  font-family: "Pretendard Variable", Pretendard, -apple-system, "Segoe UI", sans-serif;
+  font-size: 17px;
+  -webkit-font-smoothing: antialiased;
+}
+.post .post-content {
+  line-height: 1.85;
+  letter-spacing: 0;
+  margin-top: 40px;
+}
+.post-content p { margin: 0 0 1.1em; }
+.post-content li { margin: 0.25em 0; }
+.post-content h2 {
+  font-size: 1.35em;
+  font-weight: 600;
+  margin: 2.4em 0 0.8em;
+  padding-top: 1.2em;
+  border-top: 1px solid var(--line);
+}
+.post-content h2:first-child,
+.post-content > div > h2:first-child,
+.post-content a + h2 { border-top: 0; padding-top: 0; }
+.post-content h3 { font-size: 1.1em; font-weight: 600; margin: 1.8em 0 0.6em; }
+.post-content h4 { font-size: 1em; font-weight: 600; margin: 1.4em 0 0.4em; }
+.post-content strong, .post-content b { font-weight: 600; }
+
+.post-header-section h1 { font-weight: 600; letter-spacing: -0.01em; }
+.post [role="doc-subtitle"] {
+  font-style: normal;
+  font-size: 1em;
+  color: var(--muted);
+}
+
+/* Links: one accent color */
+a:hover, .post-content a { color: var(--accent); }
+.post-content a { text-decoration: underline; text-underline-offset: 3px; text-decoration-thickness: 1px; }
+
+/* Rules, quotes, tables, code */
+.post-content hr, .markdown-content hr { border: 0; border-top: 1px solid var(--line); margin: 2em 0; }
+.post-content blockquote {
+  margin: 1.2em 0;
+  padding: 0.2em 0 0.2em 1em;
+  border-left: 2px solid var(--line);
+  color: var(--muted);
+}
+.post-content table { border-collapse: collapse; font-size: 0.94em; line-height: 1.6; }
+.post-content table thead { background: var(--surface); }
+.post-content table td, .post-content table th { border: 1px solid var(--line); padding: 8px 12px; }
+.post-content table td:first-child,
+.post-content table th:first-child { min-width: 4.5em; }
+.post-content code { font-size: 0.88em; }
+.post-content details { margin: 1.2em 0; color: var(--muted); }
+.post-content details summary { cursor: pointer; }
+.post-content img { border: 1px solid var(--line); border-radius: 4px; }
+
+/* Homepage */
+.home-about h1 { font-weight: 600; }
+.home-about h3 { font-weight: 400; color: var(--muted); font-size: 1.05em; }
+.markdown-content { line-height: 1.8; }
+.markdown-content h2 { font-size: 1.15em; font-weight: 600; margin: 2em 0 0.6em; }
+.markdown-content ul { padding-left: 1.2em; }
+.markdown-content li { margin: 0.3em 0; }
+.home-links p { display: flex; flex-wrap: wrap; gap: 8px 22px; justify-content: center; margin: 12px 0 4px; }
+.home-links a { text-decoration: none; border-bottom: 1px solid var(--line); padding-bottom: 2px; }
+.home-links a:hover { border-color: var(--accent); }
 
 /* Back-to-top button (see /js/site.js) */
 .site-top-btn {
-  position: fixed; right: 20px; bottom: 20px; width: 44px; height: 44px;
-  border: 0; border-radius: 50%; background: #4d93fd; color: #fff;
+  position: fixed; right: 20px; bottom: 20px; width: 40px; height: 40px;
+  border: 1px solid var(--line); border-radius: 50%;
+  background: rgb(var(--light-primary-color)); color: var(--muted);
   display: flex; align-items: center; justify-content: center; cursor: pointer;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, .2);
-  opacity: 0; pointer-events: none; transition: opacity .2s; z-index: 50;
+  opacity: 0; pointer-events: none; transition: opacity .2s, color .2s; z-index: 50;
 }
-.site-top-btn.is-visible { opacity: .9; pointer-events: auto; }
-.site-top-btn:hover, .site-top-btn:focus-visible { opacity: 1; }
-
-/* Homepage section links */
-.home-links p { display: flex; flex-wrap: wrap; gap: 8px 20px; justify-content: center; margin: 8px 0 4px; }
-
-/* Tables: keep short label columns readable on narrow screens */
-.post-content table td:first-child,
-.post-content table th:first-child { min-width: 4.5em; }
+html.is-dark .site-top-btn { background: rgb(var(--dark-primary-color)); }
+.site-top-btn.is-visible { opacity: 1; pointer-events: auto; }
+.site-top-btn:hover, .site-top-btn:focus-visible { color: var(--accent); border-color: var(--accent); }
 
 @media (max-width: 600px) {
-  .post-content table td,
-  .post-content table th { padding: 8px 10px; }
+  html { font-size: 16px; }
+  .post-content table td, .post-content table th { padding: 7px 9px; }
   .site-top-btn { right: 14px; bottom: 14px; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  .site-top-btn { transition: none; }
 }

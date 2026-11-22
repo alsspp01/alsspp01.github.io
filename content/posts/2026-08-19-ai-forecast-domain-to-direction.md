@@ -1,6 +1,6 @@
 ---
-title: "🌦️ 기상학을 모르는 PM이 요구사항을 정리하기까지"
-title_en: "🌦️ Learning the Domain Before Defining the Requirements"
+title: "기상학을 모르는 PM이 요구사항을 정리하기까지"
+title_en: "Learning the Domain Before Defining the Requirements"
 date: 2026-08-19
 description: "온보딩 없이 투입된 기상 예보지원 프로젝트에서 예보 업무를 배우고 개발 방향을 정리한 과정."
 description_en: "How I learned the forecasting workflow and clarified the development direction after joining without domain onboarding."
@@ -67,7 +67,7 @@ AI가 들어가야 할 위치도 그 뒤에야 보이기 시작했습니다.
 보이지 않는 곳에 목적지만 찍기보다, 직접 돌아다니며 지형을 확인해야 다음 판단이 쉬워집니다.  
 저에게는 사용자의 업무를 가장 잘 아는 사람들에게 배우고 용어를 익히는 과정이 그 맵을 밝히는 일이었습니다.
 
-[🔗 Alpha Weather Case Study](/projects/ai-forecast-support/#case-study)
+[Alpha Weather Case Study](/projects/ai-forecast-support/#case-study)
 
 </div>
 
@@ -131,6 +131,6 @@ When I enter a new project, I often picture a game map covered in fog.
 Placing a waypoint in an unseen area is less useful than revealing enough of the terrain to make the next decision.  
 Learning the user's work from the people closest to it, and picking up the language of the domain, was how I uncovered that map here.
 
-[🔗 Alpha Weather Case Study](/projects/ai-forecast-support/#case-study-en)
+[Alpha Weather Case Study](/projects/ai-forecast-support/#case-study-en)
 
 </div>
