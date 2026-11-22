@@ -15,6 +15,7 @@ tags: ["DKU"]
 - **팀** · 3명, 2024년 1학기 산업보안학과 졸업(캡스톤) 프로젝트
 - **역할** · SQLi 기법 자료 조사, SQLmap 결과 파싱(`crawling.py`)과 PySide6 GUI 개발
 - **구조** · URL 입력 → SQLmap 자동 실행(`--batch`) → 탐지된 SQLi 유형 · Payload 추출 → 유형별 대응 방법(Prepared Statement, 입력값 검증 등) 안내
+- **설계 기준** · 사이트마다 구성이 달라 강제 지침 대신 "추천식" 안내로, 보안 초급자도 따라 할 수 있는 수준으로 정함
 - **검증** · 공개 테스트 사이트와 로컬 더미 서버(Ubuntu · nginx · PHP · MariaDB)에서 동작 확인
 - **한계** · 탐지는 SQLmap에 의존하며, 대응 안내는 유형별로 미리 정리한 규칙 기반 설명
 
@@ -22,6 +23,7 @@ tags: ["DKU"]
 > **Team** · 3 members, Industrial Security graduation (capstone) project, spring 2024  
 > **Role** · Researched SQLi techniques; built SQLmap output parsing (`crawling.py`) and the PySide6 GUI  
 > **Flow** · Enter a URL → run SQLmap automatically (`--batch`) → extract detected SQLi types and payloads → show type-specific countermeasures (prepared statements, input validation, etc.)  
+> **Design choice** · Since every site is built differently, the tool recommends fixes rather than enforcing rules, at a level a security beginner can follow  
 > **Validation** · Tested against a public test site and a local dummy server (Ubuntu · nginx · PHP · MariaDB)  
 > **Limits** · Detection relies on SQLmap; guidance is rule-based text prepared per SQLi type
 

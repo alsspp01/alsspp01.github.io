@@ -29,7 +29,7 @@ description_en: "A League of Legends duo win-rate lookup site the team launched,
 | 목표 | 두 플레이어의 듀오 예상 승률과 궁합을 보여주는 웹사이트 |
 | 출시 | 과거 함께한 경기 기록 기반의 듀오 승률 조회 기능(초기 버전, 팀 전체의 결과) |
 | 실험 | 개인 지표와 포지션 조합을 이용한 예상 승률 예측 모델(실제 서비스에는 공개하지 않음) |
-| 미구현 | 플레이 성향 유형 콘텐츠 LoLBTI(기획 단계) |
+| 미구현 | 플레이 성향 유형 콘텐츠 LoLBTI(축 · 지표 설계까지) |
 
 ### 친구와 듀오 랭크를 하다가 시작한 프로젝트
 
@@ -38,7 +38,7 @@ description_en: "A League of Legends duo win-rate lookup site the team launched,
 
 목표는 함께 플레이한 기록이 충분한 듀오에게는 실제 승률을, 그렇지 않은 듀오에게는 각자의 플레이 지표와 포지션 조합을 바탕으로 예상 승률을 보여주는 것이었습니다.  
 팀은 이 중 과거 기록 기반의 듀오 승률 조회 기능을 초기 버전으로 출시했고, 예상 승률 예측은 실험 단계에 머물렀습니다.  
-LoLBTI는 궁합 예측 모델의 입력값이 아닌 별도 콘텐츠로 기획했지만 구현하지 않았습니다.
+LoLBTI는 궁합 예측 모델의 입력값이 아닌 별도 콘텐츠로, 공격/수비 · 주도/수동 · 독립/협력 · 도전/안정의 네 가지 축과 각 축의 지표까지 설계했지만 구현하지는 않았습니다.
 
 ### 내가 맡은 일과 팀원이 맡은 일
 
@@ -122,7 +122,7 @@ League of Legends의 결과에는 챔피언과 숙련도, 포지션, 팀 조합�
 | Goal | A website showing predicted duo win rates and compatibility between two players |
 | Shipped | Initial version: duo win-rate lookup based on shared match history (team result) |
 | Experimental | A model predicting duo win rates from individual stats and role combination (never released) |
-| Not built | LoLBTI, a play-style profile (planning only) |
+| Not built | LoLBTI, a play-style profile (axes and metrics designed) |
 
 ### A project inspired by playing duo queue with a friend
 
@@ -132,7 +132,7 @@ I proposed it to a group, started a five-person project, and led the team.
 The goal was to show the observed win rate for duos with enough shared matches and a predicted win rate, based on individual stats and role combination, for everyone else.  
 The team launched the first part, a win-rate lookup built on past shared matches.  
 The prediction never moved beyond experiments.  
-LoLBTI was planned as separate content, not as a model input, and was not built.
+LoLBTI was separate content, not a model input. Its four axes (aggressive/defensive, leading/reactive, independent/cooperative, risk-taking/stable) and their metrics were designed, but it was not built.
 
 ### What I did and what the team did
 

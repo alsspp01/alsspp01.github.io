@@ -34,7 +34,8 @@ RocksDB가 LevelDB보다 실제로 어떤 점에서 더 실용적인지, 그리�
 
 ### My Contribution
 
-- 팀 리더로서 주차별 목표와 실험 방향을 정하고, 1 · 2주차 분석 결과를 Chrono Break라는 응용 시나리오로 연결하는 구상을 맡았습니다.
+- 주제를 정할 때 "RocksDB로 대전 게임 로그 저장 시스템 만들기"(전투 로그 Merge, 세션 저장 · 복구)를 제안했고, 이 아이디어가 4주차 Chrono Break DB의 바탕이 됐습니다.
+- 팀 리더로서 주차별 목표와 실험 방향을 정했습니다.
 - 매주 실험 결과를 해석해 다음 주의 질문으로 정리했습니다. 예를 들어 2주차의 key format 논의를 3주차의 read 성능 비교 실험으로, 3주차 결과를 4주차의 DB 설계로 이어갔습니다.
 - 주차별 발표를 맡아 팀의 분석과 구현 결과를 설명했습니다.
 
@@ -136,7 +137,8 @@ It requires a log store that records every state change and can return precisely
 
 ### My Contribution
 
-- As team lead, I set the weekly goals and experiment direction, and came up with the concept of connecting the week 1–2 analysis to the Chrono Break scenario.
+- When choosing a topic, I proposed "a game-log storage system built on RocksDB" (merging combat logs, saving and restoring sessions), which became the basis of the week 4 Chrono Break DB.
+- As team lead, I set the weekly goals and experiment direction.
 - I turned each week's results into the next week's question, for example taking the week 2 key-format discussion into a week 3 read-performance experiment, and the week 3 results into the week 4 DB design.
 - I gave the weekly presentations explaining the team's analysis and implementation.
 
