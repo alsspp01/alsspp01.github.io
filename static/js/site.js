@@ -1,5 +1,15 @@
 // Site-level behavior layered on top of the gokarna theme (theme files stay untouched).
 (function () {
+  // First visit with no saved language: show English unless the browser prefers Korean.
+  // Runs before the theme's lang-toggle reads the preference on DOMContentLoaded.
+  try {
+    if (!localStorage.getItem('lang-preference')) {
+      var langs = navigator.languages || [navigator.language || ''];
+      var prefersKo = langs.some(function (l) { return /^ko\b/i.test(l); });
+      if (!prefersKo) localStorage.setItem('lang-preference', 'en');
+    }
+  } catch (e) { /* storage blocked: theme falls back to its default */ }
+
   function closeMenu() {
     var menu = document.querySelector('.nav-hamburger-list');
     if (menu) menu.classList.add('visibility-hidden');

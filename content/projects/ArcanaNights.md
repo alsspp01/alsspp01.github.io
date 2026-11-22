@@ -91,7 +91,7 @@ PlayX4에서는 플레이어의 표정과 자세뿐 아니라 클릭하는 속�
 이 과정에서 문서로 볼 때는 알기 어려웠던 UI의 불편함을 발견해 수정했습니다.
 
 코드 최적화와 리팩터링 과정에도 참여해 기능이 어떤 흐름으로 동작해야 하는지 설명했습니다.  
-개발자의 역할을 대신하려는 것이 아니라, 구현 구조와 비용을 이해한 상태에서 기획 결정을 내리기 위해서였습니다.
+구현 구조와 비용을 알고 기획 결정을 내리기 위해서였습니다.
 
 ### 완벽을 기다리지 않고 출시 범위를 정했습니다
 
@@ -385,7 +385,7 @@ Using the developers' main game scene, I implemented the tutorial with its dialo
 Working directly in the game also revealed UI friction that was difficult to see in a document.
 
 I participated in code optimization and refactoring discussions by defining how each feature should behave.  
-The purpose was not to replace the developers, but to make planning decisions with a practical understanding of implementation structure and cost.
+The goal was to make planning decisions with a working sense of implementation structure and cost.
 
 ### Choosing a Scope We Could Ship
 

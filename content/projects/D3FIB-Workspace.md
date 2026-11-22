@@ -37,7 +37,7 @@ D3F!B는 여러 장르의 게임 시리즈를 만들기 위해 시작한 게임 
 약 10명의 팀원이 기획, 개발, 아트로 나뉘어 완전 원격으로 활동하고 있습니다.  
 학생과 직장인이 섞여 있어 활동 시간이 모두 다르고, 한 달에 한 번 전원이 모여 진행 상황을 공유하는 것 외에는 각자의 일정에 맞춰 작업합니다.
 
-### 도구가 아니라 일하는 방식을 설계하기
+### 도구마다 역할 나누기
 
 팀이 커지면서 운영상의 문제가 한꺼번에 나타났습니다.  
 자료와 결정 사항을 찾기 어려웠고, 회의가 끝나면 논의 결과가 사라졌습니다.  
@@ -63,7 +63,7 @@ Discord에는 기획 · 개발 · 아트 부서별 채널을 두어 세부 작�
 다른 부서가 모든 중간 과정을 따라가느라 정보에 묻히지 않으면서도, 최종 결과물과 협업에 필요한 정보에는 접근할 수 있도록 한 구조입니다.  
 GitHub 웹훅 알림도 개발팀 전용 채널에 연결했습니다.
 
-권한을 단순히 많이 열거나 잠그는 문제가 아니라, 각 역할에 필요한 정보가 자연스럽게 보이도록 설계하는 문제로 다뤘습니다.
+권한은 역할마다 필요한 정보가 바로 보이고, 접근 요청이 반복되지 않도록 나눴습니다.
 
 ### 사용 중인 워크스페이스의 탐색 구조 개선
 
@@ -142,7 +142,7 @@ Around ten people work remotely across planning, development, and art.
 The team includes both students and full-time employees with different working hours.  
 Apart from a monthly all-hands progress meeting, members work asynchronously around their own schedules.
 
-### Designing how the team works
+### Giving each tool a role
 
 As the team grew, several operational problems appeared at once.  
 Documents and decisions were difficult to find, meeting outcomes disappeared into chat history, and ownership and deadlines were not always clear.  
@@ -167,7 +167,7 @@ Discord channels for planning, development, and art keep detailed work in progre
 This prevents other departments from being overwhelmed by every intermediate step while preserving access to final assets and information needed for collaboration.  
 GitHub webhook notifications are likewise routed to a development-only channel.
 
-I treated permissions as a workflow-design problem: each role should naturally see what it needs without exposing unrelated information or creating repeated access requests.
+Permissions were set so each role sees what it needs without repeated access requests.
 
 ### Improving navigation in an active workspace
 
