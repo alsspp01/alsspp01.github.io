@@ -2,8 +2,8 @@
 title: "집사 - PART 01. 회의록"
 title_en: "Jipsa — Part 01: Meeting Records"
 date: 2026-07-23
-description: "Project DIA(Do It, AI) #3"
-description_en: "Project DIA (Do It, AI) #3"
+description: "Discord 음성 회의를 요약해 Notion 회의록으로 남기는 봇 · DIA #3"
+description_en: "A bot that turns Discord voice meetings into Notion notes · DIA #3"
 image: 
 type: "post"
 tags: ["DIA", "D3F!B", "Discord-bot", "Node.js", "Gemini", "Notion"]

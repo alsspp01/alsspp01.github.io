@@ -2,8 +2,8 @@
 title: "자동화 - PART 01. Notion 알림 Discord로 보내기"
 title_en: "Automation — Part 01: Sending Notion Updates to Discord"
 date: 2026-08-11
-description: "Project DIA(Do It, AI) #5"
-description_en: "Project DIA (Do It, AI) #5"
+description: "Notion 개발일지를 Discord로 알리는 웹훅 서버 · DIA #5"
+description_en: "A webhook server that posts Notion devlogs to Discord · DIA #5"
 image: 
 type: "post"
 tags: ["DIA", "DEFIB", "Node.js", "Notion", "Discord", "Webhook"]

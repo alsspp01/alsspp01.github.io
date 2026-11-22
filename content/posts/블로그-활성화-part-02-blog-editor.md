@@ -2,8 +2,8 @@
 title: "블로그 활성화 - PART 02. Blog Editor"
 title_en: "Bringing the Blog Back — Part 02: Blog Editor"
 date: 2026-07-23
-description: "Project DIA(Do It, AI) #2"
-description_en: "Project DIA (Do It, AI) #2"
+description: "외부 의존성 없이 만든 블로그 작성용 에디터 · DIA #2"
+description_en: "A dependency-free editor for writing this blog · DIA #2"
 image: 
 type: "post"
 tags: ["DIA", "Python", "Hugo", "Regex"]

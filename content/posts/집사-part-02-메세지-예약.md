@@ -2,8 +2,8 @@
 title: "집사 - PART 02. 메시지 예약"
 title_en: "Jipsa — Part 02: Scheduled Messages"
 date: 2026-08-11
-description: "Project DIA(Do It, AI) #4"
-description_en: "Project DIA (Do It, AI) #4"
+description: "회의 봇에 예약 메시지 기능 추가 · DIA #4"
+description_en: "Adding scheduled messages to the meeting bot · DIA #4"
 image: 
 type: "post"
 tags: ["DIA", "D3F!B", "Discord-bot", "Node.js"]

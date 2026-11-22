@@ -2,8 +2,8 @@
 title: "블로그 활성화 - PART 01. Github Blog"
 title_en: "Bringing the Blog Back — Part 01: GitHub Blog"
 date: 2026-07-22
-description: "Project DIA(Do It, AI) #1"
-description_en: "Project DIA (Do It, AI) #1"
+description: "Hugo · GitHub Pages · Actions로 블로그 자동 배포 구축 · DIA #1"
+description_en: "Hugo, GitHub Pages, and Actions auto-deploy · DIA #1"
 image: 
 type: "post"
 tags: ["DIA", "Hugo", "github-pages", "CI/CD"]

@@ -133,8 +133,6 @@ Arcanum Nights는 D3F!B의 기획 2명, 개발 4명, 아트 4명이 함께 만�
 
 팀이 구현할 수 있는 구조로 설명하고, 처음 보는 플레이어가 이해할 수 있도록 다시 보여주고, 팀이 끝까지 만들 수 있는 범위로 조정해야 했습니다.
 
-**새로운 아이디어를 떠올리는 것부터 다른 사람이 실제로 즐길 수 있는 게임으로 내놓는 것까지가 기획의 일이라고 생각합니다.**
-
 🔗 [Steam에서 Arcanum Nights 보기](https://store.steampowered.com/app/3453760/Arcanum_Nights/)
 
 [↑ Top](#top)
@@ -428,8 +426,6 @@ They connect the story of Arcanum Nights to a future game world built around a p
 Inventing an original mechanic was not enough to make a game.
 
 I had to explain it in a structure the team could implement, present it in a way a first-time player could understand, and adjust the scope so the team could finish and release it.
-
-**To me, planning covers the entire path from imagining something new to putting it in the hands of someone who can actually enjoy it.**
 
 🔗 [View Arcanum Nights on Steam](https://store.steampowered.com/app/3453760/Arcanum_Nights/)
 

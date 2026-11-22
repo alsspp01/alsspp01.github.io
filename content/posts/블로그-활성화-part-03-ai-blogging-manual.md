@@ -2,8 +2,8 @@
 title: "블로그 활성화 - PART 03. AI blogging manual"
 title_en: "Bringing the Blog Back — Part 03: AI Blogging Manual"
 date: 2026-07-23
-description: "Project DIA(Do It, AI) #prompt"
-description_en: "Project DIA (Do It, AI): Prompt Notes"
+description: "AI로 블로그 글 초안을 만드는 절차 메모 · DIA"
+description_en: "How I draft blog posts with AI · DIA"
 image: 
 type: "post"
 tags: ["DIA", "blog"]
