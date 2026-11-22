@@ -34,7 +34,8 @@ aliases:
 국립기상과학원 AI 예보지원 프로젝트 Alpha Weather에 처음 들어갔을 때, 기상학은 제게 완전히 새로운 분야였습니다.  
 게다가 무엇을 어떻게 만들어야 하는지 기술적인 요구사항도 충분히 구체화되어 있지 않았습니다.
 
-그래서 우선 기상 용어를 공부하고, 기상과학원에 찾아가 연구진과 담당자에게 예보 프로그램과 업무 흐름을 설명 들었습니다. 이후에도 꾸준히 소통하며 예보관이 어떤 정보를 어떤 순서로 활용하는지 이해해 나갔습니다.
+그래서 우선 기상 용어를 공부하고, 기상과학원에 찾아가 연구진과 담당자에게 예보 프로그램과 업무 흐름을 설명 들었습니다.  
+이후에도 꾸준히 소통하며 예보관이 어떤 정보를 어떤 순서로 활용하는지 이해해 나갔습니다.
 
 그러자 조금씩 **무엇을 만들어야 하는지 뿐 아니라, 왜 만들어야 하는지**가 보이기 시작했습니다.
 
@@ -80,7 +81,9 @@ PlayX4에서 게임 시연 부스를 운영했을 때에도 플레이어가 게�
 
 저는 현재 10명 규모의 사이드 프로젝트 팀 **D3F!B**를 운영하며 기획 · 개발 · 아트 팀원들과 함께 게임을 만들고 있습니다.
 
-초기에는 제가 할 수 있는 일을 최대한 직접 맡으려 했습니다. 하지만 일이 한 사람에게 몰리자 팀원들에게 업무가 제대로 배분되지 않았고, 팀 전체의 흐름도 오히려 느려졌습니다. 이 경험으로 **업무를 나누고 각자의 관점을 연결하는 것**이 리더의 더 중요한 역할이라는 것을 배웠습니다.
+초기에는 제가 할 수 있는 일을 최대한 직접 맡으려 했습니다.  
+하지만 일이 한 사람에게 몰리자 팀원들에게 업무가 제대로 배분되지 않았고, 팀 전체의 흐름도 오히려 느려졌습니다.  
+이 경험으로 **업무를 나누고 각자의 관점을 연결하는 것**이 리더의 더 중요한 역할이라는 것을 배웠습니다.
 
 팀 활동을 하다 보면 **같은 것을 만들고 있어도 직군마다 보는 화면은 전혀 다를 수 있다**는 것을 체감하게 됩니다.  
 
@@ -153,21 +156,26 @@ Detailed case studies are on the [Portfolio](/portfolio/) page.
 
 In a past self-introduction, I called myself **Metamon** (Ditto).
 
-Looking back, that still feels accurate. Metamon is a Pokémon that can freely change its shape. Back then, the word meant *learning things quickly*. Today it means something a little different:
+Looking back, that still feels accurate. Metamon is a Pokémon that can freely change its shape.  
+Back then, the word meant *learning things quickly*.  
+Today it means something a little different:
 
 **Quickly reading the rules of an unfamiliar environment and reorganizing myself into the form it needs.**
 
 When I joined Alpha Weather, the AI forecast-support project for the National Institute of Meteorological Sciences, meteorology was entirely new to me, and the technical requirements, what to build and how, had not yet been defined.
 
-I started by studying meteorological terminology. I then visited the institute, where researchers and staff walked me through the forecasting software and workflow, and kept in regular contact with them to understand which information forecasters use and in what order.
+I started by studying meteorological terminology.  
+I then visited the institute, where researchers and staff walked me through the forecasting software and workflow, and kept in regular contact with them to understand which information forecasters use and in what order.
 
 Gradually, I began to see not only **what needed to be built but also why.**
 
-From there, I outlined a technical direction, explained it to the company's developers at a whiteboard, and discussed implementation with them. Over time, developers began coming to me to check direction.
+From there, I outlined a technical direction, explained it to the company's developers at a whiteboard, and discussed implementation with them.  
+Over time, developers began coming to me to check direction.
 
 I think this adaptability comes from **enjoying the process of understanding things from the ground up.**
 
-In college, I worked through a difficult binary-analysis assignment using only the debugger the professor required. It took longer, but the understanding I built helped me prepare for the reports and exams that followed.
+In college, I worked through a difficult binary-analysis assignment using only the debugger the professor required.  
+It took longer, but the understanding I built helped me prepare for the reports and exams that followed.
 
 Experiences like this give me confidence that I can adapt to unfamiliar fields.
 
@@ -187,9 +195,12 @@ Beyond the standard successful flow, I ask questions like:
 
 So by the time questions come up during implementation, I have usually **already thought through those cases.**
 
-The same habit shapes how I write documents and design screens. I arrange information not in the order that makes sense to me, but in the **order a first-time reader would understand.**
+The same habit shapes how I write documents and design screens.  
+I arrange information not in the order that makes sense to me, but in the **order a first-time reader would understand.**
 
-When I ran a game demo booth at PlayX4, I did not only check whether players cleared the game. I watched their expressions, posture, and even how quickly they pressed keys and clicked, to see when they were engaged and where the pace dragged. I compiled several days of observations into a QA document, and the team worked through the improvements together.
+When I ran a game demo booth at PlayX4, I did not only check whether players cleared the game.  
+I watched their expressions, posture, and even how quickly they pressed keys and clicked, to see when they were engaged and where the pace dragged.  
+I compiled several days of observations into a QA document, and the team worked through the improvements together.
 
 ---
 
@@ -197,7 +208,9 @@ When I ran a game demo booth at PlayX4, I did not only check whether players cle
 
 I run **D3F!B**, a ten-person side-project team where planning, development, and art members make games together.
 
-Early on, I tried to take on as much work myself as I could. When too much sat with one person, tasks were not distributed well and the team as a whole slowed down. That taught me that **dividing work and connecting different perspectives** is the more important part of leading.
+Early on, I tried to take on as much work myself as I could.  
+When too much sat with one person, tasks were not distributed well and the team as a whole slowed down.  
+That taught me that **dividing work and connecting different perspectives** is the more important part of leading.
 
 Working in a team makes it clear that **even when everyone is building the same thing, each role sees a different screen.**
 
@@ -205,9 +218,12 @@ Developers look at structure and feasibility,
 artists at expression and presentation,  
 and planners at the overall user flow.
 
-So even when no one is wrong, conversations can drift because of differences in vocabulary. When that happens, I act as a kind of interpreter.
+So even when no one is wrong, conversations can drift because of differences in vocabulary.  
+When that happens, I act as a kind of interpreter.
 
-Because I have built software myself, I can judge **feasibility**. Because I have also drawn and made music, I can **give feedback and estimate production time**. Having often taken on planning and team-lead roles, I can flag **what will be needed next** ahead of time.
+Because I have built software myself, I can judge **feasibility**.  
+Because I have also drawn and made music, I can **give feedback and estimate production time**.  
+Having often taken on planning and team-lead roles, I can flag **what will be needed next** ahead of time.
 
 These days, rather than taking on more work myself, I focus on **connecting each other's language so everyone can do their own work well**, and spend my own time on the decisions and tasks that need me.
 
@@ -223,7 +239,8 @@ That has changed.
 
 I have learned that people do not want to see the complex deliberation behind something; **they want to find and use what they need with ease.**
 
-So the work I like most now is simple. Countless cases may be considered behind the scenes, but only what matters is clearly visible on the surface. I think that is closer to good planning.
+So the work I like most now is simple. Countless cases may be considered behind the scenes, but only what matters is clearly visible on the surface.  
+I think that is closer to good planning.
 
 The reason I care this much is not grand. I just love it when someone tries what I have made and says,
 

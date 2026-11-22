@@ -58,7 +58,7 @@ summary: "승률 검색 사이트에서 크롤링한 상대적인 승률을 바�
 
 </details>
 
-[![GitHub](/image/profile/github-mark.png)](https://github.com/alsspp01/LRP.git)
+🔗 [GitHub 저장소](https://github.com/alsspp01/LRP)
 
 </div>
 
@@ -110,6 +110,10 @@ The data limits I hit here led to working directly with the Riot API in [Chemi.l
 
 </details>
 
-[![GitHub](/image/profile/github-mark.png)](https://github.com/alsspp01/LRP.git)
+🔗 [GitHub repository](https://github.com/alsspp01/LRP)
 
 </div>
+
+---
+
+[← Projects](/projects/) · [Portfolio](/portfolio/)

@@ -347,3 +347,7 @@ F1 Score: 0.9848
 높은 Recall(0.9990)은 실제 SQL injection을 거의 놓치지 않는다는 의미이며, 위양성 여부는 Recall이 아니라 Precision과 FPR로 판단해야 한다.  
 Precision이 0.9709로 다소 낮게 나타나 일부 위양성이 발생할 가능성은 남아 있으며, 실사용 전에는 threshold 조정과 추가 데이터셋을 통한 검증이 필요하다고 판단된다.  
 별도의 데이터셋에서도 높은 Accuracy와 F1 Score을 확인했지만, 실제 보안 환경에 적용하려면 임계값 조정과 더 다양한 공격 · 정상 구문을 사용한 추가 검증이 필요하다.  
+
+---
+
+[← Projects](/projects/) · [Portfolio](/portfolio/)

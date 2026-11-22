@@ -65,7 +65,8 @@ tags: ["DKU"]
 ---
 
 ### CODE
-[![GITHUB](/image/profile/github-mark.png)](https://github.com/hanja1500/SIAM-W.git)
-&nbsp;  
-&nbsp;  
-> 그림을 클릭하면 GitHub 저장소로 연결됩니다.
+🔗 [GitHub 저장소 · Repository](https://github.com/hanja1500/SIAM-W)
+
+---
+
+[← Projects](/projects/) · [Portfolio](/portfolio/)

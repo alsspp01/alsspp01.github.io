@@ -30,61 +30,78 @@ Arcanum Nights의 퍼즐은 단순한 `X`에서 시작했습니다.
 
 X는 두 개의 선이 만나 만들어집니다. 그렇다면 서로 떨어진 두 개의 패턴과 그 관계를 알면, 원래의 형태를 다시 만들 수 있지 않을까 생각했습니다.
 
-이 생각을 **각자의 시점에서는 의미 없어 보이는 두 패턴이 하나의 시점에서 만날 때 특별한 형태로 완성되는 퍼즐**로 발전시켰습니다. 두 플레이어는 서로 다른 정보를 보고, 대화를 통해 하나의 답을 찾아야 합니다.
+이 생각을 **각자의 시점에서는 의미 없어 보이는 두 패턴이 하나의 시점에서 만날 때 특별한 형태로 완성되는 퍼즐**로 발전시켰습니다.  
+두 플레이어는 서로 다른 정보를 보고, 대화를 통해 하나의 답을 찾아야 합니다.
 
-별자리도 비슷하다고 느꼈습니다. 우주의 다른 곳에서는 의미 없는 별의 배치가 지구라는 한 시점에서 봤을 때 모양과 이야기를 갖습니다. 그래서 퍼즐의 결과를 별자리로 정하고, 타로와 점성술을 게임의 세계관에 연결했습니다.
+별자리도 비슷하다고 느꼈습니다. 우주의 다른 곳에서는 의미 없는 별의 배치가 지구라는 한 시점에서 봤을 때 모양과 이야기를 갖습니다.  
+그래서 퍼즐의 결과를 별자리로 정하고, 타로와 점성술을 게임의 세계관에 연결했습니다.
 
 이 기믹은 참고한 게임이나 레퍼런스 없이 처음부터 직접 설계했습니다.
 
 ### 레퍼런스가 없으면 설명부터 만들어야 했습니다
 
-처음 기믹을 설명했을 때는 개발자들도 게임이 어떻게 풀리는지 이해하기 어려워했습니다. 비교해서 보여줄 기존 게임이 없었기 때문에 아이디어만으로는 구현을 시작할 수 없었습니다.
+처음 기믹을 설명했을 때는 개발자들도 게임이 어떻게 풀리는지 이해하기 어려워했습니다.  
+비교해서 보여줄 기존 게임이 없었기 때문에 아이디어만으로는 구현을 시작할 수 없었습니다.
 
-그래서 게임을 작은 기능 단위로 나눠 와이어프레임을 만들고, 필요한 상태와 조건을 자료구조와 데이터 테이블로 정리했습니다. 개발자가 기믹 전체를 바로 이해하지 못하더라도 각 기능을 따라 프로토타입을 만들 수 있도록 했습니다.
+그래서 게임을 작은 기능 단위로 나눠 와이어프레임을 만들고, 필요한 상태와 조건을 자료구조와 데이터 테이블로 정리했습니다.  
+개발자가 기믹 전체를 바로 이해하지 못하더라도 각 기능을 따라 프로토타입을 만들 수 있도록 했습니다.
 
-플레이 가능한 프로토타입이 나오자 팀도 기믹의 의도와 전체 흐름을 이해하기 시작했습니다. 추상적인 아이디어가 팀이 함께 논의할 수 있는 게임으로 바뀐 순간이었습니다.
+플레이 가능한 프로토타입이 나오자 팀도 기믹의 의도와 전체 흐름을 이해하기 시작했습니다.  
+추상적인 아이디어가 팀이 함께 논의할 수 있는 게임으로 바뀐 순간이었습니다.
 
 ### 맵을 만들고 검증하는 도구
 
 퍼즐 맵은 정답이 하나만 나오도록 검증해야 했고, 완성된 형태를 눈으로 확인하면서 게임 데이터로 옮길 수 있어야 했습니다.
 
-이를 위해 기획자가 맵을 만들고 검증한 뒤 CSV 데이터로 내보낼 수 있는 Python 도구를 제작했습니다. CSV 구조를 몰라도 게임에 바로 적용할 파일을 만들 수 있어, 기획팀이 데이터 형식과 변환 실수를 걱정하지 않고 퍼즐 설계에 집중할 수 있었습니다.
+이를 위해 기획자가 맵을 만들고 검증한 뒤 CSV 데이터로 내보낼 수 있는 Python 도구를 제작했습니다.  
+CSV 구조를 몰라도 게임에 바로 적용할 파일을 만들 수 있어, 기획팀이 데이터 형식과 변환 실수를 걱정하지 않고 퍼즐 설계에 집중할 수 있었습니다.
 
 이 도구로 만든 데이터는 실제 게임 제작 전반에 사용됐습니다.
 
 ### 나에게 쉽다고 플레이어에게 쉬운 것은 아니었습니다
 
-처음에는 이론적으로 풀 수 있는 퍼즐이니 별도의 힌트가 많지 않아도 된다고 생각했습니다. 하지만 그 규칙을 만든 저에게만 쉬웠습니다.
+처음에는 이론적으로 풀 수 있는 퍼즐이니 별도의 힌트가 많지 않아도 된다고 생각했습니다.  
+하지만 그 규칙을 만든 저에게만 쉬웠습니다.
 
-기획팀의 의견과 플레이어 테스트를 통해 여러 단계의 힌트를 추가했습니다. 답을 바로 알려주기보다 플레이어가 막힌 지점에서 다시 추리할 수 있도록 돕는 방향으로 조정했습니다.
+기획팀의 의견과 플레이어 테스트를 통해 여러 단계의 힌트를 추가했습니다.  
+답을 바로 알려주기보다 플레이어가 막힌 지점에서 다시 추리할 수 있도록 돕는 방향으로 조정했습니다.
 
-PlayX4에서는 플레이어의 표정과 자세뿐 아니라 클릭하는 속도와 반복 행동도 관찰했습니다. 퍼즐 마니아들이 처음 보는 신선한 기믹이라고 평가해준 덕분에 새로운 퍼즐에 대한 수요를 확인할 수 있었고, 동시에 낯선 규칙을 더 쉽게 전달해야 한다는 과제도 분명해졌습니다.
+PlayX4에서는 플레이어의 표정과 자세뿐 아니라 클릭하는 속도와 반복 행동도 관찰했습니다.  
+퍼즐 마니아들이 처음 보는 신선한 기믹이라고 평가해준 덕분에 새로운 퍼즐에 대한 수요를 확인할 수 있었고, 동시에 낯선 규칙을 더 쉽게 전달해야 한다는 과제도 분명해졌습니다.
 
 ### 플레이를 보면 문서에서 보이지 않던 문제가 보입니다
 
-게임은 클릭한 위치로 이동하는 방식입니다. 이동 애니메이션이 길자 플레이어들은 같은 곳을 여러 번 클릭했고, 퍼즐을 고민하기보다 이동을 기다리는 데 답답함을 느꼈습니다.
+게임은 클릭한 위치로 이동하는 방식입니다.  
+이동 애니메이션이 길자 플레이어들은 같은 곳을 여러 번 클릭했고, 퍼즐을 고민하기보다 이동을 기다리는 데 답답함을 느꼈습니다.
 
-그래서 이동 애니메이션을 줄이고, 이동 중 들어온 다음 입력을 기억했다가 현재 이동이 끝난 직후 이어서 움직이도록 바꿨습니다. 조작의 끊김이 줄어들자 플레이어가 맵을 살피고 퍼즐을 고민하는 흐름도 자연스러워졌습니다.
+그래서 이동 애니메이션을 줄이고, 이동 중 들어온 다음 입력을 기억했다가 현재 이동이 끝난 직후 이어서 움직이도록 바꿨습니다.  
+조작의 끊김이 줄어들자 플레이어가 맵을 살피고 퍼즐을 고민하는 흐름도 자연스러워졌습니다.
 
-히든 엔딩 조건도 처음에는 튜토리얼에서 알려줬습니다. 플레이어들은 처음부터 조건을 만족하려고 힌트 사용을 참았고, 한 스테이지에 오래 머물다 지쳐 게임을 그만두기도 했습니다.
+히든 엔딩 조건도 처음에는 튜토리얼에서 알려줬습니다.  
+플레이어들은 처음부터 조건을 만족하려고 힌트 사용을 참았고, 한 스테이지에 오래 머물다 지쳐 게임을 그만두기도 했습니다.
 
-조건을 바로 보여주지 않도록 바꾸자 플레이어들은 먼저 힌트를 사용해 규칙을 익혔습니다. 이후에는 더 잘 풀기 위해 스스로 힌트 사용을 줄였습니다.
+조건을 바로 보여주지 않도록 바꾸자 플레이어들은 먼저 힌트를 사용해 규칙을 익혔습니다.  
+이후에는 더 잘 풀기 위해 스스로 힌트 사용을 줄였습니다.
 
 **모든 정보를 미리 주는 것이 항상 친절한 설계는 아니었습니다.**
 
 ### 직접 구현하며 기획을 확인했습니다
 
-개발자가 만든 메인 게임 장면을 바탕으로 대사와 기믹 설명이 포함된 튜토리얼을 직접 구현했습니다. 이 과정에서 문서로 볼 때는 알기 어려웠던 UI의 불편함을 발견해 수정했습니다.
+개발자가 만든 메인 게임 장면을 바탕으로 대사와 기믹 설명이 포함된 튜토리얼을 직접 구현했습니다.  
+이 과정에서 문서로 볼 때는 알기 어려웠던 UI의 불편함을 발견해 수정했습니다.
 
-코드 최적화와 리팩터링 과정에도 참여해 기능이 어떤 흐름으로 동작해야 하는지 설명했습니다. 개발자의 역할을 대신하려는 것이 아니라, 구현 구조와 비용을 이해한 상태에서 기획 결정을 내리기 위해서였습니다.
+코드 최적화와 리팩터링 과정에도 참여해 기능이 어떤 흐름으로 동작해야 하는지 설명했습니다.  
+개발자의 역할을 대신하려는 것이 아니라, 구현 구조와 비용을 이해한 상태에서 기획 결정을 내리기 위해서였습니다.
 
 ### 완벽을 기다리지 않고 출시 범위를 정했습니다
 
-Arcanum Nights는 처음부터 2인 멀티플레이를 중심으로 설계했습니다. 하지만 게임 개발을 처음부터 공부하며 진행한 사이드 프로젝트였고, 장기간 개발로 팀의 피로도도 높아지고 있었습니다.
+Arcanum Nights는 처음부터 2인 멀티플레이를 중심으로 설계했습니다.  
+하지만 게임 개발을 처음부터 공부하며 진행한 사이드 프로젝트였고, 장기간 개발로 팀의 피로도도 높아지고 있었습니다.
 
 대표로서 팀이 계속 나아가기 위해서는 실제 출시라는 결과가 필요하다고 판단했습니다.
 
-두 플레이어의 시점을 번갈아 보는 싱글 플레이에서도 정보 조합이라는 핵심 경험이 유지되는지 먼저 확인했습니다. 데모를 공개해 플레이 가능한 수준을 검증한 뒤, 싱글 플레이를 중심으로 2026년 2월 20일 Steam Early Access를 출시했습니다.
+두 플레이어의 시점을 번갈아 보는 싱글 플레이에서도 정보 조합이라는 핵심 경험이 유지되는지 먼저 확인했습니다.  
+데모를 공개해 플레이 가능한 수준을 검증한 뒤, 싱글 플레이를 중심으로 2026년 2월 20일 Steam Early Access를 출시했습니다.
 
 멀티플레이는 싱글 플레이에서 정리된 시스템과 추가 사용자 테스트를 바탕으로 개발하고 있습니다.
 
@@ -92,7 +109,8 @@ Arcanum Nights는 처음부터 2인 멀티플레이를 중심으로 설계했습
 
 Arcanum Nights는 D3F!B의 기획 2명, 개발 4명, 아트 4명이 함께 만들고 있습니다.
 
-대표로서 외부 네트워킹, 시연 행사와 공모전 출품에 책임을 지고 있습니다. 팀장으로서는 일정과 업무를 배분하고 각 직군의 결정을 검토해 최종 방향을 정합니다.
+대표로서 외부 네트워킹, 시연 행사와 공모전 출품에 책임을 지고 있습니다.  
+팀장으로서는 일정과 업무를 배분하고 각 직군의 결정을 검토해 최종 방향을 정합니다.
 
 게임 기획 리드로서는 초기 기획과 핵심 기믹을 만들고, 개발과 아트가 실제로 제작할 수 있도록 기능의 범위와 규모를 조정합니다.
 
@@ -106,7 +124,8 @@ Arcanum Nights는 D3F!B의 기획 2명, 개발 4명, 아트 4명이 함께 만�
 
 ### 세계관에도 다음 이야기를 남겼습니다
 
-플레이어 캐릭터 Helian과 Oenothera의 이름은 꽃의 학명에서 가져왔습니다. 두 이름은 Arcanum Nights의 이야기뿐 아니라 식물 아포칼립스를 다룰 차기 세계관으로 이어집니다.
+플레이어 캐릭터 Helian과 Oenothera의 이름은 꽃의 학명에서 가져왔습니다.  
+두 이름은 Arcanum Nights의 이야기뿐 아니라 식물 아포칼립스를 다룰 차기 세계관으로 이어집니다.
 
 ### 배운 점
 
@@ -304,61 +323,81 @@ The puzzle in Arcanum Nights began with a simple `X`.
 
 An X is formed when two lines meet. That led me to wonder whether a shape could be reconstructed from two separate patterns and the relationship between them.
 
-I developed that thought into **a puzzle where two patterns that appear meaningless from separate viewpoints form a recognizable shape when brought together**. Each player sees different information, and they must communicate to find one answer.
+I developed that thought into **a puzzle where two patterns that appear meaningless from separate viewpoints form a recognizable shape when brought together**.  
+Each player sees different information, and they must communicate to find one answer.
 
-Constellations felt like a natural match. A group of stars that means nothing from elsewhere in space gains a shape and a story when seen from Earth. That idea became the link between the puzzle, constellations, tarot, and the game's world.
+Constellations felt like a natural match. A group of stars that means nothing from elsewhere in space gains a shape and a story when seen from Earth.  
+That idea became the link between the puzzle, constellations, tarot, and the game's world.
 
 I designed the mechanic from scratch without an existing game or reference to follow.
 
 ### With No Reference, I Had to Build the Explanation
 
-When I first introduced the mechanic, the developers could not see how the game was meant to work. There was no similar game I could point to, so the idea alone was not enough to begin implementation.
+When I first introduced the mechanic, the developers could not see how the game was meant to work.  
+There was no similar game I could point to, so the idea alone was not enough to begin implementation.
 
-I broke the game into small functions, created wireframes, and defined its states and conditions through data structures and tables. Even before the team fully understood the mechanic, they could follow those pieces to build a prototype.
+I broke the game into small functions, created wireframes, and defined its states and conditions through data structures and tables.  
+Even before the team fully understood the mechanic, they could follow those pieces to build a prototype.
 
-Once the prototype became playable, the team began to see the intent and overall flow. An abstract idea had become a game we could discuss together.
+Once the prototype became playable, the team began to see the intent and overall flow.  
+An abstract idea had become a game we could discuss together.
 
 ### A Tool for Building and Validating Maps
 
-Each puzzle map needed to have exactly one answer. The planning team also needed to inspect the completed shape visually and turn it into data the game could use.
+Each puzzle map needed to have exactly one answer.  
+The planning team also needed to inspect the completed shape visually and turn it into data the game could use.
 
-I built a Python tool that let planners create and validate maps, then export them as CSV data. They could produce game-ready files without knowing the CSV structure, which removed conversion errors and let them focus on puzzle design.
+I built a Python tool that let planners create and validate maps, then export them as CSV data.  
+They could produce game-ready files without knowing the CSV structure, which removed conversion errors and let them focus on puzzle design.
 
 The resulting data was used throughout development and in the released game.
 
 ### What Was Easy for Me Was Not Easy for the Player
 
-At first, I assumed that because the puzzle could be solved logically, players would not need many hints. It turned out to be easy mainly because I had designed the rules myself.
+At first, I assumed that because the puzzle could be solved logically, players would not need many hints.  
+It turned out to be easy mainly because I had designed the rules myself.
 
-Feedback from the planning team and playtests led us to add several layers of guidance. Rather than revealing the answer, the hints help players resume their reasoning at the point where they became stuck.
+Feedback from the planning team and playtests led us to add several layers of guidance.  
+Rather than revealing the answer, the hints help players resume their reasoning at the point where they became stuck.
 
-At PlayX4, I watched not only players' expressions and posture but also their clicking speed and repeated actions. Puzzle enthusiasts described the mechanic as fresh and unlike anything they had played before. Their response confirmed the appeal of a new kind of puzzle, while their behavior showed us where its unfamiliar rules needed clearer guidance.
+At PlayX4, I watched not only players' expressions and posture but also their clicking speed and repeated actions.  
+Puzzle enthusiasts described the mechanic as fresh and unlike anything they had played before.  
+Their response confirmed the appeal of a new kind of puzzle, while their behavior showed us where its unfamiliar rules needed clearer guidance.
 
 ### Play Reveals What Documents Cannot
 
-Players move by clicking a destination. When the movement animation took too long, they repeatedly clicked the same spot. Instead of thinking about the puzzle, they were waiting for the character to move.
+Players move by clicking a destination. When the movement animation took too long, they repeatedly clicked the same spot.  
+Instead of thinking about the puzzle, they were waiting for the character to move.
 
-We shortened the animation and queued the first new destination clicked during movement, so the character would continue there as soon as the current movement ended. With less friction in navigation, players could stay focused on exploring the map and solving the puzzle.
+We shortened the animation and queued the first new destination clicked during movement, so the character would continue there as soon as the current movement ended.  
+With less friction in navigation, players could stay focused on exploring the map and solving the puzzle.
 
-The tutorial also used to reveal the condition for a hidden ending. Players tried to meet it on their first attempt by avoiding hints, even when they were already tired. Some spent too long on a single stage and stopped playing.
+The tutorial also used to reveal the condition for a hidden ending.  
+Players tried to meet it on their first attempt by avoiding hints, even when they were already tired.  
+Some spent too long on a single stage and stopped playing.
 
-Once we stopped revealing the condition up front, players used hints to learn the rules first. Later, they began limiting hint use on their own as they tried to solve the puzzles more cleanly.
+Once we stopped revealing the condition up front, players used hints to learn the rules first.  
+Later, they began limiting hint use on their own as they tried to solve the puzzles more cleanly.
 
 **Giving players every piece of information in advance is not always the most helpful design.**
 
 ### Checking the Plan Through Implementation
 
-Using the developers' main game scene, I implemented the tutorial with its dialogue and mechanic explanations. Working directly in the game also revealed UI friction that was difficult to see in a document.
+Using the developers' main game scene, I implemented the tutorial with its dialogue and mechanic explanations.  
+Working directly in the game also revealed UI friction that was difficult to see in a document.
 
-I participated in code optimization and refactoring discussions by defining how each feature should behave. The purpose was not to replace the developers, but to make planning decisions with a practical understanding of implementation structure and cost.
+I participated in code optimization and refactoring discussions by defining how each feature should behave.  
+The purpose was not to replace the developers, but to make planning decisions with a practical understanding of implementation structure and cost.
 
 ### Choosing a Scope We Could Ship
 
-Arcanum Nights was designed around two-player multiplayer from the beginning. It was also a side project built by a team learning game development as we went, and the long production cycle was taking a toll on the team.
+Arcanum Nights was designed around two-player multiplayer from the beginning.  
+It was also a side project built by a team learning game development as we went, and the long production cycle was taking a toll on the team.
 
 As the studio head, I decided that shipping a real release was important for keeping the team moving.
 
-We first confirmed that switching between both viewpoints in single-player preserved the core experience of combining information. After releasing a demo and verifying that the game could be completed, we launched the single-player version in Steam Early Access on February 20, 2026.
+We first confirmed that switching between both viewpoints in single-player preserved the core experience of combining information.  
+After releasing a demo and verifying that the game could be completed, we launched the single-player version in Steam Early Access on February 20, 2026.
 
 Multiplayer is being developed on top of the systems established in single-player and will require its own round of user testing.
 
@@ -366,7 +405,8 @@ Multiplayer is being developed on top of the systems established in single-playe
 
 Arcanum Nights is made by D3F!B's two planners, four developers, and four artists.
 
-As studio head, I represent the team in external networking, showcases, and competitions. As team lead, I assign work, manage the schedule, review decisions across disciplines, and make the final calls.
+As studio head, I represent the team in external networking, showcases, and competitions.  
+As team lead, I assign work, manage the schedule, review decisions across disciplines, and make the final calls.
 
 As lead game designer, I created the initial concept and core mechanic, set the direction of the game, and adjusted its scope so that development and art could produce it.
 
@@ -380,7 +420,8 @@ As lead game designer, I created the initial concept and core mechanic, set the 
 
 ### A Link to the Next World
 
-The names Helian and Oenothera come from the scientific names of flowers. They connect the story of Arcanum Nights to a future game world built around a plant apocalypse.
+The names Helian and Oenothera come from the scientific names of flowers.  
+They connect the story of Arcanum Nights to a future game world built around a plant apocalypse.
 
 ### What I Learned
 
@@ -554,3 +595,7 @@ Review extended beyond visible UI into shipped build data
 [↑ Case Study](#case-study-en)
 
 </div>
+
+---
+
+[← Projects](/projects/) · [Portfolio](/portfolio/)

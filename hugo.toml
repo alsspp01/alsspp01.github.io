@@ -74,6 +74,8 @@ enableRobotsTXT = true
   # Choose one of size-xs, size-s, size-m, size-l & size-xl. (Default: size-m)
   avatarSize = ""
 
+  AvatarAltText = "Yewon Min"
+
   # Description to display on homepage
   description = "Project Lead · Technical Planning · Data & Automation"
 
@@ -86,15 +88,7 @@ enableRobotsTXT = true
   # You can use this to inject any HTML in the <head> tag.
   # Ideal usecase for this is to import custom js/css or add your analytics snippet
   customHeadHTML = """
-  <style>
-    .post-content a { color: inherit; }
-    .site-top-btn { position: fixed; right: 20px; bottom: 20px; width: 44px; height: 44px; border: 0; border-radius: 50%;
-      background: #4d93fd; color: #fff; display: flex; align-items: center; justify-content: center; cursor: pointer;
-      box-shadow: 0 2px 8px rgba(0,0,0,.2); opacity: 0; pointer-events: none; transition: opacity .2s; z-index: 50; }
-    .site-top-btn.is-visible { opacity: .9; pointer-events: auto; }
-    .site-top-btn:hover, .site-top-btn:focus-visible { opacity: 1; }
-    .home-links p { display: flex; flex-wrap: wrap; gap: 8px 20px; justify-content: center; margin: 8px 0 4px; }
-  </style>
+  <link rel="stylesheet" href="/css/site.css">
   <script src="/js/site.js" defer></script>
   """
 
@@ -112,7 +106,7 @@ enableRobotsTXT = true
   # showPostsOnHomePage = "popular"  # off: the homepage lists Featured Work instead
 
   # Footer text
-  footer = "© 2026 Yewon Min"
+  footer = "Yewon Min"
   
   # Show Previous and Next Buttons
   TogglePreviousAndNextButtons = "true"

@@ -1,0 +1,26 @@
+/* Site-level styles layered on top of the gokarna theme. */
+.post-content a { color: inherit; }
+
+/* Back-to-top button (see /js/site.js) */
+.site-top-btn {
+  position: fixed; right: 20px; bottom: 20px; width: 44px; height: 44px;
+  border: 0; border-radius: 50%; background: #4d93fd; color: #fff;
+  display: flex; align-items: center; justify-content: center; cursor: pointer;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, .2);
+  opacity: 0; pointer-events: none; transition: opacity .2s; z-index: 50;
+}
+.site-top-btn.is-visible { opacity: .9; pointer-events: auto; }
+.site-top-btn:hover, .site-top-btn:focus-visible { opacity: 1; }
+
+/* Homepage section links */
+.home-links p { display: flex; flex-wrap: wrap; gap: 8px 20px; justify-content: center; margin: 8px 0 4px; }
+
+/* Tables: keep short label columns readable on narrow screens */
+.post-content table td:first-child,
+.post-content table th:first-child { min-width: 4.5em; }
+
+@media (max-width: 600px) {
+  .post-content table td,
+  .post-content table th { padding: 8px 10px; }
+  .site-top-btn { right: 14px; bottom: 14px; }
+}

@@ -26,9 +26,11 @@ tags: ["DKU"]
 
 ### Problem
 
-RocksDB가 LevelDB보다 실제로 어떤 점에서 더 실용적인지, 그리고 그 기능들이 실제 시스템에서 어떻게 쓰일 수 있는지를 4주 동안 확인하는 과제였습니다. 기능을 하나씩 비교하는 데서 끝나지 않고, 매주 결과를 바탕으로 다음 주의 질문을 정해 하나의 응용 시나리오로 이어가는 방식을 택했습니다.
+RocksDB가 LevelDB보다 실제로 어떤 점에서 더 실용적인지, 그리고 그 기능들이 실제 시스템에서 어떻게 쓰일 수 있는지를 4주 동안 확인하는 과제였습니다.  
+기능을 하나씩 비교하는 데서 끝나지 않고, 매주 결과를 바탕으로 다음 주의 질문을 정해 하나의 응용 시나리오로 이어가는 방식을 택했습니다.
 
-응용 시나리오는 e스포츠의 **Chrono Break**였습니다. 경기 도중 치명적인 버그가 생겼을 때 경기를 특정 시점으로 되돌리는 기능으로, 이를 위해서는 그 순간의 모든 상태를 기록하고 원하는 시점까지 정확히 되돌릴 수 있는 로그 저장소가 필요합니다.
+응용 시나리오는 e스포츠의 **Chrono Break**였습니다.  
+경기 도중 치명적인 버그가 생겼을 때 경기를 특정 시점으로 되돌리는 기능으로, 이를 위해서는 그 순간의 모든 상태를 기록하고 원하는 시점까지 정확히 되돌릴 수 있는 로그 저장소가 필요합니다.
 
 ### My Contribution
 
@@ -36,7 +38,8 @@ RocksDB가 LevelDB보다 실제로 어떤 점에서 더 실용적인지, 그리�
 - 매주 실험 결과를 해석해 다음 주의 질문으로 정리했습니다. 예를 들어 2주차의 key format 논의를 3주차의 read 성능 비교 실험으로, 3주차 결과를 4주차의 DB 설계로 이어갔습니다.
 - 주차별 발표를 맡아 팀의 분석과 구현 결과를 설명했습니다.
 
-벤치마크 실행, 코드 구현, 실험 자료 분석과 발표자료 제작은 팀원들이 맡았습니다. 아래 결과는 팀 전체의 결과입니다.
+벤치마크 실행, 코드 구현, 실험 자료 분석과 발표자료 제작은 팀원들이 맡았습니다.  
+아래 결과는 팀 전체의 결과입니다.
 
 ### 주차별 흐름
 
@@ -57,13 +60,15 @@ RocksDB가 LevelDB보다 실제로 어떤 점에서 더 실용적인지, 그리�
 | Compaction 횟수 | 88 | 78 | 74 | 182 |
 | P99 latency | 570.48 | 569.85 | 1183.78 | 1053.55 |
 
-Put 방식이 평균 처리 속도는 빨랐지만 P99 지연이 크게 튀었고, Merge 방식은 느린 대신 지연이 일정했습니다. 문자열을 덧붙이는 경우 Merge는 변경분만 기록해 Compaction 횟수가 절반 이하였습니다.
+Put 방식이 평균 처리 속도는 빨랐지만 P99 지연이 크게 튀었고, Merge 방식은 느린 대신 지연이 일정했습니다.  
+문자열을 덧붙이는 경우 Merge는 변경분만 기록해 Compaction 횟수가 절반 이하였습니다.
 
 ![MergeOperator 벤치마크](/image/rocksdb-chronobreak/merge-benchmark.jpg)
 
 **2주차 · 같은 벤치마크, 다른 결과**
 
-팀원마다 같은 db_bench 실험의 실행 시간이 10~60초와 1~2초로 크게 달랐습니다. 원인을 추적한 결과 `--threads=10` 파라미터 하나가 차이를 만든다는 것을 확인했고, 이후 실험에서는 파라미터를 명시해 조건을 맞췄습니다.
+팀원마다 같은 db_bench 실험의 실행 시간이 10~60초와 1~2초로 크게 달랐습니다.  
+원인을 추적한 결과 `--threads=10` 파라미터 하나가 차이를 만든다는 것을 확인했고, 이후 실험에서는 파라미터를 명시해 조건을 맞췄습니다.
 
 **3주차 · key 형식에 따른 read 성능**
 
@@ -73,7 +78,9 @@ Put 방식이 평균 처리 속도는 빨랐지만 P99 지연이 크게 튀었�
 2. key = `(sessionId, timestamp)`, value = `log`
 3. 2번과 같은 key에 `sessionId` prefix bloom filter 적용
 
-한 세션의 로그 전체를 읽는 경우 1번이 가장 빨랐고, 2 · 3번과의 throughput 차이는 약 2.3배였습니다. 3번은 prefix가 동작했지만, 한 세션에 많은 값이 몰려 있는 조건에서는 2번과 차이가 거의 없었습니다. 이 과정에서 RocksDB의 db_bench는 big endian, `DecodeFixed64`는 little endian을 가정한다는 불일치도 확인했습니다.
+한 세션의 로그 전체를 읽는 경우 1번이 가장 빨랐고, 2 · 3번과의 throughput 차이는 약 2.3배였습니다.  
+3번은 prefix가 동작했지만, 한 세션에 많은 값이 몰려 있는 조건에서는 2번과 차이가 거의 없었습니다.  
+이 과정에서 RocksDB의 db_bench는 big endian, `DecodeFixed64`는 little endian을 가정한다는 불일치도 확인했습니다.
 
 ![key 형식별 read 성능](/image/rocksdb-chronobreak/keyformat-read.jpg)
 
@@ -84,7 +91,9 @@ Put 방식이 평균 처리 속도는 빨랐지만 P99 지연이 크게 튀었�
 - TTL 기반 Compaction Filter, 게임 상태 Snapshot 생성 · 조회 · 복원
 - `DeleteRange`와 범위 제한 Iterator로 특정 시점 이후의 로그를 지우는 `ChronoBreak` / `ChronoBreakAbsolute` 구현
 
-검증에서는 실제 경기 로그를 300번째까지 저장한 뒤 30,000ms 전으로 Chrono Break를 실행했습니다. 실행 직후 dump는 원본의 65번째 로그까지와 일치했고, 이후 301번째부터 다시 저장한 로그도 이어서 기록됐습니다. Snapshot 복원 테스트에서는 2,933개 엔트리를 복원해 원본과 모두 일치하는 것을 확인했습니다.
+검증에서는 실제 경기 로그를 300번째까지 저장한 뒤 30,000ms 전으로 Chrono Break를 실행했습니다.  
+실행 직후 dump는 원본의 65번째 로그까지와 일치했고, 이후 301번째부터 다시 저장한 로그도 이어서 기록됐습니다.  
+Snapshot 복원 테스트에서는 2,933개 엔트리를 복원해 원본과 모두 일치하는 것을 확인했습니다.
 
 ![Chrono Break 직전 dump 비교](/image/rocksdb-chronobreak/chronobreak-dump.jpg)
 
@@ -119,9 +128,11 @@ Put 방식이 평균 처리 속도는 빨랐지만 P99 지연이 크게 튀었�
 
 ### Problem
 
-The assignment was to spend four weeks finding out what actually makes RocksDB more practical than LevelDB and how its features could be used in a real system. Instead of comparing features in isolation, we used each week's results to set the next week's question and built toward one application scenario.
+The assignment was to spend four weeks finding out what actually makes RocksDB more practical than LevelDB and how its features could be used in a real system.  
+Instead of comparing features in isolation, we used each week's results to set the next week's question and built toward one application scenario.
 
-That scenario was esports **Chrono Break**: rolling a live match back to an earlier moment after a critical bug. It requires a log store that records every state change and can return precisely to a chosen point in time.
+That scenario was esports **Chrono Break**: rolling a live match back to an earlier moment after a critical bug.  
+It requires a log store that records every state change and can return precisely to a chosen point in time.
 
 ### My Contribution
 
@@ -129,7 +140,8 @@ That scenario was esports **Chrono Break**: rolling a live match back to an earl
 - I turned each week's results into the next week's question, for example taking the week 2 key-format discussion into a week 3 read-performance experiment, and the week 3 results into the week 4 DB design.
 - I gave the weekly presentations explaining the team's analysis and implementation.
 
-My teammates ran the benchmarks, wrote the code, analyzed the experiment data, and built the slides. The results below belong to the whole team.
+My teammates ran the benchmarks, wrote the code, analyzed the experiment data, and built the slides.  
+The results below belong to the whole team.
 
 ### Week by week
 
@@ -150,13 +162,15 @@ My teammates ran the benchmarks, wrote the code, analyzed the experiment data, a
 | Compactions | 88 | 78 | 74 | 182 |
 | P99 latency | 570.48 | 569.85 | 1183.78 | 1053.55 |
 
-Put was faster on average but had large P99 spikes; Merge was slower but steadier. For string appends, Merge wrote only the change and needed less than half as many compactions.
+Put was faster on average but had large P99 spikes; Merge was slower but steadier.  
+For string appends, Merge wrote only the change and needed less than half as many compactions.
 
 ![MergeOperator benchmark](/image/rocksdb-chronobreak/merge-benchmark.jpg)
 
 **Week 2 · Same benchmark, different results**
 
-The same db_bench run took 10–60 seconds for one teammate and 1–2 seconds for another. We traced the gap to a single `--threads=10` parameter and specified parameters explicitly from then on.
+The same db_bench run took 10–60 seconds for one teammate and 1–2 seconds for another.  
+We traced the gap to a single `--threads=10` parameter and specified parameters explicitly from then on.
 
 **Week 3 · Read performance by key format**
 
@@ -166,7 +180,9 @@ We compared three formats:
 2. key = `(sessionId, timestamp)`, value = `log`
 3. Format 2 with a `sessionId` prefix bloom filter
 
-Reading a whole session's logs, format 1 was fastest, with about 2.3× the throughput of formats 2 and 3. The prefix filter in format 3 worked, but made almost no difference when many values sat under one session. We also found that RocksDB's db_bench assumes big endian while `DecodeFixed64` assumes little endian.
+Reading a whole session's logs, format 1 was fastest, with about 2.3× the throughput of formats 2 and 3.  
+The prefix filter in format 3 worked, but made almost no difference when many values sat under one session.  
+We also found that RocksDB's db_bench assumes big endian while `DecodeFixed64` assumes little endian.
 
 ![Read performance by key format](/image/rocksdb-chronobreak/keyformat-read.jpg)
 
@@ -177,7 +193,9 @@ Reading a whole session's logs, format 1 was fastest, with about 2.3× the throu
 - A TTL-based compaction filter, plus snapshot creation, reads, and restore for game state
 - `ChronoBreak` / `ChronoBreakAbsolute`, which delete logs after a point in time with `DeleteRange` and bounded iterators
 
-To verify it, we stored a real match log up to its 300th entry and ran Chrono Break back 30,000 ms. The dump right after matched the original through the 65th log, and logs stored afterward from entry 301 were recorded correctly. A snapshot restore test recovered 2,933 entries, all matching the original.
+To verify it, we stored a real match log up to its 300th entry and ran Chrono Break back 30,000 ms.  
+The dump right after matched the original through the 65th log, and logs stored afterward from entry 301 were recorded correctly.  
+A snapshot restore test recovered 2,933 entries, all matching the original.
 
 ![Dump comparison before Chrono Break](/image/rocksdb-chronobreak/chronobreak-dump.jpg)
 
@@ -192,3 +210,7 @@ To verify it, we stored a real match log up to its 300th entry and ran Chrono Br
 [↑ Top](#top-en)
 
 </div>
+
+---
+
+[← Projects](/projects/) · [Portfolio](/portfolio/)

@@ -9,7 +9,8 @@ url: "/portfolio/"
 
 <div class="lang-ko">
 
-현업의 문제를 이해하고, 모호한 요구사항을 실행 가능한 기술적 결정과 작업 흐름으로 연결해 왔습니다. PM, 연구 도구 개발, 원격 팀 운영, 게임 기획, 데이터 분석에서 제가 직접 맡은 역할과 팀의 결과를 구분해 정리했습니다.
+현업의 문제를 이해하고, 모호한 요구사항을 실행 가능한 기술적 결정과 작업 흐름으로 연결해 왔습니다.  
+PM, 연구 도구 개발, 원격 팀 운영, 게임 기획, 데이터 분석에서 제가 직접 맡은 역할과 팀의 결과를 구분해 정리했습니다.
 
 프로젝트 이름을 클릭하면 자세한 Case Study를 볼 수 있습니다.
 
@@ -112,7 +113,8 @@ SQLmap 분석 결과를 바탕으로 웹사이트의 SQL Injection 가능성과 
 
 <div class="lang-en" style="display:none">
 
-I turn ambiguous requirements and cross-functional input into practical technical plans and working tools. The cases below cover project management, research tooling, remote team operations, game design, and data analysis, and separate what I did from what the team delivered.
+I turn ambiguous requirements and cross-functional input into practical technical plans and working tools.  
+The cases below cover project management, research tooling, remote team operations, game design, and data analysis, and separate what I did from what the team delivered.
 
 Click a project name to read the full case study.
 
