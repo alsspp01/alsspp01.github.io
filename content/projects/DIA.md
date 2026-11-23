@@ -8,10 +8,6 @@ description_en: "A personal side project: small tools built with AI to take repe
 
 <div class="lang-ko">
 
-**성격** · 개인 사이드 프로젝트, 진행 중  
-**역할** · 요구사항 정의, 흐름 · 구조 설계, API 연결, 테스트, 운영  
-**방식** · 코드는 Claude와 함께 작성
-
 반복되는 일을 하나씩 골라 AI와 함께 작은 도구로 만든 기록.  
 하나하나는 프로젝트라 하기엔 작아서 DIA라는 이름으로 묶음. 일부는 [D3F!B 팀 운영](/projects/d3fib-workspace/)에 적용.
 
@@ -58,10 +54,6 @@ Hugo와 GitHub Actions로 자동 배포를 만들고, 글 쓰는 과정을 줄�
 </div>
 
 <div class="lang-en" style="display:none">
-
-**Type** · Personal side project, ongoing  
-**Role** · Requirements, flow and structure design, API integration, testing, operation  
-**How** · Code written together with Claude
 
 A record of small tools built with AI, one repeated chore at a time.  
 Each is too small to be a project on its own, so they are kept together as DIA. Some run in [D3F!B team operations](/projects/d3fib-workspace/).
