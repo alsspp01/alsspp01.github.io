@@ -10,8 +10,8 @@ tags: ["PM", "Notion", "Google Apps Script", "INEEJI"]
 
 <div class="lang-ko">
 
-INEEJI에서 여러 기관이 참여하는 과제를 관리하며 만든 Notion 템플릿입니다.  
-처음에는 제 과제용이었는데, 다른 사내 프로젝트들이 필요에 따라 가져가 쓰기 시작했습니다.
+원래 개인적으로 쓰던 Notion 템플릿을, INEEJI에서 여러 기관이 참여하는 과제에 맞게 고쳐 쓴 것입니다.  
+처음에는 제 과제에만 썼는데, 다른 사내 프로젝트들이 필요에 따라 가져가 쓰기 시작했습니다.
 
 아래 내용은 템플릿 구조만 다룹니다. 실제 과제 정보는 포함하지 않았습니다.
 
@@ -79,6 +79,8 @@ Notion은 Page 안의 데이터베이스를 따로 공유해야 내용이 보입
 - 산출물, 담당, 시작 · 종료일, 지연일, 작업일, 진행률, 완료 체크를 한 줄에
 - 기간을 정하면 주 단위 간트 차트를 자동으로 그림
 
+![WBS 예시 화면 (템플릿 예시 데이터)](/image/pm-tools/wbs-gantt.png)
+
 시트 상단 메뉴 세 개로 반복 작업을 줄였습니다.
 
 | 메뉴 | 하는 일 |
@@ -99,8 +101,8 @@ Notion은 Page 안의 데이터베이스를 따로 공유해야 내용이 보입
 
 <div class="lang-en" style="display:none">
 
-I built this Notion template at INEEJI to run a research project shared by several organizations.  
-It started as a tool for my own project; other internal projects later picked it up on their own.
+This is a Notion template I had been using personally, adapted at INEEJI to run a research project shared by several organizations.  
+At first I used it only on my own project; other internal projects later picked it up on their own.
 
 This post covers the structure only. No project data is included.
 
@@ -166,6 +168,8 @@ It was not bundled with the template; teams adopted each one separately.
 - Work is broken into levels 1–4, and changing a child's dates updates its parent
 - Deliverable, owner, start and end, delay, working days, progress, and done on one row
 - Setting the period draws a weekly Gantt chart automatically
+
+![WBS sample (template example data)](/image/pm-tools/wbs-gantt.png)
 
 Three menu commands handle the repetitive parts.
 

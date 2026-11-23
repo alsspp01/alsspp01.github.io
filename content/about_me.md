@@ -13,6 +13,7 @@ aliases:
 - **INEEJI** · 4개 기관이 참여한 AI 예보지원 연구 사업 Alpha Weather의 PM
 - **단국대 스포츠심리학 연구실** · 연구 조건을 Python 실험 · 수집 · 리포트 도구로 구현
 - **D3F!B** · 10명 원격 게임 제작팀 창립 · 운영, 협업 구조와 자동화 설계
+- **단국대학교 산업보안학과** · 2025.08 졸업
 
 자세한 사례는 [Portfolio](/portfolio/)에 있습니다.
 
@@ -61,6 +62,7 @@ I am a planner who structures complex problems and turns ideas into things that 
 - **INEEJI** · PM for Alpha Weather, an AI forecasting research program across four organizations
 - **Dankook University Sport Psychology Lab** · Turned research conditions into Python experiment, collection, and reporting tools
 - **D3F!B** · Founded and run a ten-person remote game team; designed its collaboration structure and automation
+- **Dankook University** · Industrial Security, graduated Aug 2025
 
 Detailed cases are on the [Portfolio](/portfolio/) page.
 

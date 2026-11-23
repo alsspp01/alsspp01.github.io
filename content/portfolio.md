@@ -53,7 +53,7 @@ SQL 구문을 토큰화해 SQL Injection 여부를 분류하는 LSTM 모델
 <small>2024.03–2024.06 · 3인 졸업 프로젝트</small>
 
 SQLmap 결과를 파싱해 SQL Injection 위험과 대응 방법을 보여주는 도구  
-파싱과 GUI를 맡았습니다.
+SQLi 기법 조사와 결과 파싱 · GUI를 맡았습니다.
 
 ---
 
@@ -105,7 +105,7 @@ An LSTM model that tokenizes SQL and classifies SQL Injection. F1 0.98 on a sepa
 ### [SIAM-W](/projects/siam-w/)
 <small>Mar–Jun 2024 · Three-person graduation project</small>
 
-A tool that parses SQLmap results into SQL Injection risks and fixes. I built the parsing and GUI.
+A tool that parses SQLmap results into SQL Injection risks and fixes. I researched SQLi techniques and built the parsing and GUI.
 
 ---
 
