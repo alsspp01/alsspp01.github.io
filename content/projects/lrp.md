@@ -42,13 +42,7 @@ summary: "승률 검색 사이트에서 크롤링한 상대적인 승률을 바�
 
 ![출력 예시](/image/LRP/buffs.jpg)
 
-## 한계
-
-- 데이터가 많아 **픽률 상위 15개 챔피언**만 임시로 지원하고, 없는 조합은 사용자가 직접 추가하도록 설계
-- 유불리 기준(승률 60% 등)은 데이터 분석이 아닌 팀의 게임 지식으로 정한 규칙
-- 승률 데이터는 기존 통계 사이트에서 가져와 정리
-
-이때 느낀 데이터의 한계는 이후 Riot API를 직접 다룬 [Chemi.lol](/projects/chemi/)과 [League of Legends Data Analysis](/projects/lda/)로 이어졌습니다.
+롤 데이터에 대한 관심은 이후 Riot API를 직접 다룬 [Chemi.lol](/projects/chemi/)과 [League of Legends Data Analysis](/projects/lda/)로 이어졌습니다.
 
 <details>
 <summary>알고리즘 설계 메모</summary>
@@ -93,13 +87,7 @@ We built a program that takes both teams' champions and recommends a starting bu
 
 ![Sample output](/image/LRP/buffs.jpg)
 
-## Limits
-
-- To keep the data manageable, only the **top 15 champions by pick rate** were supported, and users could add missing matchups themselves
-- Thresholds such as a 60% win rate came from the team's game knowledge, not data analysis
-- Win-rate data was collected from existing stats sites
-
-The data limits I hit here led to working directly with the Riot API in [Chemi.lol](/projects/chemi/) and [League of Legends Data Analysis](/projects/lda/).
+This interest in game data carried on into working directly with the Riot API in [Chemi.lol](/projects/chemi/) and [League of Legends Data Analysis](/projects/lda/).
 
 <details>
 <summary>Algorithm design notes</summary>

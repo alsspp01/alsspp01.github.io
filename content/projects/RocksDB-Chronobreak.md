@@ -78,12 +78,6 @@ Snapshot 복원은 2,933개 엔트리가 모두 원본과 일치했습니다.
 
 ![Chrono Break 직전 dump 비교](/image/rocksdb-chronobreak/chronobreak-dump.jpg)
 
-## 한계
-
-- 단일 머신의 db_bench와 자체 테스트 결과. 실서비스 규모 부하 테스트는 하지 않음
-- 3주차 비교는 "세션 전체를 읽는다"는 가정 아래의 결과
-- 수치는 이 실험 조건에서만 의미가 있음
-
 </div>
 
 <div class="lang-en" style="display:none">
@@ -156,12 +150,6 @@ Check: stored 300 real match-log entries, rolled back 30,000 ms → matched the 
 A snapshot restore recovered 2,933 entries, all matching the original.
 
 ![Dump before Chrono Break](/image/rocksdb-chronobreak/chronobreak-dump.jpg)
-
-## Limits
-
-- Single-machine db_bench and our own tests; no production-scale load testing
-- The week 3 comparison assumes reading a whole session
-- The numbers hold only under these experiment conditions
 
 </div>
 

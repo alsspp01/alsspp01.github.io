@@ -70,9 +70,8 @@ description_en: "PM work on a four-organization AI forecasting research program:
 세트가 아니라 각각 따로 쓰였고, 확인한 범위에서 일주일 안에 적어도 4곳의 다른 사내 프로젝트가 가져가 썼습니다.  
 → [두 도구의 구조](/posts/2025-11-29-pm-collaboration-template/)
 
-## 한계와 배운 점
+## 배운 점
 
-- 계약상 보고서 · 도식 · 모델 세부는 공개하지 않음
 - 요구사항이 모호할 때는 기능 목록보다, 고객이 실제로 내려야 하는 판단을 먼저 확인해야 했음
 
 <details>
@@ -155,9 +154,8 @@ I built one Notion template and one Google Sheets WBS to run the project.
 They were used separately, not as a set, and within a week at least four other internal projects that I know of had picked them up.  
 → [How the two tools are structured](/posts/2025-11-29-pm-collaboration-template/)
 
-## Limits and lessons
+## What I learned
 
-- Report, diagram, and model details stay private under the contract
 - When requirements are vague, the decision the client actually has to make matters more than a feature list
 
 <details>
