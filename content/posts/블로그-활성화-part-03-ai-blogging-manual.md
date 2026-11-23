@@ -42,3 +42,7 @@ If there is no previous update date, use:
 `Update info4blog`
 
 </div>
+
+---
+
+[← DIA](/projects/dia/) · [Projects](/projects/)

@@ -302,3 +302,7 @@ I added the following features while adapting the blog to the way I wanted to us
 - **Python standard library**: Lightweight local building and serving without additional dependencies
 
 </div>
+
+---
+
+[← DIA](/projects/dia/) · [Projects](/projects/)

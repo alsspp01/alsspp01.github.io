@@ -192,3 +192,7 @@ I removed hard-coded ports and the Tailscale Funnel domain and replaced them wit
 - `FUNNEL_PATH`, the external path called by Notion, and `RELAY_PATH`, the internal path accepted by the server, are configured separately because Funnel does not necessarily pass them through as the same value.
 
 </div>
+
+---
+
+[← DIA](/projects/dia/) · [Projects](/projects/)

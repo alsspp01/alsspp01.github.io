@@ -31,13 +31,13 @@
 
 ---
 
-## DIA — Do It, AI
+## [DIA — Do It, AI](/projects/dia/)
 
 AI와 함께 만든 개인 자동화 프로젝트
 
+- [AI Party](/posts/ai-party-obsidian-plugin/) · 여러 AI를 한 화면에서 쓰는 Obsidian 플러그인
 - [집사](/posts/집사-part-01-회의록/) · Discord 회의록 · 예약 봇
 - [Notion → Discord](/posts/자동화-part-01-notion-알림-discord로-보내기/) · 개발일지 알림
-- AI Party · 여러 AI를 한 화면에서 쓰는 Obsidian 플러그인 (Claude 보조 개발)
 - [블로그 활성화](/posts/블로그-활성화-part-01-github-blog/) · 블로그 자동화
 
 </div>
@@ -75,13 +75,13 @@ A planner who structures complex problems and turns ideas into things that work.
 
 ---
 
-## DIA — Do It, AI
+## [DIA — Do It, AI](/projects/dia/)
 
 Personal automation projects built with AI
 
+- [AI Party](/posts/ai-party-obsidian-plugin/) · Obsidian plugin for several AIs at once
 - [Jipsa](/posts/집사-part-01-회의록/) · Discord meeting-notes bot
 - [Notion → Discord](/posts/자동화-part-01-notion-알림-discord로-보내기/) · Devlog alerts
-- AI Party · Obsidian plugin for several AIs at once (built with Claude)
 - [Bringing the blog back](/posts/블로그-활성화-part-01-github-blog/) · Blog automation
 
 </div>

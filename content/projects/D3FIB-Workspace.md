@@ -51,7 +51,7 @@ Notion 워크스페이스는 빈 페이지에서 시작해 처음부터 만들�
 
 ### 반복 업무 자동화
 
-개인 사이드 프로젝트 DIA에서 만든 도구를 팀 운영에 적용했습니다. DIA는 D3F!B와 별개 프로젝트입니다.
+개인 사이드 프로젝트 [DIA](/projects/dia/)에서 만든 도구를 팀 운영에 적용했습니다. DIA는 D3F!B와 별개 프로젝트입니다.
 
 - [Secretary4Discord](https://github.com/alsspp01/Secretary4Discord) · Discord 음성 회의를 안건 단위로 요약해 Notion 회의록으로 저장
 - [Notion2Discord](https://github.com/alsspp01/Notion2Discord) · 새 개발일지를 Discord에 자동 알림
@@ -109,7 +109,7 @@ Reaching what you needed, though, often took several clicks.
 
 ### Automating repeated work
 
-I applied tools from DIA, a separate personal side project, to the team's operations.
+I applied tools from [DIA](/projects/dia/), a separate personal side project, to the team's operations.
 
 - [Secretary4Discord](https://github.com/alsspp01/Secretary4Discord) · Summarizes Discord voice meetings by agenda item into Notion notes
 - [Notion2Discord](https://github.com/alsspp01/Notion2Discord) · Posts new devlogs to Discord automatically

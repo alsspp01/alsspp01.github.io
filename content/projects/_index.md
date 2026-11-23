@@ -38,6 +38,13 @@ type: page
 
 듀오 승률 조회 웹사이트 출시(팀)와 예측 기능 실험 · 종료 판단
 
+## 개인 프로젝트
+
+### [DIA — Do It, AI](/projects/dia/)
+<small>진행 중 · 개인</small>
+
+반복되는 일을 AI와 함께 작은 도구로 만든 기록 · AI Party, 집사, Notion → Discord, 블로그 자동화
+
 ## 학부 프로젝트
 
 ### [RocksDB Chrono Break DB](/projects/rocksdb-chronobreak/)
@@ -93,6 +100,13 @@ A one- or two-player puzzle game about the sun, moon, and stars · Steam Early A
 <small>Dec 2024–May 2025 · five-person team</small>
 
 A duo win-rate lookup the team launched, and a prediction experiment we stopped
+
+## Personal Projects
+
+### [DIA — Do It, AI](/projects/dia/)
+<small>Ongoing · personal</small>
+
+Small tools built with AI to take repeated work off my hands · AI Party, Jipsa, Notion → Discord, blog automation
 
 ## University Projects
 

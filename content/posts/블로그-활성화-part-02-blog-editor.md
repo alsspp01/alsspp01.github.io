@@ -198,3 +198,7 @@ The editor starts `hugo server` through `subprocess.Popen` and serves the previe
 Long sessions could also leave the preview out of sync, so I added `api/restart-preview`, which restarts only the Hugo subprocess without restarting the editor itself.
 
 </div>
+
+---
+
+[← DIA](/projects/dia/) · [Projects](/projects/)

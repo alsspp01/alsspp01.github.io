@@ -225,3 +225,7 @@ The bot parses the Markdown returned by Gemini line by line. Headings, bullets, 
 3. **Secrets in `.env`**: Notion, Discord, and Gemini credentials are stored as plain text in `.env`; the file must never be committed to source control.
 
 </div>
+
+---
+
+[← DIA](/projects/dia/) · [Projects](/projects/)

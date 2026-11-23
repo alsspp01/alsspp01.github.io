@@ -229,3 +229,7 @@ I could not run an end-to-end test against a live Discord server in the local en
 4. **Schema**: Confirmed that the final `SlashCommandBuilder` definitions converted to valid JSON through `.toJSON()` without throwing.
 
 </div>
+
+---
+
+[← DIA](/projects/dia/) · [Projects](/projects/)
