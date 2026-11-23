@@ -8,21 +8,22 @@ description_en: "A personal side project: small tools built with AI to take repe
 
 <div class="lang-ko">
 
-반복되는 일을 하나씩 골라 AI와 함께 작은 도구로 만든 기록.  
-하나하나는 프로젝트라 하기엔 작아서 DIA라는 이름으로 묶음. 일부는 [D3F!B 팀 운영](/projects/d3fib-workspace/)에 적용.
+반복되는 일을 하나씩 골라 AI와 함께 작은 도구로 만든 기록  
+하나하나는 프로젝트라 하기엔 작아서 DIA라는 이름으로 묶음  
+일부는 [D3F!B 팀 운영](/projects/d3fib-workspace/)에 적용
 
 ## AI Party
 <small>1편</small>
 
-여러 AI를 캐릭터 탭으로 나란히 띄워 함께 작업하는 Obsidian 플러그인.  
-AI마다 권한 단계를 따로 두고, 노트 쓰기는 플러그인이 같은 기준으로 대신 처리.
+여러 AI를 캐릭터 탭으로 나란히 띄워 함께 작업하는 Obsidian 플러그인  
+AI마다 권한 단계를 따로 두고, 노트 쓰기는 플러그인이 같은 기준으로 대신 처리
 
 - [AI Party - 여러 AI를 한 볼트에서](/posts/ai-party-obsidian-plugin/)
 
 ## 집사
 <small>Discord 봇 · 2편 · [GitHub](https://github.com/alsspp01/Secretary4Discord)</small>
 
-Discord 음성 회의를 요약해 Notion 회의록으로 남기고, 정기 공지를 예약 발송.
+Discord 음성 회의를 요약해 Notion 회의록으로 남기고, 정기 공지를 예약 발송
 
 - [PART 01. 회의록](/posts/집사-part-01-회의록/)
 - [PART 02. 메시지 예약](/posts/집사-part-02-메세지-예약/)
@@ -30,14 +31,14 @@ Discord 음성 회의를 요약해 Notion 회의록으로 남기고, 정기 공�
 ## Notion → Discord
 <small>웹훅 서버 · 1편 · [GitHub](https://github.com/alsspp01/Notion2Discord)</small>
 
-Notion 개발일지에 새 글이 생기면 Discord에 알림.
+Notion 개발일지에 새 글이 생기면 Discord에 알림
 
 - [자동화 PART 01. Notion 알림 Discord로 보내기](/posts/자동화-part-01-notion-알림-discord로-보내기/)
 
 ## 블로그 활성화
 <small>이 블로그 · 3편</small>
 
-Hugo와 GitHub Actions로 자동 배포를 만들고, 글 쓰는 과정을 줄임.
+Hugo와 GitHub Actions로 자동 배포를 만들고, 글 쓰는 과정을 줄임
 
 - [PART 01. Github Blog](/posts/블로그-활성화-part-01-github-blog/)
 - [PART 02. Blog Editor](/posts/블로그-활성화-part-02-blog-editor/)

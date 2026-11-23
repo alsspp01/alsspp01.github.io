@@ -2,7 +2,7 @@
 title: "우리 정글 머함? 우정머"
 title_en: "Woojeongmeo: Jungle Path Recommender"
 type: page
-description: "라인별 상성 승률로 게임 초반 정글 동선과 오브젝트 우선순위를 추천하는 Python 프로그램. 4인 팀 조장"
+description: "라인별 상성 승률로 게임 초반 정글 동선과 오브젝트 우선순위를 추천하는 Python 프로그램 · 4인 팀 조장"
 description_en: "A Python program that recommends early-game jungle paths and objective priorities from lane matchup win rates. Led a four-person team"
 dated: true
 period_start: "2021-09"

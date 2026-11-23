@@ -46,12 +46,14 @@ url: "/portfolio/"
 ### [SQLi Parsing AI](/projects/sqli-parsing-ai/)
 <small>2024.03–2024.06 · 팀장</small>
 
-SQL 구문을 토큰화해 SQL Injection 여부를 분류하는 LSTM 모델. 별도 데이터셋에서 F1 0.98.
+SQL 구문을 토큰화해 SQL Injection 여부를 분류하는 LSTM 모델  
+별도 데이터셋에서 F1 0.98
 
 ### [SIAM-W](/projects/siam-w/)
 <small>2024.03–2024.06 · 3인 졸업 프로젝트</small>
 
-SQLmap 결과를 파싱해 SQL Injection 위험과 대응 방법을 보여주는 도구. 파싱과 GUI를 맡았습니다.
+SQLmap 결과를 파싱해 SQL Injection 위험과 대응 방법을 보여주는 도구  
+파싱과 GUI를 맡았습니다.
 
 ---
 

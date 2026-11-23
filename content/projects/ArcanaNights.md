@@ -2,7 +2,7 @@
 title: "Arcanum Nights"
 title_en: "Arcanum Nights"
 type: page
-description: "두 시점의 정보를 합쳐 별자리를 완성하는 1~2인 퍼즐 게임. 기획 리드"
+description: "두 시점의 정보를 합쳐 별자리를 완성하는 1~2인 퍼즐 게임 · 기획 리드"
 description_en: "A one- or two-player puzzle game where two viewpoints combine into a constellation. Lead game designer"
 dated: true
 period_start: "2025-01"

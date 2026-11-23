@@ -73,7 +73,7 @@ Chrono Break는 e스포츠 경기 중 치명적인 버그가 생겼을 때 경�
 - TTL Compaction Filter, 게임 상태 Snapshot 생성 · 조회 · 복원
 - `DeleteRange`와 범위 제한 Iterator로 특정 시점 이후 로그 삭제
 
-검증: 실제 경기 로그 300개 저장 후 30,000ms 전으로 되돌림 → 원본 65번째 로그까지 일치, 이후 저장도 정상.  
+검증: 실제 경기 로그 300개 저장 후 30,000ms 전으로 되돌림 → 원본 65번째 로그까지 일치, 이후 저장도 정상  
 Snapshot 복원은 2,933개 엔트리가 모두 원본과 일치했습니다.
 
 ![Chrono Break 직전 dump 비교](/image/rocksdb-chronobreak/chronobreak-dump.jpg)
