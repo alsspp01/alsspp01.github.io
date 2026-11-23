@@ -29,6 +29,13 @@ description_en: "Testing whether League of Legends duo data can explain how well
 | 실험 | 개인 지표와 포지션 조합으로 듀오 승률 예측 (공개하지 않음) |
 | 미구현 | 플레이 성향 유형 LoLBTI (네 가지 축과 지표까지 설계) |
 
+![Chemi.lol 입력 화면](/image/chemi/input.png)
+
+![Chemi.lol 결과 화면](/image/chemi/result.png)
+
+<small>출시한 조회 화면 (팀 구현, 닉네임은 가림)  
+화면 문구는 "예상 듀오 승률"이지만, 실제 값은 함께한 경기 기록으로 계산한 승률</small>
+
 ## 역할 분담
 
 - **나** · 기획, 통계 분석, 변수 설계, 모델 실험, 제품화 여부 판단
@@ -91,6 +98,13 @@ Random Forest, Ridge, SVR, XGBoost, MLP, 앙상블을 비교했습니다.
 | Shipped | Duo win-rate lookup from shared match history |
 | Experimental | Predicting duo win rate from individual stats and roles (never released) |
 | Not built | LoLBTI play-style profile (four axes and metrics designed) |
+
+![Chemi.lol input screen](/image/chemi/input.png)
+
+![Chemi.lol result screen](/image/chemi/result.png)
+
+<small>The shipped lookup (built by the team; nicknames blurred).  
+The label reads "expected duo win rate," but the value is the win rate from shared match history.</small>
 
 ## Who did what
 

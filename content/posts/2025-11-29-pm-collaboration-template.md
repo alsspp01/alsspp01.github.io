@@ -34,6 +34,8 @@ tags: ["PM", "Notion", "Google Apps Script", "INEEJI"]
 나머지는 같은 데이터를 다르게 보여주는 보기입니다.  
 문서가 어디 있는지 헷갈려도 원본 두 곳만 보면 찾을 수 있습니다.
 
+![원본 데이터베이스: 회의록과 Task](/image/pm-tools/notion-database.png)
+
 ### 속성으로 연결
 
 문서마다 **기관 / 세부 / 부서 / 팀원** 속성을 붙입니다.  
@@ -43,11 +45,17 @@ tags: ["PM", "Notion", "Google Apps Script", "INEEJI"]
 
 | 영역 | 역할 |
 |---|---|
-| Info | 과제 개요, 담당 PM, 주요 문서 링크 |
+| Time Table | 과제 전체 일정을 맨 위에 타임라인으로 |
+| Info | 과제 설명, 담당 PM, 공유 드라이브 · 제안서 · 기술 협상서 · 양식 링크 |
 | Milestone | 끝나지 않은 일정을 날짜순으로 |
 | 외부 공유 | 지금 외부에 공유 중인 Page와 DB 목록 |
-| 주요 일정 | PM 일정과 개발 일정을 나눠서 표시 |
-| Dashboard | 팀 내부에서만 보는 공간 |
+| Page | 주요 업무, 공동 목표, Memo 같은 하위 페이지 |
+| Dashboard | 내부 공유 문서. 상단 고정, 열람 기한이 지나면 목록에서 자동으로 빠짐 |
+| 주요 일정 | 과제 · 개발 · 전체 일정을 캘린더 보기로 나눠 표시 |
+
+![템플릿 시작 화면](/image/pm-tools/notion-home.png)
+
+![Dashboard와 외부 공유](/image/pm-tools/notion-dashboard.png)
 
 ### 팀원 · 기관별 Page
 
@@ -124,6 +132,8 @@ I wanted three things:
 Every view reads from two databases: **Meeting notes** and **Tasks**.  
 Everything else is a different view of the same data, so anything lost can be found in one of the two.
 
+![Source databases: meeting notes and tasks](/image/pm-tools/notion-database.png)
+
 ### Linked by properties
 
 Each document carries **Organization / Sub-project / Department / Member** properties.  
@@ -133,11 +143,17 @@ They act as filters, so a task shows up on the PM's board and on each person's p
 
 | Area | Purpose |
 |---|---|
-| Info | Overview, PM, key document links |
+| Time Table | The whole project schedule as a timeline at the top |
+| Info | Description, PM, links to the shared drive, proposal, technical agreement, and forms |
 | Milestones | Open milestones by date |
 | External sharing | Pages and databases currently shared outside |
-| Key dates | PM dates and development dates, shown separately |
-| Dashboard | Internal-only space |
+| Page | Sub-pages such as key tasks, shared goals, and memos |
+| Dashboard | Internal shared documents; pin to top, and items drop off after their viewing deadline |
+| Key dates | Project, development, and all dates as separate calendar views |
+
+![Template home screen](/image/pm-tools/notion-home.png)
+
+![Dashboard and external sharing](/image/pm-tools/notion-dashboard.png)
 
 ### A page per member or organization
 
