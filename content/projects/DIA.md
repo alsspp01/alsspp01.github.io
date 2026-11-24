@@ -13,7 +13,7 @@ description_en: "A personal side project: small tools built with AI to take repe
 일부는 [D3F!B 팀 운영](/projects/d3fib-workspace/)에 적용
 
 ## AI Party
-<small>1편</small>
+<small>1편 · [GitHub](https://github.com/alsspp01/AI-Party)</small>
 
 여러 AI를 캐릭터 탭으로 나란히 띄워 함께 작업하는 Obsidian 플러그인  
 AI마다 권한 단계를 따로 두고, 노트 쓰기는 플러그인이 같은 기준으로 대신 처리
@@ -60,7 +60,7 @@ A record of small tools built with AI, one repeated chore at a time.
 Each is too small to be a project on its own, so they are kept together as DIA. Some run in [D3F!B team operations](/projects/d3fib-workspace/).
 
 ## AI Party
-<small>1 post</small>
+<small>1 post · [GitHub](https://github.com/alsspp01/AI-Party)</small>
 
 An Obsidian plugin that runs several AIs side by side as character tabs.  
 Each AI has its own permission level, and the plugin writes notes on their behalf under one shared rule.
