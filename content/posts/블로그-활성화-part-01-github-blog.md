@@ -2,14 +2,19 @@
 title: "블로그 활성화 - PART 01. Github Blog"
 title_en: "Bringing the Blog Back — Part 01: GitHub Blog"
 date: 2026-07-22
-description: "Project DIA(Do It, AI) #1"
-description_en: "Project DIA (Do It, AI) #1"
+description: "Hugo · GitHub Pages · Actions로 블로그 자동 배포 구축 · DIA #1"
+description_en: "Hugo, GitHub Pages, and Actions auto-deploy · DIA #1"
 image: 
 type: "post"
 tags: ["DIA", "Hugo", "github-pages", "CI/CD"]
 ---
 
 <div class="lang-ko">
+
+> **요약**  
+> 만든 것 · Hugo 블로그와 GitHub Pages · Actions 자동 배포  
+> 핵심 판단 · 외부 의존성을 줄이고, main에 push하면 빌드부터 배포까지 자동으로  
+> 역할 · 구조 결정, 설정, 운영 (작성은 Claude 보조)
 
 ## 1. 개요
 
@@ -153,6 +158,11 @@ if __name__ == "__main__":
 
 <div class="lang-en" style="display:none">
 
+> **Summary**  
+> Built · This Hugo blog with automatic GitHub Pages deployment via Actions  
+> Key choices · Few dependencies; a push to main builds and deploys everything  
+> My role · Structure, configuration, operation (written with Claude)
+
 ## 1. Overview
 
 This post records how I built a personal blog with Hugo, GitHub Pages, and GitHub Actions, then set up an automated deployment pipeline. I wanted to keep external dependencies to a minimum and remove manual steps from deployment.
@@ -292,3 +302,7 @@ I added the following features while adapting the blog to the way I wanted to us
 - **Python standard library**: Lightweight local building and serving without additional dependencies
 
 </div>
+
+---
+
+[← DIA](/projects/dia/) · [Projects](/projects/)

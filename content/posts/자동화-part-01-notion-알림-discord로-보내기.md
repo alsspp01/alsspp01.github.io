@@ -2,14 +2,19 @@
 title: "자동화 - PART 01. Notion 알림 Discord로 보내기"
 title_en: "Automation — Part 01: Sending Notion Updates to Discord"
 date: 2026-08-11
-description: "Project DIA(Do It, AI) #5"
-description_en: "Project DIA (Do It, AI) #5"
+description: "Notion 개발일지를 Discord로 알리는 웹훅 서버 · DIA #5"
+description_en: "A webhook server that posts Notion devlogs to Discord · DIA #5"
 image: 
 type: "post"
 tags: ["DIA", "DEFIB", "Node.js", "Notion", "Discord", "Webhook"]
 ---
 
 <div class="lang-ko">
+
+> **요약**  
+> 만든 것 · Notion 개발일지에 새 글이 생기면 Discord에 알리는 웹훅 서버  
+> 핵심 판단 · Notion 웹훅 형식이 고정돼 GitHub Actions로는 받을 수 없음을 확인 → 홈서버의 작은 Node.js 서버로 전환  
+> 역할 · 요구사항 · 구조 결정, 네트워크 구성, 장애 대응 · 운영 (코드는 Claude 보조)
 
 ## 1. 개요 및 프로젝트 목적
 
@@ -99,6 +104,11 @@ Funnel이 구동 중인 호스트에서 신규 경로를 추가하기 위해 `ta
 
 <div class="lang-en" style="display:none">
 
+> **Summary**  
+> Built · A webhook server that posts to Discord whenever a new devlog appears in Notion  
+> Key choices · Notion's fixed webhook body cannot trigger GitHub Actions → switched to a small Node.js server on a home machine  
+> My role · Requirements, architecture decisions, networking, incident handling, operation (code written with Claude)
+
 ## 1. Purpose
 
 I built a standalone pipeline that posts a Discord embed whenever a page is created in Notion's Development Log database. The project lives in a single repository, `d3fib/Devlog2Discord`, and runs independently from `secretary`, the always-on Discord bot used for meeting records.
@@ -182,3 +192,7 @@ I removed hard-coded ports and the Tailscale Funnel domain and replaced them wit
 - `FUNNEL_PATH`, the external path called by Notion, and `RELAY_PATH`, the internal path accepted by the server, are configured separately because Funnel does not necessarily pass them through as the same value.
 
 </div>
+
+---
+
+[← DIA](/projects/dia/) · [Projects](/projects/)

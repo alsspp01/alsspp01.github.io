@@ -2,8 +2,8 @@
 title: "집사 - PART 01. 회의록"
 title_en: "Jipsa — Part 01: Meeting Records"
 date: 2026-07-23
-description: "Project DIA(Do It, AI) #3"
-description_en: "Project DIA (Do It, AI) #3"
+description: "Discord 음성 회의를 요약해 Notion 회의록으로 남기는 봇 · DIA #3"
+description_en: "A bot that turns Discord voice meetings into Notion notes · DIA #3"
 image: 
 type: "post"
 tags: ["DIA", "D3F!B", "Discord-bot", "Node.js", "Gemini", "Notion"]
@@ -11,7 +11,10 @@ tags: ["DIA", "D3F!B", "Discord-bot", "Node.js", "Gemini", "Notion"]
 
 <div class="lang-ko">
 
-# defib-secretary (집사) 개발 일지 및 아키텍처 분석
+> **요약**  
+> 만든 것 · Discord 음성 회의를 녹음해 Gemini로 요약하고 Notion 회의록으로 남기는 봇  
+> 핵심 판단 · 긴 회의는 구간을 나눠 요약, 참석자 역할로 부서 속성 자동 기입  
+> 역할 · 요구사항 · 흐름 설계, API 연결, 테스트 · 운영 (코드는 Claude 보조)
 
 이 프로젝트는 디스코드 음성 채널에서 진행되는 회의를 실시간으로 녹음하고, Google Gemini API를 활용해 요약한 뒤, 그 결과를 Notion 페이지에 자동으로 기록하는 사내 비서 봇이다. Node.js 22와 discord.js 14를 기반으로 작동하는 단일 프로세스 애플리케이션이며, Docker 컨테이너 환경에서 실행된다.
 
@@ -111,7 +114,10 @@ Notion SDK를 통해 회의록 본문을 기록할 때, Gemini가 반환하는 �
 
 <div class="lang-en" style="display:none">
 
-# defib-secretary (Jipsa): Development Log and Architecture
+> **Summary**  
+> Built · A bot that records Discord voice meetings, summarizes them with Gemini, and saves Notion notes  
+> Key choices · Long meetings are split into segments; departments are filled from attendees' roles  
+> My role · Requirements, flow design, API wiring, testing, operation (code written with Claude)
 
 Jipsa is an internal Discord bot that records meetings held in a voice channel, summarizes them with the Google Gemini API, and writes the results to Notion. It runs as a single Node.js 22 and discord.js 14 application inside a Docker container.
 
@@ -219,3 +225,7 @@ The bot parses the Markdown returned by Gemini line by line. Headings, bullets, 
 3. **Secrets in `.env`**: Notion, Discord, and Gemini credentials are stored as plain text in `.env`; the file must never be committed to source control.
 
 </div>
+
+---
+
+[← DIA](/projects/dia/) · [Projects](/projects/)
